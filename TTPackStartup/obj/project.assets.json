@@ -29,33 +29,33 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.7.5": {
+      "Microsoft.Net.Native.Compiler/1.7.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Net.Native.SharedLibrary-arm": "1.7.2",
-          "Microsoft.Net.Native.SharedLibrary-x64": "1.7.2",
-          "Microsoft.Net.Native.SharedLibrary-x86": "1.7.2"
+          "Microsoft.Net.Native.SharedLibrary-arm": "1.7.3",
+          "Microsoft.Net.Native.SharedLibrary-x64": "1.7.3",
+          "Microsoft.Net.Native.SharedLibrary-x86": "1.7.3"
         },
         "build": {
           "build/Microsoft.Net.Native.Compiler.props": {},
           "build/Microsoft.Net.Native.Compiler.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-arm/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-arm/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-arm.props": {},
           "build/Microsoft.Net.Native.SharedLibrary-arm.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-x64/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-x64/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-x64.props": {},
           "build/Microsoft.Net.Native.SharedLibrary-x64.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-x86/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-x86/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-x86.props": {},
@@ -239,14 +239,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.7.5",
+          "Microsoft.Net.Native.Compiler": "1.7.6",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -2256,33 +2256,33 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.7.5": {
+      "Microsoft.Net.Native.Compiler/1.7.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Net.Native.SharedLibrary-arm": "1.7.2",
-          "Microsoft.Net.Native.SharedLibrary-x64": "1.7.2",
-          "Microsoft.Net.Native.SharedLibrary-x86": "1.7.2"
+          "Microsoft.Net.Native.SharedLibrary-arm": "1.7.3",
+          "Microsoft.Net.Native.SharedLibrary-x64": "1.7.3",
+          "Microsoft.Net.Native.SharedLibrary-x86": "1.7.3"
         },
         "build": {
           "build/Microsoft.Net.Native.Compiler.props": {},
           "build/Microsoft.Net.Native.Compiler.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-arm/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-arm/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-arm.props": {},
           "build/Microsoft.Net.Native.SharedLibrary-arm.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-x64/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-x64/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-x64.props": {},
           "build/Microsoft.Net.Native.SharedLibrary-x64.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-x86/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-x86/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-x86.props": {},
@@ -2413,14 +2413,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.7.5",
+          "Microsoft.Net.Native.Compiler": "1.7.6",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -2453,7 +2453,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.7",
+          "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
           "runtime.win7.System.Private.Uri": "4.0.4"
         },
         "compile": {
@@ -2801,7 +2801,7 @@
           "runtimes/win/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
+      "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -4557,33 +4557,33 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.7.5": {
+      "Microsoft.Net.Native.Compiler/1.7.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Net.Native.SharedLibrary-arm": "1.7.2",
-          "Microsoft.Net.Native.SharedLibrary-x64": "1.7.2",
-          "Microsoft.Net.Native.SharedLibrary-x86": "1.7.2"
+          "Microsoft.Net.Native.SharedLibrary-arm": "1.7.3",
+          "Microsoft.Net.Native.SharedLibrary-x64": "1.7.3",
+          "Microsoft.Net.Native.SharedLibrary-x86": "1.7.3"
         },
         "build": {
           "build/Microsoft.Net.Native.Compiler.props": {},
           "build/Microsoft.Net.Native.Compiler.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-arm/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-arm/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-arm.props": {},
           "build/Microsoft.Net.Native.SharedLibrary-arm.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-x64/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-x64/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-x64.props": {},
           "build/Microsoft.Net.Native.SharedLibrary-x64.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-x86/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-x86/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-x86.props": {},
@@ -4715,14 +4715,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.7.5",
+          "Microsoft.Net.Native.Compiler": "1.7.6",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -4755,7 +4755,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.7",
+          "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
           "runtime.win7.System.Private.Uri": "4.0.4"
         },
         "compile": {
@@ -5148,7 +5148,7 @@
           "runtimes/aot/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
+      "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -6894,33 +6894,33 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.7.5": {
+      "Microsoft.Net.Native.Compiler/1.7.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Net.Native.SharedLibrary-arm": "1.7.2",
-          "Microsoft.Net.Native.SharedLibrary-x64": "1.7.2",
-          "Microsoft.Net.Native.SharedLibrary-x86": "1.7.2"
+          "Microsoft.Net.Native.SharedLibrary-arm": "1.7.3",
+          "Microsoft.Net.Native.SharedLibrary-x64": "1.7.3",
+          "Microsoft.Net.Native.SharedLibrary-x86": "1.7.3"
         },
         "build": {
           "build/Microsoft.Net.Native.Compiler.props": {},
           "build/Microsoft.Net.Native.Compiler.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-arm/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-arm/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-arm.props": {},
           "build/Microsoft.Net.Native.SharedLibrary-arm.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-x64/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-x64/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-x64.props": {},
           "build/Microsoft.Net.Native.SharedLibrary-x64.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-x86/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-x86/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-x86.props": {},
@@ -7050,14 +7050,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.7.5",
+          "Microsoft.Net.Native.Compiler": "1.7.6",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -7090,7 +7090,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-arm64-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.7",
+          "runtime.win10-arm64-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
           "runtime.win7.System.Private.Uri": "4.0.4"
         },
         "compile": {
@@ -7168,7 +7168,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "runtime.win10-arm64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
+      "runtime.win10-arm64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -8830,33 +8830,33 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.7.5": {
+      "Microsoft.Net.Native.Compiler/1.7.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Net.Native.SharedLibrary-arm": "1.7.2",
-          "Microsoft.Net.Native.SharedLibrary-x64": "1.7.2",
-          "Microsoft.Net.Native.SharedLibrary-x86": "1.7.2"
+          "Microsoft.Net.Native.SharedLibrary-arm": "1.7.3",
+          "Microsoft.Net.Native.SharedLibrary-x64": "1.7.3",
+          "Microsoft.Net.Native.SharedLibrary-x86": "1.7.3"
         },
         "build": {
           "build/Microsoft.Net.Native.Compiler.props": {},
           "build/Microsoft.Net.Native.Compiler.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-arm/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-arm/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-arm.props": {},
           "build/Microsoft.Net.Native.SharedLibrary-arm.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-x64/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-x64/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-x64.props": {},
           "build/Microsoft.Net.Native.SharedLibrary-x64.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-x86/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-x86/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-x86.props": {},
@@ -8990,14 +8990,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.7.5",
+          "Microsoft.Net.Native.Compiler": "1.7.6",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -9030,7 +9030,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.7",
+          "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
           "runtime.win7.System.Private.Uri": "4.0.4"
         },
         "compile": {
@@ -9378,7 +9378,7 @@
           "runtimes/win/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
+      "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -11140,33 +11140,33 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.7.5": {
+      "Microsoft.Net.Native.Compiler/1.7.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Net.Native.SharedLibrary-arm": "1.7.2",
-          "Microsoft.Net.Native.SharedLibrary-x64": "1.7.2",
-          "Microsoft.Net.Native.SharedLibrary-x86": "1.7.2"
+          "Microsoft.Net.Native.SharedLibrary-arm": "1.7.3",
+          "Microsoft.Net.Native.SharedLibrary-x64": "1.7.3",
+          "Microsoft.Net.Native.SharedLibrary-x86": "1.7.3"
         },
         "build": {
           "build/Microsoft.Net.Native.Compiler.props": {},
           "build/Microsoft.Net.Native.Compiler.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-arm/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-arm/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-arm.props": {},
           "build/Microsoft.Net.Native.SharedLibrary-arm.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-x64/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-x64/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-x64.props": {},
           "build/Microsoft.Net.Native.SharedLibrary-x64.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-x86/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-x86/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-x86.props": {},
@@ -11301,14 +11301,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.7.5",
+          "Microsoft.Net.Native.Compiler": "1.7.6",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -11341,7 +11341,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.7",
+          "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
           "runtime.win7.System.Private.Uri": "4.0.4"
         },
         "compile": {
@@ -11734,7 +11734,7 @@
           "runtimes/aot/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
+      "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -13486,33 +13486,33 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.7.5": {
+      "Microsoft.Net.Native.Compiler/1.7.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Net.Native.SharedLibrary-arm": "1.7.2",
-          "Microsoft.Net.Native.SharedLibrary-x64": "1.7.2",
-          "Microsoft.Net.Native.SharedLibrary-x86": "1.7.2"
+          "Microsoft.Net.Native.SharedLibrary-arm": "1.7.3",
+          "Microsoft.Net.Native.SharedLibrary-x64": "1.7.3",
+          "Microsoft.Net.Native.SharedLibrary-x86": "1.7.3"
         },
         "build": {
           "build/Microsoft.Net.Native.Compiler.props": {},
           "build/Microsoft.Net.Native.Compiler.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-arm/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-arm/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-arm.props": {},
           "build/Microsoft.Net.Native.SharedLibrary-arm.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-x64/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-x64/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-x64.props": {},
           "build/Microsoft.Net.Native.SharedLibrary-x64.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-x86/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-x86/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-x86.props": {},
@@ -13646,14 +13646,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.7.5",
+          "Microsoft.Net.Native.Compiler": "1.7.6",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -13686,7 +13686,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.7",
+          "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
           "runtime.win7.System.Private.Uri": "4.0.4"
         },
         "compile": {
@@ -14034,7 +14034,7 @@
           "runtimes/win/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
+      "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -15796,33 +15796,33 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.Net.Native.Compiler/1.7.5": {
+      "Microsoft.Net.Native.Compiler/1.7.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Net.Native.SharedLibrary-arm": "1.7.2",
-          "Microsoft.Net.Native.SharedLibrary-x64": "1.7.2",
-          "Microsoft.Net.Native.SharedLibrary-x86": "1.7.2"
+          "Microsoft.Net.Native.SharedLibrary-arm": "1.7.3",
+          "Microsoft.Net.Native.SharedLibrary-x64": "1.7.3",
+          "Microsoft.Net.Native.SharedLibrary-x86": "1.7.3"
         },
         "build": {
           "build/Microsoft.Net.Native.Compiler.props": {},
           "build/Microsoft.Net.Native.Compiler.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-arm/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-arm/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-arm.props": {},
           "build/Microsoft.Net.Native.SharedLibrary-arm.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-x64/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-x64/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-x64.props": {},
           "build/Microsoft.Net.Native.SharedLibrary-x64.targets": {}
         }
       },
-      "Microsoft.Net.Native.SharedLibrary-x86/1.7.2": {
+      "Microsoft.Net.Native.SharedLibrary-x86/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.Net.Native.SharedLibrary-x86.props": {},
@@ -15957,14 +15957,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
           "Microsoft.NETCore.Portable.Compatibility": "1.0.2",
           "Microsoft.NETCore.Runtime.CoreCLR": "1.0.3",
           "Microsoft.NETCore.Targets": "1.0.2",
-          "Microsoft.Net.Native.Compiler": "1.7.5",
+          "Microsoft.Net.Native.Compiler": "1.7.6",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections.NonGeneric": "4.0.1",
           "System.Collections.Specialized": "4.0.1",
@@ -15997,7 +15997,7 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.7",
+          "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
           "runtime.win7.System.Private.Uri": "4.0.4"
         },
         "compile": {
@@ -16390,7 +16390,7 @@
           "runtimes/aot/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
+      "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -18117,7 +18117,7 @@
   },
   "libraries": {
     "Microsoft.CSharp/4.0.1": {
-      "sha512": "17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
+      "sha512": "q6Q3pOGiY7Enhsw5x8/h5kW9ZO0bRnrrxQBUtfKuxl1lbZnK4eLM4awTbEnoaPNnYMteV6zuyFmCZJljJsAmCQ==",
       "type": "package",
       "path": "microsoft.csharp/4.0.1",
       "files": [
@@ -18174,16 +18174,16 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "Microsoft.Net.Native.Compiler/1.7.5": {
-      "sha512": "f7OzlpktzBV3Zo783ZXpUizw4XKnBR59YCihxjB2UB29Dddy1Kfki5wbNijiUVGRqAvX5SkEWO30Q4GJLptzqg==",
+    "Microsoft.Net.Native.Compiler/1.7.6": {
+      "sha512": "7Qn7WH24iZ0cuY/lXyoTRuSgsa+wX3aEYsI0tq5CObAHD7JcSd2rpZyGY9SRGvU2rV4l8Goj0qFaQTDPD0yz4w==",
       "type": "package",
-      "path": "microsoft.net.native.compiler/1.7.5",
+      "path": "microsoft.net.native.compiler/1.7.6",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         "build/Microsoft.Net.Native.Compiler.props",
         "build/Microsoft.Net.Native.Compiler.targets",
-        "microsoft.net.native.compiler.1.7.5.nupkg.sha512",
+        "microsoft.net.native.compiler.1.7.6.nupkg.sha512",
         "microsoft.net.native.compiler.nuspec",
         "tools/LibraryXML/Callisto.rd.xml",
         "tools/LibraryXML/GalaSoft.MvvmLight.Extras.Win8.rd.xml",
@@ -19074,16 +19074,16 @@
         "tools/x86/mrt100etw.dll"
       ]
     },
-    "Microsoft.Net.Native.SharedLibrary-arm/1.7.2": {
-      "sha512": "fKi3/E8AIYr6Bye5G+h9kchRmq318ATc9VYonE03LKN9CRpFR+PQMUt4dHUKYvOYU42qdJYnamcDQCajR9T89A==",
+    "Microsoft.Net.Native.SharedLibrary-arm/1.7.3": {
+      "sha512": "5nx3av9ySNTIe9v1EaGZODnWYcsZE2BaW5LeYqv7+ogdnln4TFbtsQVb6w3btFJoBD4PHbLf+8zD75D6YWPAZw==",
       "type": "package",
-      "path": "microsoft.net.native.sharedlibrary-arm/1.7.2",
+      "path": "microsoft.net.native.sharedlibrary-arm/1.7.3",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         "build/Microsoft.Net.Native.SharedLibrary-arm.props",
         "build/Microsoft.Net.Native.SharedLibrary-arm.targets",
-        "microsoft.net.native.sharedlibrary-arm.1.7.2.nupkg.sha512",
+        "microsoft.net.native.sharedlibrary-arm.1.7.3.nupkg.sha512",
         "microsoft.net.native.sharedlibrary-arm.nuspec",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.Concurrent.iltoc",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.Concurrent.iltocpdb",
@@ -19476,16 +19476,16 @@
         "tools/SharedLibrary/ret/Toc/System.Text.RegularExpressions.toc"
       ]
     },
-    "Microsoft.Net.Native.SharedLibrary-x64/1.7.2": {
-      "sha512": "fq/FWlWw96roq/MoTlt3uKItPtbaUGxqPT28fhbfKl8TXCt0sxi+FEetTM4YuA6+DnOiBZjjAO8ywMT6pYYD1Q==",
+    "Microsoft.Net.Native.SharedLibrary-x64/1.7.3": {
+      "sha512": "xMRTWcGo5n5rqjMyfAj6sPnxRdiPZP7gFsjYmPdVJpfaCA2IKara79L6R8c/CXdquPqkq2zwm+eq8j1rF23Grw==",
       "type": "package",
-      "path": "microsoft.net.native.sharedlibrary-x64/1.7.2",
+      "path": "microsoft.net.native.sharedlibrary-x64/1.7.3",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         "build/Microsoft.Net.Native.SharedLibrary-x64.props",
         "build/Microsoft.Net.Native.SharedLibrary-x64.targets",
-        "microsoft.net.native.sharedlibrary-x64.1.7.2.nupkg.sha512",
+        "microsoft.net.native.sharedlibrary-x64.1.7.3.nupkg.sha512",
         "microsoft.net.native.sharedlibrary-x64.nuspec",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.Concurrent.iltoc",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.Concurrent.iltocpdb",
@@ -19878,16 +19878,16 @@
         "tools/SharedLibrary/ret/Toc/System.Text.RegularExpressions.toc"
       ]
     },
-    "Microsoft.Net.Native.SharedLibrary-x86/1.7.2": {
-      "sha512": "6z3RBlfnS0fBgwqAnkUw4Swx9hxXZDLucfhZzdnR/V+31pTpPj1yEPnCwUuFf1FjyThYGXfSQqaqYu4ATsGCWg==",
+    "Microsoft.Net.Native.SharedLibrary-x86/1.7.3": {
+      "sha512": "kH3InmlETEr01iiZgnMJTZpz0fuUQ5F90VFlVm8YOQOkfzewAVwSlguBuGCIvSvOqmr61jWovr+k1lrH4CtPKA==",
       "type": "package",
-      "path": "microsoft.net.native.sharedlibrary-x86/1.7.2",
+      "path": "microsoft.net.native.sharedlibrary-x86/1.7.3",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         "build/Microsoft.Net.Native.SharedLibrary-x86.props",
         "build/Microsoft.Net.Native.SharedLibrary-x86.targets",
-        "microsoft.net.native.sharedlibrary-x86.1.7.2.nupkg.sha512",
+        "microsoft.net.native.sharedlibrary-x86.1.7.3.nupkg.sha512",
         "microsoft.net.native.sharedlibrary-x86.nuspec",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.Concurrent.iltoc",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.Concurrent.iltocpdb",
@@ -20304,12 +20304,11 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.0.2": {
-      "sha512": "+r/a5FX/F8Fg9/PGTTGtOc9memDgZ3bvrwfpnIHdpTUA4r/IJ1caU8OsRqFgXcup+gBzdHJ/y/wQkofCWh7KXQ==",
+      "sha512": "hiipj34kTl130FP9vm8Ro8EYOy0yZ+xRa93rXHfBRz/b5vl8Gs4q5AJgymm9YSUsD9iEAITSIhS5LFh7VatswA==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.0.2",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -20402,12 +20401,11 @@
       ]
     },
     "Microsoft.NETCore.Runtime.CoreCLR/1.0.3": {
-      "sha512": "5jNMHvfXZJsEPRcVXOpR4/KvYETDP4iQ4rRjmbVncvLaWQ+stLwUq8OGXPVp0hzVv3CGU7gaFsPcAOnmKkQz9Q==",
+      "sha512": "tjD5r9Lxy+MD+YRJcuds5+sT+xGHkVt2Hb5LfLZIgkFmwUewBRPm/42UXi4oxhV1OIdRtt4ymwsiuFCwT16T9w==",
       "type": "package",
       "path": "microsoft.netcore.runtime.coreclr/1.0.3",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "microsoft.netcore.runtime.coreclr.1.0.3.nupkg.sha512",
@@ -20429,10 +20427,10 @@
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
-      "sha512": "scJlySQBluQP/KsuGJmptmBZ9dxmIkBDfeGMSle7vB7i/pgumi5nrtecPSypOXp26mC2rD8u7SxWoVwnPMKS3w==",
+    "Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
+      "sha512": "Ca8F9Sran31PKlPmoAdUAKEWPAWrj8Xn3kjpTCXPh2KAzcFlmn1cBcBb4cifUsTuf9XCi8+6FA48O3J62xVApw==",
       "type": "package",
-      "path": "microsoft.netcore.universalwindowsplatform/6.2.7",
+      "path": "microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -20440,7 +20438,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "build/Microsoft.NETCore.UniversalWindowsPlatform.props",
         "build/Microsoft.NetCore.UniversalWindowsPlatform.targets",
-        "microsoft.netcore.universalwindowsplatform.6.2.7.nupkg.sha512",
+        "microsoft.netcore.universalwindowsplatform.6.2.8.nupkg.sha512",
         "microsoft.netcore.universalwindowsplatform.nuspec",
         "ref/netcore50/_._",
         "ref/uap10.0.15138/Microsoft.CSharp.dll",
@@ -21624,17 +21622,17 @@
         "runtimes/win/lib/netstandard1.5/System.Runtime.Extensions.dll"
       ]
     },
-    "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
-      "sha512": "671OehkoWiVdz78kyQu0shu67CmTsg3HCeVjS/YLiXYqFF6fHFF4G9nB/3dg/3kfHVayj5hmSYupnSKqXXnM4w==",
+    "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
+      "sha512": "9/HmymcDoEdwWCMynAyYiqMjeOcw9JBtP+2s6rsepQaa/DI+EqFpJQP9B75zXTZifiLd4r+Iv0cedMkClPKa2A==",
       "type": "package",
-      "path": "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform/6.2.7",
+      "path": "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.7.nupkg.sha512",
+        "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.8.nupkg.sha512",
         "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -21820,17 +21818,17 @@
         "runtimes/win10-arm-aot/lib/netcore50/clrcompression.dll"
       ]
     },
-    "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
-      "sha512": "/bHM+NYiBrFMursdbMLDGGrNG52QB1kDdnoJ9j9wJVCc9NhuWGZJaZuGW6uNzLP4HY7xqRZdFBC6ZhM8SPhzzQ==",
+    "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
+      "sha512": "gVBtcw4SC8ZnERsg0dX3ckngtFW7ADf5Tv7bjxiV6k3I0LLGjdTmxqTCb0STsg1nOxOwdUxZNg4qhxAL59B42g==",
       "type": "package",
-      "path": "runtime.win10-arm.microsoft.netcore.universalwindowsplatform/6.2.7",
+      "path": "runtime.win10-arm.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-arm.microsoft.netcore.universalwindowsplatform.6.2.7.nupkg.sha512",
+        "runtime.win10-arm.microsoft.netcore.universalwindowsplatform.6.2.8.nupkg.sha512",
         "runtime.win10-arm.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-arm/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -22002,17 +22000,17 @@
         "runtimes/win10-arm/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
     },
-    "runtime.win10-arm64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
-      "sha512": "ZPSPn5MDEJYO4XJChAD0QY2Z5c+bShfbzj4ZU+KyorF2MVWeZlQ9nramq6HyyUwMBzZni19AO3jYlJD1TUWO1A==",
+    "runtime.win10-arm64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
+      "sha512": "QMjdoZimyzQjM9XDGLLjHPNHtWtOkuOaC+Z0UC9j7ZhaABXyBrIwCQ+FNF8tAb1dIgxmK/BtgYPEzchCCBbriA==",
       "type": "package",
-      "path": "runtime.win10-arm64-aot.microsoft.netcore.universalwindowsplatform/6.2.7",
+      "path": "runtime.win10-arm64-aot.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-arm64-aot.microsoft.netcore.universalwindowsplatform.6.2.7.nupkg.sha512",
+        "runtime.win10-arm64-aot.microsoft.netcore.universalwindowsplatform.6.2.8.nupkg.sha512",
         "runtime.win10-arm64-aot.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-arm64-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-arm64-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -22185,17 +22183,17 @@
         "runtimes/win10-arm64-aot/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
     },
-    "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
-      "sha512": "JfSkaYU9od49oGDC4i0i2lfDX3GnxtW5qEh0lyycZGBWNwVkeHsXKGt7k4u7fBlcl7asitjqrTKWr1POmls4aQ==",
+    "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
+      "sha512": "lHdH8LXmt/b5SlijBCc6dIsAvx+Sko2mDu/moEyut7wdbcMYqX8ey3OwZ0v+Bag0Qzi/oQEtKPAcETa2XhVaZA==",
       "type": "package",
-      "path": "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform/6.2.7",
+      "path": "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform.6.2.7.nupkg.sha512",
+        "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform.6.2.8.nupkg.sha512",
         "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -22381,17 +22379,17 @@
         "runtimes/win10-x64-aot/lib/netcore50/clrcompression.dll"
       ]
     },
-    "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
-      "sha512": "ULwKaAzMauKWiO1UkrYLFn+NFRk/+VvQBmPVR6kAAvATYXurmQ+fPk4mE1uC+RwrY0hqJK4ZWJ8K0OT3FqtHuA==",
+    "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
+      "sha512": "OhqoWvyXCn61OLQ41wsVoYhc/4Ezd5hPIleSsCx3F3+rQLV55sTFhXuE+i+2F7SBtcLTO7UxSfTVfUlfE56BCQ==",
       "type": "package",
-      "path": "runtime.win10-x64.microsoft.netcore.universalwindowsplatform/6.2.7",
+      "path": "runtime.win10-x64.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x64.microsoft.netcore.universalwindowsplatform.6.2.7.nupkg.sha512",
+        "runtime.win10-x64.microsoft.netcore.universalwindowsplatform.6.2.8.nupkg.sha512",
         "runtime.win10-x64.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x64/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -22563,17 +22561,17 @@
         "runtimes/win10-x64/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
     },
-    "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
-      "sha512": "gJvS10eoFgVFKUNPrUWXK+h+s1Nb54YPyEbuC0L5EC05OkZmDJ+3O8lOTQ4skmhYa7h1OyA8U40qFVGnqt85hg==",
+    "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
+      "sha512": "nxlybzt8OTKigvRsd5ls8S+ATWJHxBKXKUl/IpomKHKK3HBmaNR5nHlaE+Lzp5TzD7r7jbzulLhLIHFH7za7qw==",
       "type": "package",
-      "path": "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform/6.2.7",
+      "path": "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform.6.2.7.nupkg.sha512",
+        "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform.6.2.8.nupkg.sha512",
         "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -22759,17 +22757,17 @@
         "runtimes/win10-x86-aot/lib/netcore50/clrcompression.dll"
       ]
     },
-    "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.2.7": {
-      "sha512": "vHXqb6vAH3yrq/aflIDYbWbMIMiFg+wzg5puvx9OTxJauIxZwV8ucgSHqXEdl8ancNj5IGD8MdEYPqcZjZCyLA==",
+    "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
+      "sha512": "vFrE1qxUfi7afk2cBpZ6z6wwWuBlRrIgPtYHswegPrZWMC04/gCjCIf5Owy33WWB5FHgOZQOu6pk4zYuKe1V8Q==",
       "type": "package",
-      "path": "runtime.win10-x86.microsoft.netcore.universalwindowsplatform/6.2.7",
+      "path": "runtime.win10-x86.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.7.nupkg.sha512",
+        "runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.8.nupkg.sha512",
         "runtime.win10-x86.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x86/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -23054,7 +23052,7 @@
       ]
     },
     "runtime.win7.System.Private.Uri/4.0.4": {
-      "sha512": "IgCoD8Q3zwFVJWgjQ8WgHb7xPOfs0bcsaRaLPcHevNmcVJ1ZuYZy9hOxE8ADLpvtqnGrcZZ9HDr09Z0tuvE2Bg==",
+      "sha512": "vQt0oWFh1615fWs1OBCYp2z9oLS3ZAVR7ceOI11zkqKXCKnHqQelK7fqMrqJ6X6cS9/q9NyCM9lfGV70znebDg==",
       "type": "package",
       "path": "runtime.win7.system.private.uri/4.0.4",
       "files": [
@@ -23315,11 +23313,12 @@
       ]
     },
     "System.Collections.Immutable/1.2.0": {
-      "sha512": "Cma8cBW6di16ZLibL8LYQ+cLjGzoKxpOTu/faZfDcx94ZjAGq6Nv5RO7+T1YZXqEXTZP9rt1wLVEONVpURtUqw==",
+      "sha512": "ACF5WhVfZ/EkfmVy9wpc3oJCK7koh1GlnXQ4WXW9N4ribzY8aKF6Vr56jD0rNTuUzFvRWDbHuYJ/Qnrtrd/7VA==",
       "type": "package",
       "path": "system.collections.immutable/1.2.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Collections.Immutable.dll",
@@ -23331,11 +23330,12 @@
       ]
     },
     "System.Collections.NonGeneric/4.0.1": {
-      "sha512": "hMxFT2RhhlffyCdKLDXjx8WEC5JfCvNozAZxCablAuFRH74SCV4AgzE8yJCh/73bFnEoZgJ9MJmkjQ0dJmnKqA==",
+      "sha512": "00tOaRBr5u4JsckEJfBw1eI4Frc5pOFM5gSdqr6oMYjXwQLLhV/LAl2Ty0BgELDvSuqBRBETTgNCMwRuUShk9Q==",
       "type": "package",
       "path": "system.collections.nongeneric/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -23369,11 +23369,12 @@
       ]
     },
     "System.Collections.Specialized/4.0.1": {
-      "sha512": "/HKQyVP0yH1I0YtK7KJL/28snxHNH/bi+0lgk/+MbURF6ULhAE31MDI+NZDerNWu264YbxklXCCygISgm+HMug==",
+      "sha512": "2lTt/6eh+HGLg495oLQoFDvLLy9Wk1FTnCw87CywP+Yq0ITi1PD+p5wgxcyw1Zksu/1dLsQmo3ezO2BGRk67tg==",
       "type": "package",
       "path": "system.collections.specialized/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -23407,7 +23408,7 @@
       ]
     },
     "System.ComponentModel/4.0.1": {
-      "sha512": "oBZFnm7seFiVfugsIyOvQCWobNZs7FzqDV/B7tx20Ep/l3UUFCPDkdTnCNaJZTU27zjeODmy2C/cP60u3D4c9w==",
+      "sha512": "3AOvy/bB7s8yAkolZOlqGeLDrPySuYsgkk7hKIBWn5a/Le7V16PDYQIzj7w7hi4UUXXmEmN/ZehNlAi5eD9r5w==",
       "type": "package",
       "path": "system.componentmodel/4.0.1",
       "files": [
@@ -23545,11 +23546,12 @@
       ]
     },
     "System.ComponentModel.EventBasedAsync/4.0.11": {
-      "sha512": "Z7SO6vvQIR84daPE4uhaNdef9CjgjDMGYkas8epUhf0U3WGuaGgZ0Mm4QuNycMdbHUY8KEdZrtgxonkAiJaAlA==",
+      "sha512": "uFA+3r3rVTW+XRXIOQky8x6NvdUj9bmliaZJdojDHcwt+lMq55EpYxNLHlnOwzS3kmIwv674WCRnHOZBAYmKiQ==",
       "type": "package",
       "path": "system.componentmodel.eventbasedasync/4.0.11",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -23614,11 +23616,12 @@
       ]
     },
     "System.Data.Common/4.1.0": {
-      "sha512": "epU8jeTe7aE7RqGHq9rZ8b0Q4Ah7DgubzHQblgZMSqgW1saW868WmooSyC5ywf8upLBkcVLDu93W9GPWUYsU2Q==",
+      "sha512": "DeahGetUucjHvnBefS9NPhnkQunFmJ/DEI+88kHe49Grj8jUW2VYI8O+fI4N24zyHDF78qMUT74/WLWlD9KKeA==",
       "type": "package",
       "path": "system.data.common/4.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -23664,11 +23667,12 @@
       ]
     },
     "System.Diagnostics.Contracts/4.0.1": {
-      "sha512": "HvQQjy712vnlpPxaloZYkuE78Gn353L0SJLJVeLcNASeg9c4qla2a1Xq8I7B3jZoDzKPtHTkyVO7AZ5tpeQGuA==",
+      "sha512": "BM5vK2KCJYMFDO9y7FJwxc6LwvICy9XlY2Iy8jr6719qUk1RDI3fTzExt+3Ir+Zyatfj0sS6AD2AW07UxM0Iag==",
       "type": "package",
       "path": "system.diagnostics.contracts/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -23994,7 +23998,7 @@
       ]
     },
     "System.Dynamic.Runtime/4.0.11": {
-      "sha512": "db34f6LHYM0U0JpE+sOmjar27BnqTVkbLJhgfwMpTdgTigG/Hna3m2MYVwnFzGGKnEJk2UXFuoVTr8WUbU91/A==",
+      "sha512": "2tVvChDWjzsVQy/GmzNFeChqsBKch6aVlcXABVUzEGtCLPyF1BmCfXZcByGkBRMFwt+/89P1hX31uskJV6kZfw==",
       "type": "package",
       "path": "system.dynamic.runtime/4.0.11",
       "files": [
@@ -24064,11 +24068,12 @@
       ]
     },
     "System.Globalization/4.0.11": {
-      "sha512": "B95h0YLEL2oSnwF/XjqSWKnwKOy/01VWkNlsCeMTFJLLabflpGV26nK164eRs5GiaRSBGpOxQ3pKoSnnyZN5pg==",
+      "sha512": "S1k/4BoV7hCPErZheQDj+6+RCeBPREyYwaMhxH6efE6KqCMhTuMJlXyCtxgWcc/QFDQwiZbcDXZGOtEm7WYHoA==",
       "type": "package",
       "path": "system.globalization/4.0.11",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -24507,11 +24512,12 @@
       ]
     },
     "System.IO.UnmanagedMemoryStream/4.0.1": {
-      "sha512": "wcq0kXcpfJwdl1Y4/ZjDk7Dhx5HdLyRYYWYmD8Nn8skoGYYQd2BQWbXwjWSczip8AL4Z57o2dWWXAl4aABAKiQ==",
+      "sha512": "7Jcl2kF3RHirvblh2o2VAlwJSZN+wxPMS0vyOD1lSobjcu4SCF565sFTJg78Eli1gp+Kidamn1987PaV9Zr8vA==",
       "type": "package",
       "path": "system.io.unmanagedmemorystream/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -24699,11 +24705,12 @@
       ]
     },
     "System.Linq.Parallel/4.0.1": {
-      "sha512": "J7XCa7n2cFn32uLbtceXfBFhgCk5M++50lylHKNbqTiJkw5y4Tglpi6amuJNPCvj9bLzNSI7rs1fi4joLMNRgg==",
+      "sha512": "90gk0rKI7ybjOFWJS/sT0JZ0hI8AhQsebk9xmdw3ev5enJapEn0OdXVAwFNC6ovx4M0fSYPsre8qkcQypH9Qzw==",
       "type": "package",
       "path": "system.linq.parallel/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -24755,7 +24762,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
+      "sha512": "OrMuzpAijf31vIy3bkQ0iRZ1wciof5qZVi0xX8a1FzpjenEoDNtD5gWESOjneD+0VFcGum6Vkc6MuG5TQjbBHA==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -24813,12 +24820,11 @@
       ]
     },
     "System.Net.Http/4.1.0": {
-      "sha512": "Ve8vcneE50S6BpvAzdFYbtcUy5I5q3JMZQYpBV9PLp+ISTr9F26DPUbRSTl0qOlcgFxO1NmJ8JXW3vjTkyL9fA==",
+      "sha512": "ULq9g3SOPVuupt+Y3U+A37coXzdNisB1neFCSKzBwo182u0RDddKJF8I5+HfyXqK6OhJPgeoAwWXrbiUXuRDsg==",
       "type": "package",
       "path": "system.net.http/4.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/Xamarinmac20/_._",
@@ -24932,11 +24938,12 @@
       ]
     },
     "System.Net.NameResolution/4.0.0": {
-      "sha512": "JdqRdM1Qym3YehqdKIi5LHrpypP4JMfxKQSNCJ2z4WawkG0il+N3XfNeJOxll2XrTnG7WgYYPoeiu/KOwg0DQw==",
+      "sha512": "gwBjwj3HNnHBBbSQtKdLZtn3+wAJIRPOlA/7iCNhIW7qcWWjlaLQd79AUlmTEc6pArB7uLWBTe7UmyemgUJFqQ==",
       "type": "package",
       "path": "system.net.nameresolution/4.0.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -25125,11 +25132,12 @@
       ]
     },
     "System.Net.Requests/4.0.11": {
-      "sha512": "vxGt7C0cZixN+VqoSW4Yakc1Y9WknmxauDqzxgpw/FnBdz4kQNN51l4wxdXX5VY1xjqy//+G+4CvJWp1+f+y6Q==",
+      "sha512": "IvOLGTTzJ2y5GpSn0ewgypC52TCCD6tYU8MdLedtZQW0VcP241b6sRJ2rLhFFPn5n+biTXXuYGfaTyT3CVUf8Q==",
       "type": "package",
       "path": "system.net.requests/4.0.11",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -25244,11 +25252,12 @@
       ]
     },
     "System.Net.WebHeaderCollection/4.0.1": {
-      "sha512": "XX2TIAN+wBSAIV51BU2FvvXMdstUa8b0FBSZmDWjZdwUMmggQSifpTOZ5fNH20z9ZCg2fkV1L5SsZnpO2RQDRQ==",
+      "sha512": "0aLl8yaaH+/jyI0f1Mn9xOvBWWwyOaJm/pR2SPAN2RvxhTD/yxxPaZt5d+2KXAZdPkJOafS4QQ1GaXhZcMN16g==",
       "type": "package",
       "path": "system.net.webheadercollection/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -25282,11 +25291,12 @@
       ]
     },
     "System.Net.WebSockets/4.0.0": {
-      "sha512": "2KJo8hir6Edi9jnMDAMhiJoI691xRBmKcbNpwjrvpIMOCTYOtBpSsSEGBxBDV7PKbasJNaFp1+PZz1D7xS41Hg==",
+      "sha512": "loVFLdTdaAAfS4lLPO0nifZ5OMkyv9Xx+zViJQhB3MqjVTK36HwNJ4z4maj3Jb2fShg1v+5+XZBgMVw9r7i0Mw==",
       "type": "package",
       "path": "system.net.websockets/4.0.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -25361,11 +25371,12 @@
       ]
     },
     "System.Numerics.Vectors/4.1.1": {
-      "sha512": "Ex1NSKycC2wi5XBMWUGWPc3lumh6OQWFFmmpZFZz0oLht5lQ+wWPHVZumOrMJuckfUiVMd4p67BrkBos8lcF+Q==",
+      "sha512": "t90rsjZtZKS7y6TrJmoIQQFDPsk0RgSgJhNMfxXgHJhFiqKemM6wcyEQBfKv/LO+phH0vM2+hVsPSmv0bbcQAQ==",
       "type": "package",
       "path": "system.numerics.vectors/4.1.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -25492,7 +25503,7 @@
       ]
     },
     "System.Private.ServiceModel/4.1.3": {
-      "sha512": "nXoKlG2znsZ5lcR/ULZ7hIFrEqRBW8m5PK1qHf5T/eeogmuL50WpuHxhpNM/arTYS5FtlSN8Sl7YXZIGPcf/zQ==",
+      "sha512": "PS9pmdXqvLxxt02jF7Lrbq0kBi+IQGhVOP38V6Wv5IlUW2vFVBbtPb2euhl7bJsh80paIeUEjjA3QtvgMVE7Vw==",
       "type": "package",
       "path": "system.private.servicemodel/4.1.3",
       "files": [
@@ -25522,11 +25533,12 @@
       ]
     },
     "System.Reflection/4.1.0": {
-      "sha512": "JCKANJ0TI7kzoQzuwB/OoJANy1Lg338B6+JVacPl4TpUwi3cReg3nMLplMq2uqYfHFQpKIlHAUVAJlImZz/4ng==",
+      "sha512": "Oh16UNz+QqxcOCyr3MlkzqgvZDC6jcCg8XNPmNePIiubERFoZEBU8piauLxCBUT9Ba7TTPpd0RbsryJx8b5TMA==",
       "type": "package",
       "path": "system.reflection/4.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -25833,11 +25845,12 @@
       ]
     },
     "System.Reflection.Metadata/1.3.0": {
-      "sha512": "jMSCxA4LSyKBGRDm/WtfkO03FkcgRzHxwvQRib1bm2GZ8ifKM1MX1al6breGCEQK280mdl9uQS7JNPXRYk90jw==",
+      "sha512": "piuaOy0ZH1/nNHMdwFrHP27ToY7SVblMqc+u8oEVf434IcpMmWpuU9aXWhAleRYjnKmfB3VIvGswEwiwptueXg==",
       "type": "package",
       "path": "system.reflection.metadata/1.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.1/System.Reflection.Metadata.dll",
@@ -25849,11 +25862,12 @@
       ]
     },
     "System.Reflection.Primitives/4.0.1": {
-      "sha512": "4inTox4wTBaDhB7V3mPvp9XlCbeGYWVEM9/fXALd52vNEAVisc1BoVWQPuUuD0Ga//dNbA/WeMy9u9mzLxGTHQ==",
+      "sha512": "cgWyhR5bJxA46kNB41XmsFIm+Hg6+1HgKG/MVPHBzG6p/39PEZnisRpV28k1vblzF4Tn3GDtmTxHfh5oi+Xmjw==",
       "type": "package",
       "path": "system.reflection.primitives/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -25958,11 +25972,12 @@
       ]
     },
     "System.Resources.ResourceManager/4.0.1": {
-      "sha512": "TxwVeUNoTgUOdQ09gfTjvW411MF+w9MBYL7AtNVc+HtBCFlutPLhUCdZjNkjbhj3bNQWMdHboF0KIWEOjJssbA==",
+      "sha512": "hlHMz9IkMZddp1oCA0WYCt9MV5s+KzYAOdBVnxoy5AH1psoxVe0zAAz1jSZLhnH1vq/PoejgC0fuxNGxdL+jOg==",
       "type": "package",
       "path": "system.resources.resourcemanager/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -26473,7 +26488,7 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.1.1": {
-      "sha512": "HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg==",
+      "sha512": "acRxtXTFvTm3BSVgJ9BrhYBvl/qpqz80fu1BUrOG+2pAW5vCHLxDAbKYf2owpiqm6oSFV7X2o0LniYBJfqKL9A==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.1.1",
       "files": [
@@ -26713,11 +26728,12 @@
       ]
     },
     "System.Security.Claims/4.0.1": {
-      "sha512": "4Jlp0OgJLS/Voj1kyFP6MJlIYp3crgfH8kNQk2p7+4JYfc1aAmh9PZyAMMbDhuoolGNtux9HqSOazsioRiDvCw==",
+      "sha512": "Sktb8eezUnTWT7qmnpNWBn23ae9HB2ALUCMzH9CnOgNK7G5Ic1N8j6mWpDJRecyMbFLHAoNBzyRTAboTOeR0aw==",
       "type": "package",
       "path": "system.security.claims/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -26751,12 +26767,11 @@
       ]
     },
     "System.Security.Cryptography.Algorithms/4.2.0": {
-      "sha512": "k9HmOUr8UGtYvSaps8zWSQG8LUjbuIJbofknwXMRytYH5vipeUzEGu6DuY7tCKI6fFg5C5uFL4lHNTkjQvN6PQ==",
+      "sha512": "8JQFxbLVdrtIOKMDN38Fn0GWnqYZw/oMlwOUG/qz1jqChvyZlnUmu+0s7wLx7JYua/nAXoESpHA3iw11QFWhXg==",
       "type": "package",
       "path": "system.security.cryptography.algorithms/4.2.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -26791,12 +26806,11 @@
       ]
     },
     "System.Security.Cryptography.Cng/4.2.0": {
-      "sha512": "Ttd1AWYubRhzP1Bwd96dJ3ths9LazueR4LOlbJpgS9Ks+4EzTFFmC6M7t6biTtRsLaAnFvZhOpNxUupIBlQL8Q==",
+      "sha512": "cUJ2h+ZvONDe28Szw3st5dOHdjndhJzQ2WObDEXAWRPEQBtVItVoxbXM/OEsTthl3cNn2dk2k0I3y45igCQcLw==",
       "type": "package",
       "path": "system.security.cryptography.cng/4.2.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net46/System.Security.Cryptography.Cng.dll",
@@ -26942,11 +26956,12 @@
       ]
     },
     "System.Security.Principal/4.0.1": {
-      "sha512": "On+SKhXY5rzxh/S8wlH1Rm0ogBlu7zyHNxeNBiXauNrhHRXAe9EuX8Yl5IOzLPGU5Z4kLWHMvORDOCG8iu9hww==",
+      "sha512": "uqyAMxiWYdX6pcTFMRuDzdwfsdywFlV8IX4O8DwMwikmy4zBrVyy76QV+GAiy03gYmVJAfhmFNAJp+2C/9JlMA==",
       "type": "package",
       "path": "system.security.principal/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -27000,7 +27015,7 @@
       ]
     },
     "System.ServiceModel.Duplex/4.0.4": {
-      "sha512": "yBFdrm04/c3ApEM8TmHnN+d5nEXBX7ZDQ5kgL06TuXHWR6M8OogaUVFqfb9hkBH/PrA1aFLgaTTj4PqhvRSTBQ==",
+      "sha512": "QSEwbJHoDvQHhE2OKg03NcUVj0EuZcXMbmH8oDmXUJ3mocfLVHdcRtnsyOmBUmlNhk2/cJ/06RwTebecDKFsCQ==",
       "type": "package",
       "path": "system.servicemodel.duplex/4.0.4",
       "files": [
@@ -27023,7 +27038,7 @@
       ]
     },
     "System.ServiceModel.Http/4.1.3": {
-      "sha512": "8hpHlzYjJI6zxDq0jOLd7oioVokGJ9mVb+O9ME7Me5c+JLl0lny3snkKtCIXi0NJ98SjLUsF0uFg/lyBVos9QQ==",
+      "sha512": "3Hy8dshkqHkHzLFezuChmWn8uyPgg4aH8fg7ulgKaQPkrBilflUM1ScSaEBW40P1p1OQBzPZYudYIIO7584h3w==",
       "type": "package",
       "path": "system.servicemodel.http/4.1.3",
       "files": [
@@ -27064,7 +27079,7 @@
       ]
     },
     "System.ServiceModel.NetTcp/4.1.3": {
-      "sha512": "qiAn9GyWS5zFNWBjgnFMThN1iO2ryyJCTAZgYehTQyLvBr3E3XHlW9rM1bTTbbxU0neTKuJPLjEn7QVQ96H9gA==",
+      "sha512": "N1uAndW4YVkvz/OqmKInE3eS9nuPzFtnJo/A/g2/9lmpo95l5TwM+Ho0GfVI7yPLeA9nmqe7wrxrg3i28aYS4Q==",
       "type": "package",
       "path": "system.servicemodel.nettcp/4.1.3",
       "files": [
@@ -27090,7 +27105,7 @@
       ]
     },
     "System.ServiceModel.Primitives/4.1.3": {
-      "sha512": "ooQ7+rc+4NOU3fzVDBpH9DGubH2U09rSpKOK5LoI/RQg00zWCtGuPN1Ve09LxkjTkD+nEssoHxVaWDW8lWmevQ==",
+      "sha512": "men/PNljQKaKqDep+Yc7pePMOOQcoIu2P+/+N3qmCy7MOc2urHfAEcJctlTA8gxeYUCwsuhfdBRTEOiTzqIMZQ==",
       "type": "package",
       "path": "system.servicemodel.primitives/4.1.3",
       "files": [
@@ -27131,7 +27146,7 @@
       ]
     },
     "System.ServiceModel.Security/4.0.4": {
-      "sha512": "TYSUCu8ejtp+8CLznJR57GS/LTR+wIGV6RlehUYwZImOhqnMvCRH35G0SXqbGrUd7wThlD+DowRHU3LivG89Mg==",
+      "sha512": "OIBNnOzwaYZfqxc9my7xg0WkO2sPySt5IdbHVqA+rIxuo+ow6DCC1tv9zPccAPpUChf0Ny3aCakeYRu61wi0ow==",
       "type": "package",
       "path": "system.servicemodel.security/4.0.4",
       "files": [
@@ -27157,11 +27172,12 @@
       ]
     },
     "System.Text.Encoding/4.0.11": {
-      "sha512": "U3gGeMlDZXxCEiY4DwVLSacg+DFWCvoiX+JThA/rvw37Sqrku7sEFeVBBBMBnfB6FeZHsyDx85HlKL19x0HtZA==",
+      "sha512": "o6U1a9JMuLXAyNewY+hOaQsYBPBW4I4dI+umwvcnsk/QG/tosPtnYFytpOSqbnChhvylWnUCp7ueroxHXZiRRQ==",
       "type": "package",
       "path": "system.text.encoding/4.0.11",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -27224,11 +27240,12 @@
       ]
     },
     "System.Text.Encoding.CodePages/4.0.1": {
-      "sha512": "h4z6rrA/hxWf4655D18IIZ0eaLRa3tQC/j+e26W+VinIHY0l07iEXaAvO0YSYq3MvCjMYy8Zs5AdC1sxNQOB7Q==",
+      "sha512": "L6c3y4hgFOgLOGGmDZyyGAa2SLLlpAUjsRvJeJDPHIQ+ZIWxtLAipyeXQ7kFQRGoPQR3UGrWlre12u2/ve1ckw==",
       "type": "package",
       "path": "system.text.encoding.codepages/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -27411,7 +27428,7 @@
       ]
     },
     "System.Threading/4.0.11": {
-      "sha512": "BcDdG7z87bb8bF8xHEGSCkd1+KKKYcoka2xlrYr9mwSIHTNXiArwAKwFb9Eh/Fw+wLVtb9YH4MJ+emORV8hePg==",
+      "sha512": "jiwqrDD/KOsdeMuODFxJcuwqKh+Dvm7Ckvxt3qnZoJP/N7BM1ZKPRm1NLbnReENcDy0jBl/7iNDi/SFrUWejlQ==",
       "type": "package",
       "path": "system.threading/4.0.11",
       "files": [
@@ -27482,11 +27499,12 @@
       ]
     },
     "System.Threading.Overlapped/4.0.1": {
-      "sha512": "f7aLuLkBoCQM2kng7zqLFBXz9Gk48gDK8lk1ih9rH/1arJJzZK9gJwNvPDhL6Ps/l6rwOr8jw+4FCHL0KKWiEg==",
+      "sha512": "UeBx2TvawhzKeyUOMZbfpsBgofJ1gypHqfTIhJNS+lxhpO3dw2yUPPri2uBMnxsXOZqYj+rnBC4XvmkSYmyqSw==",
       "type": "package",
       "path": "system.threading.overlapped/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net46/System.Threading.Overlapped.dll",
@@ -27578,11 +27596,12 @@
       ]
     },
     "System.Threading.Tasks.Dataflow/4.6.0": {
-      "sha512": "2hRjGu2r2jxRZ55wmcHO/WbdX+YAOz9x6FE8xqkHZgPaoFMKQZRe9dk8xTZIas8fRjxRmzawnTEWIrhlM+Un7w==",
+      "sha512": "U+WVv+MkUi5T7PM3yJD7WsX0pnlzNcM08r+ua2P5MpvGXv69DE+3bBfhdz8U6ZxvPthkvDvqy/AaIxZhKKgUdw==",
       "type": "package",
       "path": "system.threading.tasks.dataflow/4.6.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Threading.Tasks.Dataflow.XML",
@@ -27610,11 +27629,12 @@
       ]
     },
     "System.Threading.Tasks.Parallel/4.0.1": {
-      "sha512": "7Pc9t25bcynT9FpMvkUw4ZjYwUiGup/5cJFW72/5MgCG+np2cfVUMdh29u8d7onxX7d8PS3J+wL73zQRqkdrSA==",
+      "sha512": "zgUI6DWlzL5DzFQI9/q6mCC3WA6Pco+B6tyLljzveZisiaUigZXK5UGm0KKDqCTPjG4hURENBJ2EM6VjQHuMbA==",
       "type": "package",
       "path": "system.threading.tasks.parallel/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -27858,7 +27878,7 @@
       ]
     },
     "System.Xml.XmlDocument/4.0.1": {
-      "sha512": "2eZu6IP+etFVBBFUFzw2w6J21DqIN5eL9Y8r8JfJWUmV28Z5P0SNU01oCisVHQgHsDhHPnmq2s1hJrJCFZWloQ==",
+      "sha512": "H1yZCv1tfdkFvWsXA6214F2m8oSlYEENg63VVsX9d8p6BCfVXOWrUoE2uMztwz0QybTia5BasP80oCN11BBiww==",
       "type": "package",
       "path": "system.xml.xmldocument/4.0.1",
       "files": [
@@ -27896,7 +27916,7 @@
       ]
     },
     "System.Xml.XmlSerializer/4.0.11": {
-      "sha512": "FrazwwqfIXTfq23mfv4zH+BjqkSFNaNFBtjzu3I9NRmG8EELYyrv/fJnttCIwRMFRR/YKXF1hmsMmMEnl55HGw==",
+      "sha512": "NSPnIc3Lb7//+0jZ8jdsbvzW+qhbUwfOJyvciJJxvdO6umbM2lp3oungqv8cHaqOzZ6Y0gAaFwQAa0c4p5+5CQ==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.0.11",
       "files": [
@@ -27968,28 +27988,28 @@
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.15063": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.7"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.8"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TT_SRL_1\\.nuget\\packages\\": {},
+    "C:\\Users\\Francesco\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TT_SRL_1\\source\\repos\\TTPackStartup\\TTPackStartup\\TTPackStartup.csproj",
+      "projectUniqueName": "C:\\Users\\Francesco\\Source\\Repos\\ttsrl\\TTPackStartup\\TTPackStartup\\TTPackStartup.csproj",
       "projectName": "TTPackStartup",
-      "projectPath": "C:\\Users\\TT_SRL_1\\source\\repos\\TTPackStartup\\TTPackStartup\\TTPackStartup.csproj",
-      "packagesPath": "C:\\Users\\TT_SRL_1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TT_SRL_1\\source\\repos\\TTPackStartup\\TTPackStartup\\obj\\",
+      "projectPath": "C:\\Users\\Francesco\\Source\\Repos\\ttsrl\\TTPackStartup\\TTPackStartup\\TTPackStartup.csproj",
+      "packagesPath": "C:\\Users\\Francesco\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Francesco\\Source\\Repos\\ttsrl\\TTPackStartup\\TTPackStartup\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\TT_SRL_1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Francesco\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28010,7 +28030,7 @@
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
-            "version": "[6.2.7, )"
+            "version": "[6.2.8, )"
           }
         }
       }
