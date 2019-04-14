@@ -10,22 +10,22 @@
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>11a722f1-fb75-47f1-945b-7fa4f09ed710</PackageIdentityName>
     <PackageIdentityPublisher>CN=TT_SRL_2</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TTPackStartup.exe">
+    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TTPackStartup.exe">
       <PackagePath>entrypoint\TTPackStartup.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Francesco\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
@@ -367,58 +367,58 @@
     <AppxPackagedFile Include="C:\Users\Francesco\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TouchPanels.dll">
+    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TouchPanels.dll">
       <PackagePath>TouchPanels.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TTPackStartup.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TTPackStartup.xr.xml">
       <PackagePath>TTPackStartup.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\Core\TTPackStartup.exe">
+    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\Core\TTPackStartup.exe">
       <PackagePath>TTPackStartup.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
