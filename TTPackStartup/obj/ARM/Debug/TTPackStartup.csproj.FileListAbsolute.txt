@@ -443,3 +443,4 @@ C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\
 C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\ProjectArchitectures.txt
 C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758516200000000.json
 C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TTPackStartup.build.appxrecipe
+C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\TTPackStartup.csprojAssemblyReference.cache

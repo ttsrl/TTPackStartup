@@ -5,7 +5,7 @@
     xmlns:local="using:TTPackStartup"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d" Width="1024" Height="600" Background="#FFD2D2D2">
+    mc:Ignorable="d" Width="1024" Height="600" Background="Gainsboro">
 
     <Grid>
         <Button x:ConnectionId='2' Name="Button1" Content="Button"                   HorizontalAlignment="Left" Margin="90,80,0,0" VerticalAlignment="Top" Width="130" IsDoubleTapEnabled="False" IsRightTapEnabled="False" Height="41" Background="#FF9E9E9E" BorderBrush="#19000000"/>

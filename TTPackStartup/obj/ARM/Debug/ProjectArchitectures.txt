@@ -1,1 +1,1 @@
-C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\TTPackStartup.csproj;arm
+C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\TTPackStartup.csproj;arm
