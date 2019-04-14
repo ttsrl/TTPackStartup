@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Francesco\\Source\\Repos\\ttsrl\\TTPackStartup\\TTPackStartup\\TTPackStartup.csproj": {}
+    "C:\\Users\\Francesco\\source\\repos\\ttsrl\\TTPackStartup\\TTPackStartup\\TTPackStartup.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Francesco\\Source\\Repos\\ttsrl\\TTPackStartup\\TTPackStartup\\TTPackStartup.csproj": {
+    "C:\\Users\\Francesco\\source\\repos\\ttsrl\\TTPackStartup\\TTPackStartup\\TTPackStartup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Francesco\\Source\\Repos\\ttsrl\\TTPackStartup\\TTPackStartup\\TTPackStartup.csproj",
+        "projectUniqueName": "C:\\Users\\Francesco\\source\\repos\\ttsrl\\TTPackStartup\\TTPackStartup\\TTPackStartup.csproj",
         "projectName": "TTPackStartup",
-        "projectPath": "C:\\Users\\Francesco\\Source\\Repos\\ttsrl\\TTPackStartup\\TTPackStartup\\TTPackStartup.csproj",
+        "projectPath": "C:\\Users\\Francesco\\source\\repos\\ttsrl\\TTPackStartup\\TTPackStartup\\TTPackStartup.csproj",
         "packagesPath": "C:\\Users\\Francesco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Francesco\\Source\\Repos\\ttsrl\\TTPackStartup\\TTPackStartup\\obj\\",
+        "outputPath": "C:\\Users\\Francesco\\source\\repos\\ttsrl\\TTPackStartup\\TTPackStartup\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
