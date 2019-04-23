@@ -19,6 +19,7 @@ using Windows.UI.Xaml.Automation.Peers;
 using Windows.UI;
 using TTPackStartup;
 using System.Reflection;
+using Windows.ApplicationModel.Core;
 
 namespace TTPackStartup
 {
@@ -34,6 +35,31 @@ namespace TTPackStartup
         {
             this.InitializeComponent();
             //InitGPIO();
+
+            var controls = grid.Children.ToList();
+            foreach(var ctrl in controls)
+            {
+                if (ctrl.GetType().Name == "Button")
+                {
+                    var button = (Button)ctrl;
+                    button.PointerPressed += Button_PointerPressed;
+                    //ctrl.PointerPressed += Button_PointerPressed;
+                    //ctrl.PointerReleased += Button_PointerReleased;
+                }
+            }
+            var c = 0;
+        }
+
+        private void Button_PointerPressed(object sender, PointerRoutedEventArgs e)
+        {
+            var obj = (Button)sender;
+            obj.Background = new SolidColorBrush(Color.FromArgb(255, 40, 159, 255));
+        }
+
+        private void Button_PointerReleased(object sender, PointerRoutedEventArgs e)
+        {
+            var obj = (Button)sender;
+            obj.Background = new SolidColorBrush(Color.FromArgb(255, 160, 160, 160));
         }
 
         private void InitGPIO()
@@ -61,6 +87,5 @@ namespace TTPackStartup
         {
             this.Frame.Navigate(typeof(Settings));
         }
-
     }
 }

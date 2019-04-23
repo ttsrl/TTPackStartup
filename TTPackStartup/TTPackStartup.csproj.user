@@ -17,4 +17,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <UseSimulator>true</UseSimulator>
   </PropertyGroup>
+  <PropertyGroup>
+    <SplashScreenSource>D:\Desktop\Senza titolo-2.jpg</SplashScreenSource>
+  </PropertyGroup>
 </Project>

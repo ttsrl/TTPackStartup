@@ -10,7 +10,7 @@
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>11a722f1-fb75-47f1-945b-7fa4f09ed710</PackageIdentityName>
     <PackageIdentityPublisher>CN=TT_SRL_2</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>EE5680BDBDD7C442166CCB3EB182A0D3A65205B7858AEA7C28E7BF356D400A13</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>04C81C46F7F7D161D4C99C8F80C0C5FDC966445F2C17E6F3A1050B58B7809059</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>11a722f1-fb75-47f1-945b-7fa4f09ed710_1.0.0.0_arm__w5tqvkzd6sxvc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>11a722f1-fb75-47f1-945b-7fa4f09ed710_w5tqvkzd6sxvc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>11a722f1-fb75-47f1-945b-7fa4f09ed710</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-14T20:47:41.244</Modified>
+      <Modified>2019-04-23T00:08:04.241</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TTPackStartup.exe">
+    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TTPackStartup.exe">
       <PackagePath>entrypoint\TTPackStartup.exe</PackagePath>
-      <Modified>2019-04-14T20:47:41.035</Modified>
+      <Modified>2019-04-22T23:54:24.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Francesco\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -490,7 +490,7 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2019-01-11T21:11:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TouchPanels.dll">
+    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TouchPanels.dll">
       <PackagePath>TouchPanels.dll</PackagePath>
       <Modified>2019-04-14T14:55:42.134</Modified>
     </AppxPackagedFile>
@@ -498,71 +498,71 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2018-10-23T00:33:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-04-14T14:55:41.767</Modified>
+    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-23T00:07:13.921</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2019-04-14T14:55:41.758</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\Assets\SplashScreen.scale-200.png">
-      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-14T14:55:41.758</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-14T14:55:41.759</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-14T14:55:41.759</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-14T14:55:41.762</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-14T14:55:41.763</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-14T14:55:41.763</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TTPackStartup.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2019-04-14T14:55:41.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TTPackStartup.xr.xml">
       <PackagePath>TTPackStartup.xr.xml</PackagePath>
-      <Modified>2019-04-14T20:26:12.793</Modified>
+      <Modified>2019-04-22T21:48:11.127</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-04-14T20:47:40.913</Modified>
+      <Modified>2019-04-23T00:08:04.018</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-04-14T20:47:40.913</Modified>
+      <Modified>2019-04-23T00:08:04.019</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\Settings.xbf">
+    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\Settings.xbf">
       <PackagePath>Settings.xbf</PackagePath>
-      <Modified>2019-04-14T20:47:40.913</Modified>
+      <Modified>2019-04-23T00:08:04.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-10-22T23:44:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-04-14T20:43:16.868</Modified>
+      <Modified>2019-04-23T00:03:01.508</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Francesco\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\Core\TTPackStartup.exe">
+    <AppxPackagedFile Include="C:\Users\Francesco\Source\Repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\Core\TTPackStartup.exe">
       <PackagePath>TTPackStartup.exe</PackagePath>
-      <Modified>2019-04-14T20:47:41.236</Modified>
+      <Modified>2019-04-23T00:08:04.232</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

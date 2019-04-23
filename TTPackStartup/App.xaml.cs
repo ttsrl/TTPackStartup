@@ -131,10 +131,21 @@ namespace TTPackStartup
         }
 
         IScrollProvider currentScrollItem;
+        object currentObjClick;
 
         private void Processor_PointerDown(object sender, TouchPanels.PointerEventArgs e)
         {
-            currentScrollItem = FindElementsToInvoke(e.Position);
+            var obj = FindElement(e.Position);
+            currentScrollItem = obj as IScrollProvider;
+            if (obj != null)
+            {
+                if (obj.GetType() == typeof(ButtonAutomationPeer))
+                {
+                    var button = (Button)((ButtonAutomationPeer)obj).Owner;
+                    button.Background = new SolidColorBrush(Color.FromArgb(255, 40, 159, 255));
+                }
+                currentObjClick = obj;
+            }
             lastPosition = e.Position;
         }
         private void Processor_PointerMoved(object sender, TouchPanels.PointerEventArgs e)
@@ -158,6 +169,22 @@ namespace TTPackStartup
         }
         private void Processor_PointerUp(object sender, TouchPanels.PointerEventArgs e)
         {
+            var obj = FindElement(e.Position);
+            if (currentObjClick != null)
+            {
+                if (currentObjClick.GetType() == typeof(ButtonAutomationPeer))
+                {
+                    var button = (Button)((ButtonAutomationPeer)currentObjClick).Owner;
+                    button.Background = new SolidColorBrush(Color.FromArgb(255, 160, 160, 160));
+                }
+
+                //se ho completato il click sopra lo stesso oggettto
+                if (obj != null && currentObjClick.GetHashCode() == obj.GetHashCode())
+                {
+                    var p = currentObjClick as IInvokeProvider;
+                    p?.Invoke();
+                }
+            }
             currentScrollItem = null;
         }
 
@@ -178,7 +205,7 @@ namespace TTPackStartup
             }
         }
 
-        private IScrollProvider FindElementsToInvoke(Point screenPosition)
+        private IScrollProvider FindElementToScroll(Point screenPosition)
         {
             if (_isCalibrating) return null;
 
@@ -214,13 +241,51 @@ namespace TTPackStartup
                 }
                 if (pattern != null)
                 {
-                    var p = pattern as Windows.UI.Xaml.Automation.Provider.IInvokeProvider;
-                    p?.Invoke();
+                    //var p = pattern as IInvokeProvider;
+                    //p?.Invoke();
                     return pattern as IScrollProvider;
                 }
             }
             return null;
         }
 
+        private object FindElement(Point screenPosition)
+        {
+            if (_isCalibrating) return null;
+            var elements = VisualTreeHelper.FindElementsInHostCoordinates(new Windows.Foundation.Point(screenPosition.X, screenPosition.Y), Window.Current.Content, false);
+            foreach (var e in elements.OfType<FrameworkElement>())
+            {
+                var element = e;
+                AutomationPeer peer = null;
+                object pattern = null;
+                while (true)
+                {
+                    peer = FrameworkElementAutomationPeer.FromElement(element);
+                    if (peer != null)
+                    {
+                        pattern = peer.GetPattern(PatternInterface.Invoke);
+                        if (pattern != null)
+                        {
+                            break;
+                        }
+                        pattern = peer.GetPattern(PatternInterface.Scroll);
+                        if (pattern != null)
+                        {
+                            break;
+                        }
+                    }
+                    var parent = VisualTreeHelper.GetParent(element);
+                    if (parent is FrameworkElement)
+                        element = parent as FrameworkElement;
+                    else
+                        break;
+                }
+                if (pattern != null)
+                {
+                    return pattern;
+                }
+            }
+            return null;
+        }
     }
 }

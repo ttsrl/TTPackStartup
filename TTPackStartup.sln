@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.489
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTPackStartup", "TTPackStartup\TTPackStartup.csproj", "{2F3001D6-7831-4A5D-AF0E-B7621A236D84}"
 EndProject
@@ -20,6 +20,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2F3001D6-7831-4A5D-AF0E-B7621A236D84}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{2F3001D6-7831-4A5D-AF0E-B7621A236D84}.Debug|Any CPU.Build.0 = Debug|x86
+		{2F3001D6-7831-4A5D-AF0E-B7621A236D84}.Debug|Any CPU.Deploy.0 = Debug|x86
 		{2F3001D6-7831-4A5D-AF0E-B7621A236D84}.Debug|ARM.ActiveCfg = Debug|ARM
 		{2F3001D6-7831-4A5D-AF0E-B7621A236D84}.Debug|ARM.Build.0 = Debug|ARM
 		{2F3001D6-7831-4A5D-AF0E-B7621A236D84}.Debug|ARM.Deploy.0 = Debug|ARM
