@@ -1,10 +1,13 @@
 #define MCG_WINRT_SUPPORTED
 using Mcg.System;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.WindowsRuntime;
+using global::Windows.Foundation;
+using global::Windows.Foundation.Collections;
 
 
 // -----------------------------------------------------------------------------------------------------------
@@ -57,20 +60,85 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class _MRT_
 	{
-		// Signature, RhWaitForPendingFinalizers, [fwd] [return] [Mcg.CodeGen.VoidReturnMarshaller] void__void, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		// Signature, RhpGetFuncEvalParameterBufferSize, [fwd] [return] [EETypeRva:0x00041980] uint__unsigned int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "RhpGetFuncEvalParameterBufferSize")]
+		public static uint RhpGetFuncEvalParameterBufferSize()
+		{
+			// Setup
+			uint unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop._MRT__PInvokes.RhpGetFuncEvalParameterBufferSize();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, RhpGetFuncEvalMode, [fwd] [return] [EETypeRva:0x00041980] uint__unsigned int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "RhpGetFuncEvalMode")]
+		public static uint RhpGetFuncEvalMode()
+		{
+			// Setup
+			uint unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop._MRT__PInvokes.RhpGetFuncEvalMode();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, RhpRecordDebuggeeInitiatedHandle, [fwd] [return] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "RhpRecordDebuggeeInitiatedHandle")]
+		public static uint RhpRecordDebuggeeInitiatedHandle(void* objectHandle)
+		{
+			// Setup
+			uint unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop._MRT__PInvokes.RhpRecordDebuggeeInitiatedHandle(((void*)objectHandle));
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, RhpVerifyDebuggerCleanup, [fwd] [return] [EETypeRva:0x00041F3C] void__void, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "RhpVerifyDebuggerCleanup")]
+		public static void RhpVerifyDebuggerCleanup()
+		{
+			// Marshalling
+			// Call to native method
+			global::__Interop._MRT__PInvokes.RhpVerifyDebuggerCleanup();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+		}
+
+		// Signature, RhpGetCurrentThread, [fwd] [return] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "RhpGetCurrentThread")]
+		public static global::System.IntPtr RhpGetCurrentThread()
+		{
+			// Setup
+			global::System.IntPtr unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop._MRT__PInvokes.RhpGetCurrentThread();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, RhWaitForPendingFinalizers, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "RhWaitForPendingFinalizers")]
 		public static void RhWaitForPendingFinalizers(int allowReentrantWait)
 		{
 			// Marshalling
 			// Call to native method
 			global::__Interop._MRT__PInvokes.RhWaitForPendingFinalizers(allowReentrantWait);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			// Return
 		}
 
-		// Signature, _RhYield, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		// Signature, _RhYield, [fwd] [return] [EETypeRva:0x00041980] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "_RhYield")]
 		public static int _RhYield()
 		{
@@ -79,13 +147,23 @@ namespace __Interop
 			// Marshalling
 			// Call to native method
 			unsafe___value = global::__Interop._MRT__PInvokes._RhYield();
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			// Return
 			return unsafe___value;
 		}
 
-		// Signature, RhCompatibleReentrantWaitAny, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr___ptr__w64 int *, 
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		// Signature, RhFlushProcessWriteBuffers, [fwd] [return] [EETypeRva:0x00041F3C] void__void, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "RhFlushProcessWriteBuffers")]
+		public static void RhFlushProcessWriteBuffers()
+		{
+			// Marshalling
+			// Call to native method
+			global::__Interop._MRT__PInvokes.RhFlushProcessWriteBuffers();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+		}
+
+		// Signature, RhCompatibleReentrantWaitAny, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr___ptr__w64 int *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "RhCompatibleReentrantWaitAny")]
 		public static int RhCompatibleReentrantWaitAny(
 					int alertable, 
@@ -103,13 +181,23 @@ namespace __Interop
 								count, 
 								((global::System.IntPtr*)handles)
 							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			// Return
 			return unsafe___value;
 		}
 
-		// Signature, _ecvt_s, [fwd] [return] [Mcg.CodeGen.VoidReturnMarshaller] void__void, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] byte___ptrunsigned char *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] double__double, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int___ptrint *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int___ptrint *, 
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		// Signature, RhCallDescrWorkerNative, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "RhCallDescrWorkerNative")]
+		public static void RhCallDescrWorkerNative(global::System.IntPtr callDescr)
+		{
+			// Marshalling
+			// Call to native method
+			global::__Interop._MRT__PInvokes.RhCallDescrWorkerNative(callDescr);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+		}
+
+		// Signature, _ecvt_s, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] double__double, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int___ptrint *, [fwd] [in] [EETypeRva:0x00041980] int___ptrint *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "_ecvt_s")]
 		public static void _ecvt_s(
 					byte* buffer, 
@@ -129,12 +217,11 @@ namespace __Interop
 								((int*)dec), 
 								((int*)sign)
 							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			// Return
 		}
 
-		// Signature, memmove, [fwd] [return] [Mcg.CodeGen.VoidReturnMarshaller] void__void, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] byte___ptrunsigned char *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] byte___ptrunsigned char *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, 
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		// Signature, memmove, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x00041980] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "memmove")]
 		public static void memmove(
 					byte* dmem, 
@@ -148,7 +235,25 @@ namespace __Interop
 								((byte*)smem), 
 								size
 							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+		}
+
+		// Signature, memset, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "memset")]
+		public static void memset(
+					byte* mem, 
+					int value, 
+					uint size)
+		{
+			// Marshalling
+			// Call to native method
+			global::__Interop._MRT__PInvokes.memset(
+								((byte*)mem), 
+								value, 
+								size
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			// Return
 		}
 	}
@@ -158,42 +263,67 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class _
 	{
-		// Signature, CallingConventionConverter_GetStubs, [fwd] [return] [Mcg.CodeGen.VoidReturnMarshaller] void__void, [fwd] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		// Signature, CallingConventionConverter_GetStubs, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.TypeLoader, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Internal.Runtime.TypeLoader.CallConverterThunk", "CallingConventionConverter_GetStubs")]
 		public static void CallingConventionConverter_GetStubs(
 					out global::System.IntPtr returnVoidStub, 
 					out global::System.IntPtr returnIntegerStub, 
 					out global::System.IntPtr commonStub)
 		{
-			// Setup
-			global::System.IntPtr unsafe_returnVoidStub;
-			global::System.IntPtr unsafe_returnIntegerStub;
-			global::System.IntPtr unsafe_commonStub;
 			// Marshalling
-			// Call to native method
-			global::__Interop.__PInvokes.CallingConventionConverter_GetStubs(
-								&(unsafe_returnVoidStub), 
-								&(unsafe_returnIntegerStub), 
-								&(unsafe_commonStub)
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			commonStub = unsafe_commonStub;
-			returnIntegerStub = unsafe_returnIntegerStub;
-			returnVoidStub = unsafe_returnVoidStub;
+			fixed (global::System.IntPtr* pinned_returnVoidStub = &(returnVoidStub))
+				fixed (global::System.IntPtr* pinned_returnIntegerStub = &(returnIntegerStub))
+					fixed (global::System.IntPtr* pinned_commonStub = &(commonStub))
+					{
+						// Call to native method
+						global::__Interop.__PInvokes.CallingConventionConverter_GetStubs(
+											pinned_returnVoidStub, 
+											pinned_returnIntegerStub, 
+											pinned_commonStub
+										);
+						global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					}
 			// Return
 		}
 
-		// Signature, CallingConventionConverter_SpecifyCommonStubData, [fwd] [return] [Mcg.CodeGen.VoidReturnMarshaller] void__void, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		// Signature, CallingConventionConverter_SpecifyCommonStubData, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.TypeLoader, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Internal.Runtime.TypeLoader.CallConverterThunk", "CallingConventionConverter_SpecifyCommonStubData")]
 		public static void CallingConventionConverter_SpecifyCommonStubData(global::System.IntPtr commonStubData)
 		{
 			// Marshalling
 			// Call to native method
 			global::__Interop.__PInvokes.CallingConventionConverter_SpecifyCommonStubData(commonStubData);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			// Return
+		}
+	}
+
+	/// <summary>
+	/// P/Invoke class for module 'api-ms-win-core-winrt-string-l1-1-0.dll'
+	/// </summary>
+	public unsafe static partial class api_ms_win_core_winrt_string_l1_1_0_dll
+	{
+		// Signature, WindowsCreateStringReference, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] System_Runtime_InteropServices_HSTRING_HEADER__System_Private_Interop___ptrSystem_Runtime_InteropServices__HSTRING_HEADER__System_Private_Interop *, [fwd] [in] [EETypeRva:0x00041980] void___ptrvoid *, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.WinRTInterop.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "mincore", "WindowsCreateStringReference")]
+		public static int WindowsCreateStringReference(
+					char* sourceString, 
+					uint length, 
+					global::System_Runtime_InteropServices.HSTRING_HEADER__System_Private_Interop* phstringHeader, 
+					void* hstring)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.api_ms_win_core_winrt_string_l1_1_0_dll_PInvokes.WindowsCreateStringReference(
+								((ushort*)sourceString), 
+								length, 
+								((global::System_Runtime_InteropServices.HSTRING_HEADER__System_Private_Interop*)phstringHeader), 
+								((void*)hstring)
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+			return unsafe___value;
 		}
 	}
 
@@ -202,9 +332,8 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class api_ms_win_core_errorhandling_l1_1_0_dll
 	{
-		// Signature, GetLastError, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Runtime.Extensions, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "GetLastError")]
+		// Signature, GetLastError, [fwd] [return] [EETypeRva:0x00041980] int__int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "GetLastError")]
 		public static int GetLastError()
 		{
 			// Setup
@@ -212,9 +341,20 @@ namespace __Interop
 			// Marshalling
 			// Call to native method
 			unsafe___value = global::__Interop.api_ms_win_core_errorhandling_l1_1_0_dll_PInvokes.GetLastError();
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			// Return
 			return unsafe___value;
+		}
+
+		// Signature, SetLastError, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "SetLastError")]
+		public static void SetLastError(uint dwErrCode)
+		{
+			// Marshalling
+			// Call to native method
+			global::__Interop.api_ms_win_core_errorhandling_l1_1_0_dll_PInvokes.SetLastError(dwErrCode);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
 		}
 	}
 
@@ -223,8 +363,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class api_ms_win_core_winrt_l1_1_0_dll
 	{
-		// Signature, RoInitialize, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, 
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		// Signature, RoInitialize, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.WinRTInterop.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "mincore+mincore_PInvokes", "RoInitialize")]
 		public static int RoInitialize(uint initType)
 		{
@@ -233,7 +372,7 @@ namespace __Interop
 			// Marshalling
 			// Call to native method
 			unsafe___value = global::__Interop.api_ms_win_core_winrt_l1_1_0_dll_PInvokes.RoInitialize(initType);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			// Return
 			return unsafe___value;
 		}
@@ -244,8 +383,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class api_ms_win_core_localization_l1_2_0_dll
 	{
-		// Signature, IsValidLocaleName, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] char___ptrwchar_t *, 
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		// Signature, IsValidLocaleName, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] char___ptrwchar_t *, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.WinRTInterop.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "mincore+mincore_PInvokes", "IsValidLocaleName")]
 		public static int IsValidLocaleName(char* lpLocaleName)
 		{
@@ -254,13 +392,12 @@ namespace __Interop
 			// Marshalling
 			// Call to native method
 			unsafe___value = global::__Interop.api_ms_win_core_localization_l1_2_0_dll_PInvokes.IsValidLocaleName(((ushort*)lpLocaleName));
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			// Return
 			return unsafe___value;
 		}
 
-		// Signature, ResolveLocaleName, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] char___ptrwchar_t *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] char___ptrwchar_t *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		// Signature, ResolveLocaleName, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x00041980] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.WinRTInterop.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "mincore+mincore_PInvokes", "ResolveLocaleName")]
 		public static int ResolveLocaleName(
 					char* lpNameToResolve, 
@@ -276,29 +413,34 @@ namespace __Interop
 								((ushort*)lpLocaleName), 
 								cchLocaleName
 							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			// Return
 			return unsafe___value;
 		}
+	}
 
-		// Signature, GetCPInfoExW, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] Interop_mincore_CPINFOEXW__System_Text_Encoding_CodePages___ptr__Interop_mincore_CPINFOEXW__System_Text_Encoding_CodePages *, 
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Text.Encoding.CodePages, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "GetCPInfoExW")]
+	/// <summary>
+	/// P/Invoke class for module 'kernel32.dll'
+	/// </summary>
+	public unsafe static partial class kernel32_dll
+	{
+		// Signature, GetCPInfoExW, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] __Interop_Kernel32_CPINFOEXW__System_Text_Encoding_CodePages___ptr__Interop_Kernel32_CPINFOEXW__System_Text_Encoding_CodePages *, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Text.Encoding.CodePages, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "GetCPInfoExW")]
 		public static int GetCPInfoExW(
 					uint CodePage, 
 					uint dwFlags, 
-					global::Interop_mincore_CPINFOEXW__System_Text_Encoding_CodePages* lpCPInfoEx)
+					global::_.Interop_Kernel32_CPINFOEXW__System_Text_Encoding_CodePages* lpCPInfoEx)
 		{
 			// Setup
 			int unsafe___value;
 			// Marshalling
 			// Call to native method
-			unsafe___value = global::__Interop.api_ms_win_core_localization_l1_2_0_dll_PInvokes.GetCPInfoExW(
+			unsafe___value = global::__Interop.kernel32_dll_PInvokes.GetCPInfoExW(
 								CodePage, 
 								dwFlags, 
-								((global::Interop_mincore_CPINFOEXW__System_Text_Encoding_CodePages*)lpCPInfoEx)
+								((global::_.Interop_Kernel32_CPINFOEXW__System_Text_Encoding_CodePages*)lpCPInfoEx)
 							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			// Return
 			return unsafe___value;
 		}
@@ -309,8 +451,7 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class api_ms_win_core_com_l1_1_0_dll
 	{
-		// Signature, CoCreateInstance, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] byte___ptrunsigned char *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] byte___ptrunsigned char *, [fwd] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		// Signature, CoCreateInstance, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] byte___ptrunsigned char *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.StackTraceGenerator, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Internal.StackTraceGenerator.StackTraceGenerator", "CoCreateInstance")]
 		public static int CoCreateInstance(
 					byte* rclsid, 
@@ -320,38 +461,38 @@ namespace __Interop
 					out global::System.IntPtr ppv)
 		{
 			// Setup
-			global::System.IntPtr unsafe_ppv;
 			int unsafe___value;
 			// Marshalling
-			// Call to native method
-			unsafe___value = global::__Interop.api_ms_win_core_com_l1_1_0_dll_PInvokes.CoCreateInstance(
-								((byte*)rclsid), 
-								pUnkOuter, 
-								dwClsContext, 
-								((byte*)riid), 
-								&(unsafe_ppv)
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			ppv = unsafe_ppv;
+			fixed (global::System.IntPtr* pinned_ppv = &(ppv))
+			{
+				// Call to native method
+				unsafe___value = global::__Interop.api_ms_win_core_com_l1_1_0_dll_PInvokes.CoCreateInstance(
+									((byte*)rclsid), 
+									pUnkOuter, 
+									dwClsContext, 
+									((byte*)riid), 
+									pinned_ppv
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
 			// Return
 			return unsafe___value;
 		}
 	}
 
 	/// <summary>
-	/// P/Invoke class for module 'oleaut32.dll'
+	/// P/Invoke class for module 'OleAut32'
 	/// </summary>
-	public unsafe static partial class oleaut32_dll
+	public unsafe static partial class OleAut32
 	{
-		// Signature, SysFreeString, [fwd] [return] [Mcg.CodeGen.VoidReturnMarshaller] void__void, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		// Signature, SysFreeString, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.StackTraceGenerator, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Internal.LightweightInterop.MarshalExtensions", "SysFreeString")]
 		public static void SysFreeString(global::System.IntPtr bstr)
 		{
 			// Marshalling
 			// Call to native method
-			global::__Interop.oleaut32_dll_PInvokes.SysFreeString(bstr);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			global::__Interop.OleAut32_PInvokes.SysFreeString(bstr);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			// Return
 		}
 	}
@@ -361,10 +502,9 @@ namespace __Interop
 	/// </summary>
 	public unsafe static partial class api_ms_win_core_winrt_robuffer_l1_1_0_dll
 	{
-		// Signature, RoGetBufferMarshaler, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.ComInterfaceMarshaller] System_Runtime_InteropServices_IMarshal__System_Runtime_WindowsRuntime__System_Runtime_InteropServices__IMarshal__System_Runtime_WindowsRuntime *, 
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Runtime.WindowsRuntime, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "Interop+mincore", "RoGetBufferMarshaler")]
-		public static int RoGetBufferMarshaler(out global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime bufferMarshalerPtr)
+		// Signature, RoGetBufferMarshaler, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043630] System_Runtime_InteropServices_IMarshal__System_Runtime_WindowsRuntime__System_Runtime_InteropServices__IMarshal__System_Runtime_WindowsRuntime *, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Runtime.WindowsRuntime, Version=4.0.14.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "Interop+mincore", "RoGetBufferMarshaler")]
+		public static int RoGetBufferMarshaler(out global::System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime bufferMarshalerPtr)
 		{
 			// Setup
 			void* unsafe_bufferMarshalerPtr = default(void*);
@@ -375,10 +515,10 @@ namespace __Interop
 				unsafe_bufferMarshalerPtr = null;
 				// Call to native method
 				unsafe___value = global::__Interop.api_ms_win_core_winrt_robuffer_l1_1_0_dll_PInvokes.RoGetBufferMarshaler(&(unsafe_bufferMarshalerPtr));
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				bufferMarshalerPtr = (global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				bufferMarshalerPtr = (global::System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 									((global::System.IntPtr)unsafe_bufferMarshalerPtr), 
-									global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.IMarshal,System.Runtime.WindowsRuntime, Version=4.0.11.0, Culture=neutral, Public" +
+									global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.IMarshal,System.Runtime.WindowsRuntime, Version=4.0.14.0, Culture=neutral, Public" +
 											"KeyToken=b77a5c561934e089")
 								);
 				// Return
@@ -394,15 +534,30 @@ namespace __Interop
 
 	public unsafe static partial class _MRT__PInvokes
 	{
-		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("[MRT]", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Cdecl)]
+		public extern static uint RhpGetFuncEvalParameterBufferSize();
+
+		[global::System.Runtime.InteropServices.DllImport("[MRT]", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Cdecl)]
+		public extern static uint RhpGetFuncEvalMode();
+
+		[global::System.Runtime.InteropServices.DllImport("[MRT]", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Cdecl)]
+		public extern static uint RhpRecordDebuggeeInitiatedHandle(void* objectHandle);
+
+		[global::System.Runtime.InteropServices.DllImport("[MRT]", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Cdecl)]
+		public extern static void RhpVerifyDebuggerCleanup();
+
+		[global::System.Runtime.InteropServices.DllImport("[MRT]", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Cdecl)]
+		public extern static global::System.IntPtr RhpGetCurrentThread();
+
 		[global::System.Runtime.InteropServices.DllImport("[MRT]", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static void RhWaitForPendingFinalizers(int allowReentrantWait);
 
-		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("[MRT]", EntryPoint="RhYield", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Cdecl)]
 		public extern static int _RhYield();
 
-		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("[MRT]", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Cdecl)]
+		public extern static void RhFlushProcessWriteBuffers();
+
 		[global::System.Runtime.InteropServices.DllImport("[MRT]", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int RhCompatibleReentrantWaitAny(
 					int alertable, 
@@ -410,7 +565,9 @@ namespace __Interop
 					int count, 
 					global::System.IntPtr* handles);
 
-		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("[MRT]", EntryPoint="RhCallDescrWorker", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static void RhCallDescrWorkerNative(global::System.IntPtr callDescr);
+
 		[global::System.Runtime.InteropServices.DllImport("[MRT]", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static void _ecvt_s(
 					byte* buffer, 
@@ -420,66 +577,79 @@ namespace __Interop
 					int* dec, 
 					int* sign);
 
-		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("[MRT]", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static void memmove(
 					byte* dmem, 
 					byte* smem, 
 					uint size);
+
+		[global::System.Runtime.InteropServices.DllImport("[MRT]", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static void memset(
+					byte* mem, 
+					int value, 
+					uint size);
 	}
 
 	public unsafe static partial class __PInvokes
 	{
-		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("*", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static void CallingConventionConverter_GetStubs(
 					global::System.IntPtr* returnVoidStub, 
 					global::System.IntPtr* returnIntegerStub, 
 					global::System.IntPtr* commonStub);
 
-		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("*", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static void CallingConventionConverter_SpecifyCommonStubData(global::System.IntPtr commonStubData);
 	}
 
+	public unsafe static partial class api_ms_win_core_winrt_string_l1_1_0_dll_PInvokes
+	{
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-winrt-string-l1-1-0.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int WindowsCreateStringReference(
+					ushort* sourceString, 
+					uint length, 
+					global::System_Runtime_InteropServices.HSTRING_HEADER__System_Private_Interop* phstringHeader, 
+					void* hstring);
+	}
+
 	public unsafe static partial class api_ms_win_core_errorhandling_l1_1_0_dll_PInvokes
 	{
-		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-errorhandling-l1-1-0.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int GetLastError();
+
+		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-errorhandling-l1-1-0.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static void SetLastError(uint dwErrCode);
 	}
 
 	public unsafe static partial class api_ms_win_core_winrt_l1_1_0_dll_PInvokes
 	{
-		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-winrt-l1-1-0.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int RoInitialize(uint initType);
 	}
 
 	public unsafe static partial class api_ms_win_core_localization_l1_2_0_dll_PInvokes
 	{
-		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-localization-l1-2-0.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int IsValidLocaleName(ushort* lpLocaleName);
 
-		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-localization-l1-2-0.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int ResolveLocaleName(
 					ushort* lpNameToResolve, 
 					ushort* lpLocaleName, 
 					int cchLocaleName);
+	}
 
-		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
-		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-localization-l1-2-0.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+	public unsafe static partial class kernel32_dll_PInvokes
+	{
+		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int GetCPInfoExW(
 					uint CodePage, 
 					uint dwFlags, 
-					global::Interop_mincore_CPINFOEXW__System_Text_Encoding_CodePages* lpCPInfoEx);
+					global::_.Interop_Kernel32_CPINFOEXW__System_Text_Encoding_CodePages* lpCPInfoEx);
 	}
 
 	public unsafe static partial class api_ms_win_core_com_l1_1_0_dll_PInvokes
 	{
-		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-com-l1-1-0.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int CoCreateInstance(
 					byte* rclsid, 
@@ -489,16 +659,14 @@ namespace __Interop
 					global::System.IntPtr* ppv);
 	}
 
-	public unsafe static partial class oleaut32_dll_PInvokes
+	public unsafe static partial class OleAut32_PInvokes
 	{
-		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
-		[global::System.Runtime.InteropServices.DllImport("oleaut32.dll", EntryPoint="#6", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		[global::System.Runtime.InteropServices.DllImport("OleAut32", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static void SysFreeString(global::System.IntPtr bstr);
 	}
 
 	public unsafe static partial class api_ms_win_core_winrt_robuffer_l1_1_0_dll_PInvokes
 	{
-		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-winrt-robuffer-l1-1-0.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
 		public extern static int RoGetBufferMarshaler(void** bufferMarshalerPtr);
 	}

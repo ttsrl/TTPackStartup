@@ -1,1 +1,2 @@
-C:\Users\TT_SRL_1\source\repos\TTPackStartup\TTPackStartup\TTPackStartup.csproj;arm
+C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TouchPanels\TouchPanels.csproj;arm
+C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\TTPackStartup.csproj;arm

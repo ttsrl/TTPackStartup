@@ -95,5 +95,10 @@ namespace TTPackStartup
         {
             textbox.Text = "";
         }
+
+        private void del_Click(object sender, RoutedEventArgs e)
+        {
+            textbox.Text = textbox.Text.Substring(0, textbox.Text.Length - 1);
+        }
     }
 }

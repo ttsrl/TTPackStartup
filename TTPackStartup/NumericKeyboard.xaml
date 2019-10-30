@@ -21,8 +21,8 @@
         <Button Name="point" Content="." Click="point_Click" HorizontalAlignment="Left" Margin="571,484,0,0" VerticalAlignment="Top" Height="80" Width="240" FontSize="36" IsDoubleTapEnabled="False" IsRightTapEnabled="False" Background="#FFA0A0A0" BorderBrush="#19000000" FontWeight="Normal"/>
         <Button Name="sign" Content="+-" Click="sign_Click" HorizontalAlignment="Left" Margin="37,484,0,0" VerticalAlignment="Top" Height="80" Width="240" FontSize="36" IsDoubleTapEnabled="False" IsRightTapEnabled="False" Background="#FFA0A0A0" BorderBrush="#19000000" FontWeight="Normal"/>
         <Button Name="canc" Content="C" Click="cancel_Click" HorizontalAlignment="Left" Margin="838,165,0,0" VerticalAlignment="Top" Height="80" Width="150" FontSize="36" IsDoubleTapEnabled="False" IsRightTapEnabled="False" Background="#FFA0A0A0" BorderBrush="#19000000" FontWeight="Normal"/>
-        <Button Name="del" Content="←" HorizontalAlignment="Left" Margin="838,272,0,0" VerticalAlignment="Top" Height="80" Width="150" FontSize="36" IsDoubleTapEnabled="False" IsRightTapEnabled="False" Background="#FFA0A0A0" BorderBrush="#19000000" FontWeight="Normal"/>
+        <Button Name="del" Content="←" Click="del_Click" HorizontalAlignment="Left" Margin="838,272,0,0" VerticalAlignment="Top" Height="80" Width="150" FontSize="36" IsDoubleTapEnabled="False" IsRightTapEnabled="False" Background="#FFA0A0A0" BorderBrush="#19000000" FontWeight="Normal"/>
         <Button Name="send" Content="OK" HorizontalAlignment="Left" Margin="838,380,0,0" VerticalAlignment="Top" Height="184" Width="150" FontSize="36" IsDoubleTapEnabled="False" IsRightTapEnabled="False" Background="#FFA0A0A0" BorderBrush="#19000000" FontWeight="Normal"/>
-        <TextBox Name="textbox" HorizontalAlignment="Center" Margin="0,49,0,0" Text="" VerticalAlignment="Top" Height="67" Width="951" FontSize="38" FontWeight="Bold" TextAlignment="Center" TextWrapping="NoWrap"/>
+        <TextBox Name="textbox" HorizontalAlignment="Center" Margin="0,49,0,0" Text="" VerticalAlignment="Top" Height="76" Width="951" FontSize="48" FontWeight="Medium" TextAlignment="Center" TextWrapping="NoWrap"/>
     </Grid>
 </Page>

@@ -1,10 +1,13 @@
 #define MCG_WINRT_SUPPORTED
 using Mcg.System;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.WindowsRuntime;
+using global::Windows.Foundation;
+using global::Windows.Foundation.Collections;
 
 
 // -----------------------------------------------------------------------------------------------------------
@@ -52,122 +55,6 @@ using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace System.Runtime.InteropServices.WindowsRuntime
 {
-	// Specialization: GetMany,string
-	public static class IVectorView_CCWAdapter 
-	{
-	    // T GetAt(uint index)
-	    public static T GetAt<T>(
-	        global::System.Collections.Generic.IReadOnlyList<T> _this,
-	        uint index)
-	    {
-	        EnsureIndexInt32(index, _this.Count);
-
-	        try
-	        {
-	            return _this[(int)index];
-	        }
-	        catch (System.ArgumentOutOfRangeException ex)
-	        {
-	            McgMarshal.SetExceptionErrorCode(ex, global::__Interop.McgHelpers.__HResults.E_BOUNDS);
-	            throw;
-	        }
-	    }
-
-	    // uint Size { get }
-	    public static uint get_Size<T>(global::System.Collections.Generic.IReadOnlyCollection<T> _this)
-	    { 
-	        return (uint)_this.Count;
-	    }
-
-	    // bool IndexOf(T value, out uint index)
-	    public static bool IndexOf<T>(
-	        global::System.Collections.Generic.IReadOnlyList<T> _this, 
-	        T value, 
-	        out uint index)
-	    {
-	        int max = _this.Count;
-
-	        for (int i = 0; i < max; i++)
-	        {
-	            if (global::System.Runtime.InteropServices.McgMarshal.ComparerEquals<T>(value, _this[i]))
-	            {
-	                index = (uint) i;
-	                return true;
-	            }
-	        }
-
-	        index = 0;
-	        return false;
-	    }
-
-	    // uint GetMany(uint startIndex, T[] items)
-	    public static uint GetMany<T>(global::System.Collections.Generic.IReadOnlyList<T> _this, 
-	        uint startIndex, 
-	        T[] items)
-	    {
-	        return GetManyHelper<T>(_this, startIndex, items);
-	    }
-
-	    // @TODO - Weird shared CCW support that I don't really understand. Get rid of this.
-	    public static uint GetMany_string(global::System.Collections.Generic.IReadOnlyList<string> _this,
-	        uint startIndex,
-	        string[] items)
-	    {
-	        return GetManyHelper<string>(_this, startIndex, items);
-	    }
-
-	    private static uint GetManyHelper<T>(global::System.Collections.Generic.IReadOnlyList<T> _this,
-	        uint startIndex,
-	        T[] items)
-	    {
-	        int count = _this.Count;
-
-	        // REX spec says "calling GetMany with startIndex equal to the length of the vector 
-	        // (last valid index + 1) and any specified capacity will succeed and return zero actual
-	        // elements".
-	        if (startIndex == count)
-	            return 0;
-
-	        EnsureIndexInt32(startIndex, count);
-
-	        if (items == null)
-	        {
-	            return 0;
-	        }
-
-	        uint itemCount = global::System.Math.Min((uint)items.Length, (uint)count - startIndex);
-
-	        for (uint i = 0; i < itemCount; ++i)
-	        {
-	            items[i] = _this[(int)(i + startIndex)];
-	        }
-
-	        return itemCount;
-	    }
-
-	    #region Helpers
-
-	    private static void EnsureIndexInt32(uint index, int listCapacity)
-	    {
-	        // We use '<=' and not '<' because Int32.MaxValue == index would imply
-	        // that Size > Int32.MaxValue:
-	        if (((uint)System.Int32.MaxValue) <= index || index >= (uint)listCapacity)
-	        {
-	            global::System.Exception ex = new global::System.ArgumentOutOfRangeException(
-	                "index", 
-	                global::Mcg.System.SR.GetString(global::Mcg.System.SR.Excep_IndexLargerThanMaxValue)
-	            );
-	            McgMarshal.SetExceptionErrorCode(
-	                ex,
-	                global::__Interop.McgHelpers.__HResults.E_BOUNDS
-	            );
-	            throw ex;
-	        }
-	    }
-
-	    #endregion Helpers
-	}
-
 	[global::System.Runtime.InteropServices.McgIntrinsics]
 	public static unsafe partial class Intrinsics
 	{
@@ -213,6 +100,15 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        global::System.IntPtr pfn,
 	        void* pthis,
 	        uint arg0)
+	    {
+	        // This method is implemented elsewhere in the toolchain
+	        return 0;
+	    }
+
+	    public static int StdCall__int__(
+	        global::System.IntPtr pfn,
+	        void* pthis,
+	        System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken arg0)
 	    {
 	        // This method is implemented elsewhere in the toolchain
 	        return 0;
@@ -478,7 +374,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        try
 	        {
 	            int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis, index, (void*)&unsafeValue);
-	            global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	            global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	            global::System.GC.KeepAlive(_this);
 
 	            if (result < 0)
@@ -507,7 +403,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        {
 	            unsafeValue = global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(value, typeof(T).TypeHandle);
 	            int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis, index, (void*)unsafeValue);
-	            global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	            global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	            global::System.GC.KeepAlive(_this);
 
 	            if (result < 0)
@@ -536,7 +432,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        {
 	            unsafeItem = global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(item, typeof(T).TypeHandle);
 	            int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis, (void*)unsafeItem, &unsafeIndex, &found);
-	            global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	            global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	            global::System.GC.KeepAlive(_this);
 
 	            if (result < 0)
@@ -566,7 +462,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        {
 	            unsafeItem = global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(item, typeof(T).TypeHandle);
 	            int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis, index, (void*)unsafeItem);
-	            global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	            global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	            global::System.GC.KeepAlive(_this);
 
 	            if (result < 0)
@@ -589,7 +485,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        global::System.IntPtr target = (*((global::System.IntPtr**)unsafeThis))[idx_RemoveAt];
 
 	        int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis, index);
-	        global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	        global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	        global::System.GC.KeepAlive(_this);
 
 	        if (result < 0)
@@ -608,7 +504,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        uint unsafeSize;
 
 	        int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis, (void*)&unsafeSize);
-	        global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	        global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	        global::System.GC.KeepAlive(_this);
 
 	        if (result < 0)
@@ -632,7 +528,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        {
 	            unsafeItem = global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(item, typeof(T).TypeHandle);
 	            int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis, (void*)unsafeItem);
-	            global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	            global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	            global::System.GC.KeepAlive(_this);
 
 	            if (result < 0)
@@ -655,7 +551,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        global::System.IntPtr target = (*((global::System.IntPtr**)unsafeThis))[idx_Clear];
 
 	        int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis);
-	        global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	        global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	        global::System.GC.KeepAlive(_this);
 
 	        if (result < 0)
@@ -932,7 +828,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        try
 	        {
 	            int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis, (void*)&unsafeIterator);
-	            global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	            global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	            global::System.GC.KeepAlive(_this);
 
 	            if (result < 0)
@@ -1178,7 +1074,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        try
 	        {
 	            int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis, index, (void*)&unsafeValue);
-	            global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	            global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	            global::System.GC.KeepAlive(_this);
 
 	            if (result < 0)
@@ -1204,7 +1100,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        uint unsafeSize;
 
 	        int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis, (void*)&unsafeSize);
-	        global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	        global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	        global::System.GC.KeepAlive(_this);
 
 	        if (result < 0)
@@ -1214,6 +1110,122 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 
 	        return unsafeSize;
 	    }
+	}
+
+	// Specialization: GetMany,string
+	public static class IVectorView_CCWAdapter 
+	{
+	    // T GetAt(uint index)
+	    public static T GetAt<T>(
+	        global::System.Collections.Generic.IReadOnlyList<T> _this,
+	        uint index)
+	    {
+	        EnsureIndexInt32(index, _this.Count);
+
+	        try
+	        {
+	            return _this[(int)index];
+	        }
+	        catch (System.ArgumentOutOfRangeException ex)
+	        {
+	            McgMarshal.SetExceptionErrorCode(ex, global::__Interop.McgHelpers.__HResults.E_BOUNDS);
+	            throw;
+	        }
+	    }
+
+	    // uint Size { get }
+	    public static uint get_Size<T>(global::System.Collections.Generic.IReadOnlyCollection<T> _this)
+	    { 
+	        return (uint)_this.Count;
+	    }
+
+	    // bool IndexOf(T value, out uint index)
+	    public static bool IndexOf<T>(
+	        global::System.Collections.Generic.IReadOnlyList<T> _this, 
+	        T value, 
+	        out uint index)
+	    {
+	        int max = _this.Count;
+
+	        for (int i = 0; i < max; i++)
+	        {
+	            if (global::System.Runtime.InteropServices.McgMarshal.ComparerEquals<T>(value, _this[i]))
+	            {
+	                index = (uint) i;
+	                return true;
+	            }
+	        }
+
+	        index = 0;
+	        return false;
+	    }
+
+	    // uint GetMany(uint startIndex, T[] items)
+	    public static uint GetMany<T>(global::System.Collections.Generic.IReadOnlyList<T> _this, 
+	        uint startIndex, 
+	        T[] items)
+	    {
+	        return GetManyHelper<T>(_this, startIndex, items);
+	    }
+
+	    // @TODO - Weird shared CCW support that I don't really understand. Get rid of this.
+	    public static uint GetMany_string(global::System.Collections.Generic.IReadOnlyList<string> _this,
+	        uint startIndex,
+	        string[] items)
+	    {
+	        return GetManyHelper<string>(_this, startIndex, items);
+	    }
+
+	    private static uint GetManyHelper<T>(global::System.Collections.Generic.IReadOnlyList<T> _this,
+	        uint startIndex,
+	        T[] items)
+	    {
+	        int count = _this.Count;
+
+	        // REX spec says "calling GetMany with startIndex equal to the length of the vector 
+	        // (last valid index + 1) and any specified capacity will succeed and return zero actual
+	        // elements".
+	        if (startIndex == count)
+	            return 0;
+
+	        EnsureIndexInt32(startIndex, count);
+
+	        if (items == null)
+	        {
+	            return 0;
+	        }
+
+	        uint itemCount = global::System.Math.Min((uint)items.Length, (uint)count - startIndex);
+
+	        for (uint i = 0; i < itemCount; ++i)
+	        {
+	            items[i] = _this[(int)(i + startIndex)];
+	        }
+
+	        return itemCount;
+	    }
+
+	    #region Helpers
+
+	    private static void EnsureIndexInt32(uint index, int listCapacity)
+	    {
+	        // We use '<=' and not '<' because Int32.MaxValue == index would imply
+	        // that Size > Int32.MaxValue:
+	        if (((uint)System.Int32.MaxValue) <= index || index >= (uint)listCapacity)
+	        {
+	            global::System.Exception ex = new global::System.ArgumentOutOfRangeException(
+	                "index", 
+	                global::Mcg.System.SR.GetString(global::Mcg.System.SR.Excep_IndexLargerThanMaxValue)
+	            );
+	            McgMarshal.SetExceptionErrorCode(
+	                ex,
+	                global::__Interop.McgHelpers.__HResults.E_BOUNDS
+	            );
+	            throw ex;
+	        }
+	    }
+
+	    #endregion Helpers
 	}
 
 	public static class IMapSharedReferenceTypesRCWAdapter 
@@ -1415,8 +1427,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        global::System.Collections.Generic.IDictionary<TKey, TValue> _this,
 	        global::System.Collections.Generic.KeyValuePair<TKey, TValue> item)
 	    {
-
-	        return _this.Remove(item.Key);
+	        return global::__Interop.McgHelpers.MapRemove((System.__ComObject)_this, item);
 	    }
 	}
 
@@ -1445,7 +1456,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        {
 	            unsafeKey = global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(key, typeof(TKey).TypeHandle);
 	            int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis, (void*)unsafeKey, (void*)&unsafeValue);
-	            global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	            global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	            global::System.GC.KeepAlive(_this);
 
 	            if (result < 0)
@@ -1472,7 +1483,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        uint unsafeSize;
 
 	        int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis, (void*)&unsafeSize);
-	        global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	        global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	        global::System.GC.KeepAlive(_this);
 
 	        if (result < 0)
@@ -1500,7 +1511,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        {
 	            unsafeKey = global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(key, typeof(TKey).TypeHandle);
 	            int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis, (void*)unsafeKey, (void*)&unsafeRetVal);
-	            global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	            global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	            global::System.GC.KeepAlive(_this);
 
 	            if (result < 0)
@@ -1540,7 +1551,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	            unsafeValue = global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(value, typeof(TValue).TypeHandle);
 
 	            int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis, (void*)unsafeKey, (void*)unsafeValue, (void *)&unsafeRetVal);
-	            global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	            global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	            global::System.GC.KeepAlive(_this);
 
 	            if (result < 0)
@@ -1573,7 +1584,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        {
 	            unsafeKey = global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(key, typeof(TKey).TypeHandle);
 	            int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis, (void*)unsafeKey);
-	            global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	            global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	            global::System.GC.KeepAlive(_this);
 
 	            if (result < 0)
@@ -1597,7 +1608,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        global::System.IntPtr target = (*((global::System.IntPtr**)unsafeThis))[idx_Clear];
 
 	        int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis);
-	        global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	        global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	        global::System.GC.KeepAlive(_this);
 
 	        if (result < 0)
@@ -2309,7 +2320,8 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	    {
 	        get
 	        {
-	            throw new global::System.NotImplementedException("NYI");
+	            // This is never called as this adapter is only called from native
+	            throw new global::System.NotSupportedException();
 	        }
 	    }
 
@@ -2317,7 +2329,8 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	    {
 	        get
 	        {
-	            throw new global::System.NotImplementedException("NYI");
+	            // This is never called as this adapter is only called from native            
+	            throw new global::System.NotSupportedException();
 	        }
 	    }
 
@@ -2522,7 +2535,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        {
 	            unsafeKey = global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(key, typeof(TKey).TypeHandle);
 	            int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis, (void*)unsafeKey, (void*)&unsafeValue);
-	            global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	            global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	            global::System.GC.KeepAlive(_this);
 
 	            if (result < 0)
@@ -2550,7 +2563,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        uint unsafeSize;
 
 	        int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis, (void*)&unsafeSize);
-	        global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	        global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	        global::System.GC.KeepAlive(_this);
 
 	        if (result < 0)
@@ -2578,7 +2591,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 	        {
 	            unsafeKey = global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(key, typeof(TKey).TypeHandle);
 	            int result = Intrinsics.StdCall__int__(target, (void*)unsafeThis, (void*)unsafeKey, (void*)&unsafeRetVal);
-	            global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+	            global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 	            global::System.GC.KeepAlive(_this);
 
 	            if (result < 0)

@@ -80,7 +80,6 @@ namespace TTPackStartup
 
         private void LED_Click(object sender, RoutedEventArgs e)
         {
-            
         }
 
         private void Settings_Click(object sender, RoutedEventArgs e)
