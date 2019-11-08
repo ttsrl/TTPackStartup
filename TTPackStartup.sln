@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTPackStartup", "TTPackStar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchPanels", "TouchPanels\TouchPanels.csproj", "{8220B292-CF54-43AF-8873-5AD16715FC8A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modbus", "Modbus\Modbus.csproj", "{B953100B-E928-4B9B-A25E-62477D9F6F1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,26 @@ Global
 		{8220B292-CF54-43AF-8873-5AD16715FC8A}.Release|x64.Build.0 = Release|x64
 		{8220B292-CF54-43AF-8873-5AD16715FC8A}.Release|x86.ActiveCfg = Release|x86
 		{8220B292-CF54-43AF-8873-5AD16715FC8A}.Release|x86.Build.0 = Release|x86
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Debug|ARM.Build.0 = Debug|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Debug|x64.Build.0 = Debug|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Debug|x86.Build.0 = Debug|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Release|ARM.Build.0 = Release|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Release|ARM64.Build.0 = Release|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Release|x64.ActiveCfg = Release|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Release|x64.Build.0 = Release|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Release|x86.ActiveCfg = Release|Any CPU
+		{B953100B-E928-4B9B-A25E-62477D9F6F1B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

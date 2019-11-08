@@ -1,34 +1,29 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Automation.Peers;
 using Windows.UI.Xaml.Automation.Provider;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.UI;
-using System.Reflection;
 using TouchPanels.Devices;
+using Modbus;
 
 namespace TTPackStartup
 {
-    sealed partial class App : Application
+    public sealed partial class App : Application
     {
         const string CalibrationFilename = "TSC2046";
         private Tsc2046 tsc2046;
         private TouchPanels.TouchProcessor processor;
         private Point lastPosition = new Point(double.NaN, double.NaN);
+
+        public static ModbusClient ModbusClient;
 
         /// <summary>
         /// Inizializza l'oggetto Application singleton. Si tratta della prima riga del codice creato
@@ -38,6 +33,14 @@ namespace TTPackStartup
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+
+            try
+            {
+                ModbusClient = new ModbusClient("192.168.2.211", 502);
+                ModbusClient.Connect();
+            }
+            catch(Exception ex) { Console.WriteLine(ex.ToString()); }
+
         }
 
         /// <summary>

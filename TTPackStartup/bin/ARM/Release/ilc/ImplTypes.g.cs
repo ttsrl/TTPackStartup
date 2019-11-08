@@ -53,6 +53,333 @@ using global::Windows.Foundation.Collections;
 // warning CS0628 new protected member declared in sealed class
 #pragma warning disable 628
 
+namespace _
+{
+	// _.Interop_Kernel32_COMMPROP__System_IO_Ports
+	public unsafe static class Interop_Kernel32_COMMPROP__System_IO_Ports__Impl
+	{
+		public static int Marshal__SafeToUnsafe(
+					ref global::_.Interop_Kernel32_COMMPROP__System_IO_Ports safeSource, 
+					out global::_.Interop_Kernel32_COMMPROP__System_IO_Ports__Impl.UnsafeType unsafeDest)
+		{
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] ushort__unsigned short safeSource
+			unsafeDest.wPacketLength = safeSource.wPacketLength;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] ushort__unsigned short safeSource
+			unsafeDest.wPacketVersion = safeSource.wPacketVersion;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] int__int safeSource
+			unsafeDest.dwServiceMask = safeSource.dwServiceMask;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] int__int safeSource
+			unsafeDest.dwReserved1 = safeSource.dwReserved1;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] int__int safeSource
+			unsafeDest.dwMaxTxQueue = safeSource.dwMaxTxQueue;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] int__int safeSource
+			unsafeDest.dwMaxRxQueue = safeSource.dwMaxRxQueue;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] int__int safeSource
+			unsafeDest.dwMaxBaud = safeSource.dwMaxBaud;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] int__int safeSource
+			unsafeDest.dwProvSubType = safeSource.dwProvSubType;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] int__int safeSource
+			unsafeDest.dwProvCapabilities = safeSource.dwProvCapabilities;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] int__int safeSource
+			unsafeDest.dwSettableParams = safeSource.dwSettableParams;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] int__int safeSource
+			unsafeDest.dwSettableBaud = safeSource.dwSettableBaud;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] ushort__unsigned short safeSource
+			unsafeDest.wSettableData = safeSource.wSettableData;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] ushort__unsigned short safeSource
+			unsafeDest.wSettableStopParity = safeSource.wSettableStopParity;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] int__int safeSource
+			unsafeDest.dwCurrentTxQueue = safeSource.dwCurrentTxQueue;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] int__int safeSource
+			unsafeDest.dwCurrentRxQueue = safeSource.dwCurrentRxQueue;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] int__int safeSource
+			unsafeDest.dwProvSpec1 = safeSource.dwProvSpec1;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] int__int safeSource
+			unsafeDest.dwProvSpec2 = safeSource.dwProvSpec2;
+			// [fwd] [in] [optional] [EETypeRva:0x00041824] char__unsigned char safeSource
+			unsafeDest.wcProvChar = global::System.Runtime.InteropServices.McgMarshal.WideCharToAnsiChar(safeSource.wcProvChar, true, false);
+			return 0;
+		}
+
+		public static int Marshal__UnsafeToSafe(
+					ref global::_.Interop_Kernel32_COMMPROP__System_IO_Ports__Impl.UnsafeType unsafeSource, 
+					out global::_.Interop_Kernel32_COMMPROP__System_IO_Ports safeDest)
+		{
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] ushort__unsigned short safeDest
+			safeDest.wPacketLength = unsafeSource.wPacketLength;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] ushort__unsigned short safeDest
+			safeDest.wPacketVersion = unsafeSource.wPacketVersion;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] int__int safeDest
+			safeDest.dwServiceMask = unsafeSource.dwServiceMask;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] int__int safeDest
+			safeDest.dwReserved1 = unsafeSource.dwReserved1;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] int__int safeDest
+			safeDest.dwMaxTxQueue = unsafeSource.dwMaxTxQueue;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] int__int safeDest
+			safeDest.dwMaxRxQueue = unsafeSource.dwMaxRxQueue;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] int__int safeDest
+			safeDest.dwMaxBaud = unsafeSource.dwMaxBaud;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] int__int safeDest
+			safeDest.dwProvSubType = unsafeSource.dwProvSubType;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] int__int safeDest
+			safeDest.dwProvCapabilities = unsafeSource.dwProvCapabilities;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] int__int safeDest
+			safeDest.dwSettableParams = unsafeSource.dwSettableParams;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] int__int safeDest
+			safeDest.dwSettableBaud = unsafeSource.dwSettableBaud;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] ushort__unsigned short safeDest
+			safeDest.wSettableData = unsafeSource.wSettableData;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] ushort__unsigned short safeDest
+			safeDest.wSettableStopParity = unsafeSource.wSettableStopParity;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] int__int safeDest
+			safeDest.dwCurrentTxQueue = unsafeSource.dwCurrentTxQueue;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] int__int safeDest
+			safeDest.dwCurrentRxQueue = unsafeSource.dwCurrentRxQueue;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] int__int safeDest
+			safeDest.dwProvSpec1 = unsafeSource.dwProvSpec1;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] int__int safeDest
+			safeDest.dwProvSpec2 = unsafeSource.dwProvSpec2;
+			// [rev] [in] [optional] [EETypeRva:0x00041824] char__unsigned char safeDest
+			safeDest.wcProvChar = global::System.Runtime.InteropServices.McgMarshal.AnsiCharToWideChar(unsafeSource.wcProvChar);
+			return 0;
+		}
+
+		public unsafe partial struct UnsafeType
+		{
+			public ushort wPacketLength;
+			public ushort wPacketVersion;
+			public int dwServiceMask;
+			public int dwReserved1;
+			public int dwMaxTxQueue;
+			public int dwMaxRxQueue;
+			public int dwMaxBaud;
+			public int dwProvSubType;
+			public int dwProvCapabilities;
+			public int dwSettableParams;
+			public int dwSettableBaud;
+			public ushort wSettableData;
+			public ushort wSettableStopParity;
+			public int dwCurrentTxQueue;
+			public int dwCurrentRxQueue;
+			public int dwProvSpec1;
+			public int dwProvSpec2;
+			public byte wcProvChar;
+		}
+	}
+
+	// _.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets
+	public unsafe static class Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl
+	{
+		public static int Marshal__SafeToUnsafe(
+					ref global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets safeSource, 
+					out global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.UnsafeType unsafeDest)
+		{
+			// [fwd] [in] [optional] [EETypeRva:0x0004241C] rg_byte__InlineArray_byte___16 safeSource
+			fixed (global::__Interop.InlineArray_byte___16* pUnsafe_unsafeDest_MulticastAddress = &(unsafeDest.MulticastAddress))
+			if (safeSource.MulticastAddress != null)
+				for (uint mcgIdx = 0; (mcgIdx < safeSource.MulticastAddress.Length); mcgIdx++)
+				{
+					// [fwd] [in] [optional] [EETypeRva:0x000419B0] byte__unsigned char safeSource
+					unsafeDest.MulticastAddress[mcgIdx] = safeSource.MulticastAddress[mcgIdx];
+				}
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] int__int safeSource
+			unsafeDest.InterfaceIndex = safeSource.InterfaceIndex;
+			return 0;
+		}
+
+		public static int Marshal__UnsafeToSafe(
+					ref global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.UnsafeType unsafeSource, 
+					out global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets safeDest)
+		{
+			// [rev] [in] [optional] [EETypeRva:0x0004241C] rg_byte__InlineArray_byte___16 safeDest
+			safeDest.MulticastAddress = new byte[0x10u];
+			if (safeDest.MulticastAddress != null)
+				for (uint mcgIdx = 0; (mcgIdx < 0x10u); mcgIdx++)
+				{
+					// [rev] [in] [optional] [EETypeRva:0x000419B0] byte__unsigned char safeDest
+					safeDest.MulticastAddress[mcgIdx] = unsafeSource.MulticastAddress[mcgIdx];
+				}
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] int__int safeDest
+			safeDest.InterfaceIndex = unsafeSource.InterfaceIndex;
+			return 0;
+		}
+
+		public unsafe partial struct UnsafeType
+		{
+			public global::__Interop.InlineArray_byte___16 MulticastAddress;
+			public int InterfaceIndex;
+		}
+	}
+
+	// _.Interop_Winsock_WSAData__System_Net_NameResolution
+	public unsafe static class Interop_Winsock_WSAData__System_Net_NameResolution__Impl
+	{
+		public static int Marshal__SafeToUnsafe(
+					ref global::_.Interop_Winsock_WSAData__System_Net_NameResolution safeSource, 
+					out global::_.Interop_Winsock_WSAData__System_Net_NameResolution__Impl.UnsafeType unsafeDest)
+		{
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] short__short safeSource
+			unsafeDest.wVersion = safeSource.wVersion;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] short__short safeSource
+			unsafeDest.wHighVersion = safeSource.wHighVersion;
+			// [fwd] [in] [optional] [EETypeRva:0x00042804] string__InlineArray_byte___257 safeSource
+			fixed (void* pUnsafe_unsafeDest_szDescription = &(unsafeDest.szDescription))
+				global::System.Runtime.InteropServices.McgMarshal.StringToByValAnsiString(safeSource.szDescription, ((byte*)pUnsafe_unsafeDest_szDescription), 257, true, false);
+			// [fwd] [in] [optional] [EETypeRva:0x00042804] string__InlineArray_byte___129 safeSource
+			fixed (void* pUnsafe_unsafeDest_szSystemStatus = &(unsafeDest.szSystemStatus))
+				global::System.Runtime.InteropServices.McgMarshal.StringToByValAnsiString(safeSource.szSystemStatus, ((byte*)pUnsafe_unsafeDest_szSystemStatus), 129, true, false);
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] short__short safeSource
+			unsafeDest.iMaxSockets = safeSource.iMaxSockets;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] short__short safeSource
+			unsafeDest.iMaxUdpDg = safeSource.iMaxUdpDg;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] System_IntPtr____w64 int safeSource
+			unsafeDest.lpVendorInfo = safeSource.lpVendorInfo;
+			return 0;
+		}
+
+		public static int Marshal__UnsafeToSafe(
+					ref global::_.Interop_Winsock_WSAData__System_Net_NameResolution__Impl.UnsafeType unsafeSource, 
+					out global::_.Interop_Winsock_WSAData__System_Net_NameResolution safeDest)
+		{
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] short__short safeDest
+			safeDest.wVersion = unsafeSource.wVersion;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] short__short safeDest
+			safeDest.wHighVersion = unsafeSource.wHighVersion;
+			// [rev] [in] [optional] [EETypeRva:0x00042804] string__InlineArray_byte___257 safeDest
+			fixed (void* pUnsafe_unsafeSource_szDescription = &(unsafeSource.szDescription))
+				safeDest.szDescription = global::System.Runtime.InteropServices.McgMarshal.ByValAnsiStringToString(((byte*)pUnsafe_unsafeSource_szDescription), 257);
+			// [rev] [in] [optional] [EETypeRva:0x00042804] string__InlineArray_byte___129 safeDest
+			fixed (void* pUnsafe_unsafeSource_szSystemStatus = &(unsafeSource.szSystemStatus))
+				safeDest.szSystemStatus = global::System.Runtime.InteropServices.McgMarshal.ByValAnsiStringToString(((byte*)pUnsafe_unsafeSource_szSystemStatus), 129);
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] short__short safeDest
+			safeDest.iMaxSockets = unsafeSource.iMaxSockets;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] short__short safeDest
+			safeDest.iMaxUdpDg = unsafeSource.iMaxUdpDg;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] System_IntPtr____w64 int safeDest
+			safeDest.lpVendorInfo = unsafeSource.lpVendorInfo;
+			return 0;
+		}
+
+		public unsafe partial struct UnsafeType
+		{
+			public short wVersion;
+			public short wHighVersion;
+			public global::__Interop.InlineArray_byte___257 szDescription;
+			public global::__Interop.InlineArray_byte___129 szSystemStatus;
+			public short iMaxSockets;
+			public short iMaxUdpDg;
+			public global::System.IntPtr lpVendorInfo;
+		}
+	}
+
+	// _.Interop_UNICODE_STRING__System_Security_Principal_Windows
+	public unsafe static class Interop_UNICODE_STRING__System_Security_Principal_Windows__Impl
+	{
+		public static int Marshal__SafeToUnsafe(
+					ref global::_.Interop_UNICODE_STRING__System_Security_Principal_Windows safeSource, 
+					out global::_.Interop_UNICODE_STRING__System_Security_Principal_Windows__Impl.UnsafeType unsafeDest)
+		{
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] ushort__unsigned short safeSource
+			unsafeDest.Length = safeSource.Length;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] ushort__unsigned short safeSource
+			unsafeDest.MaximumLength = safeSource.MaximumLength;
+			// [fwd] [in] [optional] [EETypeRva:0x00041B44] string__wchar_t * safeSource
+			unsafeDest.Buffer = (ushort*)global::System.Runtime.InteropServices.McgMarshal.AllocUnicodeBuffer(safeSource.Buffer);
+			global::System.Runtime.InteropServices.McgMarshal.CopyUnicodeString(
+								safeSource.Buffer, 
+								unsafeDest.Buffer
+							);
+			return 0;
+		}
+
+		public static int Marshal__UnsafeToSafe(
+					ref global::_.Interop_UNICODE_STRING__System_Security_Principal_Windows__Impl.UnsafeType unsafeSource, 
+					out global::_.Interop_UNICODE_STRING__System_Security_Principal_Windows safeDest)
+		{
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] ushort__unsigned short safeDest
+			safeDest.Length = unsafeSource.Length;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] ushort__unsigned short safeDest
+			safeDest.MaximumLength = unsafeSource.MaximumLength;
+			// [rev] [in] [optional] [EETypeRva:0x00041B44] string__wchar_t * safeDest
+			safeDest.Buffer = ((unsafeSource.Buffer != null) ? new string(((char*)unsafeSource.Buffer)) : null);
+			return 0;
+		}
+
+		public static void Cleanup__Unsafe(ref global::_.Interop_UNICODE_STRING__System_Security_Principal_Windows__Impl.UnsafeType unsafeStruct)
+		{
+			global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafeStruct.Buffer);
+		}
+
+		public unsafe partial struct UnsafeType
+		{
+			public ushort Length;
+			public ushort MaximumLength;
+			public ushort* Buffer;
+		}
+	}
+
+	// _.Interop_CLAIM_SECURITY_ATTRIBUTE_V1__System_Security_Principal_Windows
+	public unsafe static class Interop_CLAIM_SECURITY_ATTRIBUTE_V1__System_Security_Principal_Windows__Impl
+	{
+		public static int Marshal__SafeToUnsafe(
+					ref global::_.Interop_CLAIM_SECURITY_ATTRIBUTE_V1__System_Security_Principal_Windows safeSource, 
+					out global::_.Interop_CLAIM_SECURITY_ATTRIBUTE_V1__System_Security_Principal_Windows__Impl.UnsafeType unsafeDest)
+		{
+			// [fwd] [in] [optional] [EETypeRva:0x00041B44] string__wchar_t * safeSource
+			unsafeDest.Name = (ushort*)global::System.Runtime.InteropServices.McgMarshal.AllocUnicodeBuffer(safeSource.Name);
+			global::System.Runtime.InteropServices.McgMarshal.CopyUnicodeString(
+								safeSource.Name, 
+								unsafeDest.Name
+							);
+			// [fwd] [in] [optional] [EETypeRva:0x00042D60] __Interop_ClaimSecurityAttributeType__System_Security_Principal_Windows__Interop_ClaimSecurityAttributeType__System_Security_Principal_Windows safeSource
+			unsafeDest.ValueType = safeSource.ValueType;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] ushort__unsigned short safeSource
+			unsafeDest.Reserved = safeSource.Reserved;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] uint__unsigned int safeSource
+			unsafeDest.Flags = safeSource.Flags;
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] uint__unsigned int safeSource
+			unsafeDest.ValueCount = safeSource.ValueCount;
+			// [fwd] [in] [optional] [EETypeRva:0x0004314C] __Interop_CLAIM_VALUES_ATTRIBUTE_V1__System_Security_Principal_Windows____Interop_CLAIM_VALUES_ATTRIBUTE_V1__System_Security_Principal_Windows safeSource
+			unsafeDest.Values = safeSource.Values;
+			return 0;
+		}
+
+		public static int Marshal__UnsafeToSafe(
+					ref global::_.Interop_CLAIM_SECURITY_ATTRIBUTE_V1__System_Security_Principal_Windows__Impl.UnsafeType unsafeSource, 
+					out global::_.Interop_CLAIM_SECURITY_ATTRIBUTE_V1__System_Security_Principal_Windows safeDest)
+		{
+			// [rev] [in] [optional] [EETypeRva:0x00041B44] string__wchar_t * safeDest
+			safeDest.Name = ((unsafeSource.Name != null) ? new string(((char*)unsafeSource.Name)) : null);
+			// [rev] [in] [optional] [EETypeRva:0x00042D60] __Interop_ClaimSecurityAttributeType__System_Security_Principal_Windows__Interop_ClaimSecurityAttributeType__System_Security_Principal_Windows safeDest
+			safeDest.ValueType = unsafeSource.ValueType;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] ushort__unsigned short safeDest
+			safeDest.Reserved = unsafeSource.Reserved;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] uint__unsigned int safeDest
+			safeDest.Flags = unsafeSource.Flags;
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] uint__unsigned int safeDest
+			safeDest.ValueCount = unsafeSource.ValueCount;
+			// [rev] [in] [optional] [EETypeRva:0x0004314C] __Interop_CLAIM_VALUES_ATTRIBUTE_V1__System_Security_Principal_Windows____Interop_CLAIM_VALUES_ATTRIBUTE_V1__System_Security_Principal_Windows safeDest
+			safeDest.Values = unsafeSource.Values;
+			return 0;
+		}
+
+		public static void Cleanup__Unsafe(ref global::_.Interop_CLAIM_SECURITY_ATTRIBUTE_V1__System_Security_Principal_Windows__Impl.UnsafeType unsafeStruct)
+		{
+			global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafeStruct.Name);
+		}
+
+		public unsafe partial struct UnsafeType
+		{
+			public ushort* Name;
+			public global::_.Interop_ClaimSecurityAttributeType__System_Security_Principal_Windows ValueType;
+			public ushort Reserved;
+			public uint Flags;
+			public uint ValueCount;
+			public global::_.Interop_CLAIM_VALUES_ATTRIBUTE_V1__System_Security_Principal_Windows Values;
+		}
+	}
+}
+
 namespace Internal_WinRT_Interop_WinRTCallbacks
 {
 	// Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueueHandler__System_Private_WinRTInterop_CoreLib
@@ -150,7 +477,7 @@ namespace Internal_WinRT_Interop_WinRTCallbacks
 		// StubClass for 'Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib'
 		public static partial class Stubs
 		{
-			// Signature, Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib.CreateTimer, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041288] object__System.Runtime.InteropServices.Variant, 
+			// Signature, Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib.CreateTimer, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000412B8] object__System.Runtime.InteropServices.Variant, 
 			public static object CreateTimer(global::System.__ComObject __this)
 			{
 				// Setup
@@ -181,7 +508,7 @@ namespace Internal_WinRT_Interop_WinRTCallbacks
 				}
 			}
 
-			// Signature, Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib.TryEnqueue, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00043630] Internal_WinRT_Interop_WinRTCallbacks_IDispatcherQueueHandler__System_Private_WinRTInterop_CoreLib__Internal_WinRT_Interop_WinRTCallbacks__IDispatcherQueueHandler__System_Private_WinRTInterop_CoreLib *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000408DC] bool__short, 
+			// Signature, Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib.TryEnqueue, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00043660] Internal_WinRT_Interop_WinRTCallbacks_IDispatcherQueueHandler__System_Private_WinRTInterop_CoreLib__Internal_WinRT_Interop_WinRTCallbacks__IDispatcherQueueHandler__System_Private_WinRTInterop_CoreLib *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004090C] bool__short, 
 			public static bool TryEnqueue(
 						global::System.__ComObject __this, 
 						global::Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueueHandler__System_Private_WinRTInterop_CoreLib callback)
@@ -221,7 +548,7 @@ namespace Internal_WinRT_Interop_WinRTCallbacks
 				}
 			}
 
-			// Signature, Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib.TryEnqueue, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00042D30] Internal_WinRT_Interop_WinRTCallbacks_DispatcherQueuePriority__System_Private_WinRTInterop_CoreLib__WinRTCallbacks_DispatcherQueuePriority__System_Private_WinRTInterop_CoreLib, [fwd] [in] [EETypeRva:0x00043630] Internal_WinRT_Interop_WinRTCallbacks_IDispatcherQueueHandler__System_Private_WinRTInterop_CoreLib__Internal_WinRT_Interop_WinRTCallbacks__IDispatcherQueueHandler__System_Private_WinRTInterop_CoreLib *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000408DC] bool__short, 
+			// Signature, Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib.TryEnqueue, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60] Internal_WinRT_Interop_WinRTCallbacks_DispatcherQueuePriority__System_Private_WinRTInterop_CoreLib__WinRTCallbacks_DispatcherQueuePriority__System_Private_WinRTInterop_CoreLib, [fwd] [in] [EETypeRva:0x00043660] Internal_WinRT_Interop_WinRTCallbacks_IDispatcherQueueHandler__System_Private_WinRTInterop_CoreLib__Internal_WinRT_Interop_WinRTCallbacks__IDispatcherQueueHandler__System_Private_WinRTInterop_CoreLib *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004090C] bool__short, 
 			public static bool TryEnqueue(
 						global::System.__ComObject __this, 
 						global::Internal_WinRT_Interop.WinRTCallbacks_DispatcherQueuePriority__System_Private_WinRTInterop_CoreLib priority, 
@@ -342,7 +669,7 @@ namespace Internal_WinRT_Interop_WinRTCallbacks
 									);
 			}
 
-			// Signature, Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib.CreateTimer, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00041288] object__System.Runtime.InteropServices.Variant, 
+			// Signature, Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib.CreateTimer, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x000412B8] object__System.Runtime.InteropServices.Variant, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int CreateTimer__n(
 						global::System.IntPtr pComThis, 
@@ -376,7 +703,7 @@ namespace Internal_WinRT_Interop_WinRTCallbacks
 				}
 			}
 
-			// Signature, Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib.TryEnqueue, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00043630] Internal_WinRT_Interop_WinRTCallbacks_IDispatcherQueueHandler__System_Private_WinRTInterop_CoreLib__Internal_WinRT_Interop_WinRTCallbacks__IDispatcherQueueHandler__System_Private_WinRTInterop_CoreLib *, [rev] [out] [retval] [nativebyref] [EETypeRva:0x000408DC] bool__short, 
+			// Signature, Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib.TryEnqueue, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00043660] Internal_WinRT_Interop_WinRTCallbacks_IDispatcherQueueHandler__System_Private_WinRTInterop_CoreLib__Internal_WinRT_Interop_WinRTCallbacks__IDispatcherQueueHandler__System_Private_WinRTInterop_CoreLib *, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004090C] bool__short, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int TryEnqueue__n(
 						global::System.IntPtr pComThis, 
@@ -412,7 +739,7 @@ namespace Internal_WinRT_Interop_WinRTCallbacks
 				}
 			}
 
-			// Signature, Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib.TryEnqueue, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00042D30] Internal_WinRT_Interop_WinRTCallbacks_DispatcherQueuePriority__System_Private_WinRTInterop_CoreLib__WinRTCallbacks_DispatcherQueuePriority__System_Private_WinRTInterop_CoreLib, [rev] [in] [EETypeRva:0x00043630] Internal_WinRT_Interop_WinRTCallbacks_IDispatcherQueueHandler__System_Private_WinRTInterop_CoreLib__Internal_WinRT_Interop_WinRTCallbacks__IDispatcherQueueHandler__System_Private_WinRTInterop_CoreLib *, [rev] [out] [retval] [nativebyref] [EETypeRva:0x000408DC] bool__short, 
+			// Signature, Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib.TryEnqueue, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00042D60] Internal_WinRT_Interop_WinRTCallbacks_DispatcherQueuePriority__System_Private_WinRTInterop_CoreLib__WinRTCallbacks_DispatcherQueuePriority__System_Private_WinRTInterop_CoreLib, [rev] [in] [EETypeRva:0x00043660] Internal_WinRT_Interop_WinRTCallbacks_IDispatcherQueueHandler__System_Private_WinRTInterop_CoreLib__Internal_WinRT_Interop_WinRTCallbacks__IDispatcherQueueHandler__System_Private_WinRTInterop_CoreLib *, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004090C] bool__short, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int TryEnqueue__0__n(
 						global::System.IntPtr pComThis, 
@@ -476,7 +803,7 @@ namespace Internal_WinRT_Interop_WinRTCallbacks
 		// StubClass for 'Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueueStatics__System_Private_WinRTInterop_CoreLib'
 		public static partial class Stubs
 		{
-			// Signature, Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueueStatics__System_Private_WinRTInterop_CoreLib.GetForCurrentThread, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00043630] Internal_WinRT_Interop_WinRTCallbacks_IDispatcherQueue__System_Private_WinRTInterop_CoreLib__Internal_WinRT_Interop_WinRTCallbacks__IDispatcherQueue__System_Private_WinRTInterop_CoreLib *, 
+			// Signature, Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueueStatics__System_Private_WinRTInterop_CoreLib.GetForCurrentThread, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00043660] Internal_WinRT_Interop_WinRTCallbacks_IDispatcherQueue__System_Private_WinRTInterop_CoreLib__Internal_WinRT_Interop_WinRTCallbacks__IDispatcherQueue__System_Private_WinRTInterop_CoreLib *, 
 			public static global::Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib GetForCurrentThread(global::System.__ComObject __this)
 			{
 				// Setup
@@ -563,7 +890,7 @@ namespace Internal_WinRT_Interop_WinRTCallbacks
 									);
 			}
 
-			// Signature, Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueueStatics__System_Private_WinRTInterop_CoreLib.GetForCurrentThread, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00043630] Internal_WinRT_Interop_WinRTCallbacks_IDispatcherQueue__System_Private_WinRTInterop_CoreLib__Internal_WinRT_Interop_WinRTCallbacks__IDispatcherQueue__System_Private_WinRTInterop_CoreLib *, 
+			// Signature, Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueueStatics__System_Private_WinRTInterop_CoreLib.GetForCurrentThread, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00043660] Internal_WinRT_Interop_WinRTCallbacks_IDispatcherQueue__System_Private_WinRTInterop_CoreLib__Internal_WinRT_Interop_WinRTCallbacks__IDispatcherQueue__System_Private_WinRTInterop_CoreLib *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int GetForCurrentThread__n(
 						global::System.IntPtr pComThis, 
@@ -626,7 +953,7 @@ namespace System
 		// StubClass for 'System.Nullable<Windows.UI.Color>'
 		public static partial class Stubs
 		{
-			// Signature, System.Nullable<Windows.UI.Color>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] Windows_UI_Color__Windows_UI__Color, 
+			// Signature, System.Nullable<Windows.UI.Color>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, 
 			public static global::Windows.UI.Color get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -655,7 +982,7 @@ namespace System
 		// StubClass for 'System.Nullable<Windows.UI.Xaml.CornerRadius>'
 		public static partial class Stubs
 		{
-			// Signature, System.Nullable<Windows.UI.Xaml.CornerRadius>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] Windows_UI_Xaml_CornerRadius__Windows_UI_Xaml__CornerRadius, 
+			// Signature, System.Nullable<Windows.UI.Xaml.CornerRadius>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_UI_Xaml_CornerRadius__Windows_UI_Xaml__CornerRadius, 
 			public static global::Windows.UI.Xaml.CornerRadius get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -684,7 +1011,7 @@ namespace System
 		// StubClass for 'System.Nullable<Windows.UI.Xaml.Duration>'
 		public static partial class Stubs
 		{
-			// Signature, System.Nullable<Windows.UI.Xaml.Duration>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] Windows_UI_Xaml_Duration__Windows_UI_Xaml__Duration, 
+			// Signature, System.Nullable<Windows.UI.Xaml.Duration>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_UI_Xaml_Duration__Windows_UI_Xaml__Duration, 
 			public static global::Windows.UI.Xaml.Duration get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -713,7 +1040,7 @@ namespace System
 		// StubClass for 'System.Nullable<Windows.UI.Xaml.GridLength>'
 		public static partial class Stubs
 		{
-			// Signature, System.Nullable<Windows.UI.Xaml.GridLength>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] Windows_UI_Xaml_GridLength__Windows_UI_Xaml__GridLength, 
+			// Signature, System.Nullable<Windows.UI.Xaml.GridLength>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_UI_Xaml_GridLength__Windows_UI_Xaml__GridLength, 
 			public static global::Windows.UI.Xaml.GridLength get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -760,7 +1087,7 @@ namespace System
 		// StubClass for 'System.Nullable<Windows.UI.Xaml.Controls.Primitives.GeneratorPosition>'
 		public static partial class Stubs
 		{
-			// Signature, System.Nullable<Windows.UI.Xaml.Controls.Primitives.GeneratorPosition>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] Windows_UI_Xaml_Controls_Primitives_GeneratorPosition__Windows_UI_Xaml_Controls_Primitives__GeneratorPosition, 
+			// Signature, System.Nullable<Windows.UI.Xaml.Controls.Primitives.GeneratorPosition>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_UI_Xaml_Controls_Primitives_GeneratorPosition__Windows_UI_Xaml_Controls_Primitives__GeneratorPosition, 
 			public static global::Windows.UI.Xaml.Controls.Primitives.GeneratorPosition get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -789,7 +1116,7 @@ namespace System
 		// StubClass for 'System.Nullable<Windows.UI.Xaml.Media.Matrix>'
 		public static partial class Stubs
 		{
-			// Signature, System.Nullable<Windows.UI.Xaml.Media.Matrix>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] Windows_UI_Xaml_Media_Matrix__Windows_UI_Xaml_Media__Matrix, 
+			// Signature, System.Nullable<Windows.UI.Xaml.Media.Matrix>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_UI_Xaml_Media_Matrix__Windows_UI_Xaml_Media__Matrix, 
 			public static global::Windows.UI.Xaml.Media.Matrix get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -818,7 +1145,7 @@ namespace System
 		// StubClass for 'System.Nullable<Windows.UI.Xaml.Media.Animation.KeyTime>'
 		public static partial class Stubs
 		{
-			// Signature, System.Nullable<Windows.UI.Xaml.Media.Animation.KeyTime>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] Windows_UI_Xaml_Media_Animation_KeyTime__Windows_UI_Xaml_Media_Animation__KeyTime, 
+			// Signature, System.Nullable<Windows.UI.Xaml.Media.Animation.KeyTime>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_UI_Xaml_Media_Animation_KeyTime__Windows_UI_Xaml_Media_Animation__KeyTime, 
 			public static global::Windows.UI.Xaml.Media.Animation.KeyTime get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -847,7 +1174,7 @@ namespace System
 		// StubClass for 'System.Nullable<Windows.UI.Xaml.Media.Animation.RepeatBehavior>'
 		public static partial class Stubs
 		{
-			// Signature, System.Nullable<Windows.UI.Xaml.Media.Animation.RepeatBehavior>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] Windows_UI_Xaml_Media_Animation_RepeatBehavior__Windows_UI_Xaml_Media_Animation__RepeatBehavior, 
+			// Signature, System.Nullable<Windows.UI.Xaml.Media.Animation.RepeatBehavior>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_UI_Xaml_Media_Animation_RepeatBehavior__Windows_UI_Xaml_Media_Animation__RepeatBehavior, 
 			public static global::Windows.UI.Xaml.Media.Animation.RepeatBehavior get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -876,7 +1203,7 @@ namespace System
 		// StubClass for 'System.Nullable<Windows.UI.Xaml.Media.Media3D.Matrix3D>'
 		public static partial class Stubs
 		{
-			// Signature, System.Nullable<Windows.UI.Xaml.Media.Media3D.Matrix3D>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] Windows_UI_Xaml_Media_Media3D_Matrix3D__Windows_UI_Xaml_Media_Media3D__Matrix3D, 
+			// Signature, System.Nullable<Windows.UI.Xaml.Media.Media3D.Matrix3D>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_UI_Xaml_Media_Media3D_Matrix3D__Windows_UI_Xaml_Media_Media3D__Matrix3D, 
 			public static global::Windows.UI.Xaml.Media.Media3D.Matrix3D get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -905,7 +1232,7 @@ namespace System
 		// StubClass for 'System.Nullable<System.Numerics.Vector2>'
 		public static partial class Stubs
 		{
-			// Signature, System.Nullable<System.Numerics.Vector2>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, 
+			// Signature, System.Nullable<System.Numerics.Vector2>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Numerics_Vector2__Windows_Foundation_Numerics__Vector2, 
 			public static global::System.Numerics.Vector2 get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -934,7 +1261,7 @@ namespace System
 		// StubClass for 'System.Nullable<System.Numerics.Vector3>'
 		public static partial class Stubs
 		{
-			// Signature, System.Nullable<System.Numerics.Vector3>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Numerics_Vector3__Windows_Foundation_Numerics__Vector3, 
+			// Signature, System.Nullable<System.Numerics.Vector3>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Numerics_Vector3__Windows_Foundation_Numerics__Vector3, 
 			public static global::System.Numerics.Vector3 get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -963,7 +1290,7 @@ namespace System
 		// StubClass for 'System.Nullable<System.Numerics.Vector4>'
 		public static partial class Stubs
 		{
-			// Signature, System.Nullable<System.Numerics.Vector4>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Numerics_Vector4__Windows_Foundation_Numerics__Vector4, 
+			// Signature, System.Nullable<System.Numerics.Vector4>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Numerics_Vector4__Windows_Foundation_Numerics__Vector4, 
 			public static global::System.Numerics.Vector4 get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -992,7 +1319,7 @@ namespace System
 		// StubClass for 'System.Nullable<System.Numerics.Matrix3x2>'
 		public static partial class Stubs
 		{
-			// Signature, System.Nullable<System.Numerics.Matrix3x2>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Numerics_Matrix3x2__Windows_Foundation_Numerics__Matrix3x2, 
+			// Signature, System.Nullable<System.Numerics.Matrix3x2>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Numerics_Matrix3x2__Windows_Foundation_Numerics__Matrix3x2, 
 			public static global::System.Numerics.Matrix3x2 get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -1021,7 +1348,7 @@ namespace System
 		// StubClass for 'System.Nullable<System.Numerics.Matrix4x4>'
 		public static partial class Stubs
 		{
-			// Signature, System.Nullable<System.Numerics.Matrix4x4>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Numerics_Matrix4x4__Windows_Foundation_Numerics__Matrix4x4, 
+			// Signature, System.Nullable<System.Numerics.Matrix4x4>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Numerics_Matrix4x4__Windows_Foundation_Numerics__Matrix4x4, 
 			public static global::System.Numerics.Matrix4x4 get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -1050,7 +1377,7 @@ namespace System
 		// StubClass for 'System.Nullable<System.Numerics.Plane>'
 		public static partial class Stubs
 		{
-			// Signature, System.Nullable<System.Numerics.Plane>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Numerics_Plane__Windows_Foundation_Numerics__Plane, 
+			// Signature, System.Nullable<System.Numerics.Plane>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Numerics_Plane__Windows_Foundation_Numerics__Plane, 
 			public static global::System.Numerics.Plane get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -1079,7 +1406,7 @@ namespace System
 		// StubClass for 'System.Nullable<System.Numerics.Quaternion>'
 		public static partial class Stubs
 		{
-			// Signature, System.Nullable<System.Numerics.Quaternion>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Numerics_Quaternion__Windows_Foundation_Numerics__Quaternion, 
+			// Signature, System.Nullable<System.Numerics.Quaternion>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Numerics_Quaternion__Windows_Foundation_Numerics__Quaternion, 
 			public static global::System.Numerics.Quaternion get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -1894,32 +2221,6 @@ namespace System.Collections.Generic
 		}
 	}
 
-	// System.Collections.Generic.IEnumerable<Windows.UI.Xaml.IUIElement10>
-	public unsafe static class IEnumerable_A__wux__IUIElement10_V___Impl
-	{
-		// DispatchClass for 'System.Collections.Generic.IEnumerable<Windows.UI.Xaml.IUIElement10>'
-		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.IUIElement10>))]
-		internal abstract partial class Dispatcher : global::System.__ComObject, global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.IUIElement10>
-		{
-			global::System.Collections.Generic.IEnumerator<global::Windows.UI.Xaml.IUIElement10> global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.IUIElement10>.GetEnumerator()
-			{
-				global::System.RuntimeTypeHandle dummySharedDynamicAdapter = typeof(global::System.Runtime.InteropServices.WindowsRuntime.IIterableSharedReferenceTypesDynamicAdapter<global::Windows.UI.Xaml.IUIElement10>).TypeHandle;
-				return (global::System.Collections.Generic.IEnumerator<global::Windows.UI.Xaml.IUIElement10>)global::__Interop.McgHelpers.GetGenericEnumerator(
-									this, 
-									typeof(global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.IUIElement10>).TypeHandle
-								);
-			}
-
-			global::System.Collections.IEnumerator global::System.Collections.IEnumerable.GetEnumerator()
-			{
-				return global::__Interop.McgHelpers.GetNonGenericEnumerator(
-									this, 
-									typeof(global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.IUIElement10>).TypeHandle
-								);
-			}
-		}
-	}
-
 	// System.Collections.Generic.IEnumerable<Windows.UI.Xaml.IUIElementOverrides>
 	public unsafe static class IEnumerable_A__wux__IUIElementOverrides_V___Impl
 	{
@@ -2045,32 +2346,6 @@ namespace System.Collections.Generic
 				return global::__Interop.McgHelpers.GetNonGenericEnumerator(
 									this, 
 									typeof(global::System.Collections.Generic.IEnumerable<global::Windows.UI.Composition.IAnimationObject>).TypeHandle
-								);
-			}
-		}
-	}
-
-	// System.Collections.Generic.IEnumerable<Windows.UI.Composition.IVisualElement>
-	public unsafe static class IEnumerable_A__w_UI_Composition_IVisualElement_V___Impl
-	{
-		// DispatchClass for 'System.Collections.Generic.IEnumerable<Windows.UI.Composition.IVisualElement>'
-		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IEnumerable<global::Windows.UI.Composition.IVisualElement>))]
-		internal abstract partial class Dispatcher : global::System.__ComObject, global::System.Collections.Generic.IEnumerable<global::Windows.UI.Composition.IVisualElement>
-		{
-			global::System.Collections.Generic.IEnumerator<global::Windows.UI.Composition.IVisualElement> global::System.Collections.Generic.IEnumerable<global::Windows.UI.Composition.IVisualElement>.GetEnumerator()
-			{
-				global::System.RuntimeTypeHandle dummySharedDynamicAdapter = typeof(global::System.Runtime.InteropServices.WindowsRuntime.IIterableSharedReferenceTypesDynamicAdapter<global::Windows.UI.Composition.IVisualElement>).TypeHandle;
-				return (global::System.Collections.Generic.IEnumerator<global::Windows.UI.Composition.IVisualElement>)global::__Interop.McgHelpers.GetGenericEnumerator(
-									this, 
-									typeof(global::System.Collections.Generic.IEnumerable<global::Windows.UI.Composition.IVisualElement>).TypeHandle
-								);
-			}
-
-			global::System.Collections.IEnumerator global::System.Collections.IEnumerable.GetEnumerator()
-			{
-				return global::__Interop.McgHelpers.GetNonGenericEnumerator(
-									this, 
-									typeof(global::System.Collections.Generic.IEnumerable<global::Windows.UI.Composition.IVisualElement>).TypeHandle
 								);
 			}
 		}
@@ -5968,6 +6243,716 @@ namespace System.Collections.Generic
 	}
 }
 
+namespace System.Net.Sockets
+{
+	// System.Net.Sockets.ConnectExDelegate__System_Net_Sockets
+	public unsafe static class ConnectExDelegate__System_Net_Sockets__Impl
+	{
+		public class NativeWrapperDelegate : global::System.Runtime.InteropServices.NativeFunctionPointerWrapper
+		{
+			internal NativeWrapperDelegate(global::System.IntPtr functionPointer) : 
+					base(functionPointer)
+			{
+			}
+
+			// Signature, Invoke, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
+			internal virtual bool Invoke(
+						global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
+						global::System.IntPtr socketAddress, 
+						int socketAddressSize, 
+						global::System.IntPtr buffer, 
+						int dataLength, 
+						out int bytesSent, 
+						global::System_Threading.NativeOverlapped__System_Private_CoreLib* overlapped)
+			{
+				// Setup
+				bool addRefed = false;
+				int unsafe___value;
+				// Marshalling
+				socketHandle.DangerousAddRef(ref addRefed);
+				fixed (int* pinned_bytesSent = &(bytesSent))
+				{
+					global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+					// Call to native method
+					unsafe___value = global::__Interop.Intrinsics.StdCall__87(
+										this.NativeFunctionPointer, 
+										socketHandle.DangerousGetHandle(), 
+										socketAddress, 
+										socketAddressSize, 
+										buffer, 
+										dataLength, 
+										pinned_bytesSent, 
+										((global::System_Threading.NativeOverlapped__System_Private_CoreLib*)overlapped)
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+				}
+				if (addRefed)
+					socketHandle.DangerousRelease();
+				// Return
+				return unsafe___value != 0;
+			}
+		}
+
+		internal static global::System.Delegate ForwardDelegateCreationStub(global::System.IntPtr functionPointer)
+		{
+			return new global::System.Net.Sockets.ConnectExDelegate__System_Net_Sockets(new global::System.Net.Sockets.ConnectExDelegate__System_Net_Sockets__Impl.NativeWrapperDelegate(functionPointer).Invoke);
+		}
+
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
+		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		internal static int ReverseDelegateStub(
+					global::System.IntPtr unsafe_socketHandle, 
+					global::System.IntPtr unsafe_socketAddress, 
+					int unsafe_socketAddressSize, 
+					global::System.IntPtr unsafe_buffer, 
+					int unsafe_dataLength, 
+					int* unsafe_bytesSent, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* unsafe_overlapped)
+		{
+			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
+			throw new global::System.Runtime.InteropServices.MarshalDirectiveException(global::Mcg.System.SR.Format(global::Mcg.System.SR.Arg_NativeToManagedCall));
+		}
+
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
+		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		internal static int ReverseOpenStaticDelegateStub(
+					global::System.IntPtr unsafe_socketHandle, 
+					global::System.IntPtr unsafe_socketAddress, 
+					int unsafe_socketAddressSize, 
+					global::System.IntPtr unsafe_buffer, 
+					int unsafe_dataLength, 
+					int* unsafe_bytesSent, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* unsafe_overlapped)
+		{
+			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
+			throw new global::System.Runtime.InteropServices.MarshalDirectiveException(global::Mcg.System.SR.Format(global::Mcg.System.SR.Arg_NativeToManagedCall));
+		}
+	}
+
+	// System.Net.Sockets.GetAcceptExSockaddrsDelegate__System_Net_Sockets
+	public unsafe static class GetAcceptExSockaddrsDelegate__System_Net_Sockets__Impl
+	{
+		public class NativeWrapperDelegate : global::System.Runtime.InteropServices.NativeFunctionPointerWrapper
+		{
+			internal NativeWrapperDelegate(global::System.IntPtr functionPointer) : 
+					base(functionPointer)
+			{
+			}
+
+			// Signature, Invoke, [fwd] [return] [EETypeRva:0x00041F6C] void__void, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
+			internal virtual void Invoke(
+						global::System.IntPtr buffer, 
+						int receiveDataLength, 
+						int localAddressLength, 
+						int remoteAddressLength, 
+						out global::System.IntPtr localSocketAddress, 
+						out int localSocketAddressLength, 
+						out global::System.IntPtr remoteSocketAddress, 
+						out int remoteSocketAddressLength)
+			{
+				// Marshalling
+				fixed (global::System.IntPtr* pinned_localSocketAddress = &(localSocketAddress))
+					fixed (int* pinned_localSocketAddressLength = &(localSocketAddressLength))
+						fixed (global::System.IntPtr* pinned_remoteSocketAddress = &(remoteSocketAddress))
+							fixed (int* pinned_remoteSocketAddressLength = &(remoteSocketAddressLength))
+							{
+								global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+								// Call to native method
+								global::__Interop.Intrinsics.StdCall__89(
+													this.NativeFunctionPointer, 
+													buffer, 
+													receiveDataLength, 
+													localAddressLength, 
+													remoteAddressLength, 
+													pinned_localSocketAddress, 
+													pinned_localSocketAddressLength, 
+													pinned_remoteSocketAddress, 
+													pinned_remoteSocketAddressLength
+												);
+								global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+								global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+							}
+				// Return
+			}
+		}
+
+		internal static global::System.Delegate ForwardDelegateCreationStub(global::System.IntPtr functionPointer)
+		{
+			return new global::System.Net.Sockets.GetAcceptExSockaddrsDelegate__System_Net_Sockets(new global::System.Net.Sockets.GetAcceptExSockaddrsDelegate__System_Net_Sockets__Impl.NativeWrapperDelegate(functionPointer).Invoke);
+		}
+
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00041F6C] void__void, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
+		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		internal static void ReverseDelegateStub(
+					global::System.IntPtr unsafe_buffer, 
+					int unsafe_receiveDataLength, 
+					int unsafe_localAddressLength, 
+					int unsafe_remoteAddressLength, 
+					global::System.IntPtr* unsafe_localSocketAddress, 
+					int* unsafe_localSocketAddressLength, 
+					global::System.IntPtr* unsafe_remoteSocketAddress, 
+					int* unsafe_remoteSocketAddressLength)
+		{
+			// Setup
+			global::System.IntPtr localSocketAddress;
+			int localSocketAddressLength;
+			global::System.IntPtr remoteSocketAddress;
+			int remoteSocketAddressLength;
+			// Marshalling
+			// Call to managed method
+			global::System.Net.Sockets.GetAcceptExSockaddrsDelegate__System_Net_Sockets __safeTargetMethod = global::System.Runtime.InteropServices.McgMarshal.GetCurrentCalleeDelegate<global::System.Net.Sockets.GetAcceptExSockaddrsDelegate__System_Net_Sockets>();
+			__safeTargetMethod(
+								unsafe_buffer, 
+								unsafe_receiveDataLength, 
+								unsafe_localAddressLength, 
+								unsafe_remoteAddressLength, 
+								out localSocketAddress, 
+								out localSocketAddressLength, 
+								out remoteSocketAddress, 
+								out remoteSocketAddressLength
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			(*(unsafe_remoteSocketAddressLength)) = remoteSocketAddressLength;
+			(*(unsafe_remoteSocketAddress)) = remoteSocketAddress;
+			(*(unsafe_localSocketAddressLength)) = localSocketAddressLength;
+			(*(unsafe_localSocketAddress)) = localSocketAddress;
+			// Return
+		}
+
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00041F6C] void__void, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
+		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		internal static void ReverseOpenStaticDelegateStub(
+					global::System.IntPtr unsafe_buffer, 
+					int unsafe_receiveDataLength, 
+					int unsafe_localAddressLength, 
+					int unsafe_remoteAddressLength, 
+					global::System.IntPtr* unsafe_localSocketAddress, 
+					int* unsafe_localSocketAddressLength, 
+					global::System.IntPtr* unsafe_remoteSocketAddress, 
+					int* unsafe_remoteSocketAddressLength)
+		{
+			// Setup
+			global::System.IntPtr localSocketAddress;
+			int localSocketAddressLength;
+			global::System.IntPtr remoteSocketAddress;
+			int remoteSocketAddressLength;
+			// Marshalling
+			// Call to managed method
+			global::System.IntPtr fnPtr = global::System.Runtime.InteropServices.McgMarshal.GetCurrentCalleeOpenStaticDelegateFunctionPointer();
+			global::__Interop.Intrinsics.Call__90(
+								fnPtr, 
+								unsafe_buffer, 
+								unsafe_receiveDataLength, 
+								unsafe_localAddressLength, 
+								unsafe_remoteAddressLength, 
+								out localSocketAddress, 
+								out localSocketAddressLength, 
+								out remoteSocketAddress, 
+								out remoteSocketAddressLength
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			(*(unsafe_remoteSocketAddressLength)) = remoteSocketAddressLength;
+			(*(unsafe_remoteSocketAddress)) = remoteSocketAddress;
+			(*(unsafe_localSocketAddressLength)) = localSocketAddressLength;
+			(*(unsafe_localSocketAddress)) = localSocketAddress;
+			// Return
+		}
+	}
+
+	// System.Net.Sockets.AcceptExDelegate__System_Net_Sockets
+	public unsafe static class AcceptExDelegate__System_Net_Sockets__Impl
+	{
+		public class NativeWrapperDelegate : global::System.Runtime.InteropServices.NativeFunctionPointerWrapper
+		{
+			internal NativeWrapperDelegate(global::System.IntPtr functionPointer) : 
+					base(functionPointer)
+			{
+			}
+
+			// Signature, Invoke, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
+			internal virtual bool Invoke(
+						global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets listenSocketHandle, 
+						global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets acceptSocketHandle, 
+						global::System.IntPtr buffer, 
+						int len, 
+						int localAddressLength, 
+						int remoteAddressLength, 
+						out int bytesReceived, 
+						global::System_Threading.NativeOverlapped__System_Private_CoreLib* overlapped)
+			{
+				// Setup
+				bool addRefed = false;
+				bool addRefed_1 = false;
+				int unsafe___value;
+				// Marshalling
+				listenSocketHandle.DangerousAddRef(ref addRefed);
+				acceptSocketHandle.DangerousAddRef(ref addRefed_1);
+				fixed (int* pinned_bytesReceived = &(bytesReceived))
+				{
+					global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+					// Call to native method
+					unsafe___value = global::__Interop.Intrinsics.StdCall__91(
+										this.NativeFunctionPointer, 
+										listenSocketHandle.DangerousGetHandle(), 
+										acceptSocketHandle.DangerousGetHandle(), 
+										buffer, 
+										len, 
+										localAddressLength, 
+										remoteAddressLength, 
+										pinned_bytesReceived, 
+										((global::System_Threading.NativeOverlapped__System_Private_CoreLib*)overlapped)
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+				}
+				if (addRefed_1)
+					acceptSocketHandle.DangerousRelease();
+				if (addRefed)
+					listenSocketHandle.DangerousRelease();
+				// Return
+				return unsafe___value != 0;
+			}
+		}
+
+		internal static global::System.Delegate ForwardDelegateCreationStub(global::System.IntPtr functionPointer)
+		{
+			return new global::System.Net.Sockets.AcceptExDelegate__System_Net_Sockets(new global::System.Net.Sockets.AcceptExDelegate__System_Net_Sockets__Impl.NativeWrapperDelegate(functionPointer).Invoke);
+		}
+
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
+		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		internal static int ReverseDelegateStub(
+					global::System.IntPtr unsafe_listenSocketHandle, 
+					global::System.IntPtr unsafe_acceptSocketHandle, 
+					global::System.IntPtr unsafe_buffer, 
+					int unsafe_len, 
+					int unsafe_localAddressLength, 
+					int unsafe_remoteAddressLength, 
+					int* unsafe_bytesReceived, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* unsafe_overlapped)
+		{
+			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
+			throw new global::System.Runtime.InteropServices.MarshalDirectiveException(global::Mcg.System.SR.Format(global::Mcg.System.SR.Arg_NativeToManagedCall));
+		}
+
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
+		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		internal static int ReverseOpenStaticDelegateStub(
+					global::System.IntPtr unsafe_listenSocketHandle, 
+					global::System.IntPtr unsafe_acceptSocketHandle, 
+					global::System.IntPtr unsafe_buffer, 
+					int unsafe_len, 
+					int unsafe_localAddressLength, 
+					int unsafe_remoteAddressLength, 
+					int* unsafe_bytesReceived, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* unsafe_overlapped)
+		{
+			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
+			throw new global::System.Runtime.InteropServices.MarshalDirectiveException(global::Mcg.System.SR.Format(global::Mcg.System.SR.Arg_NativeToManagedCall));
+		}
+	}
+
+	// System.Net.Sockets.DisconnectExDelegate__System_Net_Sockets
+	public unsafe static class DisconnectExDelegate__System_Net_Sockets__Impl
+	{
+		public class NativeWrapperDelegate : global::System.Runtime.InteropServices.NativeFunctionPointerWrapper
+		{
+			internal NativeWrapperDelegate(global::System.IntPtr functionPointer) : 
+					base(functionPointer)
+			{
+			}
+
+			// Signature, Invoke, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
+			internal virtual bool Invoke(
+						global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
+						global::System_Threading.NativeOverlapped__System_Private_CoreLib* overlapped, 
+						int flags, 
+						int reserved)
+			{
+				// Setup
+				bool addRefed = false;
+				int unsafe___value;
+				// Marshalling
+				socketHandle.DangerousAddRef(ref addRefed);
+				global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+				// Call to native method
+				unsafe___value = global::__Interop.Intrinsics.StdCall__93(
+									this.NativeFunctionPointer, 
+									socketHandle.DangerousGetHandle(), 
+									((global::System_Threading.NativeOverlapped__System_Private_CoreLib*)overlapped), 
+									flags, 
+									reserved
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+				if (addRefed)
+					socketHandle.DangerousRelease();
+				// Return
+				return unsafe___value != 0;
+			}
+		}
+
+		internal static global::System.Delegate ForwardDelegateCreationStub(global::System.IntPtr functionPointer)
+		{
+			return new global::System.Net.Sockets.DisconnectExDelegate__System_Net_Sockets(new global::System.Net.Sockets.DisconnectExDelegate__System_Net_Sockets__Impl.NativeWrapperDelegate(functionPointer).Invoke);
+		}
+
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, 
+		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		internal static int ReverseDelegateStub(
+					global::System.IntPtr unsafe_socketHandle, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* unsafe_overlapped, 
+					int unsafe_flags, 
+					int unsafe_reserved)
+		{
+			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
+			throw new global::System.Runtime.InteropServices.MarshalDirectiveException(global::Mcg.System.SR.Format(global::Mcg.System.SR.Arg_NativeToManagedCall));
+		}
+
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, 
+		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		internal static int ReverseOpenStaticDelegateStub(
+					global::System.IntPtr unsafe_socketHandle, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* unsafe_overlapped, 
+					int unsafe_flags, 
+					int unsafe_reserved)
+		{
+			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
+			throw new global::System.Runtime.InteropServices.MarshalDirectiveException(global::Mcg.System.SR.Format(global::Mcg.System.SR.Arg_NativeToManagedCall));
+		}
+	}
+
+	// System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets
+	public unsafe static class DisconnectExDelegateBlocking__System_Net_Sockets__Impl
+	{
+		public class NativeWrapperDelegate : global::System.Runtime.InteropServices.NativeFunctionPointerWrapper
+		{
+			internal NativeWrapperDelegate(global::System.IntPtr functionPointer) : 
+					base(functionPointer)
+			{
+			}
+
+			// Signature, Invoke, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
+			internal virtual bool Invoke(
+						global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
+						global::System.IntPtr overlapped, 
+						int flags, 
+						int reserved)
+			{
+				// Setup
+				bool addRefed = false;
+				int unsafe___value;
+				// Marshalling
+				socketHandle.DangerousAddRef(ref addRefed);
+				global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+				// Call to native method
+				unsafe___value = global::__Interop.Intrinsics.StdCall__95(
+									this.NativeFunctionPointer, 
+									socketHandle.DangerousGetHandle(), 
+									overlapped, 
+									flags, 
+									reserved
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+				if (addRefed)
+					socketHandle.DangerousRelease();
+				// Return
+				return unsafe___value != 0;
+			}
+		}
+
+		internal static global::System.Delegate ForwardDelegateCreationStub(global::System.IntPtr functionPointer)
+		{
+			return new global::System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets(new global::System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets__Impl.NativeWrapperDelegate(functionPointer).Invoke);
+		}
+
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, 
+		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		internal static int ReverseDelegateStub(
+					global::System.IntPtr unsafe_socketHandle, 
+					global::System.IntPtr unsafe_overlapped, 
+					int unsafe_flags, 
+					int unsafe_reserved)
+		{
+			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
+			throw new global::System.Runtime.InteropServices.MarshalDirectiveException(global::Mcg.System.SR.Format(global::Mcg.System.SR.Arg_NativeToManagedCall));
+		}
+
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, 
+		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		internal static int ReverseOpenStaticDelegateStub(
+					global::System.IntPtr unsafe_socketHandle, 
+					global::System.IntPtr unsafe_overlapped, 
+					int unsafe_flags, 
+					int unsafe_reserved)
+		{
+			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
+			throw new global::System.Runtime.InteropServices.MarshalDirectiveException(global::Mcg.System.SR.Format(global::Mcg.System.SR.Arg_NativeToManagedCall));
+		}
+	}
+
+	// System.Net.Sockets.WSARecvMsgDelegate__System_Net_Sockets
+	public unsafe static class WSARecvMsgDelegate__System_Net_Sockets__Impl
+	{
+		public class NativeWrapperDelegate : global::System.Runtime.InteropServices.NativeFunctionPointerWrapper
+		{
+			internal NativeWrapperDelegate(global::System.IntPtr functionPointer) : 
+					base(functionPointer)
+			{
+			}
+
+			// Signature, Invoke, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
+			internal virtual global::System_Net_Sockets.SocketError__System_Net_Primitives Invoke(
+						global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
+						global::System.IntPtr msg, 
+						out int bytesTransferred, 
+						global::System_Threading.NativeOverlapped__System_Private_CoreLib* overlapped, 
+						global::System.IntPtr completionRoutine)
+			{
+				// Setup
+				bool addRefed = false;
+				global::System_Net_Sockets.SocketError__System_Net_Primitives unsafe___value;
+				// Marshalling
+				socketHandle.DangerousAddRef(ref addRefed);
+				fixed (int* pinned_bytesTransferred = &(bytesTransferred))
+				{
+					global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+					// Call to native method
+					unsafe___value = global::__Interop.Intrinsics.StdCall__97(
+										this.NativeFunctionPointer, 
+										socketHandle.DangerousGetHandle(), 
+										msg, 
+										pinned_bytesTransferred, 
+										((global::System_Threading.NativeOverlapped__System_Private_CoreLib*)overlapped), 
+										completionRoutine
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+				}
+				if (addRefed)
+					socketHandle.DangerousRelease();
+				// Return
+				return unsafe___value;
+			}
+		}
+
+		internal static global::System.Delegate ForwardDelegateCreationStub(global::System.IntPtr functionPointer)
+		{
+			return new global::System.Net.Sockets.WSARecvMsgDelegate__System_Net_Sockets(new global::System.Net.Sockets.WSARecvMsgDelegate__System_Net_Sockets__Impl.NativeWrapperDelegate(functionPointer).Invoke);
+		}
+
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		internal static global::System_Net_Sockets.SocketError__System_Net_Primitives ReverseDelegateStub(
+					global::System.IntPtr unsafe_socketHandle, 
+					global::System.IntPtr unsafe_msg, 
+					int* unsafe_bytesTransferred, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* unsafe_overlapped, 
+					global::System.IntPtr unsafe_completionRoutine)
+		{
+			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
+			throw new global::System.Runtime.InteropServices.MarshalDirectiveException(global::Mcg.System.SR.Format(global::Mcg.System.SR.Arg_NativeToManagedCall));
+		}
+
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		internal static global::System_Net_Sockets.SocketError__System_Net_Primitives ReverseOpenStaticDelegateStub(
+					global::System.IntPtr unsafe_socketHandle, 
+					global::System.IntPtr unsafe_msg, 
+					int* unsafe_bytesTransferred, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* unsafe_overlapped, 
+					global::System.IntPtr unsafe_completionRoutine)
+		{
+			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
+			throw new global::System.Runtime.InteropServices.MarshalDirectiveException(global::Mcg.System.SR.Format(global::Mcg.System.SR.Arg_NativeToManagedCall));
+		}
+	}
+
+	// System.Net.Sockets.WSARecvMsgDelegateBlocking__System_Net_Sockets
+	public unsafe static class WSARecvMsgDelegateBlocking__System_Net_Sockets__Impl
+	{
+		public class NativeWrapperDelegate : global::System.Runtime.InteropServices.NativeFunctionPointerWrapper
+		{
+			internal NativeWrapperDelegate(global::System.IntPtr functionPointer) : 
+					base(functionPointer)
+			{
+			}
+
+			// Signature, Invoke, [fwd] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
+			internal virtual global::System_Net_Sockets.SocketError__System_Net_Primitives Invoke(
+						global::System.IntPtr socketHandle, 
+						global::System.IntPtr msg, 
+						out int bytesTransferred, 
+						global::System.IntPtr overlapped, 
+						global::System.IntPtr completionRoutine)
+			{
+				// Setup
+				global::System_Net_Sockets.SocketError__System_Net_Primitives unsafe___value;
+				// Marshalling
+				fixed (int* pinned_bytesTransferred = &(bytesTransferred))
+				{
+					global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+					// Call to native method
+					unsafe___value = global::__Interop.Intrinsics.StdCall__99(
+										this.NativeFunctionPointer, 
+										socketHandle, 
+										msg, 
+										pinned_bytesTransferred, 
+										overlapped, 
+										completionRoutine
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+				}
+				// Return
+				return unsafe___value;
+			}
+		}
+
+		internal static global::System.Delegate ForwardDelegateCreationStub(global::System.IntPtr functionPointer)
+		{
+			return new global::System.Net.Sockets.WSARecvMsgDelegateBlocking__System_Net_Sockets(new global::System.Net.Sockets.WSARecvMsgDelegateBlocking__System_Net_Sockets__Impl.NativeWrapperDelegate(functionPointer).Invoke);
+		}
+
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		internal static global::System_Net_Sockets.SocketError__System_Net_Primitives ReverseDelegateStub(
+					global::System.IntPtr unsafe_socketHandle, 
+					global::System.IntPtr unsafe_msg, 
+					int* unsafe_bytesTransferred, 
+					global::System.IntPtr unsafe_overlapped, 
+					global::System.IntPtr unsafe_completionRoutine)
+		{
+			// Setup
+			int bytesTransferred;
+			global::System_Net_Sockets.SocketError__System_Net_Primitives __value;
+			// Marshalling
+			// Call to managed method
+			global::System.Net.Sockets.WSARecvMsgDelegateBlocking__System_Net_Sockets __safeTargetMethod = global::System.Runtime.InteropServices.McgMarshal.GetCurrentCalleeDelegate<global::System.Net.Sockets.WSARecvMsgDelegateBlocking__System_Net_Sockets>();
+			__value = __safeTargetMethod(
+								unsafe_socketHandle, 
+								unsafe_msg, 
+								out bytesTransferred, 
+								unsafe_overlapped, 
+								unsafe_completionRoutine
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			(*(unsafe_bytesTransferred)) = bytesTransferred;
+			// Return
+			return __value;
+		}
+
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00042D60] System_Net_Sockets_SocketError__System_Net_Primitives__SocketError__System_Net_Primitives, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		internal static global::System_Net_Sockets.SocketError__System_Net_Primitives ReverseOpenStaticDelegateStub(
+					global::System.IntPtr unsafe_socketHandle, 
+					global::System.IntPtr unsafe_msg, 
+					int* unsafe_bytesTransferred, 
+					global::System.IntPtr unsafe_overlapped, 
+					global::System.IntPtr unsafe_completionRoutine)
+		{
+			// Setup
+			int bytesTransferred;
+			global::System_Net_Sockets.SocketError__System_Net_Primitives __value;
+			// Marshalling
+			// Call to managed method
+			global::System.IntPtr fnPtr = global::System.Runtime.InteropServices.McgMarshal.GetCurrentCalleeOpenStaticDelegateFunctionPointer();
+			__value = global::__Interop.Intrinsics.Call__100(
+								fnPtr, 
+								unsafe_socketHandle, 
+								unsafe_msg, 
+								out bytesTransferred, 
+								unsafe_overlapped, 
+								unsafe_completionRoutine
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			(*(unsafe_bytesTransferred)) = bytesTransferred;
+			// Return
+			return __value;
+		}
+	}
+
+	// System.Net.Sockets.TransmitPacketsDelegate__System_Net_Sockets
+	public unsafe static class TransmitPacketsDelegate__System_Net_Sockets__Impl
+	{
+		public class NativeWrapperDelegate : global::System.Runtime.InteropServices.NativeFunctionPointerWrapper
+		{
+			internal NativeWrapperDelegate(global::System.IntPtr functionPointer) : 
+					base(functionPointer)
+			{
+			}
+
+			// Signature, Invoke, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, [fwd] [in] [EETypeRva:0x00042D60] System_Net_Sockets_TransmitFileOptions__System_Net_Sockets__TransmitFileOptions__System_Net_Sockets, 
+			internal virtual bool Invoke(
+						global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
+						global::System.IntPtr packetArray, 
+						int elementCount, 
+						int sendSize, 
+						global::System_Threading.NativeOverlapped__System_Private_CoreLib* overlapped, 
+						global::System_Net_Sockets.TransmitFileOptions__System_Net_Sockets flags)
+			{
+				// Setup
+				bool addRefed = false;
+				int unsafe___value;
+				// Marshalling
+				socketHandle.DangerousAddRef(ref addRefed);
+				global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+				// Call to native method
+				unsafe___value = global::__Interop.Intrinsics.StdCall__101(
+									this.NativeFunctionPointer, 
+									socketHandle.DangerousGetHandle(), 
+									packetArray, 
+									elementCount, 
+									sendSize, 
+									((global::System_Threading.NativeOverlapped__System_Private_CoreLib*)overlapped), 
+									flags
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+				if (addRefed)
+					socketHandle.DangerousRelease();
+				// Return
+				return unsafe___value != 0;
+			}
+		}
+
+		internal static global::System.Delegate ForwardDelegateCreationStub(global::System.IntPtr functionPointer)
+		{
+			return new global::System.Net.Sockets.TransmitPacketsDelegate__System_Net_Sockets(new global::System.Net.Sockets.TransmitPacketsDelegate__System_Net_Sockets__Impl.NativeWrapperDelegate(functionPointer).Invoke);
+		}
+
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, [rev] [in] [EETypeRva:0x00042D60] System_Net_Sockets_TransmitFileOptions__System_Net_Sockets__TransmitFileOptions__System_Net_Sockets, 
+		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		internal static int ReverseDelegateStub(
+					global::System.IntPtr unsafe_socketHandle, 
+					global::System.IntPtr unsafe_packetArray, 
+					int unsafe_elementCount, 
+					int unsafe_sendSize, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* unsafe_overlapped, 
+					global::System_Net_Sockets.TransmitFileOptions__System_Net_Sockets unsafe_flags)
+		{
+			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
+			throw new global::System.Runtime.InteropServices.MarshalDirectiveException(global::Mcg.System.SR.Format(global::Mcg.System.SR.Arg_NativeToManagedCall));
+		}
+
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, [rev] [in] [EETypeRva:0x00042D60] System_Net_Sockets_TransmitFileOptions__System_Net_Sockets__TransmitFileOptions__System_Net_Sockets, 
+		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		internal static int ReverseOpenStaticDelegateStub(
+					global::System.IntPtr unsafe_socketHandle, 
+					global::System.IntPtr unsafe_packetArray, 
+					int unsafe_elementCount, 
+					int unsafe_sendSize, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* unsafe_overlapped, 
+					global::System_Net_Sockets.TransmitFileOptions__System_Net_Sockets unsafe_flags)
+		{
+			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
+			throw new global::System.Runtime.InteropServices.MarshalDirectiveException(global::Mcg.System.SR.Format(global::Mcg.System.SR.Arg_NativeToManagedCall));
+		}
+	}
+}
+
 namespace System.Runtime.InteropServices.WindowsRuntime
 {
 	// System.Runtime.InteropServices.WindowsRuntime.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlType>>
@@ -5976,7 +6961,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 		// StubClass for 'System.Runtime.InteropServices.WindowsRuntime.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlType>>'
 		public static partial class Stubs
 		{
-			// Signature, System.Runtime.InteropServices.WindowsRuntime.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlType>>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000424B8] rg_System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A_string_j__wux__Markup_IXamlType_V_ * *, 
+			// Signature, System.Runtime.InteropServices.WindowsRuntime.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlType>>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000424E8] rg_System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A_string_j__wux__Markup_IXamlType_V_ * *, 
 			public static global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>[] get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -6005,7 +6990,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 						if (__value__retval != null)
 							for (uint mcgIdx = 0; (mcgIdx < unsafe___value__retval_mcgLength); mcgIdx++)
 							{
-								// [fwd] [out] [retval] [nativebyref] [optional] [EETypeRva:0x00041414] System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A_string_j__wux__Markup_IXamlType_V_ * __value__retval
+								// [fwd] [out] [retval] [nativebyref] [optional] [EETypeRva:0x00041444] System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A_string_j__wux__Markup_IXamlType_V_ * __value__retval
 								global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType> pair___value__retval = ((global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject_NoUnboxing(
 													((global::System.IntPtr)unsafe___value__retval[mcgIdx]), 
 													typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlType>).TypeHandle
@@ -6022,7 +7007,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 					if (unsafe___value__retval != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe___value__retval_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [retval] [nativebyref] [optional] [EETypeRva:0x00041414] System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A_string_j__wux__Markup_IXamlType_V_ * __value__retval
+							// [fwd] [in] [out] [retval] [nativebyref] [optional] [EETypeRva:0x00041444] System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A_string_j__wux__Markup_IXamlType_V_ * __value__retval
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe___value__retval[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe___value__retval);
@@ -6037,7 +7022,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 		// StubClass for 'System.Runtime.InteropServices.WindowsRuntime.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Type,Windows.UI.Xaml.Markup.IXamlType>>'
 		public static partial class Stubs
 		{
-			// Signature, System.Runtime.InteropServices.WindowsRuntime.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Type,Windows.UI.Xaml.Markup.IXamlType>>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000424B8] rg_System_Collections_Generic_KeyValuePair_2_System_Type__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A__wux__Interop_TypeName_j__wux__Markup_IXamlType_V_ * *, 
+			// Signature, System.Runtime.InteropServices.WindowsRuntime.IReferenceArray<System.Collections.Generic.KeyValuePair<System.Type,Windows.UI.Xaml.Markup.IXamlType>>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000424E8] rg_System_Collections_Generic_KeyValuePair_2_System_Type__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A__wux__Interop_TypeName_j__wux__Markup_IXamlType_V_ * *, 
 			public static global::System.Collections.Generic.KeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>[] get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -6066,7 +7051,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 						if (__value__retval != null)
 							for (uint mcgIdx = 0; (mcgIdx < unsafe___value__retval_mcgLength); mcgIdx++)
 							{
-								// [fwd] [out] [retval] [nativebyref] [optional] [EETypeRva:0x00041414] System_Collections_Generic_KeyValuePair_2_System_Type__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A__wux__Interop_TypeName_j__wux__Markup_IXamlType_V_ * __value__retval
+								// [fwd] [out] [retval] [nativebyref] [optional] [EETypeRva:0x00041444] System_Collections_Generic_KeyValuePair_2_System_Type__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A__wux__Interop_TypeName_j__wux__Markup_IXamlType_V_ * __value__retval
 								global::Windows.Foundation.Collections.IKeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType> pair___value__retval = ((global::Windows.Foundation.Collections.IKeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject_NoUnboxing(
 													((global::System.IntPtr)unsafe___value__retval[mcgIdx]), 
 													typeof(global::Windows.Foundation.Collections.IKeyValuePair<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>).TypeHandle
@@ -6083,7 +7068,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 					if (unsafe___value__retval != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe___value__retval_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [retval] [nativebyref] [optional] [EETypeRva:0x00041414] System_Collections_Generic_KeyValuePair_2_System_Type__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A__wux__Interop_TypeName_j__wux__Markup_IXamlType_V_ * __value__retval
+							// [fwd] [in] [out] [retval] [nativebyref] [optional] [EETypeRva:0x00041444] System_Collections_Generic_KeyValuePair_2_System_Type__Windows_UI_Xaml_Markup_IXamlType___Windows_Foundation_Collections__IKeyValuePair_A__wux__Interop_TypeName_j__wux__Markup_IXamlType_V_ * __value__retval
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe___value__retval[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe___value__retval);
@@ -6098,7 +7083,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 		// StubClass for 'System.Runtime.InteropServices.WindowsRuntime.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlMember>>'
 		public static partial class Stubs
 		{
-			// Signature, System.Runtime.InteropServices.WindowsRuntime.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlMember>>.get_Value, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000424B8] rg_System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlMember___Windows_Foundation_Collections__IKeyValuePair_A_string_j__wux__Markup_IXamlMember_V_ * *, 
+			// Signature, System.Runtime.InteropServices.WindowsRuntime.IReferenceArray<System.Collections.Generic.KeyValuePair<string,Windows.UI.Xaml.Markup.IXamlMember>>.get_Value, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000424E8] rg_System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlMember___Windows_Foundation_Collections__IKeyValuePair_A_string_j__wux__Markup_IXamlMember_V_ * *, 
 			public static global::System.Collections.Generic.KeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>[] get_Value(global::System.__ComObject __this)
 			{
 				// Setup
@@ -6127,7 +7112,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 						if (__value__retval != null)
 							for (uint mcgIdx = 0; (mcgIdx < unsafe___value__retval_mcgLength); mcgIdx++)
 							{
-								// [fwd] [out] [retval] [nativebyref] [optional] [EETypeRva:0x00041414] System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlMember___Windows_Foundation_Collections__IKeyValuePair_A_string_j__wux__Markup_IXamlMember_V_ * __value__retval
+								// [fwd] [out] [retval] [nativebyref] [optional] [EETypeRva:0x00041444] System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlMember___Windows_Foundation_Collections__IKeyValuePair_A_string_j__wux__Markup_IXamlMember_V_ * __value__retval
 								global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember> pair___value__retval = ((global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject_NoUnboxing(
 													((global::System.IntPtr)unsafe___value__retval[mcgIdx]), 
 													typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.UI.Xaml.Markup.IXamlMember>).TypeHandle
@@ -6144,7 +7129,7 @@ namespace System.Runtime.InteropServices.WindowsRuntime
 					if (unsafe___value__retval != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe___value__retval_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [retval] [nativebyref] [optional] [EETypeRva:0x00041414] System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlMember___Windows_Foundation_Collections__IKeyValuePair_A_string_j__wux__Markup_IXamlMember_V_ * __value__retval
+							// [fwd] [in] [out] [retval] [nativebyref] [optional] [EETypeRva:0x00041444] System_Collections_Generic_KeyValuePair_2_string__Windows_UI_Xaml_Markup_IXamlMember___Windows_Foundation_Collections__IKeyValuePair_A_string_j__wux__Markup_IXamlMember_V_ * __value__retval
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe___value__retval[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe___value__retval);
@@ -6162,7 +7147,7 @@ namespace System_Runtime_InteropServices
 		// StubClass for 'System_Runtime_InteropServices.IClassFactory__System_Private_Interop'
 		public static partial class Stubs
 		{
-			// Signature, System_Runtime_InteropServices.IClassFactory__System_Private_Interop.CreateInstance, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_Guid___ptrSystem.Guid *, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr___ptr__w64 int *, 
+			// Signature, System_Runtime_InteropServices.IClassFactory__System_Private_Interop.CreateInstance, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_Guid___ptrSystem.Guid *, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr___ptr__w64 int *, 
 			public static int CreateInstance(
 						global::System.__ComObject __this, 
 						global::System.IntPtr pUnkOuter, 
@@ -6187,7 +7172,7 @@ namespace System_Runtime_InteropServices
 				return unsafe___value;
 			}
 
-			// Signature, System_Runtime_InteropServices.IClassFactory__System_Private_Interop.LockServer, [fwd] [return] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+			// Signature, System_Runtime_InteropServices.IClassFactory__System_Private_Interop.LockServer, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 			public static int LockServer(
 						global::System.__ComObject __this, 
 						int fLock)
@@ -6273,7 +7258,7 @@ namespace System_Runtime_InteropServices
 									);
 			}
 
-			// Signature, System_Runtime_InteropServices.IClassFactory__System_Private_Interop.CreateInstance, [rev] [return] [EETypeRva:0x00041980] int__int, [rev] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x00041980] System_Guid___ptrSystem.Guid *, [rev] [in] [EETypeRva:0x00041980] System_IntPtr___ptr__w64 int *, 
+			// Signature, System_Runtime_InteropServices.IClassFactory__System_Private_Interop.CreateInstance, [rev] [return] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_Guid___ptrSystem.Guid *, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr___ptr__w64 int *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int CreateInstance__n(
 						global::System.IntPtr pComThis, 
@@ -6303,7 +7288,7 @@ namespace System_Runtime_InteropServices
 				}
 			}
 
-			// Signature, System_Runtime_InteropServices.IClassFactory__System_Private_Interop.LockServer, [rev] [return] [EETypeRva:0x00041980] int__int, [rev] [in] [EETypeRva:0x00041980] int__int, 
+			// Signature, System_Runtime_InteropServices.IClassFactory__System_Private_Interop.LockServer, [rev] [return] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int LockServer__n(
 						global::System.IntPtr pComThis, 
@@ -6347,7 +7332,7 @@ namespace System_Runtime_InteropServices
 		// StubClass for 'System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime'
 		public static partial class Stubs
 		{
-			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.GetUnmarshalClass, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_Guid__System.Guid, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_Guid__System.Guid, 
+			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.GetUnmarshalClass, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_Guid__System.Guid, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_Guid__System.Guid, 
 			public static void GetUnmarshalClass(
 						global::System.__ComObject __this, 
 						ref global::System.Guid riid, 
@@ -6381,7 +7366,7 @@ namespace System_Runtime_InteropServices
 				// Return
 			}
 
-			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.GetMarshalSizeMax, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_Guid__System.Guid, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.GetMarshalSizeMax, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_Guid__System.Guid, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static void GetMarshalSizeMax(
 						global::System.__ComObject __this, 
 						ref global::System.Guid riid, 
@@ -6415,7 +7400,7 @@ namespace System_Runtime_InteropServices
 				// Return
 			}
 
-			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.MarshalInterface, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_Guid__System.Guid, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.MarshalInterface, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_Guid__System.Guid, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static void MarshalInterface(
 						global::System.__ComObject __this, 
 						global::System.IntPtr pStm, 
@@ -6448,7 +7433,7 @@ namespace System_Runtime_InteropServices
 				// Return
 			}
 
-			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.UnmarshalInterface, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_Guid__System.Guid, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.UnmarshalInterface, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_Guid__System.Guid, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 			public static void UnmarshalInterface(
 						global::System.__ComObject __this, 
 						global::System.IntPtr pStm, 
@@ -6476,7 +7461,7 @@ namespace System_Runtime_InteropServices
 				// Return
 			}
 
-			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.ReleaseMarshalData, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.ReleaseMarshalData, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 			public static void ReleaseMarshalData(
 						global::System.__ComObject __this, 
 						global::System.IntPtr pStm)
@@ -6648,7 +7633,7 @@ namespace System_Runtime_InteropServices
 									);
 			}
 
-			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.GetUnmarshalClass, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_Guid__System.Guid, [rev] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x00041980] uint__unsigned int, [rev] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x00041980] uint__unsigned int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_Guid__System.Guid, 
+			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.GetUnmarshalClass, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_Guid__System.Guid, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] uint__unsigned int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] uint__unsigned int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_Guid__System.Guid, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int GetUnmarshalClass__n(
 						global::System.IntPtr pComThis, 
@@ -6690,7 +7675,7 @@ namespace System_Runtime_InteropServices
 				}
 			}
 
-			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.GetMarshalSizeMax, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_Guid__System.Guid, [rev] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x00041980] uint__unsigned int, [rev] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x00041980] uint__unsigned int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.GetMarshalSizeMax, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_Guid__System.Guid, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] uint__unsigned int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] uint__unsigned int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int GetMarshalSizeMax__n(
 						global::System.IntPtr pComThis, 
@@ -6732,7 +7717,7 @@ namespace System_Runtime_InteropServices
 				}
 			}
 
-			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.MarshalInterface, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [rev] [in] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_Guid__System.Guid, [rev] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x00041980] uint__unsigned int, [rev] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.MarshalInterface, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_Guid__System.Guid, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] uint__unsigned int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] uint__unsigned int, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int MarshalInterface__n(
 						global::System.IntPtr pComThis, 
@@ -6769,7 +7754,7 @@ namespace System_Runtime_InteropServices
 				}
 			}
 
-			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.UnmarshalInterface, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [rev] [in] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_Guid__System.Guid, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.UnmarshalInterface, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_Guid__System.Guid, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int UnmarshalInterface__n(
 						global::System.IntPtr pComThis, 
@@ -6805,7 +7790,7 @@ namespace System_Runtime_InteropServices
 				}
 			}
 
-			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.ReleaseMarshalData, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+			// Signature, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime.ReleaseMarshalData, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int ReleaseMarshalData__n(
 						global::System.IntPtr pComThis, 
@@ -6999,7 +7984,7 @@ namespace System_Runtime_InteropServices_ComTypes
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetNames, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [EETypeRva:0x000424B8] rg_string__wchar_t * *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetNames, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [EETypeRva:0x000424E8] rg_string__wchar_t * *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 			public static void GetNames(
 						global::System.__ComObject __this, 
 						int memid, 
@@ -7033,7 +8018,7 @@ namespace System_Runtime_InteropServices_ComTypes
 					if (rgBstrNames != null)
 						for (uint mcgIdx = 0; (mcgIdx < rgBstrNames.Length); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x000409A0] string__wchar_t * rgBstrNames
+							// [fwd] [out] [optional] [EETypeRva:0x000409D0] string__wchar_t * rgBstrNames
 							rgBstrNames[mcgIdx] = global::System.Runtime.InteropServices.McgMarshal.ConvertBSTRToString(unsafe_rgBstrNames[mcgIdx]);
 						}
 					// Return
@@ -7044,14 +8029,14 @@ namespace System_Runtime_InteropServices_ComTypes
 					if (unsafe_rgBstrNames != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < rgBstrNames.Length); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x000409A0] string__wchar_t * rgBstrNames
+							// [fwd] [in] [out] [optional] [EETypeRva:0x000409D0] string__wchar_t * rgBstrNames
 							global::System.Runtime.InteropServices.McgMarshal.SysFreeString(unsafe_rgBstrNames[mcgIdx_1]);
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_rgBstrNames);
 				}
 			}
 
-			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetRefTypeOfImplType, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetRefTypeOfImplType, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 			public static void GetRefTypeOfImplType(
 						global::System.__ComObject __this, 
 						int index, 
@@ -7076,7 +8061,7 @@ namespace System_Runtime_InteropServices_ComTypes
 				// Return
 			}
 
-			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetImplTypeFlags, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D30] System_Runtime_InteropServices_ComTypes_IMPLTYPEFLAGS__System_Private_Interop__IMPLTYPEFLAGS__System_Private_Interop, 
+			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetImplTypeFlags, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D60] System_Runtime_InteropServices_ComTypes_IMPLTYPEFLAGS__System_Private_Interop__IMPLTYPEFLAGS__System_Private_Interop, 
 			public static void GetImplTypeFlags(
 						global::System.__ComObject __this, 
 						int index, 
@@ -7101,7 +8086,7 @@ namespace System_Runtime_InteropServices_ComTypes
 				// Return
 			}
 
-			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetIDsOfNames, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x000424B8] rg_string__wchar_t * *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [EETypeRva:0x00042A10] rg_int__int *, 
+			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetIDsOfNames, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000424E8] rg_string__wchar_t * *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [EETypeRva:0x00042A40] rg_int__int *, 
 			public static void GetIDsOfNames(
 						global::System.__ComObject __this, 
 						string[] rgszNames, 
@@ -7124,7 +8109,7 @@ namespace System_Runtime_InteropServices_ComTypes
 						if (rgszNames != null)
 							for (uint mcgIdx = 0; (mcgIdx < rgszNames.Length); mcgIdx++)
 							{
-								// [fwd] [in] [optional] [EETypeRva:0x00041B14] string__wchar_t * rgszNames
+								// [fwd] [in] [optional] [EETypeRva:0x00041B44] string__wchar_t * rgszNames
 								unsafe_rgszNames[mcgIdx] = (ushort*)global::System.Runtime.InteropServices.McgMarshal.AllocUnicodeBuffer(rgszNames[mcgIdx]);
 								global::System.Runtime.InteropServices.McgMarshal.CopyUnicodeString(
 													rgszNames[mcgIdx], 
@@ -7156,14 +8141,14 @@ namespace System_Runtime_InteropServices_ComTypes
 					if (unsafe_rgszNames != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < rgszNames.Length); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00041B14] string__wchar_t * rgszNames
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00041B44] string__wchar_t * rgszNames
 							global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_rgszNames[mcgIdx_1]);
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_rgszNames);
 				}
 			}
 
-			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.Invoke, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040FCC] object____mcg_IUnknown *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] short__short, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] System_Runtime_InteropServices_ComTypes_DISPPARAMS__System_Private_Interop__System_Runtime_InteropServices_ComTypes__DISPPARAMS__System_Private_Interop, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.Invoke, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040FFC] object____mcg_IUnknown *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] short__short, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] System_Runtime_InteropServices_ComTypes_DISPPARAMS__System_Private_Interop__System_Runtime_InteropServices_ComTypes__DISPPARAMS__System_Private_Interop, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 			public static void Invoke(
 						global::System.__ComObject __this, 
 						object pvInstance, 
@@ -7232,7 +8217,7 @@ namespace System_Runtime_InteropServices_ComTypes
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetDllEntry, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042D30] System_Runtime_InteropServices_ComTypes_INVOKEKIND__System_Private_Interop__INVOKEKIND__System_Private_Interop, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetDllEntry, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042D60] System_Runtime_InteropServices_ComTypes_INVOKEKIND__System_Private_Interop__INVOKEKIND__System_Private_Interop, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 			public static void GetDllEntry(
 						global::System.__ComObject __this, 
 						int memid, 
@@ -7274,7 +8259,7 @@ namespace System_Runtime_InteropServices_ComTypes
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.AddressOfMember, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00042D30] System_Runtime_InteropServices_ComTypes_INVOKEKIND__System_Private_Interop__INVOKEKIND__System_Private_Interop, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.AddressOfMember, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042D60] System_Runtime_InteropServices_ComTypes_INVOKEKIND__System_Private_Interop__INVOKEKIND__System_Private_Interop, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 			public static void AddressOfMember(
 						global::System.__ComObject __this, 
 						int memid, 
@@ -7301,7 +8286,7 @@ namespace System_Runtime_InteropServices_ComTypes
 				// Return
 			}
 
-			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.CreateInstance, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040FCC] object____mcg_IUnknown *, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_Guid__System.Guid, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00040FCC] object____mcg_IUnknown *, 
+			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.CreateInstance, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040FFC] object____mcg_IUnknown *, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_Guid__System.Guid, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00040FFC] object____mcg_IUnknown *, 
 			public static void CreateInstance(
 						global::System.__ComObject __this, 
 						object pUnkOuter, 
@@ -7348,7 +8333,7 @@ namespace System_Runtime_InteropServices_ComTypes
 				}
 			}
 
-			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetMops, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000409A0] string__wchar_t *, 
+			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetMops, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000409D0] string__wchar_t *, 
 			public static void GetMops(
 						global::System.__ComObject __this, 
 						int memid, 
@@ -7381,7 +8366,7 @@ namespace System_Runtime_InteropServices_ComTypes
 				}
 			}
 
-			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetContainingTypeLib, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043630] System_Runtime_InteropServices_ComTypes_ITypeLib__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeLib__System_Private_Interop *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, 
+			// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetContainingTypeLib, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043660] System_Runtime_InteropServices_ComTypes_ITypeLib__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeLib__System_Private_Interop *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 			public static void GetContainingTypeLib(
 						global::System.__ComObject __this, 
 						out global::System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop ppTLB, 
@@ -7715,7 +8700,7 @@ namespace System_Runtime_InteropServices_ComTypes
 		// StubClass for 'System_Runtime_InteropServices_ComTypes.ITypeComp__System_Private_Interop'
 		public static partial class Stubs
 		{
-			// Signature, System_Runtime_InteropServices_ComTypes.ITypeComp__System_Private_Interop.Bind, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] short__short, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043630] System_Runtime_InteropServices_ComTypes_ITypeInfo__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeInfo__System_Private_Interop *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D30] System_Runtime_InteropServices_ComTypes_DESCKIND__System_Private_Interop__DESCKIND__System_Private_Interop, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004311C] System_Runtime_InteropServices_ComTypes_BINDPTR__System_Private_Interop__System_Runtime_InteropServices_ComTypes__BINDPTR__System_Private_Interop, 
+			// Signature, System_Runtime_InteropServices_ComTypes.ITypeComp__System_Private_Interop.Bind, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] short__short, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043660] System_Runtime_InteropServices_ComTypes_ITypeInfo__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeInfo__System_Private_Interop *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D60] System_Runtime_InteropServices_ComTypes_DESCKIND__System_Private_Interop__DESCKIND__System_Private_Interop, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] System_Runtime_InteropServices_ComTypes_BINDPTR__System_Private_Interop__System_Runtime_InteropServices_ComTypes__BINDPTR__System_Private_Interop, 
 			public static void Bind(
 						global::System.__ComObject __this, 
 						string szName, 
@@ -7769,7 +8754,7 @@ namespace System_Runtime_InteropServices_ComTypes
 				}
 			}
 
-			// Signature, System_Runtime_InteropServices_ComTypes.ITypeComp__System_Private_Interop.BindType, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043630] System_Runtime_InteropServices_ComTypes_ITypeInfo__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeInfo__System_Private_Interop *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043630] System_Runtime_InteropServices_ComTypes_ITypeComp__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeComp__System_Private_Interop *, 
+			// Signature, System_Runtime_InteropServices_ComTypes.ITypeComp__System_Private_Interop.BindType, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043660] System_Runtime_InteropServices_ComTypes_ITypeInfo__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeInfo__System_Private_Interop *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043660] System_Runtime_InteropServices_ComTypes_ITypeComp__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeComp__System_Private_Interop *, 
 			public static void BindType(
 						global::System.__ComObject __this, 
 						string szName, 
@@ -7872,7 +8857,7 @@ namespace System_Runtime_InteropServices_ComTypes
 		// StubClass for 'System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop'
 		public static partial class Stubs
 		{
-			// Signature, System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop.GetTypeInfoCount, [fwd] [return] [EETypeRva:0x00041980] int__int, 
+			// Signature, System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop.GetTypeInfoCount, [fwd] [return] [EETypeRva:0x000419B0] int__int, 
 			public static int GetTypeInfoCount(global::System.__ComObject __this)
 			{
 				// Setup
@@ -7904,7 +8889,7 @@ namespace System_Runtime_InteropServices_ComTypes
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop.GetTypeInfoType, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D30] System_Runtime_InteropServices_ComTypes_TYPEKIND__System_Private_Interop__TYPEKIND__System_Private_Interop, 
+			// Signature, System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop.GetTypeInfoType, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00042D60] System_Runtime_InteropServices_ComTypes_TYPEKIND__System_Private_Interop__TYPEKIND__System_Private_Interop, 
 			public static void GetTypeInfoType(
 						global::System.__ComObject __this, 
 						int index, 
@@ -7929,7 +8914,7 @@ namespace System_Runtime_InteropServices_ComTypes
 				// Return
 			}
 
-			// Signature, System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop.GetTypeInfoOfGuid, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_Guid__System.Guid, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043630] System_Runtime_InteropServices_ComTypes_ITypeInfo__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeInfo__System_Private_Interop *, 
+			// Signature, System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop.GetTypeInfoOfGuid, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_Guid__System.Guid, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043660] System_Runtime_InteropServices_ComTypes_ITypeInfo__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeInfo__System_Private_Interop *, 
 			public static void GetTypeInfoOfGuid(
 						global::System.__ComObject __this, 
 						ref global::System.Guid guid, 
@@ -8013,7 +8998,7 @@ namespace System_Runtime_InteropServices_ComTypes
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop.IsName, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040818] bool__System.Boolean, 
+			// Signature, System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop.IsName, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040848] bool__System.Boolean, 
 			public static bool IsName(
 						global::System.__ComObject __this, 
 						string szNameBuf, 
@@ -8045,7 +9030,7 @@ namespace System_Runtime_InteropServices_ComTypes
 				return __value__retval;
 			}
 
-			// Signature, System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop.FindName, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041B14] string__wchar_t *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [EETypeRva:0x000424B8] rg_System_Runtime_InteropServices_ComTypes_ITypeInfo__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeInfo__System_Private_Interop * *, [fwd] [out] [EETypeRva:0x00042A10] rg_int__int *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] short__short, 
+			// Signature, System_Runtime_InteropServices_ComTypes.ITypeLib__System_Private_Interop.FindName, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [EETypeRva:0x000424E8] rg_System_Runtime_InteropServices_ComTypes_ITypeInfo__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeInfo__System_Private_Interop * *, [fwd] [out] [EETypeRva:0x00042A40] rg_int__int *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] short__short, 
 			public static void FindName(
 						global::System.__ComObject __this, 
 						string szNameBuf, 
@@ -8091,7 +9076,7 @@ namespace System_Runtime_InteropServices_ComTypes
 						if (ppTInfo != null)
 							for (uint mcgIdx = 0; (mcgIdx < ppTInfo.Length); mcgIdx++)
 							{
-								// [fwd] [out] [optional] [EETypeRva:0x00043630] System_Runtime_InteropServices_ComTypes_ITypeInfo__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeInfo__System_Private_Interop * ppTInfo
+								// [fwd] [out] [optional] [EETypeRva:0x00043660] System_Runtime_InteropServices_ComTypes_ITypeInfo__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeInfo__System_Private_Interop * ppTInfo
 								ppTInfo[mcgIdx] = (global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 													((global::System.IntPtr)unsafe_ppTInfo[mcgIdx]), 
 													global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.ComTypes.ITypeInfo,System.Private.Interop, Version=999.999.999.999, Culture=neutr" +
@@ -8107,7 +9092,7 @@ namespace System_Runtime_InteropServices_ComTypes
 					if (unsafe_ppTInfo != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < ppTInfo.Length); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] System_Runtime_InteropServices_ComTypes_ITypeInfo__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeInfo__System_Private_Interop * ppTInfo
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] System_Runtime_InteropServices_ComTypes_ITypeInfo__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeInfo__System_Private_Interop * ppTInfo
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_ppTInfo[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_ppTInfo);
@@ -8261,7 +9246,7 @@ namespace System_Runtime_InteropServices_WindowsRuntime
 		// StubClass for 'System_Runtime_InteropServices_WindowsRuntime.IBufferByteAccess__System_Runtime_WindowsRuntime'
 		public static partial class Stubs
 		{
-			// Signature, System_Runtime_InteropServices_WindowsRuntime.IBufferByteAccess__System_Runtime_WindowsRuntime.GetBuffer, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+			// Signature, System_Runtime_InteropServices_WindowsRuntime.IBufferByteAccess__System_Runtime_WindowsRuntime.GetBuffer, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 			public static global::System.IntPtr GetBuffer(global::System.__ComObject __this)
 			{
 				// Setup
@@ -8329,7 +9314,7 @@ namespace System_Runtime_InteropServices_WindowsRuntime
 									);
 			}
 
-			// Signature, System_Runtime_InteropServices_WindowsRuntime.IBufferByteAccess__System_Runtime_WindowsRuntime.GetBuffer, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+			// Signature, System_Runtime_InteropServices_WindowsRuntime.IBufferByteAccess__System_Runtime_WindowsRuntime.GetBuffer, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int GetBuffer__n(
 						global::System.IntPtr pComThis, 
@@ -8528,7 +9513,7 @@ namespace Windows.ApplicationModel.Activation
 		// StubClass for 'Windows.ApplicationModel.Activation.IActivatedEventArgs'
 		public static partial class Stubs
 		{
-			// Signature, Windows.ApplicationModel.Activation.IActivatedEventArgs.get_PreviousExecutionState, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D30] Windows_ApplicationModel_Activation_ApplicationExecutionState__Windows_ApplicationModel_Activation__ApplicationExecutionState, 
+			// Signature, Windows.ApplicationModel.Activation.IActivatedEventArgs.get_PreviousExecutionState, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_ApplicationModel_Activation_ApplicationExecutionState__Windows_ApplicationModel_Activation__ApplicationExecutionState, 
 			public static global::Windows.ApplicationModel.Activation.ApplicationExecutionState get_PreviousExecutionState(global::System.__ComObject __this)
 			{
 				// Setup
@@ -8827,7 +9812,7 @@ namespace Windows.Devices.Gpio
 		// StubClass for 'Windows.Devices.Gpio.IGpioController'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Devices.Gpio.IGpioController.OpenPin, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000437C4] Windows_Devices_Gpio_GpioPin__Windows_Devices_Gpio__GpioPin *, 
+			// Signature, Windows.Devices.Gpio.IGpioController.OpenPin, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000437F4] Windows_Devices_Gpio_GpioPin__Windows_Devices_Gpio__GpioPin *, 
 			public static global::Windows.Devices.Gpio.GpioPin OpenPin(
 						global::System.__ComObject __this, 
 						int pinNumber)
@@ -8906,7 +9891,7 @@ namespace Windows.Devices.Spi
 		// StubClass for 'Windows.Devices.Spi.ISpiConnectionSettingsFactory'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Devices.Spi.ISpiConnectionSettingsFactory.Create, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+			// Signature, Windows.Devices.Spi.ISpiConnectionSettingsFactory.Create, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 			public static global::System.IntPtr Create(
 						global::System.__ComObject __this, 
 						int chipSelectLine)
@@ -8970,7 +9955,7 @@ namespace Windows.Devices.Spi
 		// StubClass for 'Windows.Devices.Spi.ISpiDeviceStatics'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Devices.Spi.ISpiDeviceStatics.GetDeviceSelector, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING, 
+			// Signature, Windows.Devices.Spi.ISpiDeviceStatics.GetDeviceSelector, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, 
 			public static string GetDeviceSelector(
 						global::System.__ComObject __this, 
 						string friendlyName)
@@ -9060,7 +10045,7 @@ namespace Windows.Devices.Spi
 		// StubClass for 'Windows.Devices.Spi.ISpiDevice'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Devices.Spi.ISpiDevice.TransferFullDuplex, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00042A10] rg_byte__unsigned char *, [fwd] [out] [EETypeRva:0x00042A10] rg_byte__unsigned char *, 
+			// Signature, Windows.Devices.Spi.ISpiDevice.TransferFullDuplex, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [out] [EETypeRva:0x00042A40] rg_byte__unsigned char *, 
 			public static void TransferFullDuplex(
 						global::System.__ComObject __this, 
 						byte[] writeBuffer, 
@@ -10372,7 +11357,7 @@ namespace Windows.Foundation
 	// Windows.Foundation.TypedEventHandler<Windows.UI.Xaml.FrameworkElement,System.Object>
 	public unsafe static class TypedEventHandler_A__wux__FrameworkElement_j__o__V___Impl
 	{
-		// Signature, Windows.Foundation.TypedEventHandler<Windows.UI.Xaml.FrameworkElement,System.Object>.Invoke, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x000437C4] Windows_UI_Xaml_FrameworkElement__Windows_UI_Xaml__FrameworkElement *, [fwd] [in] [EETypeRva:0x0004134C] object____mcg_IInspectable, 
+		// Signature, Windows.Foundation.TypedEventHandler<Windows.UI.Xaml.FrameworkElement,System.Object>.Invoke, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000437F4] Windows_UI_Xaml_FrameworkElement__Windows_UI_Xaml__FrameworkElement *, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 		public static void Invoke(
 					this global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.FrameworkElement sender, 
@@ -10441,7 +11426,7 @@ namespace Windows.Foundation
 									);
 			}
 
-			// Signature, Windows.Foundation.TypedEventHandler<Windows.UI.Xaml.FrameworkElement,System.Object>.Invoke, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x000437C4] Windows_UI_Xaml_FrameworkElement__Windows_UI_Xaml__FrameworkElement *, [rev] [in] [EETypeRva:0x0004134C] object____mcg_IInspectable, 
+			// Signature, Windows.Foundation.TypedEventHandler<Windows.UI.Xaml.FrameworkElement,System.Object>.Invoke, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x000437F4] Windows_UI_Xaml_FrameworkElement__Windows_UI_Xaml__FrameworkElement *, [rev] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int Invoke__n(
 						global::System.IntPtr pComThis, 
@@ -11591,7 +12576,7 @@ namespace Windows.Foundation
 		// StubClass for 'Windows.Foundation.IAsyncOperation<Windows.Storage.IStorageItem>'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.IStorageItem>.put_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_IStorageItem___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_IStorageItem_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.IStorageItem>.put_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_IStorageItem___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_IStorageItem_V_ *, 
 			public static void put_Completed(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.IStorageItem> handler)
@@ -11623,7 +12608,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.IStorageItem>.get_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_IStorageItem___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_IStorageItem_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.IStorageItem>.get_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_IStorageItem___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_IStorageItem_V_ *, 
 			public static global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.IStorageItem> get_Completed(global::System.__ComObject __this)
 			{
 				// Setup
@@ -11770,7 +12755,7 @@ namespace Windows.Foundation
 									);
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.IStorageItem>.put_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_IStorageItem___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_IStorageItem_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.IStorageItem>.put_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_IStorageItem___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_IStorageItem_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int put_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -11798,7 +12783,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.IStorageItem>.get_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_IStorageItem___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_IStorageItem_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.IStorageItem>.get_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_IStorageItem___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_IStorageItem_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int get_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -11878,7 +12863,7 @@ namespace Windows.Foundation
 		// StubClass for 'Windows.Foundation.IAsyncOperation<Windows.UI.Popups.IUICommand>'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.UI.Popups.IUICommand>.put_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_UI_Popups_IUICommand___Windows_Foundation__AsyncOperationCompletedHandler_A__w_UI_Popups_IUICommand_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.UI.Popups.IUICommand>.put_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_UI_Popups_IUICommand___Windows_Foundation__AsyncOperationCompletedHandler_A__w_UI_Popups_IUICommand_V_ *, 
 			public static void put_Completed(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.UI.Popups.IUICommand> handler)
@@ -11910,7 +12895,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.UI.Popups.IUICommand>.get_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_UI_Popups_IUICommand___Windows_Foundation__AsyncOperationCompletedHandler_A__w_UI_Popups_IUICommand_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.UI.Popups.IUICommand>.get_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_UI_Popups_IUICommand___Windows_Foundation__AsyncOperationCompletedHandler_A__w_UI_Popups_IUICommand_V_ *, 
 			public static global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.UI.Popups.IUICommand> get_Completed(global::System.__ComObject __this)
 			{
 				// Setup
@@ -12057,7 +13042,7 @@ namespace Windows.Foundation
 									);
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.UI.Popups.IUICommand>.put_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_UI_Popups_IUICommand___Windows_Foundation__AsyncOperationCompletedHandler_A__w_UI_Popups_IUICommand_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.UI.Popups.IUICommand>.put_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_UI_Popups_IUICommand___Windows_Foundation__AsyncOperationCompletedHandler_A__w_UI_Popups_IUICommand_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int put_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -12085,7 +13070,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.UI.Popups.IUICommand>.get_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_UI_Popups_IUICommand___Windows_Foundation__AsyncOperationCompletedHandler_A__w_UI_Popups_IUICommand_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.UI.Popups.IUICommand>.get_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_UI_Popups_IUICommand___Windows_Foundation__AsyncOperationCompletedHandler_A__w_UI_Popups_IUICommand_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int get_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -12183,7 +13168,7 @@ namespace Windows.Foundation
 		// StubClass for 'Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.put_Progress, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationProgressHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.put_Progress, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationProgressHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
 			public static void put_Progress(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint> handler)
@@ -12225,7 +13210,7 @@ namespace Windows.Foundation
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.put_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationWithProgressCompletedHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.put_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationWithProgressCompletedHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
 			public static void put_Completed(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler<global::Windows.Storage.Streams.IBuffer, uint> handler)
@@ -12257,7 +13242,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.get_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationWithProgressCompletedHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.get_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationWithProgressCompletedHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
 			public static global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler<global::Windows.Storage.Streams.IBuffer, uint> get_Completed(global::System.__ComObject __this)
 			{
 				// Setup
@@ -12427,7 +13412,7 @@ namespace Windows.Foundation
 									);
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.put_Progress, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationProgressHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.put_Progress, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationProgressHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int put_Progress__n(
 						global::System.IntPtr pComThis, 
@@ -12455,7 +13440,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.get_Progress, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationProgressHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.get_Progress, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationProgressHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int get_Progress__n(
 						global::System.IntPtr pComThis, 
@@ -12492,7 +13477,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.put_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationWithProgressCompletedHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.put_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationWithProgressCompletedHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int put_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -12520,7 +13505,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.get_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationWithProgressCompletedHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.get_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationWithProgressCompletedHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int get_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -12768,7 +13753,7 @@ namespace Windows.Foundation
 		// StubClass for 'Windows.Foundation.IAsyncOperationWithProgress<uint,uint>'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.put_Progress, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationProgressHandler_2_uint__uint___Windows_Foundation__AsyncOperationProgressHandler_A_uint_j_uint_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.put_Progress, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationProgressHandler_2_uint__uint___Windows_Foundation__AsyncOperationProgressHandler_A_uint_j_uint_V_ *, 
 			public static void put_Progress(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint> handler)
@@ -12810,7 +13795,7 @@ namespace Windows.Foundation
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.put_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationWithProgressCompletedHandler_2_uint__uint___Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A_uint_j_uint_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.put_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationWithProgressCompletedHandler_2_uint__uint___Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A_uint_j_uint_V_ *, 
 			public static void put_Completed(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler<uint, uint> handler)
@@ -12842,7 +13827,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.get_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationWithProgressCompletedHandler_2_uint__uint___Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A_uint_j_uint_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.get_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationWithProgressCompletedHandler_2_uint__uint___Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A_uint_j_uint_V_ *, 
 			public static global::Windows.Foundation.AsyncOperationWithProgressCompletedHandler<uint, uint> get_Completed(global::System.__ComObject __this)
 			{
 				// Setup
@@ -13011,7 +13996,7 @@ namespace Windows.Foundation
 									);
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.put_Progress, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationProgressHandler_2_uint__uint___Windows_Foundation__AsyncOperationProgressHandler_A_uint_j_uint_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.put_Progress, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationProgressHandler_2_uint__uint___Windows_Foundation__AsyncOperationProgressHandler_A_uint_j_uint_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int put_Progress__n(
 						global::System.IntPtr pComThis, 
@@ -13039,7 +14024,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.get_Progress, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationProgressHandler_2_uint__uint___Windows_Foundation__AsyncOperationProgressHandler_A_uint_j_uint_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.get_Progress, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationProgressHandler_2_uint__uint___Windows_Foundation__AsyncOperationProgressHandler_A_uint_j_uint_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int get_Progress__n(
 						global::System.IntPtr pComThis, 
@@ -13076,7 +14061,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.put_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationWithProgressCompletedHandler_2_uint__uint___Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A_uint_j_uint_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.put_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationWithProgressCompletedHandler_2_uint__uint___Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A_uint_j_uint_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int put_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -13104,7 +14089,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.get_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationWithProgressCompletedHandler_2_uint__uint___Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A_uint_j_uint_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.get_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationWithProgressCompletedHandler_2_uint__uint___Windows_Foundation__AsyncOperationWithProgressCompletedHandler_A_uint_j_uint_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int get_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -13350,7 +14335,7 @@ namespace Windows.Foundation
 		// StubClass for 'Windows.Foundation.IAsyncOperation<bool>'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Foundation.IAsyncOperation<bool>.put_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_bool___Windows_Foundation__AsyncOperationCompletedHandler_A_bool_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<bool>.put_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_bool___Windows_Foundation__AsyncOperationCompletedHandler_A_bool_V_ *, 
 			public static void put_Completed(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.AsyncOperationCompletedHandler<bool> handler)
@@ -13382,7 +14367,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<bool>.get_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_bool___Windows_Foundation__AsyncOperationCompletedHandler_A_bool_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<bool>.get_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_bool___Windows_Foundation__AsyncOperationCompletedHandler_A_bool_V_ *, 
 			public static global::Windows.Foundation.AsyncOperationCompletedHandler<bool> get_Completed(global::System.__ComObject __this)
 			{
 				// Setup
@@ -13529,7 +14514,7 @@ namespace Windows.Foundation
 									);
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<bool>.put_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_bool___Windows_Foundation__AsyncOperationCompletedHandler_A_bool_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<bool>.put_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_bool___Windows_Foundation__AsyncOperationCompletedHandler_A_bool_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int put_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -13557,7 +14542,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<bool>.get_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_bool___Windows_Foundation__AsyncOperationCompletedHandler_A_bool_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<bool>.get_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_bool___Windows_Foundation__AsyncOperationCompletedHandler_A_bool_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int get_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -13655,7 +14640,7 @@ namespace Windows.Foundation
 		// StubClass for 'Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessStream>'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessStream>.put_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_Streams_IRandomAccessStream___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_Streams_IRandomAccessStream_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessStream>.put_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_Streams_IRandomAccessStream___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_Streams_IRandomAccessStream_V_ *, 
 			public static void put_Completed(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Streams.IRandomAccessStream> handler)
@@ -13687,7 +14672,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessStream>.get_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_Streams_IRandomAccessStream___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_Streams_IRandomAccessStream_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessStream>.get_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_Streams_IRandomAccessStream___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_Streams_IRandomAccessStream_V_ *, 
 			public static global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.Streams.IRandomAccessStream> get_Completed(global::System.__ComObject __this)
 			{
 				// Setup
@@ -13834,7 +14819,7 @@ namespace Windows.Foundation
 									);
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessStream>.put_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_Streams_IRandomAccessStream___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_Streams_IRandomAccessStream_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessStream>.put_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_Streams_IRandomAccessStream___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_Streams_IRandomAccessStream_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int put_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -13862,7 +14847,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessStream>.get_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_Streams_IRandomAccessStream___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_Streams_IRandomAccessStream_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessStream>.get_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_Streams_IRandomAccessStream___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_Streams_IRandomAccessStream_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int get_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -13978,7 +14963,7 @@ namespace Windows.Foundation
 		// StubClass for 'Windows.Foundation.IAsyncOperation<Windows.Storage.StorageFile>'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.StorageFile>.put_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_StorageFile___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_StorageFile_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.StorageFile>.put_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_StorageFile___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_StorageFile_V_ *, 
 			public static void put_Completed(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.StorageFile> handler)
@@ -14010,7 +14995,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.StorageFile>.get_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_StorageFile___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_StorageFile_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.StorageFile>.get_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_StorageFile___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_StorageFile_V_ *, 
 			public static global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Storage.StorageFile> get_Completed(global::System.__ComObject __this)
 			{
 				// Setup
@@ -14157,7 +15142,7 @@ namespace Windows.Foundation
 									);
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.StorageFile>.put_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_StorageFile___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_StorageFile_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.StorageFile>.put_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_StorageFile___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_StorageFile_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int put_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -14185,7 +15170,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.StorageFile>.get_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_StorageFile___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_StorageFile_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Storage.StorageFile>.get_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Storage_StorageFile___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Storage_StorageFile_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int get_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -14265,7 +15250,7 @@ namespace Windows.Foundation
 		// StubClass for 'Windows.Foundation.IAsyncOperation<System.Collections.Generic.IReadOnlyList<Windows.Storage.StorageFile>>'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Foundation.IAsyncOperation<System.Collections.Generic.IReadOnlyList<Windows.Storage.StorageFile>>.put_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_System_Collections_Generic_IReadOnlyList_1_Windows_Storage_StorageFile____Windows_Foundation__AsyncOperationCompletedHandler_A__wf_Collections_IVectorView_A__w_Storage_StorageFile_V__V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<System.Collections.Generic.IReadOnlyList<Windows.Storage.StorageFile>>.put_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_System_Collections_Generic_IReadOnlyList_1_Windows_Storage_StorageFile____Windows_Foundation__AsyncOperationCompletedHandler_A__wf_Collections_IVectorView_A__w_Storage_StorageFile_V__V_ *, 
 			public static void put_Completed(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.AsyncOperationCompletedHandler<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFile>> handler)
@@ -14297,7 +15282,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<System.Collections.Generic.IReadOnlyList<Windows.Storage.StorageFile>>.get_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_System_Collections_Generic_IReadOnlyList_1_Windows_Storage_StorageFile____Windows_Foundation__AsyncOperationCompletedHandler_A__wf_Collections_IVectorView_A__w_Storage_StorageFile_V__V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<System.Collections.Generic.IReadOnlyList<Windows.Storage.StorageFile>>.get_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_System_Collections_Generic_IReadOnlyList_1_Windows_Storage_StorageFile____Windows_Foundation__AsyncOperationCompletedHandler_A__wf_Collections_IVectorView_A__w_Storage_StorageFile_V__V_ *, 
 			public static global::Windows.Foundation.AsyncOperationCompletedHandler<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFile>> get_Completed(global::System.__ComObject __this)
 			{
 				// Setup
@@ -14427,7 +15412,7 @@ namespace Windows.Foundation
 		// StubClass for 'Windows.Foundation.IAsyncOperation<System.Collections.Generic.IReadOnlyList<Windows.Storage.StorageFolder>>'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Foundation.IAsyncOperation<System.Collections.Generic.IReadOnlyList<Windows.Storage.StorageFolder>>.put_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_System_Collections_Generic_IReadOnlyList_1_Windows_Storage_StorageFolder____Windows_Foundation__AsyncOperationCompletedHandler_A__wf_Collections_IVectorView_A__w_Storage_StorageFolder_V__V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<System.Collections.Generic.IReadOnlyList<Windows.Storage.StorageFolder>>.put_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_System_Collections_Generic_IReadOnlyList_1_Windows_Storage_StorageFolder____Windows_Foundation__AsyncOperationCompletedHandler_A__wf_Collections_IVectorView_A__w_Storage_StorageFolder_V__V_ *, 
 			public static void put_Completed(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.AsyncOperationCompletedHandler<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFolder>> handler)
@@ -14459,7 +15444,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<System.Collections.Generic.IReadOnlyList<Windows.Storage.StorageFolder>>.get_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_System_Collections_Generic_IReadOnlyList_1_Windows_Storage_StorageFolder____Windows_Foundation__AsyncOperationCompletedHandler_A__wf_Collections_IVectorView_A__w_Storage_StorageFolder_V__V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<System.Collections.Generic.IReadOnlyList<Windows.Storage.StorageFolder>>.get_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_System_Collections_Generic_IReadOnlyList_1_Windows_Storage_StorageFolder____Windows_Foundation__AsyncOperationCompletedHandler_A__wf_Collections_IVectorView_A__w_Storage_StorageFolder_V__V_ *, 
 			public static global::Windows.Foundation.AsyncOperationCompletedHandler<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFolder>> get_Completed(global::System.__ComObject __this)
 			{
 				// Setup
@@ -14589,7 +15574,7 @@ namespace Windows.Foundation
 		// StubClass for 'Windows.Foundation.IAsyncOperation<System.Collections.Generic.IReadOnlyList<Windows.Storage.IStorageItem>>'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Foundation.IAsyncOperation<System.Collections.Generic.IReadOnlyList<Windows.Storage.IStorageItem>>.put_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_System_Collections_Generic_IReadOnlyList_1_Windows_Storage_IStorageItem____Windows_Foundation__AsyncOperationCompletedHandler_A__wf_Collections_IVectorView_A__w_Storage_IStorageItem_V__V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<System.Collections.Generic.IReadOnlyList<Windows.Storage.IStorageItem>>.put_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_System_Collections_Generic_IReadOnlyList_1_Windows_Storage_IStorageItem____Windows_Foundation__AsyncOperationCompletedHandler_A__wf_Collections_IVectorView_A__w_Storage_IStorageItem_V__V_ *, 
 			public static void put_Completed(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.AsyncOperationCompletedHandler<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem>> handler)
@@ -14621,7 +15606,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<System.Collections.Generic.IReadOnlyList<Windows.Storage.IStorageItem>>.get_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_System_Collections_Generic_IReadOnlyList_1_Windows_Storage_IStorageItem____Windows_Foundation__AsyncOperationCompletedHandler_A__wf_Collections_IVectorView_A__w_Storage_IStorageItem_V__V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<System.Collections.Generic.IReadOnlyList<Windows.Storage.IStorageItem>>.get_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_System_Collections_Generic_IReadOnlyList_1_Windows_Storage_IStorageItem____Windows_Foundation__AsyncOperationCompletedHandler_A__wf_Collections_IVectorView_A__w_Storage_IStorageItem_V__V_ *, 
 			public static global::Windows.Foundation.AsyncOperationCompletedHandler<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem>> get_Completed(global::System.__ComObject __this)
 			{
 				// Setup
@@ -14805,7 +15790,7 @@ namespace Windows.Foundation
 		// StubClass for 'Windows.Foundation.IAsyncOperation<string>'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Foundation.IAsyncOperation<string>.put_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_string___Windows_Foundation__AsyncOperationCompletedHandler_A_string_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<string>.put_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_string___Windows_Foundation__AsyncOperationCompletedHandler_A_string_V_ *, 
 			public static void put_Completed(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.AsyncOperationCompletedHandler<string> handler)
@@ -14837,7 +15822,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<string>.get_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_string___Windows_Foundation__AsyncOperationCompletedHandler_A_string_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<string>.get_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_string___Windows_Foundation__AsyncOperationCompletedHandler_A_string_V_ *, 
 			public static global::Windows.Foundation.AsyncOperationCompletedHandler<string> get_Completed(global::System.__ComObject __this)
 			{
 				// Setup
@@ -14984,7 +15969,7 @@ namespace Windows.Foundation
 									);
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<string>.put_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_string___Windows_Foundation__AsyncOperationCompletedHandler_A_string_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<string>.put_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_string___Windows_Foundation__AsyncOperationCompletedHandler_A_string_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int put_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -15012,7 +15997,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<string>.get_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_string___Windows_Foundation__AsyncOperationCompletedHandler_A_string_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<string>.get_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_string___Windows_Foundation__AsyncOperationCompletedHandler_A_string_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int get_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -15092,7 +16077,7 @@ namespace Windows.Foundation
 		// StubClass for 'Windows.Foundation.IAsyncOperation<Windows.Devices.Enumeration.DeviceInformationCollection>'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Devices.Enumeration.DeviceInformationCollection>.put_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Devices_Enumeration_DeviceInformationCollection___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Devices_Enumeration_DeviceInformationCollection_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Devices.Enumeration.DeviceInformationCollection>.put_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Devices_Enumeration_DeviceInformationCollection___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Devices_Enumeration_DeviceInformationCollection_V_ *, 
 			public static void put_Completed(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Devices.Enumeration.DeviceInformationCollection> handler)
@@ -15124,7 +16109,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Devices.Enumeration.DeviceInformationCollection>.get_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Devices_Enumeration_DeviceInformationCollection___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Devices_Enumeration_DeviceInformationCollection_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Devices.Enumeration.DeviceInformationCollection>.get_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Devices_Enumeration_DeviceInformationCollection___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Devices_Enumeration_DeviceInformationCollection_V_ *, 
 			public static global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Devices.Enumeration.DeviceInformationCollection> get_Completed(global::System.__ComObject __this)
 			{
 				// Setup
@@ -15272,7 +16257,7 @@ namespace Windows.Foundation
 									);
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Devices.Enumeration.DeviceInformationCollection>.put_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Devices_Enumeration_DeviceInformationCollection___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Devices_Enumeration_DeviceInformationCollection_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Devices.Enumeration.DeviceInformationCollection>.put_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Devices_Enumeration_DeviceInformationCollection___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Devices_Enumeration_DeviceInformationCollection_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int put_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -15300,7 +16285,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Devices.Enumeration.DeviceInformationCollection>.get_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Devices_Enumeration_DeviceInformationCollection___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Devices_Enumeration_DeviceInformationCollection_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Devices.Enumeration.DeviceInformationCollection>.get_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Devices_Enumeration_DeviceInformationCollection___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Devices_Enumeration_DeviceInformationCollection_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int get_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -15398,7 +16383,7 @@ namespace Windows.Foundation
 		// StubClass for 'Windows.Foundation.IAsyncOperation<Windows.Devices.Spi.SpiDevice>'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Devices.Spi.SpiDevice>.put_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Devices_Spi_SpiDevice___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Devices_Spi_SpiDevice_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Devices.Spi.SpiDevice>.put_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Devices_Spi_SpiDevice___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Devices_Spi_SpiDevice_V_ *, 
 			public static void put_Completed(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Devices.Spi.SpiDevice> handler)
@@ -15430,7 +16415,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Devices.Spi.SpiDevice>.get_Completed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Devices_Spi_SpiDevice___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Devices_Spi_SpiDevice_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Devices.Spi.SpiDevice>.get_Completed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Devices_Spi_SpiDevice___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Devices_Spi_SpiDevice_V_ *, 
 			public static global::Windows.Foundation.AsyncOperationCompletedHandler<global::Windows.Devices.Spi.SpiDevice> get_Completed(global::System.__ComObject __this)
 			{
 				// Setup
@@ -15577,7 +16562,7 @@ namespace Windows.Foundation
 									);
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Devices.Spi.SpiDevice>.put_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Devices_Spi_SpiDevice___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Devices_Spi_SpiDevice_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Devices.Spi.SpiDevice>.put_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Devices_Spi_SpiDevice___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Devices_Spi_SpiDevice_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int put_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -15605,7 +16590,7 @@ namespace Windows.Foundation
 				}
 			}
 
-			// Signature, Windows.Foundation.IAsyncOperation<Windows.Devices.Spi.SpiDevice>.get_Completed, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Devices_Spi_SpiDevice___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Devices_Spi_SpiDevice_V_ *, 
+			// Signature, Windows.Foundation.IAsyncOperation<Windows.Devices.Spi.SpiDevice>.get_Completed, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00040CE0] Windows_Foundation_AsyncOperationCompletedHandler_1_Windows_Devices_Spi_SpiDevice___Windows_Foundation__AsyncOperationCompletedHandler_A__w_Devices_Spi_SpiDevice_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int get_Completed__n(
 						global::System.IntPtr pComThis, 
@@ -15736,7 +16721,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.AutomationPeer>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_AutomationPeer__Windows_UI_Xaml_Automation_Peers__AutomationPeer * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.AutomationPeer>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_AutomationPeer__Windows_UI_Xaml_Automation_Peers__AutomationPeer * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.AutomationPeer[] items)
@@ -15768,7 +16753,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x000437C4] Windows_UI_Xaml_Automation_Peers_AutomationPeer__Windows_UI_Xaml_Automation_Peers__AutomationPeer * items
+							// [fwd] [out] [optional] [EETypeRva:0x000437F4] Windows_UI_Xaml_Automation_Peers_AutomationPeer__Windows_UI_Xaml_Automation_Peers__AutomationPeer * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.AutomationPeer)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.AutomationPeer).TypeHandle
@@ -15783,7 +16768,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x000437C4] Windows_UI_Xaml_Automation_Peers_AutomationPeer__Windows_UI_Xaml_Automation_Peers__AutomationPeer * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x000437F4] Windows_UI_Xaml_Automation_Peers_AutomationPeer__Windows_UI_Xaml_Automation_Peers__AutomationPeer * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -15866,7 +16851,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.AutomationPeerAnnotation>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_AutomationPeerAnnotation__Windows_UI_Xaml_Automation_Peers__AutomationPeerAnnotation * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.AutomationPeerAnnotation>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_AutomationPeerAnnotation__Windows_UI_Xaml_Automation_Peers__AutomationPeerAnnotation * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.AutomationPeerAnnotation[] items)
@@ -15898,7 +16883,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x000437C4] Windows_UI_Xaml_Automation_Peers_AutomationPeerAnnotation__Windows_UI_Xaml_Automation_Peers__AutomationPeerAnnotation * items
+							// [fwd] [out] [optional] [EETypeRva:0x000437F4] Windows_UI_Xaml_Automation_Peers_AutomationPeerAnnotation__Windows_UI_Xaml_Automation_Peers__AutomationPeerAnnotation * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.AutomationPeerAnnotation)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.AutomationPeerAnnotation).TypeHandle
@@ -15913,7 +16898,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x000437C4] Windows_UI_Xaml_Automation_Peers_AutomationPeerAnnotation__Windows_UI_Xaml_Automation_Peers__AutomationPeerAnnotation * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x000437F4] Windows_UI_Xaml_Automation_Peers_AutomationPeerAnnotation__Windows_UI_Xaml_Automation_Peers__AutomationPeerAnnotation * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -15996,7 +16981,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Foundation.Point>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x00042A10] rg_Windows_Foundation_Point__Windows_Foundation__Point *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Foundation.Point>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x00042A40] rg_Windows_Foundation_Point__Windows_Foundation__Point *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Point[] items)
@@ -16113,7 +17098,7 @@ namespace Windows.Foundation.Collections
 									);
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Foundation.Point>.get_Current, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00041980] Windows_Foundation_Point__Windows_Foundation__Point, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Foundation.Point>.get_Current, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_Foundation_Point__Windows_Foundation__Point, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int get_Current__n(
 						global::System.IntPtr pComThis, 
@@ -16180,7 +17165,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Foundation.Point>.GetMany, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [EETypeRva:0x00042A10] [hal]rg_Windows_Foundation_Point__Windows_Foundation__Point *, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Foundation.Point>.GetMany, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [EETypeRva:0x00042A40] [hal]rg_Windows_Foundation_Point__Windows_Foundation__Point *, [rev] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int GetMany__n(
 						global::System.IntPtr pComThis, 
@@ -16203,7 +17188,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [rev] [out] [optional] [EETypeRva:0x00041980] Windows_Foundation_Point__Windows_Foundation__Point items
+							// [rev] [out] [optional] [EETypeRva:0x000419B0] Windows_Foundation_Point__Windows_Foundation__Point items
 							unsafe_items[mcgIdx] = items[mcgIdx];
 						}
 					// Return
@@ -16274,7 +17259,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.IEnumerable<Windows.Foundation.Point>>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_System_Collections_Generic_IEnumerable_1_Windows_Foundation_Point___Windows_Foundation_Collections__IIterable_A__wf_Point_V_ * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.IEnumerable<Windows.Foundation.Point>>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_System_Collections_Generic_IEnumerable_1_Windows_Foundation_Point___Windows_Foundation_Collections__IIterable_A__wf_Point_V_ * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::System.Collections.Generic.IEnumerable<global::Windows.Foundation.Point>[] items)
@@ -16306,7 +17291,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] System_Collections_Generic_IEnumerable_1_Windows_Foundation_Point___Windows_Foundation_Collections__IIterable_A__wf_Point_V_ * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] System_Collections_Generic_IEnumerable_1_Windows_Foundation_Point___Windows_Foundation_Collections__IIterable_A__wf_Point_V_ * items
 							items[mcgIdx] = (global::System.Collections.Generic.IEnumerable<global::Windows.Foundation.Point>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::System.Collections.Generic.IEnumerable<global::Windows.Foundation.Point>).TypeHandle
@@ -16321,7 +17306,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] System_Collections_Generic_IEnumerable_1_Windows_Foundation_Point___Windows_Foundation_Collections__IIterable_A__wf_Point_V_ * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] System_Collections_Generic_IEnumerable_1_Windows_Foundation_Point___Windows_Foundation_Collections__IIterable_A__wf_Point_V_ * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -16404,7 +17389,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.DependencyObject>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_DependencyObject__Windows_UI_Xaml__DependencyObject * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.DependencyObject>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_DependencyObject__Windows_UI_Xaml__DependencyObject * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.DependencyObject[] items)
@@ -16436,7 +17421,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x000437C4] Windows_UI_Xaml_DependencyObject__Windows_UI_Xaml__DependencyObject * items
+							// [fwd] [out] [optional] [EETypeRva:0x000437F4] Windows_UI_Xaml_DependencyObject__Windows_UI_Xaml__DependencyObject * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.DependencyObject)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.DependencyObject).TypeHandle
@@ -16451,7 +17436,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x000437C4] Windows_UI_Xaml_DependencyObject__Windows_UI_Xaml__DependencyObject * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x000437F4] Windows_UI_Xaml_DependencyObject__Windows_UI_Xaml__DependencyObject * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -16534,7 +17519,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.UIElement>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_UIElement__Windows_UI_Xaml__UIElement * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.UIElement>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_UIElement__Windows_UI_Xaml__UIElement * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.UIElement[] items)
@@ -16566,7 +17551,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x000437C4] Windows_UI_Xaml_UIElement__Windows_UI_Xaml__UIElement * items
+							// [fwd] [out] [optional] [EETypeRva:0x000437F4] Windows_UI_Xaml_UIElement__Windows_UI_Xaml__UIElement * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.UIElement)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.UIElement).TypeHandle
@@ -16581,7 +17566,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x000437C4] Windows_UI_Xaml_UIElement__Windows_UI_Xaml__UIElement * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x000437F4] Windows_UI_Xaml_UIElement__Windows_UI_Xaml__UIElement * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -16664,7 +17649,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IDependencyObject>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_IDependencyObject__Windows_UI_Xaml__IDependencyObject * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IDependencyObject>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_IDependencyObject__Windows_UI_Xaml__IDependencyObject * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.IDependencyObject[] items)
@@ -16696,7 +17681,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IDependencyObject__Windows_UI_Xaml__IDependencyObject * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IDependencyObject__Windows_UI_Xaml__IDependencyObject * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.IDependencyObject)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.IDependencyObject).TypeHandle
@@ -16711,7 +17696,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IDependencyObject__Windows_UI_Xaml__IDependencyObject * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IDependencyObject__Windows_UI_Xaml__IDependencyObject * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -16794,7 +17779,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IDependencyObject2>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_IDependencyObject2__Windows_UI_Xaml__IDependencyObject2 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IDependencyObject2>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_IDependencyObject2__Windows_UI_Xaml__IDependencyObject2 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.IDependencyObject2[] items)
@@ -16826,7 +17811,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IDependencyObject2__Windows_UI_Xaml__IDependencyObject2 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IDependencyObject2__Windows_UI_Xaml__IDependencyObject2 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.IDependencyObject2)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.IDependencyObject2).TypeHandle
@@ -16841,7 +17826,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IDependencyObject2__Windows_UI_Xaml__IDependencyObject2 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IDependencyObject2__Windows_UI_Xaml__IDependencyObject2 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -16924,7 +17909,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_IUIElement__Windows_UI_Xaml__IUIElement * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_IUIElement__Windows_UI_Xaml__IUIElement * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.IUIElement[] items)
@@ -16956,7 +17941,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElement__Windows_UI_Xaml__IUIElement * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElement__Windows_UI_Xaml__IUIElement * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.IUIElement)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.IUIElement).TypeHandle
@@ -16971,7 +17956,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElement__Windows_UI_Xaml__IUIElement * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElement__Windows_UI_Xaml__IUIElement * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -17054,7 +18039,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement2>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_IUIElement2__Windows_UI_Xaml__IUIElement2 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement2>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_IUIElement2__Windows_UI_Xaml__IUIElement2 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.IUIElement2[] items)
@@ -17086,7 +18071,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElement2__Windows_UI_Xaml__IUIElement2 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElement2__Windows_UI_Xaml__IUIElement2 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.IUIElement2)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.IUIElement2).TypeHandle
@@ -17101,7 +18086,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElement2__Windows_UI_Xaml__IUIElement2 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElement2__Windows_UI_Xaml__IUIElement2 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -17184,7 +18169,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement3>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_IUIElement3__Windows_UI_Xaml__IUIElement3 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement3>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_IUIElement3__Windows_UI_Xaml__IUIElement3 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.IUIElement3[] items)
@@ -17216,7 +18201,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElement3__Windows_UI_Xaml__IUIElement3 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElement3__Windows_UI_Xaml__IUIElement3 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.IUIElement3)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.IUIElement3).TypeHandle
@@ -17231,7 +18216,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElement3__Windows_UI_Xaml__IUIElement3 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElement3__Windows_UI_Xaml__IUIElement3 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -17314,7 +18299,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement4>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_IUIElement4__Windows_UI_Xaml__IUIElement4 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement4>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_IUIElement4__Windows_UI_Xaml__IUIElement4 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.IUIElement4[] items)
@@ -17346,7 +18331,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElement4__Windows_UI_Xaml__IUIElement4 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElement4__Windows_UI_Xaml__IUIElement4 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.IUIElement4)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.IUIElement4).TypeHandle
@@ -17361,7 +18346,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElement4__Windows_UI_Xaml__IUIElement4 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElement4__Windows_UI_Xaml__IUIElement4 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -17444,7 +18429,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement5>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_IUIElement5__Windows_UI_Xaml__IUIElement5 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement5>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_IUIElement5__Windows_UI_Xaml__IUIElement5 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.IUIElement5[] items)
@@ -17476,7 +18461,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElement5__Windows_UI_Xaml__IUIElement5 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElement5__Windows_UI_Xaml__IUIElement5 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.IUIElement5)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.IUIElement5).TypeHandle
@@ -17491,7 +18476,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElement5__Windows_UI_Xaml__IUIElement5 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElement5__Windows_UI_Xaml__IUIElement5 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -17574,7 +18559,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement7>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_IUIElement7__Windows_UI_Xaml__IUIElement7 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement7>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_IUIElement7__Windows_UI_Xaml__IUIElement7 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.IUIElement7[] items)
@@ -17606,7 +18591,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElement7__Windows_UI_Xaml__IUIElement7 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElement7__Windows_UI_Xaml__IUIElement7 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.IUIElement7)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.IUIElement7).TypeHandle
@@ -17621,7 +18606,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElement7__Windows_UI_Xaml__IUIElement7 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElement7__Windows_UI_Xaml__IUIElement7 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -17704,7 +18689,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement8>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_IUIElement8__Windows_UI_Xaml__IUIElement8 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement8>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_IUIElement8__Windows_UI_Xaml__IUIElement8 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.IUIElement8[] items)
@@ -17736,7 +18721,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElement8__Windows_UI_Xaml__IUIElement8 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElement8__Windows_UI_Xaml__IUIElement8 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.IUIElement8)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.IUIElement8).TypeHandle
@@ -17751,7 +18736,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElement8__Windows_UI_Xaml__IUIElement8 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElement8__Windows_UI_Xaml__IUIElement8 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -17834,7 +18819,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement9>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_IUIElement9__Windows_UI_Xaml__IUIElement9 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement9>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_IUIElement9__Windows_UI_Xaml__IUIElement9 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.IUIElement9[] items)
@@ -17866,7 +18851,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElement9__Windows_UI_Xaml__IUIElement9 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElement9__Windows_UI_Xaml__IUIElement9 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.IUIElement9)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.IUIElement9).TypeHandle
@@ -17881,7 +18866,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElement9__Windows_UI_Xaml__IUIElement9 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElement9__Windows_UI_Xaml__IUIElement9 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -17928,136 +18913,6 @@ namespace Windows.Foundation.Collections
 		}
 	}
 
-	// Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement10>
-	public unsafe static class IIterator_A__wux__IUIElement10_V___Impl
-	{
-		// StubClass for 'Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement10>'
-		public static partial class Stubs
-		{
-			public static global::Windows.UI.Xaml.IUIElement10 get_Current(global::System.__ComObject __this)
-			{
-				global::Windows.UI.Xaml.IUIElement10 __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Xaml.IUIElement10>, global::Windows.UI.Xaml.IUIElement10>(
-									__this, 
-									6
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			public static bool get_HasCurrent(global::System.__ComObject __this)
-			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_6<global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Xaml.IUIElement10>>(
-									__this, 
-									7
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			public static bool MoveNext(global::System.__ComObject __this)
-			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_6<global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Xaml.IUIElement10>>(
-									__this, 
-									8
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement10>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_IUIElement10__Windows_UI_Xaml__IUIElement10 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
-			public static uint GetMany(
-						global::System.__ComObject __this, 
-						global::Windows.UI.Xaml.IUIElement10[] items)
-			{
-				// Setup
-				uint unsafe_items_mcgLength = 0;
-				void** unsafe_items = default(void**);
-				uint unsafe___value__retval;
-				uint __value__retval;
-				int unsafe___hr;
-				try
-				{
-					// Marshalling
-					if (items != null)
-						unsafe_items_mcgLength = (uint)items.Length;
-					if (items != null)
-						unsafe_items = (void**)global::System.Runtime.InteropServices.McgMarshal.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_items_mcgLength * sizeof(void*))));
-					// Call to native method
-					unsafe___hr = global::__Interop.ComCallHelpers.Call(
-										__this, 
-										typeof(global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Xaml.IUIElement10>).TypeHandle, 
-										9, 
-										unsafe_items_mcgLength, 
-										unsafe_items, 
-										&(unsafe___value__retval)
-									);
-					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-					__value__retval = unsafe___value__retval;
-					if (items != null)
-						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
-						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElement10__Windows_UI_Xaml__IUIElement10 * items
-							items[mcgIdx] = (global::Windows.UI.Xaml.IUIElement10)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
-												((global::System.IntPtr)unsafe_items[mcgIdx]), 
-												typeof(global::Windows.UI.Xaml.IUIElement10).TypeHandle
-											);
-						}
-					// Return
-					return __value__retval;
-				}
-				finally
-				{
-					// Cleanup
-					if (unsafe_items != null)
-						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
-						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElement10__Windows_UI_Xaml__IUIElement10 * items
-							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
-						}
-					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
-				}
-			}
-		}
-
-		// DispatchClass for 'Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElement10>'
-		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Xaml.IUIElement10>))]
-		internal abstract partial class Dispatcher : global::System.__ComObject, global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Xaml.IUIElement10>
-		{
-			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IIterator`1.Current")]
-			global::Windows.UI.Xaml.IUIElement10 global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Xaml.IUIElement10>.get_Current()
-			{
-				global::Windows.UI.Xaml.IUIElement10 __retVal = global::Windows.Foundation.Collections.IIterator_A__wux__IUIElement10_V___Impl.Stubs.get_Current(this);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __retVal;
-			}
-
-			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IIterator`1.HasCurrent")]
-			bool global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Xaml.IUIElement10>.get_HasCurrent()
-			{
-				bool __retVal = global::Windows.Foundation.Collections.IIterator_A__wux__IUIElement10_V___Impl.Stubs.get_HasCurrent(this);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __retVal;
-			}
-
-			bool global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Xaml.IUIElement10>.MoveNext()
-			{
-				bool __retVal = global::Windows.Foundation.Collections.IIterator_A__wux__IUIElement10_V___Impl.Stubs.MoveNext(this);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __retVal;
-			}
-
-			uint global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Xaml.IUIElement10>.GetMany(global::Windows.UI.Xaml.IUIElement10[] items)
-			{
-				uint __retVal = global::Windows.Foundation.Collections.IIterator_A__wux__IUIElement10_V___Impl.Stubs.GetMany(
-									this, 
-									items
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __retVal;
-			}
-		}
-	}
-
 	// Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElementOverrides>
 	public unsafe static class IIterator_A__wux__IUIElementOverrides_V___Impl
 	{
@@ -18094,7 +18949,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElementOverrides>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_IUIElementOverrides__Windows_UI_Xaml__IUIElementOverrides * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElementOverrides>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_IUIElementOverrides__Windows_UI_Xaml__IUIElementOverrides * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.IUIElementOverrides[] items)
@@ -18126,7 +18981,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElementOverrides__Windows_UI_Xaml__IUIElementOverrides * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElementOverrides__Windows_UI_Xaml__IUIElementOverrides * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.IUIElementOverrides)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.IUIElementOverrides).TypeHandle
@@ -18141,7 +18996,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElementOverrides__Windows_UI_Xaml__IUIElementOverrides * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElementOverrides__Windows_UI_Xaml__IUIElementOverrides * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -18224,7 +19079,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElementOverrides7>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_IUIElementOverrides7__Windows_UI_Xaml__IUIElementOverrides7 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElementOverrides7>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_IUIElementOverrides7__Windows_UI_Xaml__IUIElementOverrides7 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.IUIElementOverrides7[] items)
@@ -18256,7 +19111,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElementOverrides7__Windows_UI_Xaml__IUIElementOverrides7 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElementOverrides7__Windows_UI_Xaml__IUIElementOverrides7 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.IUIElementOverrides7)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.IUIElementOverrides7).TypeHandle
@@ -18271,7 +19126,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElementOverrides7__Windows_UI_Xaml__IUIElementOverrides7 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElementOverrides7__Windows_UI_Xaml__IUIElementOverrides7 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -18354,7 +19209,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElementOverrides8>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_IUIElementOverrides8__Windows_UI_Xaml__IUIElementOverrides8 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElementOverrides8>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_IUIElementOverrides8__Windows_UI_Xaml__IUIElementOverrides8 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.IUIElementOverrides8[] items)
@@ -18386,7 +19241,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElementOverrides8__Windows_UI_Xaml__IUIElementOverrides8 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElementOverrides8__Windows_UI_Xaml__IUIElementOverrides8 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.IUIElementOverrides8)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.IUIElementOverrides8).TypeHandle
@@ -18401,7 +19256,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElementOverrides8__Windows_UI_Xaml__IUIElementOverrides8 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElementOverrides8__Windows_UI_Xaml__IUIElementOverrides8 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -18484,7 +19339,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElementOverrides9>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_IUIElementOverrides9__Windows_UI_Xaml__IUIElementOverrides9 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.IUIElementOverrides9>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_IUIElementOverrides9__Windows_UI_Xaml__IUIElementOverrides9 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.IUIElementOverrides9[] items)
@@ -18516,7 +19371,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElementOverrides9__Windows_UI_Xaml__IUIElementOverrides9 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElementOverrides9__Windows_UI_Xaml__IUIElementOverrides9 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.IUIElementOverrides9)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.IUIElementOverrides9).TypeHandle
@@ -18531,7 +19386,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_IUIElementOverrides9__Windows_UI_Xaml__IUIElementOverrides9 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_IUIElementOverrides9__Windows_UI_Xaml__IUIElementOverrides9 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -18614,7 +19469,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Composition.IAnimationObject>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Composition_IAnimationObject__Windows_UI_Composition__IAnimationObject * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Composition.IAnimationObject>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Composition_IAnimationObject__Windows_UI_Composition__IAnimationObject * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Composition.IAnimationObject[] items)
@@ -18646,7 +19501,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Composition_IAnimationObject__Windows_UI_Composition__IAnimationObject * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Composition_IAnimationObject__Windows_UI_Composition__IAnimationObject * items
 							items[mcgIdx] = (global::Windows.UI.Composition.IAnimationObject)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Composition.IAnimationObject).TypeHandle
@@ -18661,7 +19516,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Composition_IAnimationObject__Windows_UI_Composition__IAnimationObject * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Composition_IAnimationObject__Windows_UI_Composition__IAnimationObject * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -18708,136 +19563,6 @@ namespace Windows.Foundation.Collections
 		}
 	}
 
-	// Windows.Foundation.Collections.IIterator<Windows.UI.Composition.IVisualElement>
-	public unsafe static class IIterator_A__w_UI_Composition_IVisualElement_V___Impl
-	{
-		// StubClass for 'Windows.Foundation.Collections.IIterator<Windows.UI.Composition.IVisualElement>'
-		public static partial class Stubs
-		{
-			public static global::Windows.UI.Composition.IVisualElement get_Current(global::System.__ComObject __this)
-			{
-				global::Windows.UI.Composition.IVisualElement __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Composition.IVisualElement>, global::Windows.UI.Composition.IVisualElement>(
-									__this, 
-									6
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			public static bool get_HasCurrent(global::System.__ComObject __this)
-			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_6<global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Composition.IVisualElement>>(
-									__this, 
-									7
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			public static bool MoveNext(global::System.__ComObject __this)
-			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_6<global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Composition.IVisualElement>>(
-									__this, 
-									8
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Composition.IVisualElement>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Composition_IVisualElement__Windows_UI_Composition__IVisualElement * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
-			public static uint GetMany(
-						global::System.__ComObject __this, 
-						global::Windows.UI.Composition.IVisualElement[] items)
-			{
-				// Setup
-				uint unsafe_items_mcgLength = 0;
-				void** unsafe_items = default(void**);
-				uint unsafe___value__retval;
-				uint __value__retval;
-				int unsafe___hr;
-				try
-				{
-					// Marshalling
-					if (items != null)
-						unsafe_items_mcgLength = (uint)items.Length;
-					if (items != null)
-						unsafe_items = (void**)global::System.Runtime.InteropServices.McgMarshal.CoTaskMemAllocAndZeroMemory(((global::System.IntPtr)checked(unsafe_items_mcgLength * sizeof(void*))));
-					// Call to native method
-					unsafe___hr = global::__Interop.ComCallHelpers.Call(
-										__this, 
-										typeof(global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Composition.IVisualElement>).TypeHandle, 
-										9, 
-										unsafe_items_mcgLength, 
-										unsafe_items, 
-										&(unsafe___value__retval)
-									);
-					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-					__value__retval = unsafe___value__retval;
-					if (items != null)
-						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
-						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Composition_IVisualElement__Windows_UI_Composition__IVisualElement * items
-							items[mcgIdx] = (global::Windows.UI.Composition.IVisualElement)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
-												((global::System.IntPtr)unsafe_items[mcgIdx]), 
-												typeof(global::Windows.UI.Composition.IVisualElement).TypeHandle
-											);
-						}
-					// Return
-					return __value__retval;
-				}
-				finally
-				{
-					// Cleanup
-					if (unsafe_items != null)
-						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
-						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Composition_IVisualElement__Windows_UI_Composition__IVisualElement * items
-							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
-						}
-					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
-				}
-			}
-		}
-
-		// DispatchClass for 'Windows.Foundation.Collections.IIterator<Windows.UI.Composition.IVisualElement>'
-		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Composition.IVisualElement>))]
-		internal abstract partial class Dispatcher : global::System.__ComObject, global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Composition.IVisualElement>
-		{
-			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IIterator`1.Current")]
-			global::Windows.UI.Composition.IVisualElement global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Composition.IVisualElement>.get_Current()
-			{
-				global::Windows.UI.Composition.IVisualElement __retVal = global::Windows.Foundation.Collections.IIterator_A__w_UI_Composition_IVisualElement_V___Impl.Stubs.get_Current(this);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __retVal;
-			}
-
-			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.Foundation.Collections.IIterator`1.HasCurrent")]
-			bool global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Composition.IVisualElement>.get_HasCurrent()
-			{
-				bool __retVal = global::Windows.Foundation.Collections.IIterator_A__w_UI_Composition_IVisualElement_V___Impl.Stubs.get_HasCurrent(this);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __retVal;
-			}
-
-			bool global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Composition.IVisualElement>.MoveNext()
-			{
-				bool __retVal = global::Windows.Foundation.Collections.IIterator_A__w_UI_Composition_IVisualElement_V___Impl.Stubs.MoveNext(this);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __retVal;
-			}
-
-			uint global::Windows.Foundation.Collections.IIterator<global::Windows.UI.Composition.IVisualElement>.GetMany(global::Windows.UI.Composition.IVisualElement[] items)
-			{
-				uint __retVal = global::Windows.Foundation.Collections.IIterator_A__w_UI_Composition_IVisualElement_V___Impl.Stubs.GetMany(
-									this, 
-									items
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __retVal;
-			}
-		}
-	}
-
 	// Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Controls.RowDefinition>
 	public unsafe static class IIterator_A__wux__Controls_RowDefinition_V___Impl
 	{
@@ -18874,7 +19599,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Controls.RowDefinition>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Controls_RowDefinition__Windows_UI_Xaml_Controls__RowDefinition * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Controls.RowDefinition>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Controls_RowDefinition__Windows_UI_Xaml_Controls__RowDefinition * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Controls.RowDefinition[] items)
@@ -18906,7 +19631,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x000437C4] Windows_UI_Xaml_Controls_RowDefinition__Windows_UI_Xaml_Controls__RowDefinition * items
+							// [fwd] [out] [optional] [EETypeRva:0x000437F4] Windows_UI_Xaml_Controls_RowDefinition__Windows_UI_Xaml_Controls__RowDefinition * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Controls.RowDefinition)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Controls.RowDefinition).TypeHandle
@@ -18921,7 +19646,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x000437C4] Windows_UI_Xaml_Controls_RowDefinition__Windows_UI_Xaml_Controls__RowDefinition * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x000437F4] Windows_UI_Xaml_Controls_RowDefinition__Windows_UI_Xaml_Controls__RowDefinition * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -19004,7 +19729,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Controls.IRowDefinition>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Controls_IRowDefinition__Windows_UI_Xaml_Controls__IRowDefinition * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Controls.IRowDefinition>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Controls_IRowDefinition__Windows_UI_Xaml_Controls__IRowDefinition * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Controls.IRowDefinition[] items)
@@ -19036,7 +19761,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Controls_IRowDefinition__Windows_UI_Xaml_Controls__IRowDefinition * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Controls_IRowDefinition__Windows_UI_Xaml_Controls__IRowDefinition * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Controls.IRowDefinition)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Controls.IRowDefinition).TypeHandle
@@ -19051,7 +19776,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Controls_IRowDefinition__Windows_UI_Xaml_Controls__IRowDefinition * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Controls_IRowDefinition__Windows_UI_Xaml_Controls__IRowDefinition * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -19104,7 +19829,7 @@ namespace Windows.Foundation.Collections
 		// StubClass for 'Windows.Foundation.Collections.IObservableMap<string,string>'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Foundation.Collections.IObservableMap<string,string>.add_MapChanged, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_Collections_MapChangedEventHandler_2_string__string___Windows_Foundation_Collections__MapChangedEventHandler_A_string_j_string_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.Foundation.Collections.IObservableMap<string,string>.add_MapChanged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_Collections_MapChangedEventHandler_2_string__string___Windows_Foundation_Collections__MapChangedEventHandler_A_string_j_string_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_MapChanged(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Collections.MapChangedEventHandler<string, string> vhnd)
@@ -19365,7 +20090,7 @@ namespace Windows.Foundation.Collections
 									);
 			}
 
-			// Signature, Windows.Foundation.Collections.IObservableMap<string,string>.add_MapChanged, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00040CB0] Windows_Foundation_Collections_MapChangedEventHandler_2_string__string___Windows_Foundation_Collections__MapChangedEventHandler_A_string_j_string_V_ *, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.Foundation.Collections.IObservableMap<string,string>.add_MapChanged, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040CE0] Windows_Foundation_Collections_MapChangedEventHandler_2_string__string___Windows_Foundation_Collections__MapChangedEventHandler_A_string_j_string_V_ *, [rev] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int add_MapChanged__n(
 						global::System.IntPtr pComThis, 
@@ -19400,7 +20125,7 @@ namespace Windows.Foundation.Collections
 				}
 			}
 
-			// Signature, Windows.Foundation.Collections.IObservableMap<string,string>.remove_MapChanged, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.Foundation.Collections.IObservableMap<string,string>.remove_MapChanged, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int remove_MapChanged__n(
 						global::System.IntPtr pComThis, 
@@ -19557,7 +20282,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.StorageFile>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Storage_StorageFile__Windows_Storage__StorageFile * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.StorageFile>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Storage_StorageFile__Windows_Storage__StorageFile * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Storage.StorageFile[] items)
@@ -19589,7 +20314,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x000437C4] Windows_Storage_StorageFile__Windows_Storage__StorageFile * items
+							// [fwd] [out] [optional] [EETypeRva:0x000437F4] Windows_Storage_StorageFile__Windows_Storage__StorageFile * items
 							items[mcgIdx] = (global::Windows.Storage.StorageFile)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Storage.StorageFile).TypeHandle
@@ -19604,7 +20329,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x000437C4] Windows_Storage_StorageFile__Windows_Storage__StorageFile * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x000437F4] Windows_Storage_StorageFile__Windows_Storage__StorageFile * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -19687,7 +20412,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.StorageFolder>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Storage_StorageFolder__Windows_Storage__StorageFolder * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.StorageFolder>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Storage_StorageFolder__Windows_Storage__StorageFolder * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Storage.StorageFolder[] items)
@@ -19719,7 +20444,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x000437C4] Windows_Storage_StorageFolder__Windows_Storage__StorageFolder * items
+							// [fwd] [out] [optional] [EETypeRva:0x000437F4] Windows_Storage_StorageFolder__Windows_Storage__StorageFolder * items
 							items[mcgIdx] = (global::Windows.Storage.StorageFolder)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Storage.StorageFolder).TypeHandle
@@ -19734,7 +20459,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x000437C4] Windows_Storage_StorageFolder__Windows_Storage__StorageFolder * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x000437F4] Windows_Storage_StorageFolder__Windows_Storage__StorageFolder * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -19817,7 +20542,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageItem>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Storage_IStorageItem__Windows_Storage__IStorageItem * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageItem>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Storage_IStorageItem__Windows_Storage__IStorageItem * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Storage.IStorageItem[] items)
@@ -19849,7 +20574,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageItem__Windows_Storage__IStorageItem * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageItem__Windows_Storage__IStorageItem * items
 							items[mcgIdx] = (global::Windows.Storage.IStorageItem)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Storage.IStorageItem).TypeHandle
@@ -19864,7 +20589,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageItem__Windows_Storage__IStorageItem * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageItem__Windows_Storage__IStorageItem * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -19947,7 +20672,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Devices.Enumeration.DeviceInformation>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Devices_Enumeration_DeviceInformation__Windows_Devices_Enumeration__DeviceInformation * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Devices.Enumeration.DeviceInformation>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Devices_Enumeration_DeviceInformation__Windows_Devices_Enumeration__DeviceInformation * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Devices.Enumeration.DeviceInformation[] items)
@@ -19979,7 +20704,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x000437C4] Windows_Devices_Enumeration_DeviceInformation__Windows_Devices_Enumeration__DeviceInformation * items
+							// [fwd] [out] [optional] [EETypeRva:0x000437F4] Windows_Devices_Enumeration_DeviceInformation__Windows_Devices_Enumeration__DeviceInformation * items
 							items[mcgIdx] = (global::Windows.Devices.Enumeration.DeviceInformation)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Devices.Enumeration.DeviceInformation).TypeHandle
@@ -19994,7 +20719,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x000437C4] Windows_Devices_Enumeration_DeviceInformation__Windows_Devices_Enumeration__DeviceInformation * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x000437F4] Windows_Devices_Enumeration_DeviceInformation__Windows_Devices_Enumeration__DeviceInformation * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -20077,7 +20802,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Devices.Enumeration.IDeviceInformation>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Devices_Enumeration_IDeviceInformation__Windows_Devices_Enumeration__IDeviceInformation * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Devices.Enumeration.IDeviceInformation>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Devices_Enumeration_IDeviceInformation__Windows_Devices_Enumeration__IDeviceInformation * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Devices.Enumeration.IDeviceInformation[] items)
@@ -20109,7 +20834,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_Devices_Enumeration_IDeviceInformation__Windows_Devices_Enumeration__IDeviceInformation * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_Devices_Enumeration_IDeviceInformation__Windows_Devices_Enumeration__IDeviceInformation * items
 							items[mcgIdx] = (global::Windows.Devices.Enumeration.IDeviceInformation)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Devices.Enumeration.IDeviceInformation).TypeHandle
@@ -20124,7 +20849,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_Devices_Enumeration_IDeviceInformation__Windows_Devices_Enumeration__IDeviceInformation * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_Devices_Enumeration_IDeviceInformation__Windows_Devices_Enumeration__IDeviceInformation * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -20207,7 +20932,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Devices.Enumeration.IDeviceInformation2>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Devices_Enumeration_IDeviceInformation2__Windows_Devices_Enumeration__IDeviceInformation2 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Devices.Enumeration.IDeviceInformation2>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Devices_Enumeration_IDeviceInformation2__Windows_Devices_Enumeration__IDeviceInformation2 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Devices.Enumeration.IDeviceInformation2[] items)
@@ -20239,7 +20964,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_Devices_Enumeration_IDeviceInformation2__Windows_Devices_Enumeration__IDeviceInformation2 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_Devices_Enumeration_IDeviceInformation2__Windows_Devices_Enumeration__IDeviceInformation2 * items
 							items[mcgIdx] = (global::Windows.Devices.Enumeration.IDeviceInformation2)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Devices.Enumeration.IDeviceInformation2).TypeHandle
@@ -20254,7 +20979,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_Devices_Enumeration_IDeviceInformation2__Windows_Devices_Enumeration__IDeviceInformation2 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_Devices_Enumeration_IDeviceInformation2__Windows_Devices_Enumeration__IDeviceInformation2 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -20337,7 +21062,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeer__Windows_UI_Xaml_Automation_Peers__IAutomationPeer * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeer__Windows_UI_Xaml_Automation_Peers__IAutomationPeer * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer[] items)
@@ -20369,7 +21094,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeer__Windows_UI_Xaml_Automation_Peers__IAutomationPeer * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeer__Windows_UI_Xaml_Automation_Peers__IAutomationPeer * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer).TypeHandle
@@ -20384,7 +21109,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeer__Windows_UI_Xaml_Automation_Peers__IAutomationPeer * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeer__Windows_UI_Xaml_Automation_Peers__IAutomationPeer * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -20467,7 +21192,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer2>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeer2__Windows_UI_Xaml_Automation_Peers__IAutomationPeer2 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer2>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeer2__Windows_UI_Xaml_Automation_Peers__IAutomationPeer2 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer2[] items)
@@ -20499,7 +21224,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeer2__Windows_UI_Xaml_Automation_Peers__IAutomationPeer2 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeer2__Windows_UI_Xaml_Automation_Peers__IAutomationPeer2 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer2)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer2).TypeHandle
@@ -20514,7 +21239,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeer2__Windows_UI_Xaml_Automation_Peers__IAutomationPeer2 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeer2__Windows_UI_Xaml_Automation_Peers__IAutomationPeer2 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -20597,7 +21322,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer3>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeer3__Windows_UI_Xaml_Automation_Peers__IAutomationPeer3 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer3>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeer3__Windows_UI_Xaml_Automation_Peers__IAutomationPeer3 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer3[] items)
@@ -20629,7 +21354,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeer3__Windows_UI_Xaml_Automation_Peers__IAutomationPeer3 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeer3__Windows_UI_Xaml_Automation_Peers__IAutomationPeer3 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer3)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer3).TypeHandle
@@ -20644,7 +21369,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeer3__Windows_UI_Xaml_Automation_Peers__IAutomationPeer3 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeer3__Windows_UI_Xaml_Automation_Peers__IAutomationPeer3 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -20727,7 +21452,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer4>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeer4__Windows_UI_Xaml_Automation_Peers__IAutomationPeer4 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer4>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeer4__Windows_UI_Xaml_Automation_Peers__IAutomationPeer4 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer4[] items)
@@ -20759,7 +21484,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeer4__Windows_UI_Xaml_Automation_Peers__IAutomationPeer4 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeer4__Windows_UI_Xaml_Automation_Peers__IAutomationPeer4 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer4)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer4).TypeHandle
@@ -20774,7 +21499,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeer4__Windows_UI_Xaml_Automation_Peers__IAutomationPeer4 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeer4__Windows_UI_Xaml_Automation_Peers__IAutomationPeer4 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -20857,7 +21582,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer5>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeer5__Windows_UI_Xaml_Automation_Peers__IAutomationPeer5 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer5>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeer5__Windows_UI_Xaml_Automation_Peers__IAutomationPeer5 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer5[] items)
@@ -20889,7 +21614,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeer5__Windows_UI_Xaml_Automation_Peers__IAutomationPeer5 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeer5__Windows_UI_Xaml_Automation_Peers__IAutomationPeer5 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer5)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer5).TypeHandle
@@ -20904,7 +21629,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeer5__Windows_UI_Xaml_Automation_Peers__IAutomationPeer5 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeer5__Windows_UI_Xaml_Automation_Peers__IAutomationPeer5 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -20987,7 +21712,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer6>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeer6__Windows_UI_Xaml_Automation_Peers__IAutomationPeer6 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer6>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeer6__Windows_UI_Xaml_Automation_Peers__IAutomationPeer6 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer6[] items)
@@ -21019,7 +21744,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeer6__Windows_UI_Xaml_Automation_Peers__IAutomationPeer6 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeer6__Windows_UI_Xaml_Automation_Peers__IAutomationPeer6 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer6)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer6).TypeHandle
@@ -21034,7 +21759,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeer6__Windows_UI_Xaml_Automation_Peers__IAutomationPeer6 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeer6__Windows_UI_Xaml_Automation_Peers__IAutomationPeer6 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -21117,7 +21842,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer7>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeer7__Windows_UI_Xaml_Automation_Peers__IAutomationPeer7 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer7>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeer7__Windows_UI_Xaml_Automation_Peers__IAutomationPeer7 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer7[] items)
@@ -21149,7 +21874,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeer7__Windows_UI_Xaml_Automation_Peers__IAutomationPeer7 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeer7__Windows_UI_Xaml_Automation_Peers__IAutomationPeer7 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer7)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer7).TypeHandle
@@ -21164,7 +21889,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeer7__Windows_UI_Xaml_Automation_Peers__IAutomationPeer7 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeer7__Windows_UI_Xaml_Automation_Peers__IAutomationPeer7 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -21247,7 +21972,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer8>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeer8__Windows_UI_Xaml_Automation_Peers__IAutomationPeer8 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer8>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeer8__Windows_UI_Xaml_Automation_Peers__IAutomationPeer8 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer8[] items)
@@ -21279,7 +22004,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeer8__Windows_UI_Xaml_Automation_Peers__IAutomationPeer8 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeer8__Windows_UI_Xaml_Automation_Peers__IAutomationPeer8 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer8)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer8).TypeHandle
@@ -21294,7 +22019,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeer8__Windows_UI_Xaml_Automation_Peers__IAutomationPeer8 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeer8__Windows_UI_Xaml_Automation_Peers__IAutomationPeer8 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -21377,7 +22102,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer9>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeer9__Windows_UI_Xaml_Automation_Peers__IAutomationPeer9 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeer9>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeer9__Windows_UI_Xaml_Automation_Peers__IAutomationPeer9 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer9[] items)
@@ -21409,7 +22134,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeer9__Windows_UI_Xaml_Automation_Peers__IAutomationPeer9 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeer9__Windows_UI_Xaml_Automation_Peers__IAutomationPeer9 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer9)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeer9).TypeHandle
@@ -21424,7 +22149,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeer9__Windows_UI_Xaml_Automation_Peers__IAutomationPeer9 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeer9__Windows_UI_Xaml_Automation_Peers__IAutomationPeer9 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -21507,7 +22232,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerProtected>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerProtected__Windows_UI_Xaml_Automation_Peers__IAutomationPeerProtected * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerProtected>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerProtected__Windows_UI_Xaml_Automation_Peers__IAutomationPeerProtected * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerProtected[] items)
@@ -21539,7 +22264,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerProtected__Windows_UI_Xaml_Automation_Peers__IAutomationPeerProtected * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerProtected__Windows_UI_Xaml_Automation_Peers__IAutomationPeerProtected * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerProtected)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerProtected).TypeHandle
@@ -21554,7 +22279,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerProtected__Windows_UI_Xaml_Automation_Peers__IAutomationPeerProtected * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerProtected__Windows_UI_Xaml_Automation_Peers__IAutomationPeerProtected * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -21637,7 +22362,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides[] items)
@@ -21669,7 +22394,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides).TypeHandle
@@ -21684,7 +22409,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -21767,7 +22492,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides2>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides2__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides2 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides2>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides2__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides2 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides2[] items)
@@ -21799,7 +22524,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides2__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides2 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides2__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides2 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides2)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides2).TypeHandle
@@ -21814,7 +22539,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides2__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides2 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides2__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides2 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -21897,7 +22622,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides3>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides3__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides3 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides3>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides3__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides3 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides3[] items)
@@ -21929,7 +22654,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides3__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides3 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides3__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides3 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides3)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides3).TypeHandle
@@ -21944,7 +22669,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides3__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides3 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides3__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides3 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -22027,7 +22752,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides4>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides4__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides4 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides4>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides4__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides4 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides4[] items)
@@ -22059,7 +22784,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides4__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides4 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides4__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides4 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides4)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides4).TypeHandle
@@ -22074,7 +22799,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides4__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides4 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides4__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides4 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -22157,7 +22882,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides5>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides5__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides5 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides5>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides5__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides5 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides5[] items)
@@ -22189,7 +22914,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides5__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides5 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides5__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides5 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides5)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides5).TypeHandle
@@ -22204,7 +22929,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides5__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides5 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides5__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides5 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -22287,7 +23012,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides6>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides6__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides6 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides6>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides6__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides6 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides6[] items)
@@ -22319,7 +23044,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides6__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides6 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides6__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides6 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides6)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides6).TypeHandle
@@ -22334,7 +23059,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides6__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides6 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides6__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides6 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -22417,7 +23142,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides8>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides8__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides8 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides8>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides8__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides8 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides8[] items)
@@ -22449,7 +23174,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides8__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides8 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides8__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides8 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides8)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides8).TypeHandle
@@ -22464,7 +23189,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides8__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides8 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides8__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides8 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -22547,7 +23272,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides9>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides9__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides9 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides9>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides9__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides9 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides9[] items)
@@ -22579,7 +23304,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides9__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides9 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides9__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides9 * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides9)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides9).TypeHandle
@@ -22594,7 +23319,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides9__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides9 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerOverrides9__Windows_UI_Xaml_Automation_Peers__IAutomationPeerOverrides9 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -22677,7 +23402,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerAnnotation>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerAnnotation__Windows_UI_Xaml_Automation_Peers__IAutomationPeerAnnotation * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Automation.Peers.IAutomationPeerAnnotation>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Automation_Peers_IAutomationPeerAnnotation__Windows_UI_Xaml_Automation_Peers__IAutomationPeerAnnotation * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerAnnotation[] items)
@@ -22709,7 +23434,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerAnnotation__Windows_UI_Xaml_Automation_Peers__IAutomationPeerAnnotation * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerAnnotation__Windows_UI_Xaml_Automation_Peers__IAutomationPeerAnnotation * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerAnnotation)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.Automation.Peers.IAutomationPeerAnnotation).TypeHandle
@@ -22724,7 +23449,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_UI_Xaml_Automation_Peers_IAutomationPeerAnnotation__Windows_UI_Xaml_Automation_Peers__IAutomationPeerAnnotation * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_UI_Xaml_Automation_Peers_IAutomationPeerAnnotation__Windows_UI_Xaml_Automation_Peers__IAutomationPeerAnnotation * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -22807,7 +23532,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.FrameworkElement>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_FrameworkElement__Windows_UI_Xaml__FrameworkElement * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.FrameworkElement>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_FrameworkElement__Windows_UI_Xaml__FrameworkElement * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.FrameworkElement[] items)
@@ -22839,7 +23564,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x000437C4] Windows_UI_Xaml_FrameworkElement__Windows_UI_Xaml__FrameworkElement * items
+							// [fwd] [out] [optional] [EETypeRva:0x000437F4] Windows_UI_Xaml_FrameworkElement__Windows_UI_Xaml__FrameworkElement * items
 							items[mcgIdx] = (global::Windows.UI.Xaml.FrameworkElement)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.UI.Xaml.FrameworkElement).TypeHandle
@@ -22854,7 +23579,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x000437C4] Windows_UI_Xaml_FrameworkElement__Windows_UI_Xaml__FrameworkElement * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x000437F4] Windows_UI_Xaml_FrameworkElement__Windows_UI_Xaml__FrameworkElement * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -22907,7 +23632,7 @@ namespace Windows.Foundation.Collections
 		// StubClass for 'Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.NamedResource>>'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.NamedResource>>.get_Current, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041414] System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V_ *, 
+			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.NamedResource>>.get_Current, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041444] System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V_ *, 
 			public static global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource> get_Current(global::System.__ComObject __this)
 			{
 				// Setup
@@ -22961,7 +23686,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.NamedResource>>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V_ * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.NamedResource>>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V_ * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>[] items)
@@ -22993,7 +23718,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00041414] System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V_ * items
+							// [fwd] [out] [optional] [EETypeRva:0x00041444] System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V_ * items
 							global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource> pair_items = ((global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject_NoUnboxing(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>).TypeHandle
@@ -23009,7 +23734,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00041414] System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V_ * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00041444] System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V_ * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -23062,7 +23787,7 @@ namespace Windows.Foundation.Collections
 		// StubClass for 'Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.ResourceMap>>'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.ResourceMap>>.get_Current, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041414] System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_ResourceMap___Windows_Foundation_Collections__IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_ResourceMap_V_ *, 
+			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.ResourceMap>>.get_Current, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041444] System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_ResourceMap___Windows_Foundation_Collections__IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_ResourceMap_V_ *, 
 			public static global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.ResourceMap> get_Current(global::System.__ComObject __this)
 			{
 				// Setup
@@ -23116,7 +23841,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.ResourceMap>>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_ResourceMap___Windows_Foundation_Collections__IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_ResourceMap_V_ * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.ResourceMap>>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_ResourceMap___Windows_Foundation_Collections__IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_ResourceMap_V_ * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.ResourceMap>[] items)
@@ -23148,7 +23873,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00041414] System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_ResourceMap___Windows_Foundation_Collections__IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_ResourceMap_V_ * items
+							// [fwd] [out] [optional] [EETypeRva:0x00041444] System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_ResourceMap___Windows_Foundation_Collections__IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_ResourceMap_V_ * items
 							global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.ResourceMap> pair_items = ((global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.ResourceMap>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject_NoUnboxing(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Foundation.Collections.IKeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.ResourceMap>).TypeHandle
@@ -23164,7 +23889,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00041414] System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_ResourceMap___Windows_Foundation_Collections__IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_ResourceMap_V_ * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00041444] System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_ResourceMap___Windows_Foundation_Collections__IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_ResourceMap_V_ * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -23247,7 +23972,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.ApplicationModel.Resources.Core.ResourceMap>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_ApplicationModel_Resources_Core_ResourceMap__Windows_ApplicationModel_Resources_Core__ResourceMap * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.ApplicationModel.Resources.Core.ResourceMap>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_ApplicationModel_Resources_Core_ResourceMap__Windows_ApplicationModel_Resources_Core__ResourceMap * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.ApplicationModel.Resources.Core.ResourceMap[] items)
@@ -23279,7 +24004,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x000437C4] Windows_ApplicationModel_Resources_Core_ResourceMap__Windows_ApplicationModel_Resources_Core__ResourceMap * items
+							// [fwd] [out] [optional] [EETypeRva:0x000437F4] Windows_ApplicationModel_Resources_Core_ResourceMap__Windows_ApplicationModel_Resources_Core__ResourceMap * items
 							items[mcgIdx] = (global::Windows.ApplicationModel.Resources.Core.ResourceMap)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.ApplicationModel.Resources.Core.ResourceMap).TypeHandle
@@ -23294,7 +24019,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x000437C4] Windows_ApplicationModel_Resources_Core_ResourceMap__Windows_ApplicationModel_Resources_Core__ResourceMap * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x000437F4] Windows_ApplicationModel_Resources_Core_ResourceMap__Windows_ApplicationModel_Resources_Core__ResourceMap * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -23377,7 +24102,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.ApplicationModel.Resources.Core.IResourceMap>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_ApplicationModel_Resources_Core_IResourceMap__Windows_ApplicationModel_Resources_Core__IResourceMap * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.ApplicationModel.Resources.Core.IResourceMap>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_ApplicationModel_Resources_Core_IResourceMap__Windows_ApplicationModel_Resources_Core__IResourceMap * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.ApplicationModel.Resources.Core.IResourceMap[] items)
@@ -23409,7 +24134,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_ApplicationModel_Resources_Core_IResourceMap__Windows_ApplicationModel_Resources_Core__IResourceMap * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_ApplicationModel_Resources_Core_IResourceMap__Windows_ApplicationModel_Resources_Core__IResourceMap * items
 							items[mcgIdx] = (global::Windows.ApplicationModel.Resources.Core.IResourceMap)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.ApplicationModel.Resources.Core.IResourceMap).TypeHandle
@@ -23424,7 +24149,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_ApplicationModel_Resources_Core_IResourceMap__Windows_ApplicationModel_Resources_Core__IResourceMap * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_ApplicationModel_Resources_Core_IResourceMap__Windows_ApplicationModel_Resources_Core__IResourceMap * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -23507,7 +24232,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.IReadOnlyDictionary<string,Windows.ApplicationModel.Resources.Core.NamedResource>>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_System_Collections_Generic_IReadOnlyDictionary_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IMapView_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V_ * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.IReadOnlyDictionary<string,Windows.ApplicationModel.Resources.Core.NamedResource>>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_System_Collections_Generic_IReadOnlyDictionary_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IMapView_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V_ * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>[] items)
@@ -23539,7 +24264,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] System_Collections_Generic_IReadOnlyDictionary_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IMapView_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V_ * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] System_Collections_Generic_IReadOnlyDictionary_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IMapView_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V_ * items
 							items[mcgIdx] = (global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::System.Collections.Generic.IReadOnlyDictionary<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>).TypeHandle
@@ -23554,7 +24279,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] System_Collections_Generic_IReadOnlyDictionary_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IMapView_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V_ * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] System_Collections_Generic_IReadOnlyDictionary_2_string__Windows_ApplicationModel_Resources_Core_NamedResource___Windows_Foundation_Collections__IMapView_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V_ * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -23637,7 +24362,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.NamedResource>>>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource____Windows_Foundation_Collections__IIterable_A__wf_Collections_IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V__V_ * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string,Windows.ApplicationModel.Resources.Core.NamedResource>>>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource____Windows_Foundation_Collections__IIterable_A__wf_Collections_IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V__V_ * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>>[] items)
@@ -23669,7 +24394,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource____Windows_Foundation_Collections__IIterable_A__wf_Collections_IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V__V_ * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource____Windows_Foundation_Collections__IIterable_A__wf_Collections_IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V__V_ * items
 							items[mcgIdx] = (global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>>)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, global::Windows.ApplicationModel.Resources.Core.NamedResource>>).TypeHandle
@@ -23684,7 +24409,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource____Windows_Foundation_Collections__IIterable_A__wf_Collections_IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V__V_ * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string__Windows_ApplicationModel_Resources_Core_NamedResource____Windows_Foundation_Collections__IIterable_A__wf_Collections_IKeyValuePair_A_string_j__w_ApplicationModel_Resources_Core_NamedResource_V__V_ * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -23767,7 +24492,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.ApplicationModel.Resources.Core.NamedResource>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_ApplicationModel_Resources_Core_NamedResource__Windows_ApplicationModel_Resources_Core__NamedResource * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.ApplicationModel.Resources.Core.NamedResource>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_ApplicationModel_Resources_Core_NamedResource__Windows_ApplicationModel_Resources_Core__NamedResource * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.ApplicationModel.Resources.Core.NamedResource[] items)
@@ -23799,7 +24524,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x000437C4] Windows_ApplicationModel_Resources_Core_NamedResource__Windows_ApplicationModel_Resources_Core__NamedResource * items
+							// [fwd] [out] [optional] [EETypeRva:0x000437F4] Windows_ApplicationModel_Resources_Core_NamedResource__Windows_ApplicationModel_Resources_Core__NamedResource * items
 							items[mcgIdx] = (global::Windows.ApplicationModel.Resources.Core.NamedResource)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.ApplicationModel.Resources.Core.NamedResource).TypeHandle
@@ -23814,7 +24539,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x000437C4] Windows_ApplicationModel_Resources_Core_NamedResource__Windows_ApplicationModel_Resources_Core__NamedResource * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x000437F4] Windows_ApplicationModel_Resources_Core_NamedResource__Windows_ApplicationModel_Resources_Core__NamedResource * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -23897,7 +24622,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.ApplicationModel.Resources.Core.INamedResource>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_ApplicationModel_Resources_Core_INamedResource__Windows_ApplicationModel_Resources_Core__INamedResource * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.ApplicationModel.Resources.Core.INamedResource>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_ApplicationModel_Resources_Core_INamedResource__Windows_ApplicationModel_Resources_Core__INamedResource * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.ApplicationModel.Resources.Core.INamedResource[] items)
@@ -23929,7 +24654,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_ApplicationModel_Resources_Core_INamedResource__Windows_ApplicationModel_Resources_Core__INamedResource * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_ApplicationModel_Resources_Core_INamedResource__Windows_ApplicationModel_Resources_Core__INamedResource * items
 							items[mcgIdx] = (global::Windows.ApplicationModel.Resources.Core.INamedResource)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.ApplicationModel.Resources.Core.INamedResource).TypeHandle
@@ -23944,7 +24669,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_ApplicationModel_Resources_Core_INamedResource__Windows_ApplicationModel_Resources_Core__INamedResource * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_ApplicationModel_Resources_Core_INamedResource__Windows_ApplicationModel_Resources_Core__INamedResource * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -24027,7 +24752,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageFile>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Storage_IStorageFile__Windows_Storage__IStorageFile * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageFile>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Storage_IStorageFile__Windows_Storage__IStorageFile * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Storage.IStorageFile[] items)
@@ -24059,7 +24784,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageFile__Windows_Storage__IStorageFile * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageFile__Windows_Storage__IStorageFile * items
 							items[mcgIdx] = (global::Windows.Storage.IStorageFile)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Storage.IStorageFile).TypeHandle
@@ -24074,7 +24799,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageFile__Windows_Storage__IStorageFile * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageFile__Windows_Storage__IStorageFile * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -24157,7 +24882,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.Streams.IRandomAccessStreamReference>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Storage_Streams_IRandomAccessStreamReference__Windows_Storage_Streams__IRandomAccessStreamReference * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.Streams.IRandomAccessStreamReference>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Storage_Streams_IRandomAccessStreamReference__Windows_Storage_Streams__IRandomAccessStreamReference * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Storage.Streams.IRandomAccessStreamReference[] items)
@@ -24189,7 +24914,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_Streams_IRandomAccessStreamReference__Windows_Storage_Streams__IRandomAccessStreamReference * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_Streams_IRandomAccessStreamReference__Windows_Storage_Streams__IRandomAccessStreamReference * items
 							items[mcgIdx] = (global::Windows.Storage.Streams.IRandomAccessStreamReference)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Storage.Streams.IRandomAccessStreamReference).TypeHandle
@@ -24204,7 +24929,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_Streams_IRandomAccessStreamReference__Windows_Storage_Streams__IRandomAccessStreamReference * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_Streams_IRandomAccessStreamReference__Windows_Storage_Streams__IRandomAccessStreamReference * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -24287,7 +25012,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.Streams.IInputStreamReference>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Storage_Streams_IInputStreamReference__Windows_Storage_Streams__IInputStreamReference * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.Streams.IInputStreamReference>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Storage_Streams_IInputStreamReference__Windows_Storage_Streams__IInputStreamReference * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Storage.Streams.IInputStreamReference[] items)
@@ -24319,7 +25044,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_Streams_IInputStreamReference__Windows_Storage_Streams__IInputStreamReference * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_Streams_IInputStreamReference__Windows_Storage_Streams__IInputStreamReference * items
 							items[mcgIdx] = (global::Windows.Storage.Streams.IInputStreamReference)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Storage.Streams.IInputStreamReference).TypeHandle
@@ -24334,7 +25059,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_Streams_IInputStreamReference__Windows_Storage_Streams__IInputStreamReference * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_Streams_IInputStreamReference__Windows_Storage_Streams__IInputStreamReference * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -24417,7 +25142,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageItemProperties>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Storage_IStorageItemProperties__Windows_Storage__IStorageItemProperties * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageItemProperties>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Storage_IStorageItemProperties__Windows_Storage__IStorageItemProperties * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Storage.IStorageItemProperties[] items)
@@ -24449,7 +25174,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageItemProperties__Windows_Storage__IStorageItemProperties * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageItemProperties__Windows_Storage__IStorageItemProperties * items
 							items[mcgIdx] = (global::Windows.Storage.IStorageItemProperties)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Storage.IStorageItemProperties).TypeHandle
@@ -24464,7 +25189,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageItemProperties__Windows_Storage__IStorageItemProperties * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageItemProperties__Windows_Storage__IStorageItemProperties * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -24547,7 +25272,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageItemProperties2>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Storage_IStorageItemProperties2__Windows_Storage__IStorageItemProperties2 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageItemProperties2>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Storage_IStorageItemProperties2__Windows_Storage__IStorageItemProperties2 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Storage.IStorageItemProperties2[] items)
@@ -24579,7 +25304,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageItemProperties2__Windows_Storage__IStorageItemProperties2 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageItemProperties2__Windows_Storage__IStorageItemProperties2 * items
 							items[mcgIdx] = (global::Windows.Storage.IStorageItemProperties2)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Storage.IStorageItemProperties2).TypeHandle
@@ -24594,7 +25319,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageItemProperties2__Windows_Storage__IStorageItemProperties2 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageItemProperties2__Windows_Storage__IStorageItemProperties2 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -24677,7 +25402,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageItem2>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Storage_IStorageItem2__Windows_Storage__IStorageItem2 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageItem2>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Storage_IStorageItem2__Windows_Storage__IStorageItem2 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Storage.IStorageItem2[] items)
@@ -24709,7 +25434,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageItem2__Windows_Storage__IStorageItem2 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageItem2__Windows_Storage__IStorageItem2 * items
 							items[mcgIdx] = (global::Windows.Storage.IStorageItem2)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Storage.IStorageItem2).TypeHandle
@@ -24724,7 +25449,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageItem2__Windows_Storage__IStorageItem2 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageItem2__Windows_Storage__IStorageItem2 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -24807,7 +25532,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageItemPropertiesWithProvider>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Storage_IStorageItemPropertiesWithProvider__Windows_Storage__IStorageItemPropertiesWithProvider * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageItemPropertiesWithProvider>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Storage_IStorageItemPropertiesWithProvider__Windows_Storage__IStorageItemPropertiesWithProvider * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Storage.IStorageItemPropertiesWithProvider[] items)
@@ -24839,7 +25564,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageItemPropertiesWithProvider__Windows_Storage__IStorageItemPropertiesWithProvider * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageItemPropertiesWithProvider__Windows_Storage__IStorageItemPropertiesWithProvider * items
 							items[mcgIdx] = (global::Windows.Storage.IStorageItemPropertiesWithProvider)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Storage.IStorageItemPropertiesWithProvider).TypeHandle
@@ -24854,7 +25579,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageItemPropertiesWithProvider__Windows_Storage__IStorageItemPropertiesWithProvider * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageItemPropertiesWithProvider__Windows_Storage__IStorageItemPropertiesWithProvider * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -24937,7 +25662,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageFilePropertiesWithAvailability>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Storage_IStorageFilePropertiesWithAvailability__Windows_Storage__IStorageFilePropertiesWithAvailability * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageFilePropertiesWithAvailability>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Storage_IStorageFilePropertiesWithAvailability__Windows_Storage__IStorageFilePropertiesWithAvailability * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Storage.IStorageFilePropertiesWithAvailability[] items)
@@ -24969,7 +25694,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageFilePropertiesWithAvailability__Windows_Storage__IStorageFilePropertiesWithAvailability * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageFilePropertiesWithAvailability__Windows_Storage__IStorageFilePropertiesWithAvailability * items
 							items[mcgIdx] = (global::Windows.Storage.IStorageFilePropertiesWithAvailability)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Storage.IStorageFilePropertiesWithAvailability).TypeHandle
@@ -24984,7 +25709,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageFilePropertiesWithAvailability__Windows_Storage__IStorageFilePropertiesWithAvailability * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageFilePropertiesWithAvailability__Windows_Storage__IStorageFilePropertiesWithAvailability * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -25067,7 +25792,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageFile2>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Storage_IStorageFile2__Windows_Storage__IStorageFile2 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageFile2>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Storage_IStorageFile2__Windows_Storage__IStorageFile2 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Storage.IStorageFile2[] items)
@@ -25099,7 +25824,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageFile2__Windows_Storage__IStorageFile2 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageFile2__Windows_Storage__IStorageFile2 * items
 							items[mcgIdx] = (global::Windows.Storage.IStorageFile2)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Storage.IStorageFile2).TypeHandle
@@ -25114,7 +25839,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageFile2__Windows_Storage__IStorageFile2 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageFile2__Windows_Storage__IStorageFile2 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -25197,7 +25922,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageFolder>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Storage_IStorageFolder__Windows_Storage__IStorageFolder * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageFolder>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Storage_IStorageFolder__Windows_Storage__IStorageFolder * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Storage.IStorageFolder[] items)
@@ -25229,7 +25954,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageFolder__Windows_Storage__IStorageFolder * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageFolder__Windows_Storage__IStorageFolder * items
 							items[mcgIdx] = (global::Windows.Storage.IStorageFolder)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Storage.IStorageFolder).TypeHandle
@@ -25244,7 +25969,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageFolder__Windows_Storage__IStorageFolder * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageFolder__Windows_Storage__IStorageFolder * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -25327,7 +26052,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.Search.IStorageFolderQueryOperations>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Storage_Search_IStorageFolderQueryOperations__Windows_Storage_Search__IStorageFolderQueryOperations * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.Search.IStorageFolderQueryOperations>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Storage_Search_IStorageFolderQueryOperations__Windows_Storage_Search__IStorageFolderQueryOperations * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Storage.Search.IStorageFolderQueryOperations[] items)
@@ -25359,7 +26084,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_Search_IStorageFolderQueryOperations__Windows_Storage_Search__IStorageFolderQueryOperations * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_Search_IStorageFolderQueryOperations__Windows_Storage_Search__IStorageFolderQueryOperations * items
 							items[mcgIdx] = (global::Windows.Storage.Search.IStorageFolderQueryOperations)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Storage.Search.IStorageFolderQueryOperations).TypeHandle
@@ -25374,7 +26099,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_Search_IStorageFolderQueryOperations__Windows_Storage_Search__IStorageFolderQueryOperations * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_Search_IStorageFolderQueryOperations__Windows_Storage_Search__IStorageFolderQueryOperations * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -25457,7 +26182,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageFolder2>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Storage_IStorageFolder2__Windows_Storage__IStorageFolder2 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageFolder2>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Storage_IStorageFolder2__Windows_Storage__IStorageFolder2 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Storage.IStorageFolder2[] items)
@@ -25489,7 +26214,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageFolder2__Windows_Storage__IStorageFolder2 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageFolder2__Windows_Storage__IStorageFolder2 * items
 							items[mcgIdx] = (global::Windows.Storage.IStorageFolder2)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Storage.IStorageFolder2).TypeHandle
@@ -25504,7 +26229,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageFolder2__Windows_Storage__IStorageFolder2 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageFolder2__Windows_Storage__IStorageFolder2 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -25587,7 +26312,7 @@ namespace Windows.Foundation.Collections
 				return __ret;
 			}
 
-			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageFolder3>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Storage_IStorageFolder3__Windows_Storage__IStorageFolder3 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
+			// Signature, Windows.Foundation.Collections.IIterator<Windows.Storage.IStorageFolder3>.GetMany, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [EETypeRva:0x000424E8] rg_Windows_Storage_IStorageFolder3__Windows_Storage__IStorageFolder3 * *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 			public static uint GetMany(
 						global::System.__ComObject __this, 
 						global::Windows.Storage.IStorageFolder3[] items)
@@ -25619,7 +26344,7 @@ namespace Windows.Foundation.Collections
 					if (items != null)
 						for (uint mcgIdx = 0; (mcgIdx < unsafe_items_mcgLength); mcgIdx++)
 						{
-							// [fwd] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageFolder3__Windows_Storage__IStorageFolder3 * items
+							// [fwd] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageFolder3__Windows_Storage__IStorageFolder3 * items
 							items[mcgIdx] = (global::Windows.Storage.IStorageFolder3)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 												((global::System.IntPtr)unsafe_items[mcgIdx]), 
 												typeof(global::Windows.Storage.IStorageFolder3).TypeHandle
@@ -25634,7 +26359,7 @@ namespace Windows.Foundation.Collections
 					if (unsafe_items != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_items_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [optional] [EETypeRva:0x00043630] Windows_Storage_IStorageFolder3__Windows_Storage__IStorageFolder3 * items
+							// [fwd] [in] [out] [optional] [EETypeRva:0x00043660] Windows_Storage_IStorageFolder3__Windows_Storage__IStorageFolder3 * items
 							global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_items[mcgIdx_1])));
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_items);
@@ -25708,7 +26433,7 @@ namespace Windows.Foundation.Diagnostics
 		// StubClass for 'Windows.Foundation.Diagnostics.IAsyncCausalityTracerStatics'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Foundation.Diagnostics.IAsyncCausalityTracerStatics.TraceOperationCreation, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00042D30]  -> int, [fwd] [in] [EETypeRva:0x00042D30]  -> int, [fwd] [in] [EETypeRva:0x00041980] System_Guid__System.Guid, [fwd] [in] [EETypeRva:0x00041980] ulong__unsigned __int64, [fwd] [in] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x00041980] ulong__unsigned __int64, 
+			// Signature, Windows.Foundation.Diagnostics.IAsyncCausalityTracerStatics.TraceOperationCreation, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x000419B0] System_Guid__System.Guid, [fwd] [in] [EETypeRva:0x000419B0] ulong__unsigned __int64, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x000419B0] ulong__unsigned __int64, 
 			public static void TraceOperationCreation(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Diagnostics.CausalityTraceLevel traceLevel, 
@@ -25803,7 +26528,7 @@ namespace Windows.Foundation.Diagnostics
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.Foundation.Diagnostics.IAsyncCausalityTracerStatics.TraceSynchronousWorkCompletion, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00042D30]  -> int, [fwd] [in] [EETypeRva:0x00042D30]  -> int, [fwd] [in] [EETypeRva:0x00042D30]  -> int, 
+			// Signature, Windows.Foundation.Diagnostics.IAsyncCausalityTracerStatics.TraceSynchronousWorkCompletion, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, 
 			public static void TraceSynchronousWorkCompletion(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Diagnostics.CausalityTraceLevel traceLevel, 
@@ -25826,7 +26551,7 @@ namespace Windows.Foundation.Diagnostics
 				// Return
 			}
 
-			// Signature, Windows.Foundation.Diagnostics.IAsyncCausalityTracerStatics.add_TracingStatusChanged, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] System_EventHandler_1_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs___Windows_Foundation__EventHandler_A__wf_Diagnostics_TracingStatusChangedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.Foundation.Diagnostics.IAsyncCausalityTracerStatics.add_TracingStatusChanged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] System_EventHandler_1_Windows_Foundation_Diagnostics_TracingStatusChangedEventArgs___Windows_Foundation__EventHandler_A__wf_Diagnostics_TracingStatusChangedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_TracingStatusChanged(
 						global::System.__ComObject __this, 
 						global::System.EventHandler<global::Windows.Foundation.Diagnostics.TracingStatusChangedEventArgs> handler)
@@ -25898,7 +26623,7 @@ namespace Windows.Globalization
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.Globalization.ICalendar.GetDateTime, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040BEC] System_DateTimeOffset__Windows_Foundation__DateTime, 
+			// Signature, Windows.Globalization.ICalendar.GetDateTime, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040C1C] System_DateTimeOffset__Windows_Foundation__DateTime, 
 			public static global::System.DateTimeOffset GetDateTime(global::System.__ComObject __this)
 			{
 				// Setup
@@ -25951,7 +26676,7 @@ namespace Windows.Globalization
 				return __ret;
 			}
 
-			// Signature, Windows.Globalization.ICalendar.EraAsString, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING, 
+			// Signature, Windows.Globalization.ICalendar.EraAsString, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, 
 			public static string EraAsString(
 						global::System.__ComObject __this, 
 						int idealLength)
@@ -26225,7 +26950,7 @@ namespace Windows.Storage
 				return __ret;
 			}
 
-			// Signature, Windows.Storage.IStorageFile.OpenAsync, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00042D30]  -> int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00043630] Windows_Foundation_IAsyncOperation_1_Windows_Storage_Streams_IRandomAccessStream___Windows_Foundation__IAsyncOperation_A__w_Storage_Streams_IRandomAccessStream_V_ *, 
+			// Signature, Windows.Storage.IStorageFile.OpenAsync, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00043660] Windows_Foundation_IAsyncOperation_1_Windows_Storage_Streams_IRandomAccessStream___Windows_Foundation__IAsyncOperation_A__w_Storage_Streams_IRandomAccessStream_V_ *, 
 			public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IRandomAccessStream> OpenAsync(
 						global::System.__ComObject __this, 
 						global::Windows.Storage.FileAccessMode accessMode)
@@ -26486,7 +27211,7 @@ namespace Windows.Storage
 				return __ret;
 			}
 
-			// Signature, Windows.Storage.IStorageFile.OpenAsync, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00042D30] Windows_Storage_FileAccessMode__Windows_Storage__FileAccessMode, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00043630] Windows_Foundation_IAsyncOperation_1_Windows_Storage_Streams_IRandomAccessStream___Windows_Foundation__IAsyncOperation_A__w_Storage_Streams_IRandomAccessStream_V_ *, 
+			// Signature, Windows.Storage.IStorageFile.OpenAsync, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00042D60] Windows_Storage_FileAccessMode__Windows_Storage__FileAccessMode, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00043660] Windows_Foundation_IAsyncOperation_1_Windows_Storage_Streams_IRandomAccessStream___Windows_Foundation__IAsyncOperation_A__w_Storage_Streams_IRandomAccessStream_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int OpenAsync__n(
 						global::System.IntPtr pComThis, 
@@ -27706,7 +28431,7 @@ namespace Windows.Storage.Streams
 		// StubClass for 'Windows.Storage.Streams.IInputStream'
 		public static partial class Stubs
 		{
-			// Signature, Windows.Storage.Streams.IInputStream.ReadAsync, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00043630] Windows_Storage_Streams_IBuffer__Windows_Storage_Streams__IBuffer *, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00042D30] Windows_Storage_Streams_InputStreamOptions__Windows_Storage_Streams__InputStreamOptions, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00043630] Windows_Foundation_IAsyncOperationWithProgress_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__IAsyncOperationWithProgress_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
+			// Signature, Windows.Storage.Streams.IInputStream.ReadAsync, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00043660] Windows_Storage_Streams_IBuffer__Windows_Storage_Streams__IBuffer *, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x00042D60] Windows_Storage_Streams_InputStreamOptions__Windows_Storage_Streams__InputStreamOptions, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00043660] Windows_Foundation_IAsyncOperationWithProgress_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__IAsyncOperationWithProgress_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
 			public static global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint> ReadAsync(
 						global::System.__ComObject __this, 
 						global::Windows.Storage.Streams.IBuffer buffer, 
@@ -27817,7 +28542,7 @@ namespace Windows.Storage.Streams
 									);
 			}
 
-			// Signature, Windows.Storage.Streams.IInputStream.ReadAsync, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00043630] Windows_Storage_Streams_IBuffer__Windows_Storage_Streams__IBuffer *, [rev] [in] [EETypeRva:0x00041980] uint__unsigned int, [rev] [in] [EETypeRva:0x00042D30] Windows_Storage_Streams_InputStreamOptions__Windows_Storage_Streams__InputStreamOptions, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00043630] Windows_Foundation_IAsyncOperationWithProgress_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__IAsyncOperationWithProgress_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
+			// Signature, Windows.Storage.Streams.IInputStream.ReadAsync, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00043660] Windows_Storage_Streams_IBuffer__Windows_Storage_Streams__IBuffer *, [rev] [in] [EETypeRva:0x000419B0] uint__unsigned int, [rev] [in] [EETypeRva:0x00042D60] Windows_Storage_Streams_InputStreamOptions__Windows_Storage_Streams__InputStreamOptions, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00043660] Windows_Foundation_IAsyncOperationWithProgress_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__IAsyncOperationWithProgress_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int ReadAsync__n(
 						global::System.IntPtr pComThis, 
@@ -28242,7 +28967,7 @@ namespace Windows.UI.Core
 				return __ret;
 			}
 
-			// Signature, Windows.UI.Core.ICoreDispatcher.RunAsync, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00042D30]  -> int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Core_DispatchedHandler__Windows_UI_Core__DispatchedHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00043630] Windows_Foundation_IAsyncAction__Windows_Foundation__IAsyncAction *, 
+			// Signature, Windows.UI.Core.ICoreDispatcher.RunAsync, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Core_DispatchedHandler__Windows_UI_Core__DispatchedHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00043660] Windows_Foundation_IAsyncAction__Windows_Foundation__IAsyncAction *, 
 			public static global::Windows.Foundation.IAsyncAction RunAsync(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Core.CoreDispatcherPriority priority, 
@@ -28415,7 +29140,7 @@ namespace Windows.UI.Popups
 		// StubClass for 'Windows.UI.Popups.IMessageDialogFactory'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Popups.IMessageDialogFactory.CreateWithTitle, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+			// Signature, Windows.UI.Popups.IMessageDialogFactory.CreateWithTitle, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 			public static global::System.IntPtr CreateWithTitle(
 						global::System.__ComObject __this, 
 						string content, 
@@ -28979,7 +29704,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IUIElement.add_Tapped, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_Input_TappedEventHandler__Windows_UI_Xaml_Input__TappedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement.add_Tapped, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Input_TappedEventHandler__Windows_UI_Xaml_Input__TappedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Tapped(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Input.TappedEventHandler handler)
@@ -29028,7 +29753,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IUIElement.add_DoubleTapped, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_Input_DoubleTappedEventHandler__Windows_UI_Xaml_Input__DoubleTappedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement.add_DoubleTapped, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Input_DoubleTappedEventHandler__Windows_UI_Xaml_Input__DoubleTappedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_DoubleTapped(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Input.DoubleTappedEventHandler handler)
@@ -29077,7 +29802,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IUIElement.add_Holding, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_Input_HoldingEventHandler__Windows_UI_Xaml_Input__HoldingEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement.add_Holding, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Input_HoldingEventHandler__Windows_UI_Xaml_Input__HoldingEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Holding(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Input.HoldingEventHandler handler)
@@ -29126,7 +29851,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IUIElement.add_RightTapped, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_Input_RightTappedEventHandler__Windows_UI_Xaml_Input__RightTappedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement.add_RightTapped, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Input_RightTappedEventHandler__Windows_UI_Xaml_Input__RightTappedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_RightTapped(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Input.RightTappedEventHandler handler)
@@ -29175,7 +29900,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IUIElement.add_ManipulationStarting, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_Input_ManipulationStartingEventHandler__Windows_UI_Xaml_Input__ManipulationStartingEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement.add_ManipulationStarting, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Input_ManipulationStartingEventHandler__Windows_UI_Xaml_Input__ManipulationStartingEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_ManipulationStarting(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Input.ManipulationStartingEventHandler handler)
@@ -29224,7 +29949,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IUIElement.add_ManipulationInertiaStarting, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_Input_ManipulationInertiaStartingEventHandler__Windows_UI_Xaml_Input__ManipulationInertiaStartingEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement.add_ManipulationInertiaStarting, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Input_ManipulationInertiaStartingEventHandler__Windows_UI_Xaml_Input__ManipulationInertiaStartingEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_ManipulationInertiaStarting(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Input.ManipulationInertiaStartingEventHandler handler)
@@ -29273,7 +29998,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IUIElement.add_ManipulationStarted, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_Input_ManipulationStartedEventHandler__Windows_UI_Xaml_Input__ManipulationStartedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement.add_ManipulationStarted, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Input_ManipulationStartedEventHandler__Windows_UI_Xaml_Input__ManipulationStartedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_ManipulationStarted(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Input.ManipulationStartedEventHandler handler)
@@ -29322,7 +30047,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IUIElement.add_ManipulationDelta, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_Input_ManipulationDeltaEventHandler__Windows_UI_Xaml_Input__ManipulationDeltaEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement.add_ManipulationDelta, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Input_ManipulationDeltaEventHandler__Windows_UI_Xaml_Input__ManipulationDeltaEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_ManipulationDelta(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Input.ManipulationDeltaEventHandler handler)
@@ -29371,7 +30096,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IUIElement.add_ManipulationCompleted, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_Input_ManipulationCompletedEventHandler__Windows_UI_Xaml_Input__ManipulationCompletedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement.add_ManipulationCompleted, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Input_ManipulationCompletedEventHandler__Windows_UI_Xaml_Input__ManipulationCompletedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_ManipulationCompleted(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Input.ManipulationCompletedEventHandler handler)
@@ -29615,7 +30340,7 @@ namespace Windows.UI.Xaml
 		// StubClass for 'Windows.UI.Xaml.IUIElement3'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.IUIElement3.add_DragStarting, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_DragStartingEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__DragStartingEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement3.add_DragStarting, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_DragStartingEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__DragStartingEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_DragStarting(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.UIElement, global::Windows.UI.Xaml.DragStartingEventArgs> handler)
@@ -29664,7 +30389,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IUIElement3.add_DropCompleted, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_DropCompletedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__DropCompletedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement3.add_DropCompleted, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_DropCompletedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__DropCompletedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_DropCompleted(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.UIElement, global::Windows.UI.Xaml.DropCompletedEventArgs> handler)
@@ -29721,7 +30446,7 @@ namespace Windows.UI.Xaml
 		// StubClass for 'Windows.UI.Xaml.IUIElement4'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.IUIElement4.add_ContextRequested, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_Input_ContextRequestedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__Input_ContextRequestedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement4.add_ContextRequested, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_Input_ContextRequestedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__Input_ContextRequestedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_ContextRequested(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.UIElement, global::Windows.UI.Xaml.Input.ContextRequestedEventArgs> handler)
@@ -29770,7 +30495,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IUIElement4.add_ContextCanceled, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_RoutedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__RoutedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement4.add_ContextCanceled, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_RoutedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__RoutedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_ContextCanceled(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.UIElement, global::Windows.UI.Xaml.RoutedEventArgs> handler)
@@ -29819,7 +30544,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IUIElement4.add_AccessKeyDisplayRequested, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_Input_AccessKeyDisplayRequestedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__Input_AccessKeyDisplayRequestedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement4.add_AccessKeyDisplayRequested, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_Input_AccessKeyDisplayRequestedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__Input_AccessKeyDisplayRequestedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_AccessKeyDisplayRequested(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.UIElement, global::Windows.UI.Xaml.Input.AccessKeyDisplayRequestedEventArgs> handler)
@@ -29868,7 +30593,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IUIElement4.add_AccessKeyDisplayDismissed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_Input_AccessKeyDisplayDismissedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__Input_AccessKeyDisplayDismissedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement4.add_AccessKeyDisplayDismissed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_Input_AccessKeyDisplayDismissedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__Input_AccessKeyDisplayDismissedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_AccessKeyDisplayDismissed(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.UIElement, global::Windows.UI.Xaml.Input.AccessKeyDisplayDismissedEventArgs> handler)
@@ -29917,7 +30642,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IUIElement4.add_AccessKeyInvoked, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_Input_AccessKeyInvokedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__Input_AccessKeyInvokedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement4.add_AccessKeyInvoked, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_Input_AccessKeyInvokedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__Input_AccessKeyInvokedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_AccessKeyInvoked(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.UIElement, global::Windows.UI.Xaml.Input.AccessKeyInvokedEventArgs> handler)
@@ -29974,7 +30699,7 @@ namespace Windows.UI.Xaml
 		// StubClass for 'Windows.UI.Xaml.IUIElement5'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.IUIElement5.add_GettingFocus, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_Input_GettingFocusEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__Input_GettingFocusEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement5.add_GettingFocus, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_Input_GettingFocusEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__Input_GettingFocusEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_GettingFocus(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.UIElement, global::Windows.UI.Xaml.Input.GettingFocusEventArgs> handler)
@@ -30023,7 +30748,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IUIElement5.add_LosingFocus, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_Input_LosingFocusEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__Input_LosingFocusEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement5.add_LosingFocus, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_Input_LosingFocusEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__Input_LosingFocusEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_LosingFocus(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.UIElement, global::Windows.UI.Xaml.Input.LosingFocusEventArgs> handler)
@@ -30072,7 +30797,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IUIElement5.add_NoFocusCandidateFound, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_Input_NoFocusCandidateFoundEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__Input_NoFocusCandidateFoundEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement5.add_NoFocusCandidateFound, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_Input_NoFocusCandidateFoundEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__Input_NoFocusCandidateFoundEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_NoFocusCandidateFound(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.UIElement, global::Windows.UI.Xaml.Input.NoFocusCandidateFoundEventArgs> handler)
@@ -30129,7 +30854,7 @@ namespace Windows.UI.Xaml
 		// StubClass for 'Windows.UI.Xaml.IUIElement7'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.IUIElement7.add_CharacterReceived, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_Input_CharacterReceivedRoutedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__Input_CharacterReceivedRoutedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement7.add_CharacterReceived, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_Input_CharacterReceivedRoutedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__Input_CharacterReceivedRoutedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_CharacterReceived(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.UIElement, global::Windows.UI.Xaml.Input.CharacterReceivedRoutedEventArgs> handler)
@@ -30178,7 +30903,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IUIElement7.add_ProcessKeyboardAccelerators, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_Input_ProcessKeyboardAcceleratorEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__Input_ProcessKeyboardAcceleratorEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement7.add_ProcessKeyboardAccelerators, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_Input_ProcessKeyboardAcceleratorEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__Input_ProcessKeyboardAcceleratorEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_ProcessKeyboardAccelerators(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.UIElement, global::Windows.UI.Xaml.Input.ProcessKeyboardAcceleratorEventArgs> handler)
@@ -30285,7 +31010,7 @@ namespace Windows.UI.Xaml
 		// StubClass for 'Windows.UI.Xaml.IUIElement8'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.IUIElement8.add_BringIntoViewRequested, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_BringIntoViewRequestedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__BringIntoViewRequestedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IUIElement8.add_BringIntoViewRequested, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_UIElement__Windows_UI_Xaml_BringIntoViewRequestedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__UIElement_j__wux__BringIntoViewRequestedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_BringIntoViewRequested(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.UIElement, global::Windows.UI.Xaml.BringIntoViewRequestedEventArgs> handler)
@@ -30361,7 +31086,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IUIElementOverrides.FindSubElementsForTouchTargeting, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] Windows_Foundation_Point__Windows_Foundation__Point, [fwd] [in] [EETypeRva:0x00041980] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00043630] System_Collections_Generic_IEnumerable_1_System_Collections_Generic_IEnumerable_1_Windows_Foundation_Point____Windows_Foundation_Collections__IIterable_A__wf_Collections_IIterable_A__wf_Point_V__V_ *, 
+			// Signature, Windows.UI.Xaml.IUIElementOverrides.FindSubElementsForTouchTargeting, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Point__Windows_Foundation__Point, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00043660] System_Collections_Generic_IEnumerable_1_System_Collections_Generic_IEnumerable_1_Windows_Foundation_Point____Windows_Foundation_Collections__IIterable_A__wf_Collections_IIterable_A__wf_Point_V__V_ *, 
 			public static global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.IEnumerable<global::Windows.Foundation.Point>> FindSubElementsForTouchTargeting(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Point point, 
@@ -30577,7 +31302,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IFrameworkElement.get_HorizontalAlignment, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D30] Windows_UI_Xaml_HorizontalAlignment__Windows_UI_Xaml__HorizontalAlignment, 
+			// Signature, Windows.UI.Xaml.IFrameworkElement.get_HorizontalAlignment, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_HorizontalAlignment__Windows_UI_Xaml__HorizontalAlignment, 
 			public static global::Windows.UI.Xaml.HorizontalAlignment get_HorizontalAlignment(global::System.__ComObject __this)
 			{
 				// Setup
@@ -30610,7 +31335,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IFrameworkElement.get_VerticalAlignment, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D30] Windows_UI_Xaml_VerticalAlignment__Windows_UI_Xaml__VerticalAlignment, 
+			// Signature, Windows.UI.Xaml.IFrameworkElement.get_VerticalAlignment, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_VerticalAlignment__Windows_UI_Xaml__VerticalAlignment, 
 			public static global::Windows.UI.Xaml.VerticalAlignment get_VerticalAlignment(global::System.__ComObject __this)
 			{
 				// Setup
@@ -30737,7 +31462,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IFrameworkElement.add_SizeChanged, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_SizeChangedEventHandler__Windows_UI_Xaml__SizeChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IFrameworkElement.add_SizeChanged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_SizeChangedEventHandler__Windows_UI_Xaml__SizeChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_SizeChanged(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.SizeChangedEventHandler handler)
@@ -30901,7 +31626,7 @@ namespace Windows.UI.Xaml
 		// StubClass for 'Windows.UI.Xaml.IFrameworkElement2'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.IFrameworkElement2.add_DataContextChanged, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_FrameworkElement__Windows_UI_Xaml_DataContextChangedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__FrameworkElement_j__wux__DataContextChangedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IFrameworkElement2.add_DataContextChanged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_FrameworkElement__Windows_UI_Xaml_DataContextChangedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__FrameworkElement_j__wux__DataContextChangedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_DataContextChanged(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.FrameworkElement, global::Windows.UI.Xaml.DataContextChangedEventArgs> handler)
@@ -31054,7 +31779,7 @@ namespace Windows.UI.Xaml
 		// StubClass for 'Windows.UI.Xaml.IFrameworkElement7'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.IFrameworkElement7.add_EffectiveViewportChanged, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_FrameworkElement__Windows_UI_Xaml_EffectiveViewportChangedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__FrameworkElement_j__wux__EffectiveViewportChangedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IFrameworkElement7.add_EffectiveViewportChanged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_FrameworkElement__Windows_UI_Xaml_EffectiveViewportChangedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__FrameworkElement_j__wux__EffectiveViewportChangedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_EffectiveViewportChanged(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.FrameworkElement, global::Windows.UI.Xaml.EffectiveViewportChangedEventArgs> handler)
@@ -31171,7 +31896,7 @@ namespace Windows.UI.Xaml
 		// StubClass for 'Windows.UI.Xaml.IFrameworkElementOverrides2'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.IFrameworkElementOverrides2.GoToElementStateCore, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x00040754] bool__bool, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040754] bool__bool, 
+			// Signature, Windows.UI.Xaml.IFrameworkElementOverrides2.GoToElementStateCore, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x00040784] bool__bool, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040784] bool__bool, 
 			public static bool GoToElementStateCore(
 						global::System.__ComObject __this, 
 						string stateName, 
@@ -31318,7 +32043,7 @@ namespace Windows.UI.Xaml
 		// StubClass for 'Windows.UI.Xaml.IApplicationStatics'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.IApplicationStatics.Start, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_ApplicationInitializationCallback__Windows_UI_Xaml__ApplicationInitializationCallback *, 
+			// Signature, Windows.UI.Xaml.IApplicationStatics.Start, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_ApplicationInitializationCallback__Windows_UI_Xaml__ApplicationInitializationCallback *, 
 			public static void Start(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.ApplicationInitializationCallback callback)
@@ -31350,7 +32075,7 @@ namespace Windows.UI.Xaml
 				}
 			}
 
-			// Signature, Windows.UI.Xaml.IApplicationStatics.LoadComponent, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x0004134C] object____mcg_IInspectable, [fwd] [in] [EETypeRva:0x00041730] System_Uri__Windows_Foundation__Uri, [fwd] [in] [EETypeRva:0x00042D30]  -> int, 
+			// Signature, Windows.UI.Xaml.IApplicationStatics.LoadComponent, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [fwd] [in] [EETypeRva:0x00041760] System_Uri__Windows_Foundation__Uri, [fwd] [in] [EETypeRva:0x00042D60]  -> int, 
 			public static void LoadComponent(
 						global::System.__ComObject __this, 
 						object component, 
@@ -31475,7 +32200,7 @@ namespace Windows.UI.Xaml
 		// StubClass for 'Windows.UI.Xaml.IApplication'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.IApplication.add_UnhandledException, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_UnhandledExceptionEventHandler__Windows_UI_Xaml__UnhandledExceptionEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IApplication.add_UnhandledException, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_UnhandledExceptionEventHandler__Windows_UI_Xaml__UnhandledExceptionEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_UnhandledException(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.UnhandledExceptionEventHandler handler)
@@ -31524,7 +32249,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IApplication.add_Suspending, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_SuspendingEventHandler__Windows_UI_Xaml__SuspendingEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IApplication.add_Suspending, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_SuspendingEventHandler__Windows_UI_Xaml__SuspendingEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Suspending(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.SuspendingEventHandler handler)
@@ -31770,7 +32495,7 @@ namespace Windows.UI.Xaml
 		// StubClass for 'Windows.UI.Xaml.IApplication2'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.IApplication2.add_LeavingBackground, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_LeavingBackgroundEventHandler__Windows_UI_Xaml__LeavingBackgroundEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IApplication2.add_LeavingBackground, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_LeavingBackgroundEventHandler__Windows_UI_Xaml__LeavingBackgroundEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_LeavingBackground(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.LeavingBackgroundEventHandler handler)
@@ -31819,7 +32544,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IApplication2.add_EnteredBackground, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_EnteredBackgroundEventHandler__Windows_UI_Xaml__EnteredBackgroundEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IApplication2.add_EnteredBackground, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_EnteredBackgroundEventHandler__Windows_UI_Xaml__EnteredBackgroundEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_EnteredBackground(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.EnteredBackgroundEventHandler handler)
@@ -32465,7 +33190,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IWindow.add_Activated, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_WindowActivatedEventHandler__Windows_UI_Xaml__WindowActivatedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IWindow.add_Activated, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_WindowActivatedEventHandler__Windows_UI_Xaml__WindowActivatedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Activated(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.WindowActivatedEventHandler handler)
@@ -32514,7 +33239,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IWindow.add_Closed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_WindowClosedEventHandler__Windows_UI_Xaml__WindowClosedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IWindow.add_Closed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_WindowClosedEventHandler__Windows_UI_Xaml__WindowClosedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Closed(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.WindowClosedEventHandler handler)
@@ -32563,7 +33288,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IWindow.add_SizeChanged, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_WindowSizeChangedEventHandler__Windows_UI_Xaml__WindowSizeChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IWindow.add_SizeChanged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_WindowSizeChangedEventHandler__Windows_UI_Xaml__WindowSizeChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_SizeChanged(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.WindowSizeChangedEventHandler handler)
@@ -32612,7 +33337,7 @@ namespace Windows.UI.Xaml
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.IWindow.add_VisibilityChanged, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_WindowVisibilityChangedEventHandler__Windows_UI_Xaml__WindowVisibilityChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.IWindow.add_VisibilityChanged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_WindowVisibilityChangedEventHandler__Windows_UI_Xaml__WindowVisibilityChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_VisibilityChanged(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.WindowVisibilityChangedEventHandler handler)
@@ -33097,7 +33822,7 @@ namespace Windows.UI.Xaml.Automation.Peers
 				return __ret;
 			}
 
-			// Signature, Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides.GetAutomationControlTypeCore, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D30] Windows_UI_Xaml_Automation_Peers_AutomationControlType__Windows_UI_Xaml_Automation_Peers__AutomationControlType, 
+			// Signature, Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides.GetAutomationControlTypeCore, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_Automation_Peers_AutomationControlType__Windows_UI_Xaml_Automation_Peers__AutomationControlType, 
 			public static global::Windows.UI.Xaml.Automation.Peers.AutomationControlType GetAutomationControlTypeCore(global::System.__ComObject __this)
 			{
 				// Setup
@@ -33228,7 +33953,7 @@ namespace Windows.UI.Xaml.Automation.Peers
 				return __ret;
 			}
 
-			// Signature, Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides.GetOrientationCore, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D30] Windows_UI_Xaml_Automation_Peers_AutomationOrientation__Windows_UI_Xaml_Automation_Peers__AutomationOrientation, 
+			// Signature, Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides.GetOrientationCore, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_Automation_Peers_AutomationOrientation__Windows_UI_Xaml_Automation_Peers__AutomationOrientation, 
 			public static global::Windows.UI.Xaml.Automation.Peers.AutomationOrientation GetOrientationCore(global::System.__ComObject __this)
 			{
 				// Setup
@@ -33338,7 +34063,7 @@ namespace Windows.UI.Xaml.Automation.Peers
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides.GetPeerFromPointCore, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] Windows_Foundation_Point__Windows_Foundation__Point, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000437C4] Windows_UI_Xaml_Automation_Peers_AutomationPeer__Windows_UI_Xaml_Automation_Peers__AutomationPeer *, 
+			// Signature, Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides.GetPeerFromPointCore, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Point__Windows_Foundation__Point, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000437F4] Windows_UI_Xaml_Automation_Peers_AutomationPeer__Windows_UI_Xaml_Automation_Peers__AutomationPeer *, 
 			public static global::Windows.UI.Xaml.Automation.Peers.AutomationPeer GetPeerFromPointCore(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Point point)
@@ -33374,7 +34099,7 @@ namespace Windows.UI.Xaml.Automation.Peers
 				}
 			}
 
-			// Signature, Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides.GetLiveSettingCore, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D30] Windows_UI_Xaml_Automation_Peers_AutomationLiveSetting__Windows_UI_Xaml_Automation_Peers__AutomationLiveSetting, 
+			// Signature, Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides.GetLiveSettingCore, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_Automation_Peers_AutomationLiveSetting__Windows_UI_Xaml_Automation_Peers__AutomationLiveSetting, 
 			public static global::Windows.UI.Xaml.Automation.Peers.AutomationLiveSetting GetLiveSettingCore(global::System.__ComObject __this)
 			{
 				// Setup
@@ -33443,7 +34168,7 @@ namespace Windows.UI.Xaml.Automation.Peers
 				return __ret;
 			}
 
-			// Signature, Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides3.GetElementFromPointCore, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] Windows_Foundation_Point__Windows_Foundation__Point, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004134C] object____mcg_IInspectable, 
+			// Signature, Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides3.GetElementFromPointCore, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Point__Windows_Foundation__Point, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 			public static object GetElementFromPointCore(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Point pointInWindowCoordinates)
@@ -33534,7 +34259,7 @@ namespace Windows.UI.Xaml.Automation.Peers
 		// StubClass for 'Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides4'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides4.GetLandmarkTypeCore, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D30] Windows_UI_Xaml_Automation_Peers_AutomationLandmarkType__Windows_UI_Xaml_Automation_Peers__AutomationLandmarkType, 
+			// Signature, Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides4.GetLandmarkTypeCore, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_Automation_Peers_AutomationLandmarkType__Windows_UI_Xaml_Automation_Peers__AutomationLandmarkType, 
 			public static global::Windows.UI.Xaml.Automation.Peers.AutomationLandmarkType GetLandmarkTypeCore(global::System.__ComObject __this)
 			{
 				// Setup
@@ -33659,7 +34384,7 @@ namespace Windows.UI.Xaml.Automation.Peers
 		// StubClass for 'Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides8'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides8.GetHeadingLevelCore, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D30] Windows_UI_Xaml_Automation_Peers_AutomationHeadingLevel__Windows_UI_Xaml_Automation_Peers__AutomationHeadingLevel, 
+			// Signature, Windows.UI.Xaml.Automation.Peers.IAutomationPeerOverrides8.GetHeadingLevelCore, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_Automation_Peers_AutomationHeadingLevel__Windows_UI_Xaml_Automation_Peers__AutomationHeadingLevel, 
 			public static global::Windows.UI.Xaml.Automation.Peers.AutomationHeadingLevel GetHeadingLevelCore(global::System.__ComObject __this)
 			{
 				// Setup
@@ -33808,7 +34533,7 @@ namespace Windows.UI.Xaml.Automation.Provider
 				return __ret;
 			}
 
-			// Signature, Windows.UI.Xaml.Automation.Provider.IScrollProvider.Scroll, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00042D30]  -> int, [fwd] [in] [EETypeRva:0x00042D30]  -> int, 
+			// Signature, Windows.UI.Xaml.Automation.Provider.IScrollProvider.Scroll, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, [fwd] [in] [EETypeRva:0x00042D60]  -> int, 
 			public static void Scroll(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Automation.ScrollAmount horizontalAmount, 
@@ -34087,7 +34812,7 @@ namespace Windows.UI.Xaml.Automation.Provider
 				return __ret;
 			}
 
-			// Signature, Windows.UI.Xaml.Automation.Provider.IScrollProvider.Scroll, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00042D30] Windows_UI_Xaml_Automation_ScrollAmount__Windows_UI_Xaml_Automation__ScrollAmount, [rev] [in] [EETypeRva:0x00042D30] Windows_UI_Xaml_Automation_ScrollAmount__Windows_UI_Xaml_Automation__ScrollAmount, 
+			// Signature, Windows.UI.Xaml.Automation.Provider.IScrollProvider.Scroll, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00042D60] Windows_UI_Xaml_Automation_ScrollAmount__Windows_UI_Xaml_Automation__ScrollAmount, [rev] [in] [EETypeRva:0x00042D60] Windows_UI_Xaml_Automation_ScrollAmount__Windows_UI_Xaml_Automation__ScrollAmount, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int Scroll__n(
 						global::System.IntPtr pComThis, 
@@ -34113,7 +34838,7 @@ namespace Windows.UI.Xaml.Automation.Provider
 				}
 			}
 
-			// Signature, Windows.UI.Xaml.Automation.Provider.IScrollProvider.SetScrollPercent, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00041980] double__double, [rev] [in] [EETypeRva:0x00041980] double__double, 
+			// Signature, Windows.UI.Xaml.Automation.Provider.IScrollProvider.SetScrollPercent, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x000419B0] double__double, [rev] [in] [EETypeRva:0x000419B0] double__double, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int SetScrollPercent__n(
 						global::System.IntPtr pComThis, 
@@ -34390,7 +35115,7 @@ namespace Windows.UI.Xaml.Controls
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.Controls.IControl.add_IsEnabledChanged, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_DependencyPropertyChangedEventHandler__Windows_UI_Xaml__DependencyPropertyChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.IControl.add_IsEnabledChanged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_DependencyPropertyChangedEventHandler__Windows_UI_Xaml__DependencyPropertyChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_IsEnabledChanged(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.DependencyPropertyChangedEventHandler handler)
@@ -34447,7 +35172,7 @@ namespace Windows.UI.Xaml.Controls
 		// StubClass for 'Windows.UI.Xaml.Controls.IControl4'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Controls.IControl4.add_FocusEngaged, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_Control__Windows_UI_Xaml_Controls_FocusEngagedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_Control_j__wux__Controls_FocusEngagedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.IControl4.add_FocusEngaged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_Control__Windows_UI_Xaml_Controls_FocusEngagedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_Control_j__wux__Controls_FocusEngagedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_FocusEngaged(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.Control, global::Windows.UI.Xaml.Controls.FocusEngagedEventArgs> handler)
@@ -34496,7 +35221,7 @@ namespace Windows.UI.Xaml.Controls
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.Controls.IControl4.add_FocusDisengaged, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_Control__Windows_UI_Xaml_Controls_FocusDisengagedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_Control_j__wux__Controls_FocusDisengagedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.IControl4.add_FocusDisengaged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_Control__Windows_UI_Xaml_Controls_FocusDisengagedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_Control_j__wux__Controls_FocusDisengagedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_FocusDisengaged(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.Control, global::Windows.UI.Xaml.Controls.FocusDisengagedEventArgs> handler)
@@ -35122,7 +35847,7 @@ namespace Windows.UI.Xaml.Controls
 		// StubClass for 'Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides.SelectTemplateCore, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x0004134C] object____mcg_IInspectable, [fwd] [in] [EETypeRva:0x000437C4] Windows_UI_Xaml_DependencyObject__Windows_UI_Xaml__DependencyObject *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000437C4] Windows_UI_Xaml_DataTemplate__Windows_UI_Xaml__DataTemplate *, 
+			// Signature, Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides.SelectTemplateCore, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [fwd] [in] [EETypeRva:0x000437F4] Windows_UI_Xaml_DependencyObject__Windows_UI_Xaml__DependencyObject *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000437F4] Windows_UI_Xaml_DataTemplate__Windows_UI_Xaml__DataTemplate *, 
 			public static global::Windows.UI.Xaml.DataTemplate SelectTemplateCore(
 						global::System.__ComObject __this, 
 						object item, 
@@ -35178,7 +35903,7 @@ namespace Windows.UI.Xaml.Controls
 		// StubClass for 'Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2.SelectTemplateCore, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x0004134C] object____mcg_IInspectable, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000437C4] Windows_UI_Xaml_DataTemplate__Windows_UI_Xaml__DataTemplate *, 
+			// Signature, Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2.SelectTemplateCore, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000437F4] Windows_UI_Xaml_DataTemplate__Windows_UI_Xaml__DataTemplate *, 
 			public static global::Windows.UI.Xaml.DataTemplate SelectTemplateCore(
 						global::System.__ComObject __this, 
 						object item)
@@ -35248,7 +35973,7 @@ namespace Windows.UI.Xaml.Controls
 		// StubClass for 'Windows.UI.Xaml.Controls.IFrame'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Controls.IFrame.add_Navigated, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_Navigation_NavigatedEventHandler__Windows_UI_Xaml_Navigation__NavigatedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.IFrame.add_Navigated, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Navigation_NavigatedEventHandler__Windows_UI_Xaml_Navigation__NavigatedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Navigated(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Navigation.NavigatedEventHandler handler)
@@ -35297,7 +36022,7 @@ namespace Windows.UI.Xaml.Controls
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.Controls.IFrame.add_Navigating, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_Navigation_NavigatingCancelEventHandler__Windows_UI_Xaml_Navigation__NavigatingCancelEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.IFrame.add_Navigating, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Navigation_NavigatingCancelEventHandler__Windows_UI_Xaml_Navigation__NavigatingCancelEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Navigating(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Navigation.NavigatingCancelEventHandler handler)
@@ -35346,7 +36071,7 @@ namespace Windows.UI.Xaml.Controls
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.Controls.IFrame.add_NavigationFailed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_Navigation_NavigationFailedEventHandler__Windows_UI_Xaml_Navigation__NavigationFailedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.IFrame.add_NavigationFailed, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Navigation_NavigationFailedEventHandler__Windows_UI_Xaml_Navigation__NavigationFailedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_NavigationFailed(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Navigation.NavigationFailedEventHandler handler)
@@ -35395,7 +36120,7 @@ namespace Windows.UI.Xaml.Controls
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.Controls.IFrame.add_NavigationStopped, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_Navigation_NavigationStoppedEventHandler__Windows_UI_Xaml_Navigation__NavigationStoppedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.IFrame.add_NavigationStopped, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Navigation_NavigationStoppedEventHandler__Windows_UI_Xaml_Navigation__NavigationStoppedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_NavigationStopped(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Navigation.NavigationStoppedEventHandler handler)
@@ -35444,7 +36169,7 @@ namespace Windows.UI.Xaml.Controls
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.Controls.IFrame.Navigate, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040F08] System_Type__Windows_UI_Xaml_Interop__TypeName, [fwd] [in] [EETypeRva:0x0004134C] object____mcg_IInspectable, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040754] bool__bool, 
+			// Signature, Windows.UI.Xaml.Controls.IFrame.Navigate, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040F38] System_Type__Windows_UI_Xaml_Interop__TypeName, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040784] bool__bool, 
 			public static bool Navigate(
 						global::System.__ComObject __this, 
 						global::System.Type sourcePageType, 
@@ -35499,7 +36224,7 @@ namespace Windows.UI.Xaml.Controls
 		// StubClass for 'Windows.UI.Xaml.Controls.INavigate'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Controls.INavigate.Navigate, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040F08] System_Type__Windows_UI_Xaml_Interop__TypeName, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040754] bool__bool, 
+			// Signature, Windows.UI.Xaml.Controls.INavigate.Navigate, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040F38] System_Type__Windows_UI_Xaml_Interop__TypeName, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040784] bool__bool, 
 			public static bool Navigate(
 						global::System.__ComObject __this, 
 						global::System.Type sourcePageType)
@@ -35656,7 +36381,7 @@ namespace Windows.UI.Xaml.Controls
 		// StubClass for 'Windows.UI.Xaml.Controls.IGridStatics'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Controls.IGridStatics.GetRow, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x000437C4] Windows_UI_Xaml_FrameworkElement__Windows_UI_Xaml__FrameworkElement *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] int__int, 
+			// Signature, Windows.UI.Xaml.Controls.IGridStatics.GetRow, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000437F4] Windows_UI_Xaml_FrameworkElement__Windows_UI_Xaml__FrameworkElement *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] int__int, 
 			public static int GetRow(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.FrameworkElement element)
@@ -35694,7 +36419,7 @@ namespace Windows.UI.Xaml.Controls
 				}
 			}
 
-			// Signature, Windows.UI.Xaml.Controls.IGridStatics.SetRow, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x000437C4] Windows_UI_Xaml_FrameworkElement__Windows_UI_Xaml__FrameworkElement *, [fwd] [in] [EETypeRva:0x00041980] int__int, 
+			// Signature, Windows.UI.Xaml.Controls.IGridStatics.SetRow, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000437F4] Windows_UI_Xaml_FrameworkElement__Windows_UI_Xaml__FrameworkElement *, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 			public static void SetRow(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.FrameworkElement element, 
@@ -35823,7 +36548,7 @@ namespace Windows.UI.Xaml.Controls
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.Controls.ITextBox.get_TextAlignment, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D30] Windows_UI_Xaml_TextAlignment__Windows_UI_Xaml__TextAlignment, 
+			// Signature, Windows.UI.Xaml.Controls.ITextBox.get_TextAlignment, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_TextAlignment__Windows_UI_Xaml__TextAlignment, 
 			public static global::Windows.UI.Xaml.TextAlignment get_TextAlignment(global::System.__ComObject __this)
 			{
 				// Setup
@@ -35878,7 +36603,7 @@ namespace Windows.UI.Xaml.Controls
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.Controls.ITextBox.add_TextChanged, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_Controls_TextChangedEventHandler__Windows_UI_Xaml_Controls__TextChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.ITextBox.add_TextChanged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Controls_TextChangedEventHandler__Windows_UI_Xaml_Controls__TextChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_TextChanged(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Controls.TextChangedEventHandler handler)
@@ -36149,7 +36874,7 @@ namespace Windows.UI.Xaml.Controls
 		// StubClass for 'Windows.UI.Xaml.Controls.ITextBox2'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Controls.ITextBox2.add_Paste, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_Controls_TextControlPasteEventHandler__Windows_UI_Xaml_Controls__TextControlPasteEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.ITextBox2.add_Paste, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Controls_TextControlPasteEventHandler__Windows_UI_Xaml_Controls__TextControlPasteEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Paste(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Controls.TextControlPasteEventHandler handler)
@@ -36288,7 +37013,7 @@ namespace Windows.UI.Xaml.Controls
 		// StubClass for 'Windows.UI.Xaml.Controls.ITextBox3'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Controls.ITextBox3.add_TextCompositionStarted, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBox__Windows_UI_Xaml_Controls_TextCompositionStartedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBox_j__wux__Controls_TextCompositionStartedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.ITextBox3.add_TextCompositionStarted, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBox__Windows_UI_Xaml_Controls_TextCompositionStartedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBox_j__wux__Controls_TextCompositionStartedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_TextCompositionStarted(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.TextBox, global::Windows.UI.Xaml.Controls.TextCompositionStartedEventArgs> handler)
@@ -36337,7 +37062,7 @@ namespace Windows.UI.Xaml.Controls
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.Controls.ITextBox3.add_TextCompositionChanged, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBox__Windows_UI_Xaml_Controls_TextCompositionChangedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBox_j__wux__Controls_TextCompositionChangedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.ITextBox3.add_TextCompositionChanged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBox__Windows_UI_Xaml_Controls_TextCompositionChangedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBox_j__wux__Controls_TextCompositionChangedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_TextCompositionChanged(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.TextBox, global::Windows.UI.Xaml.Controls.TextCompositionChangedEventArgs> handler)
@@ -36386,7 +37111,7 @@ namespace Windows.UI.Xaml.Controls
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.Controls.ITextBox3.add_TextCompositionEnded, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBox__Windows_UI_Xaml_Controls_TextCompositionEndedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBox_j__wux__Controls_TextCompositionEndedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.ITextBox3.add_TextCompositionEnded, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBox__Windows_UI_Xaml_Controls_TextCompositionEndedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBox_j__wux__Controls_TextCompositionEndedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_TextCompositionEnded(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.TextBox, global::Windows.UI.Xaml.Controls.TextCompositionEndedEventArgs> handler)
@@ -36435,7 +37160,7 @@ namespace Windows.UI.Xaml.Controls
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.Controls.ITextBox3.add_CandidateWindowBoundsChanged, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBox__Windows_UI_Xaml_Controls_CandidateWindowBoundsChangedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBox_j__wux__Controls_CandidateWindowBoundsChangedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.ITextBox3.add_CandidateWindowBoundsChanged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBox__Windows_UI_Xaml_Controls_CandidateWindowBoundsChangedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBox_j__wux__Controls_CandidateWindowBoundsChangedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_CandidateWindowBoundsChanged(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.TextBox, global::Windows.UI.Xaml.Controls.CandidateWindowBoundsChangedEventArgs> handler)
@@ -36484,7 +37209,7 @@ namespace Windows.UI.Xaml.Controls
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.Controls.ITextBox3.add_TextChanging, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBox__Windows_UI_Xaml_Controls_TextBoxTextChangingEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBox_j__wux__Controls_TextBoxTextChangingEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.ITextBox3.add_TextChanging, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBox__Windows_UI_Xaml_Controls_TextBoxTextChangingEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBox_j__wux__Controls_TextBoxTextChangingEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_TextChanging(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.TextBox, global::Windows.UI.Xaml.Controls.TextBoxTextChangingEventArgs> handler)
@@ -36541,7 +37266,7 @@ namespace Windows.UI.Xaml.Controls
 		// StubClass for 'Windows.UI.Xaml.Controls.ITextBox6'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Controls.ITextBox6.add_CopyingToClipboard, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBox__Windows_UI_Xaml_Controls_TextControlCopyingToClipboardEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBox_j__wux__Controls_TextControlCopyingToClipboardEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.ITextBox6.add_CopyingToClipboard, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBox__Windows_UI_Xaml_Controls_TextControlCopyingToClipboardEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBox_j__wux__Controls_TextControlCopyingToClipboardEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_CopyingToClipboard(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.TextBox, global::Windows.UI.Xaml.Controls.TextControlCopyingToClipboardEventArgs> handler)
@@ -36590,7 +37315,7 @@ namespace Windows.UI.Xaml.Controls
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.Controls.ITextBox6.add_CuttingToClipboard, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBox__Windows_UI_Xaml_Controls_TextControlCuttingToClipboardEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBox_j__wux__Controls_TextControlCuttingToClipboardEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.ITextBox6.add_CuttingToClipboard, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBox__Windows_UI_Xaml_Controls_TextControlCuttingToClipboardEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBox_j__wux__Controls_TextControlCuttingToClipboardEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_CuttingToClipboard(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.TextBox, global::Windows.UI.Xaml.Controls.TextControlCuttingToClipboardEventArgs> handler)
@@ -36639,7 +37364,7 @@ namespace Windows.UI.Xaml.Controls
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.Controls.ITextBox6.add_BeforeTextChanging, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBox__Windows_UI_Xaml_Controls_TextBoxBeforeTextChangingEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBox_j__wux__Controls_TextBoxBeforeTextChangingEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.ITextBox6.add_BeforeTextChanging, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBox__Windows_UI_Xaml_Controls_TextBoxBeforeTextChangingEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBox_j__wux__Controls_TextBoxBeforeTextChangingEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_BeforeTextChanging(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.TextBox, global::Windows.UI.Xaml.Controls.TextBoxBeforeTextChangingEventArgs> handler)
@@ -36696,7 +37421,7 @@ namespace Windows.UI.Xaml.Controls
 		// StubClass for 'Windows.UI.Xaml.Controls.ITextBox8'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Controls.ITextBox8.add_SelectionChanging, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBox__Windows_UI_Xaml_Controls_TextBoxSelectionChangingEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBox_j__wux__Controls_TextBoxSelectionChangingEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.ITextBox8.add_SelectionChanging, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBox__Windows_UI_Xaml_Controls_TextBoxSelectionChangingEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBox_j__wux__Controls_TextBoxSelectionChangingEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_SelectionChanging(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.TextBox, global::Windows.UI.Xaml.Controls.TextBoxSelectionChangingEventArgs> handler)
@@ -36921,7 +37646,7 @@ namespace Windows.UI.Xaml.Controls
 		// StubClass for 'Windows.UI.Xaml.Controls.ITextBlock6'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Controls.ITextBlock6.add_IsTextTrimmedChanged, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBlock__Windows_UI_Xaml_Controls_IsTextTrimmedChangedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBlock_j__wux__Controls_IsTextTrimmedChangedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.ITextBlock6.add_IsTextTrimmedChanged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_TextBlock__Windows_UI_Xaml_Controls_IsTextTrimmedChangedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_TextBlock_j__wux__Controls_IsTextTrimmedChangedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_IsTextTrimmedChanged(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.TextBlock, global::Windows.UI.Xaml.Controls.IsTextTrimmedChangedEventArgs> handler)
@@ -37103,7 +37828,7 @@ namespace Windows.UI.Xaml.Controls.Primitives
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.Controls.Primitives.IRangeBase.add_ValueChanged, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_Controls_Primitives_RangeBaseValueChangedEventHandler__Windows_UI_Xaml_Controls_Primitives__RangeBaseValueChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
+			// Signature, Windows.UI.Xaml.Controls.Primitives.IRangeBase.add_ValueChanged, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040CE0] Windows_UI_Xaml_Controls_Primitives_RangeBaseValueChangedEventHandler__Windows_UI_Xaml_Controls_Primitives__RangeBaseValueChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_ValueChanged(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Controls.Primitives.RangeBaseValueChangedEventHandler handler)
@@ -37377,7 +38102,7 @@ namespace Windows.UI.Xaml.Data
 		// StubClass for 'Windows.UI.Xaml.Data.IPropertyChangedEventArgsFactory'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Data.IPropertyChangedEventArgsFactory.CreateInstance, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+			// Signature, Windows.UI.Xaml.Data.IPropertyChangedEventArgsFactory.CreateInstance, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 			public static global::System.IntPtr CreateInstance(
 						global::System.__ComObject __this, 
 						string name, 
@@ -38576,7 +39301,7 @@ namespace Windows.UI.Xaml.Interop
 		// StubClass for 'Windows.UI.Xaml.Interop.INotifyCollectionChangedEventArgsFactory'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Interop.INotifyCollectionChangedEventArgsFactory.CreateInstanceWithAllParameters, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980]  -> int, [fwd] [in] [EETypeRva:0x00043630] System_Collections_IList__Windows_UI_Xaml_Interop__IBindableVector *, [fwd] [in] [EETypeRva:0x00043630] System_Collections_IList__Windows_UI_Xaml_Interop__IBindableVector *, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+			// Signature, Windows.UI.Xaml.Interop.INotifyCollectionChangedEventArgsFactory.CreateInstanceWithAllParameters, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0]  -> int, [fwd] [in] [EETypeRva:0x00043660] System_Collections_IList__Windows_UI_Xaml_Interop__IBindableVector *, [fwd] [in] [EETypeRva:0x00043660] System_Collections_IList__Windows_UI_Xaml_Interop__IBindableVector *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 			public static global::System.IntPtr CreateInstanceWithAllParameters(
 						global::System.__ComObject __this, 
 						global::System.Collections.Specialized.NotifyCollectionChangedAction action, 
@@ -38672,7 +39397,7 @@ namespace Windows.UI.Xaml.Interop
 		// StubClass for 'Windows.UI.Xaml.Interop.INotifyCollectionChangedEventArgs'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Interop.INotifyCollectionChangedEventArgs.get_Action, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Collections_Specialized_NotifyCollectionChangedAction__Windows_UI_Xaml_Interop__NotifyCollectionChangedAction, 
+			// Signature, Windows.UI.Xaml.Interop.INotifyCollectionChangedEventArgs.get_Action, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_Collections_Specialized_NotifyCollectionChangedAction__Windows_UI_Xaml_Interop__NotifyCollectionChangedAction, 
 			public static global::System.Collections.Specialized.NotifyCollectionChangedAction get_Action(global::System.__ComObject __this)
 			{
 				// Setup
@@ -38789,7 +39514,7 @@ namespace Windows.UI.Xaml.Markup
 		// StubClass for 'Windows.UI.Xaml.Markup.IXamlMetadataProvider'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Markup.IXamlMetadataProvider.GetXamlType, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040F08] System_Type__Windows_UI_Xaml_Interop__TypeName, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00043630] Windows_UI_Xaml_Markup_IXamlType__Windows_UI_Xaml_Markup__IXamlType *, 
+			// Signature, Windows.UI.Xaml.Markup.IXamlMetadataProvider.GetXamlType, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040F38] System_Type__Windows_UI_Xaml_Interop__TypeName, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00043660] Windows_UI_Xaml_Markup_IXamlType__Windows_UI_Xaml_Markup__IXamlType *, 
 			public static global::Windows.UI.Xaml.Markup.IXamlType GetXamlType(
 						global::System.__ComObject __this, 
 						global::System.Type type)
@@ -38849,7 +39574,7 @@ namespace Windows.UI.Xaml.Markup
 				return __ret;
 			}
 
-			// Signature, Windows.UI.Xaml.Markup.IXamlMetadataProvider.GetXmlnsDefinitions, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000424B8] rg_Windows_UI_Xaml_Markup_XmlnsDefinition__Windows_UI_Xaml_Markup__XmlnsDefinition *, 
+			// Signature, Windows.UI.Xaml.Markup.IXamlMetadataProvider.GetXmlnsDefinitions, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000424E8] rg_Windows_UI_Xaml_Markup_XmlnsDefinition__Windows_UI_Xaml_Markup__XmlnsDefinition *, 
 			public static global::Windows.UI.Xaml.Markup.XmlnsDefinition[] GetXmlnsDefinitions(global::System.__ComObject __this)
 			{
 				// Setup
@@ -38878,7 +39603,7 @@ namespace Windows.UI.Xaml.Markup
 						if (result__retval != null)
 							for (uint mcgIdx = 0; (mcgIdx < unsafe_result__retval_mcgLength); mcgIdx++)
 							{
-								// [fwd] [out] [retval] [nativebyref] [optional] [EETypeRva:0x00042190] Windows_UI_Xaml_Markup_XmlnsDefinition__Windows_UI_Xaml_Markup__XmlnsDefinition result__retval
+								// [fwd] [out] [retval] [nativebyref] [optional] [EETypeRva:0x000421C0] Windows_UI_Xaml_Markup_XmlnsDefinition__Windows_UI_Xaml_Markup__XmlnsDefinition result__retval
 								global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.Marshal__UnsafeToSafe(
 													ref unsafe_result__retval[mcgIdx], 
 													out result__retval[mcgIdx]
@@ -38894,7 +39619,7 @@ namespace Windows.UI.Xaml.Markup
 					if (unsafe_result__retval != null)
 						for (uint mcgIdx_1 = 0; (mcgIdx_1 < unsafe_result__retval_mcgLength); mcgIdx_1++)
 						{
-							// [fwd] [in] [out] [retval] [nativebyref] [optional] [EETypeRva:0x00042190] Windows_UI_Xaml_Markup_XmlnsDefinition__Windows_UI_Xaml_Markup__XmlnsDefinition result__retval
+							// [fwd] [in] [out] [retval] [nativebyref] [optional] [EETypeRva:0x000421C0] Windows_UI_Xaml_Markup_XmlnsDefinition__Windows_UI_Xaml_Markup__XmlnsDefinition result__retval
 							global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.Cleanup__Unsafe(ref unsafe_result__retval[mcgIdx_1]);
 						}
 					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_result__retval);
@@ -38976,7 +39701,7 @@ namespace Windows.UI.Xaml.Markup
 									);
 			}
 
-			// Signature, Windows.UI.Xaml.Markup.IXamlMetadataProvider.GetXamlType, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00040F08] System_Type__Windows_UI_Xaml_Interop__TypeName, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00043630] Windows_UI_Xaml_Markup_IXamlType__Windows_UI_Xaml_Markup__IXamlType *, 
+			// Signature, Windows.UI.Xaml.Markup.IXamlMetadataProvider.GetXamlType, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040F38] System_Type__Windows_UI_Xaml_Interop__TypeName, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00043660] Windows_UI_Xaml_Markup_IXamlType__Windows_UI_Xaml_Markup__IXamlType *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int GetXamlType__n(
 						global::System.IntPtr pComThis, 
@@ -39040,7 +39765,7 @@ namespace Windows.UI.Xaml.Markup
 				return __ret;
 			}
 
-			// Signature, Windows.UI.Xaml.Markup.IXamlMetadataProvider.GetXmlnsDefinitions, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x000424B8] [hal]rg_Windows_UI_Xaml_Markup_XmlnsDefinition__Windows_UI_Xaml_Markup__XmlnsDefinition *, 
+			// Signature, Windows.UI.Xaml.Markup.IXamlMetadataProvider.GetXmlnsDefinitions, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x000424E8] [hal]rg_Windows_UI_Xaml_Markup_XmlnsDefinition__Windows_UI_Xaml_Markup__XmlnsDefinition *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int GetXmlnsDefinitions__n(
 						global::System.IntPtr pComThis, 
@@ -39069,7 +39794,7 @@ namespace Windows.UI.Xaml.Markup
 							if (result__retval != null)
 								for (uint mcgIdx = 0; (mcgIdx < (*(unsafe_result__retval_mcgLength))); mcgIdx++)
 								{
-									// [rev] [out] [retval] [nativebyref] [optional] [EETypeRva:0x00042190] Windows_UI_Xaml_Markup_XmlnsDefinition__Windows_UI_Xaml_Markup__XmlnsDefinition result__retval
+									// [rev] [out] [retval] [nativebyref] [optional] [EETypeRva:0x000421C0] Windows_UI_Xaml_Markup_XmlnsDefinition__Windows_UI_Xaml_Markup__XmlnsDefinition result__retval
 									global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.Marshal__SafeToUnsafe(
 														ref result__retval[mcgIdx], 
 														out (*(unsafe_result__retval))[mcgIdx]
@@ -39087,7 +39812,7 @@ namespace Windows.UI.Xaml.Markup
 						if ((*(unsafe_result__retval)) != null)
 							for (uint mcgIdx_1 = 0; (mcgIdx_1 < (*(unsafe_result__retval_mcgLength))); mcgIdx_1++)
 							{
-								// [fwd] [in] [out] [retval] [nativebyref] [optional] [EETypeRva:0x00042190] Windows_UI_Xaml_Markup_XmlnsDefinition__Windows_UI_Xaml_Markup__XmlnsDefinition result__retval
+								// [fwd] [in] [out] [retval] [nativebyref] [optional] [EETypeRva:0x000421C0] Windows_UI_Xaml_Markup_XmlnsDefinition__Windows_UI_Xaml_Markup__XmlnsDefinition result__retval
 								global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.Cleanup__Unsafe(ref (*(unsafe_result__retval))[mcgIdx_1]);
 							}
 						global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree((*(unsafe_result__retval)));
@@ -39252,7 +39977,7 @@ namespace Windows.UI.Xaml.Markup
 				return __ret;
 			}
 
-			// Signature, Windows.UI.Xaml.Markup.IXamlType.CreateFromString, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004134C] object____mcg_IInspectable, 
+			// Signature, Windows.UI.Xaml.Markup.IXamlType.CreateFromString, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 			public static object CreateFromString(
 						global::System.__ComObject __this, 
 						string value)
@@ -39318,7 +40043,7 @@ namespace Windows.UI.Xaml.Markup
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.Markup.IXamlType.AddToMap, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x0004134C] object____mcg_IInspectable, [fwd] [in] [EETypeRva:0x0004134C] object____mcg_IInspectable, [fwd] [in] [EETypeRva:0x0004134C] object____mcg_IInspectable, 
+			// Signature, Windows.UI.Xaml.Markup.IXamlType.AddToMap, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 			public static void AddToMap(
 						global::System.__ComObject __this, 
 						object instance, 
@@ -39827,7 +40552,7 @@ namespace Windows.UI.Xaml.Markup
 				return __ret;
 			}
 
-			// Signature, Windows.UI.Xaml.Markup.IXamlType.ActivateInstance, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004134C] object____mcg_IInspectable, 
+			// Signature, Windows.UI.Xaml.Markup.IXamlType.ActivateInstance, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int ActivateInstance__n(
 						global::System.IntPtr pComThis, 
@@ -39861,7 +40586,7 @@ namespace Windows.UI.Xaml.Markup
 				}
 			}
 
-			// Signature, Windows.UI.Xaml.Markup.IXamlType.CreateFromString, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004134C] object____mcg_IInspectable, 
+			// Signature, Windows.UI.Xaml.Markup.IXamlType.CreateFromString, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int CreateFromString__n(
 						global::System.IntPtr pComThis, 
@@ -39940,7 +40665,7 @@ namespace Windows.UI.Xaml.Markup
 				return __ret;
 			}
 
-			// Signature, Windows.UI.Xaml.Markup.IXamlType.AddToMap, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x0004134C] object____mcg_IInspectable, [rev] [in] [EETypeRva:0x0004134C] object____mcg_IInspectable, [rev] [in] [EETypeRva:0x0004134C] object____mcg_IInspectable, 
+			// Signature, Windows.UI.Xaml.Markup.IXamlType.AddToMap, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [rev] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [rev] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int AddToMap__n(
 						global::System.IntPtr pComThis, 
@@ -40091,7 +40816,7 @@ namespace Windows.UI.Xaml.Markup
 				return __ret;
 			}
 
-			// Signature, Windows.UI.Xaml.Markup.IXamlMember.GetValue, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x0004134C] object____mcg_IInspectable, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004134C] object____mcg_IInspectable, 
+			// Signature, Windows.UI.Xaml.Markup.IXamlMember.GetValue, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 			public static object GetValue(
 						global::System.__ComObject __this, 
 						object instance)
@@ -40383,7 +41108,7 @@ namespace Windows.UI.Xaml.Markup
 				return __ret;
 			}
 
-			// Signature, Windows.UI.Xaml.Markup.IXamlMember.GetValue, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x0004134C] object____mcg_IInspectable, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004134C] object____mcg_IInspectable, 
+			// Signature, Windows.UI.Xaml.Markup.IXamlMember.GetValue, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [rev] [out] [retval] [nativebyref] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int GetValue__n(
 						global::System.IntPtr pComThis, 
@@ -40465,82 +41190,6 @@ namespace Windows.UI.Xaml.Markup
 		}
 	}
 
-	// Windows.UI.Xaml.Markup.IXamlType2
-	public unsafe static class IXamlType2__Impl
-	{
-		// v-table for 'Windows.UI.Xaml.Markup.IXamlType2'
-		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Markup.IXamlType2))]
-		[global::System.Runtime.InteropServices.McgRootsType(typeof(global::Windows.UI.Xaml.Markup.IXamlType2))]
-		internal unsafe partial struct Vtbl
-		{
-			global::System.IntPtr pfnQueryInterface;
-			global::System.IntPtr pfnAddRef;
-			global::System.IntPtr pfnRelease;
-			global::System.IntPtr pfnGetIids;
-			global::System.IntPtr pfnGetRuntimeClassName;
-			global::System.IntPtr pfnGetTrustLevel;
-			// Windows_UI_Xaml_Markup__IXamlType2
-			global::System.IntPtr pfnget_BoxedType_;
-			[global::System.Runtime.CompilerServices.InitDataBlob(typeof(global::Windows.UI.Xaml.Markup.IXamlType2__Impl.Vtbl.Vtbl__McgRvaContainer), "RVA_Windows_UI_Xaml_Markup_IXamlType2__Impl_Vtbl_s_staticVtable")]
-			static global::Windows.UI.Xaml.Markup.IXamlType2__Impl.Vtbl s_staticVtable
-			#if false
-			 = new global::Windows.UI.Xaml.Markup.IXamlType2__Impl.Vtbl() {
-				pfnQueryInterface = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfQueryInterface>(System.Runtime.InteropServices.__vtable_IUnknown.QueryInterface),
-				pfnAddRef = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfAddRef>(System.Runtime.InteropServices.__vtable_IUnknown.AddRef),
-				pfnRelease = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.AddrOfRelease>(System.Runtime.InteropServices.__vtable_IUnknown.Release),
-				pfnGetIids = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget0>(System.Runtime.InteropServices.__vtable_IInspectable.GetIIDs),
-				pfnGetRuntimeClassName = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetRuntimeClassName),
-				pfnGetTrustLevel = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget1>(System.Runtime.InteropServices.__vtable_IInspectable.GetTrustLevel),
-				pfnget_BoxedType_ = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget13>(global::Windows.UI.Xaml.Markup.IXamlType2__Impl.Vtbl.get_BoxedType__n),
-			}
-			#endif
-			;
-			static global::System.IntPtr s_cachedVtable;
-			internal static global::System.IntPtr GetVtbl()
-			{
-				fixed (void* pVtbl = &(global::Windows.UI.Xaml.Markup.IXamlType2__Impl.Vtbl.s_staticVtable))
-					return global::System.Runtime.InteropServices.McgMarshal.GetCCWVTableCopy(
-										pVtbl, 
-										ref global::Windows.UI.Xaml.Markup.IXamlType2__Impl.Vtbl.s_cachedVtable, 
-										sizeof(global::Windows.UI.Xaml.Markup.IXamlType2__Impl.Vtbl)
-									);
-			}
-
-			[global::System.Runtime.InteropServices.NativeCallable]
-			static int get_BoxedType__n(
-						global::System.IntPtr pComThis, 
-						void** unsafe_value__retval)
-			{
-				object __this = global::System.Runtime.InteropServices.McgMarshal.ThisPointerToTargetObject(pComThis);
-				global::System.IntPtr __methodPtr = global::__Interop.Intrinsics.VirtualAddrOf<global::Windows.UI.Xaml.Markup.IXamlType2>(
-									__this, 
-									0
-								);
-				int __ret = ((int)global::__Interop.ReverseComStubs.Stub_9<global::Windows.UI.Xaml.Markup.IXamlType>(
-									__this, 
-									((void**)unsafe_value__retval), 
-									__methodPtr
-								));
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			private static class Vtbl__McgRvaContainer
-			{
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(0, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "QueryInterface")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(4, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "AddRef")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::System.Runtime.InteropServices.__vtable_IUnknown), "Release")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(12, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetIIDs")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(16, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetRuntimeClassName")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(20, typeof(global::System.Runtime.InteropServices.__vtable_IInspectable), "GetTrustLevel")]
-				[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::Windows.UI.Xaml.Markup.IXamlType2__Impl.Vtbl), "get_BoxedType__n")]
-				[global::System.Runtime.CompilerServices.NonArray]
-				static readonly byte[] RVA_Windows_UI_Xaml_Markup_IXamlType2__Impl_Vtbl_s_staticVtable = new byte[] {
-						0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-			}
-		}
-	}
-
 	// Windows.UI.Xaml.Markup.IComponentConnector
 	public unsafe static class IComponentConnector__Impl
 	{
@@ -40582,7 +41231,7 @@ namespace Windows.UI.Xaml.Markup
 									);
 			}
 
-			// Signature, Windows.UI.Xaml.Markup.IComponentConnector.Connect, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00041980] int__int, [rev] [in] [EETypeRva:0x0004134C] object____mcg_IInspectable, 
+			// Signature, Windows.UI.Xaml.Markup.IComponentConnector.Connect, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int Connect__n(
 						global::System.IntPtr pComThis, 
@@ -40668,7 +41317,7 @@ namespace Windows.UI.Xaml.Markup
 									);
 			}
 
-			// Signature, Windows.UI.Xaml.Markup.IComponentConnector2.GetBindingConnector, [rev] [return] [EETypeRva:0x00042000] void__int, [rev] [in] [EETypeRva:0x00041980] int__int, [rev] [in] [EETypeRva:0x0004134C] object____mcg_IInspectable, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00043630] Windows_UI_Xaml_Markup_IComponentConnector__Windows_UI_Xaml_Markup__IComponentConnector *, 
+			// Signature, Windows.UI.Xaml.Markup.IComponentConnector2.GetBindingConnector, [rev] [return] [EETypeRva:0x00042030] void__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [rev] [out] [retval] [nativebyref] [EETypeRva:0x00043660] Windows_UI_Xaml_Markup_IComponentConnector__Windows_UI_Xaml_Markup__IComponentConnector *, 
 			[global::System.Runtime.InteropServices.NativeCallable]
 			static int GetBindingConnector__n(
 						global::System.IntPtr pComThis, 
@@ -40735,9 +41384,9 @@ namespace Windows.UI.Xaml.Markup
 					ref global::Windows.UI.Xaml.Markup.XmlnsDefinition safeSource, 
 					out global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType unsafeDest)
 		{
-			// [fwd] [in] [optional] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING safeSource
+			// [fwd] [in] [optional] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING safeSource
 			unsafeDest.XmlNamespace = global::System.Runtime.InteropServices.McgMarshal.StringToHStringForField(safeSource.XmlNamespace);
-			// [fwd] [in] [optional] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING safeSource
+			// [fwd] [in] [optional] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING safeSource
 			unsafeDest.Namespace = global::System.Runtime.InteropServices.McgMarshal.StringToHStringForField(safeSource.Namespace);
 			return 0;
 		}
@@ -40746,9 +41395,9 @@ namespace Windows.UI.Xaml.Markup
 					ref global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType unsafeSource, 
 					out global::Windows.UI.Xaml.Markup.XmlnsDefinition safeDest)
 		{
-			// [rev] [in] [optional] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING safeDest
+			// [rev] [in] [optional] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING safeDest
 			safeDest.XmlNamespace = global::System.Runtime.InteropServices.McgMarshal.HStringToString(unsafeSource.XmlNamespace);
-			// [rev] [in] [optional] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING safeDest
+			// [rev] [in] [optional] [EETypeRva:0x00040A94] string__System.Runtime.InteropServices.HSTRING safeDest
 			safeDest.Namespace = global::System.Runtime.InteropServices.McgMarshal.HStringToString(unsafeSource.Namespace);
 			return 0;
 		}
@@ -40785,7 +41434,7 @@ namespace Windows.UI.Xaml.Media
 				return __ret;
 			}
 
-			// Signature, Windows.UI.Xaml.Media.IGeneralTransformOverrides.TryTransformCore, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] Windows_Foundation_Point__Windows_Foundation__Point, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] Windows_Foundation_Point__Windows_Foundation__Point, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040754] bool__bool, 
+			// Signature, Windows.UI.Xaml.Media.IGeneralTransformOverrides.TryTransformCore, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Point__Windows_Foundation__Point, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] Windows_Foundation_Point__Windows_Foundation__Point, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040784] bool__bool, 
 			public static bool TryTransformCore(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Point inPoint, 
@@ -40814,7 +41463,7 @@ namespace Windows.UI.Xaml.Media
 				return returnValue__retval;
 			}
 
-			// Signature, Windows.UI.Xaml.Media.IGeneralTransformOverrides.TransformBoundsCore, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] Windows_Foundation_Rect__Windows_Foundation__Rect, 
+			// Signature, Windows.UI.Xaml.Media.IGeneralTransformOverrides.TransformBoundsCore, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] Windows_Foundation_Rect__Windows_Foundation__Rect, 
 			public static global::Windows.Foundation.Rect TransformBoundsCore(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Rect rect)
@@ -40868,7 +41517,7 @@ namespace Windows.UI.Xaml.Media
 		// StubClass for 'Windows.UI.Xaml.Media.ISolidColorBrushFactory'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Media.ISolidColorBrushFactory.CreateInstanceWithColor, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] Windows_UI_Color__Windows_UI__Color, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
+			// Signature, Windows.UI.Xaml.Media.ISolidColorBrushFactory.CreateInstanceWithColor, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_UI_Color__Windows_UI__Color, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 			public static global::System.IntPtr CreateInstanceWithColor(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Color color)
@@ -40932,7 +41581,7 @@ namespace Windows.UI.Xaml.Media
 		// StubClass for 'Windows.UI.Xaml.Media.IVisualTreeHelperStatics'
 		public static partial class Stubs
 		{
-			// Signature, Windows.UI.Xaml.Media.IVisualTreeHelperStatics.FindElementsInHostCoordinates, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] Windows_Foundation_Point__Windows_Foundation__Point, [fwd] [in] [EETypeRva:0x000437C4] Windows_UI_Xaml_UIElement__Windows_UI_Xaml__UIElement *, [fwd] [in] [EETypeRva:0x00040754] bool__bool, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00043630] System_Collections_Generic_IEnumerable_1_Windows_UI_Xaml_UIElement___Windows_Foundation_Collections__IIterable_A__wux__UIElement_V_ *, 
+			// Signature, Windows.UI.Xaml.Media.IVisualTreeHelperStatics.FindElementsInHostCoordinates, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x000419B0] Windows_Foundation_Point__Windows_Foundation__Point, [fwd] [in] [EETypeRva:0x000437F4] Windows_UI_Xaml_UIElement__Windows_UI_Xaml__UIElement *, [fwd] [in] [EETypeRva:0x00040784] bool__bool, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00043660] System_Collections_Generic_IEnumerable_1_Windows_UI_Xaml_UIElement___Windows_Foundation_Collections__IIterable_A__wux__UIElement_V_ *, 
 			public static global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.UIElement> FindElementsInHostCoordinates(
 						global::System.__ComObject __this, 
 						global::Windows.Foundation.Point intersectingPoint, 
@@ -41420,7 +42069,7 @@ namespace Windows.UI.Xaml.Shapes
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
-			// Signature, Windows.UI.Xaml.Shapes.IShape.get_Stretch, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D30] Windows_UI_Xaml_Media_Stretch__Windows_UI_Xaml_Media__Stretch, 
+			// Signature, Windows.UI.Xaml.Shapes.IShape.get_Stretch, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_Media_Stretch__Windows_UI_Xaml_Media__Stretch, 
 			public static global::Windows.UI.Xaml.Media.Stretch get_Stretch(global::System.__ComObject __this)
 			{
 				// Setup
@@ -41506,6 +42155,80 @@ namespace Windows.UI.Xaml.Shapes
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 		}
+	}
+}
+
+// Interop_Winsock_LPLOOKUPSERVICE_COMPLETION_ROUTINE__System_Net_NameResolution
+public unsafe static class Interop_Winsock_LPLOOKUPSERVICE_COMPLETION_ROUTINE__System_Net_NameResolution__Impl
+{
+	public class NativeWrapperDelegate : global::System.Runtime.InteropServices.NativeFunctionPointerWrapper
+	{
+		internal NativeWrapperDelegate(global::System.IntPtr functionPointer) : 
+				base(functionPointer)
+		{
+		}
+
+		// Signature, Invoke, [fwd] [return] [EETypeRva:0x00041F6C] void__void, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
+		internal virtual void Invoke(
+					int dwError, 
+					int dwBytes, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* lpOverlapped)
+		{
+			// Marshalling
+			// Call to native method
+			global::__Interop.Intrinsics.StdCall__85(
+								this.NativeFunctionPointer, 
+								dwError, 
+								dwBytes, 
+								((global::System_Threading.NativeOverlapped__System_Private_CoreLib*)lpOverlapped)
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+		}
+	}
+
+	internal static global::System.Delegate ForwardDelegateCreationStub(global::System.IntPtr functionPointer)
+	{
+		return new global::Interop_Winsock_LPLOOKUPSERVICE_COMPLETION_ROUTINE__System_Net_NameResolution(new global::Interop_Winsock_LPLOOKUPSERVICE_COMPLETION_ROUTINE__System_Net_NameResolution__Impl.NativeWrapperDelegate(functionPointer).Invoke);
+	}
+
+	// Signature, Invoke, [rev] [return] [EETypeRva:0x00041F6C] void__void, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
+	[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+	internal static void ReverseDelegateStub(
+				int unsafe_dwError, 
+				int unsafe_dwBytes, 
+				global::System_Threading.NativeOverlapped__System_Private_CoreLib* unsafe_lpOverlapped)
+	{
+		// Marshalling
+		// Call to managed method
+		global::Interop_Winsock_LPLOOKUPSERVICE_COMPLETION_ROUTINE__System_Net_NameResolution __safeTargetMethod = global::System.Runtime.InteropServices.McgMarshal.GetCurrentCalleeDelegate<global::Interop_Winsock_LPLOOKUPSERVICE_COMPLETION_ROUTINE__System_Net_NameResolution>();
+		__safeTargetMethod(
+							unsafe_dwError, 
+							unsafe_dwBytes, 
+							((global::System_Threading.NativeOverlapped__System_Private_CoreLib*)unsafe_lpOverlapped)
+						);
+		global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		// Return
+	}
+
+	// Signature, Invoke, [rev] [return] [EETypeRva:0x00041F6C] void__void, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
+	[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+	internal static void ReverseOpenStaticDelegateStub(
+				int unsafe_dwError, 
+				int unsafe_dwBytes, 
+				global::System_Threading.NativeOverlapped__System_Private_CoreLib* unsafe_lpOverlapped)
+	{
+		// Marshalling
+		// Call to managed method
+		global::System.IntPtr fnPtr = global::System.Runtime.InteropServices.McgMarshal.GetCurrentCalleeOpenStaticDelegateFunctionPointer();
+		global::__Interop.Intrinsics.Call__86(
+							fnPtr, 
+							unsafe_dwError, 
+							unsafe_dwBytes, 
+							((global::System_Threading.NativeOverlapped__System_Private_CoreLib*)unsafe_lpOverlapped)
+						);
+		global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		// Return
 	}
 }
 

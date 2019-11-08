@@ -7,8 +7,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" Width="1024" Height="600" Background="Gainsboro">
     <Grid x:ConnectionId='2' Name="grid">
-        <Button x:ConnectionId='3' Name="Button1" Content="Button"                   Margin="90,80,0,0" VerticalAlignment="Top" Width="220" IsDoubleTapEnabled="False" IsRightTapEnabled="False" Height="81" Background="#FFA0A0A0" BorderBrush="#19000000"/>
+        <Button x:ConnectionId='3' Name="Button1" Content="Q1 ON"                     Margin="90,80,0,0" VerticalAlignment="Top" Width="220" IsDoubleTapEnabled="False" IsRightTapEnabled="False" Height="81" Background="#FFA0A0A0" BorderBrush="#19000000"/>
         <Button x:ConnectionId='4' Name="Button2" Content="Settings"                        Margin="805,80,0,0" VerticalAlignment="Top" Width="130" IsDoubleTapEnabled="False" IsRightTapEnabled="False" Height="41" BorderBrush="#19000000" Background="#FFA0A0A0" />
+        <Button x:ConnectionId='5' x:Name="Button3" Content="Q1 OFF"                      Margin="90,196,0,0" VerticalAlignment="Top" Width="220" IsDoubleTapEnabled="False" IsRightTapEnabled="False" Height="81" Background="#FFA0A0A0" BorderBrush="#19000000"/>
     </Grid>
 </Page>
 

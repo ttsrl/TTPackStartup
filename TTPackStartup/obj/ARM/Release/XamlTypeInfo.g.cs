@@ -12,10 +12,10 @@ namespace TTPackStartup
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.17.0")]
         private global::TTPackStartup.TTPackStartup_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.17.0")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         private global::TTPackStartup.TTPackStartup_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
@@ -32,7 +32,7 @@ namespace TTPackStartup
         /// <summary>
         /// GetXamlType(Type)
         /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.17.0")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         public global::Windows.UI.Xaml.Markup.IXamlType GetXamlType(global::System.Type type)
         {
@@ -42,7 +42,7 @@ namespace TTPackStartup
         /// <summary>
         /// GetXamlType(String)
         /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.17.0")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         public global::Windows.UI.Xaml.Markup.IXamlType GetXamlType(string fullName)
         {
@@ -52,7 +52,7 @@ namespace TTPackStartup
         /// <summary>
         /// GetXmlnsDefinitions()
         /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.17.0")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         public global::Windows.UI.Xaml.Markup.XmlnsDefinition[] GetXmlnsDefinitions()
         {
@@ -66,7 +66,7 @@ namespace TTPackStartup.TTPackStartup_XamlTypeInfo
     /// <summary>
     /// Main class for providing metadata for the app or library
     /// </summary>
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.17.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed class XamlMetaDataProvider : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
@@ -109,7 +109,7 @@ namespace TTPackStartup.TTPackStartup_XamlTypeInfo
         }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.17.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal partial class XamlTypeInfoProvider
     {
@@ -380,7 +380,7 @@ namespace TTPackStartup.TTPackStartup_XamlTypeInfo
         }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.17.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlSystemBaseType : global::Windows.UI.Xaml.Markup.IXamlType
     {
@@ -427,12 +427,10 @@ namespace TTPackStartup.TTPackStartup_XamlTypeInfo
     internal delegate void AddToCollection(object instance, object item);
     internal delegate void AddToDictionary(object instance, object key, object item);
     internal delegate object CreateFromStringMethod(string args);
-    internal delegate object BoxInstanceMethod(object instance);
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.17.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlUserType : global::TTPackStartup.TTPackStartup_XamlTypeInfo.XamlSystemBaseType
-        , global::Windows.UI.Xaml.Markup.IXamlType2
     {
         global::TTPackStartup.TTPackStartup_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Windows.UI.Xaml.Markup.IXamlType _baseType;
@@ -441,7 +439,6 @@ namespace TTPackStartup.TTPackStartup_XamlTypeInfo
         bool _isBindable;
         bool _isReturnTypeStub;
         bool _isLocalType;
-        global::Windows.UI.Xaml.Markup.IXamlType _boxedType;
 
         string _contentPropertyName;
         string _itemTypeName;
@@ -467,7 +464,6 @@ namespace TTPackStartup.TTPackStartup_XamlTypeInfo
         override public bool IsBindable { get { return _isBindable; } }
         override public bool IsReturnTypeStub { get { return _isReturnTypeStub; } }
         override public bool IsLocalType { get { return _isLocalType; } }
-        public global::Windows.UI.Xaml.Markup.IXamlType BoxedType { get { return _boxedType; } }
 
         override public global::Windows.UI.Xaml.Markup.IXamlMember ContentProperty
         {
@@ -520,11 +516,6 @@ namespace TTPackStartup.TTPackStartup_XamlTypeInfo
 
         override public object CreateFromString(string input)
         {
-            if (BoxedType != null)
-            {
-                return BoxInstance(BoxedType.CreateFromString(input));
-            }
-
             if (CreateFromStringMethod != null)
             {
                 return this.CreateFromStringMethod(input);
@@ -585,7 +576,6 @@ namespace TTPackStartup.TTPackStartup_XamlTypeInfo
         public AddToCollection CollectionAdd { get; set; }
         public AddToDictionary DictionaryAdd { get; set; }
         public CreateFromStringMethod CreateFromStringMethod {get; set; }
-        public BoxInstanceMethod BoxInstance {get; set; }
 
         public void SetContentPropertyName(string contentPropertyName)
         {
@@ -627,17 +617,6 @@ namespace TTPackStartup.TTPackStartup_XamlTypeInfo
             _keyTypeName = keyTypeName;
         }
 
-        public void SetBoxedType(global::Windows.UI.Xaml.Markup.IXamlType boxedType)
-        {
-            _boxedType = boxedType;
-        }
-
-        public object BoxType<T>(object instance) where T: struct
-        {
-            T unwrapped = (T)instance;
-            return new global::System.Nullable<T>(unwrapped);
-        }
-
         public void AddMemberName(string shortName)
         {
             if(_memberNames == null)
@@ -660,7 +639,7 @@ namespace TTPackStartup.TTPackStartup_XamlTypeInfo
     internal delegate object Getter(object instance);
     internal delegate void Setter(object instance, object value);
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.17.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlMember : global::Windows.UI.Xaml.Markup.IXamlMember
     {

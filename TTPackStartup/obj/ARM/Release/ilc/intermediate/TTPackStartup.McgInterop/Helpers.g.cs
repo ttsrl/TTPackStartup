@@ -1563,6 +1563,236 @@ namespace __Interop
 			// This method is implemented elsewhere in the toolchain
 			return 0;
 		}
+
+		internal static void StdCall__85(
+					global::System.IntPtr pfn, 
+					int arg0, 
+					int arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static void Call__86(
+					global::System.IntPtr pfn, 
+					int arg0, 
+					int arg1, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static int StdCall__87(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					int arg2, 
+					global::System.IntPtr arg3, 
+					int arg4, 
+					void* arg5, 
+					void* arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static bool Call__88(
+					global::System.IntPtr pfn, 
+					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets arg0, 
+					global::System.IntPtr arg1, 
+					int arg2, 
+					global::System.IntPtr arg3, 
+					int arg4, 
+					out int arg5, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* arg6)
+		{
+			arg5 = 0;
+			// This method is implemented elsewhere in the toolchain
+			return default(bool);
+		}
+
+		internal static void StdCall__89(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					int arg2, 
+					int arg3, 
+					void* arg4, 
+					void* arg5, 
+					void* arg6, 
+					void* arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static void Call__90(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					int arg1, 
+					int arg2, 
+					int arg3, 
+					out global::System.IntPtr arg4, 
+					out int arg5, 
+					out global::System.IntPtr arg6, 
+					out int arg7)
+		{
+			arg4 = default(global::System.IntPtr);
+			arg5 = 0;
+			arg6 = default(global::System.IntPtr);
+			arg7 = 0;
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static int StdCall__91(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					int arg3, 
+					int arg4, 
+					int arg5, 
+					void* arg6, 
+					void* arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static bool Call__92(
+					global::System.IntPtr pfn, 
+					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets arg0, 
+					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets arg1, 
+					global::System.IntPtr arg2, 
+					int arg3, 
+					int arg4, 
+					int arg5, 
+					out int arg6, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* arg7)
+		{
+			arg6 = 0;
+			// This method is implemented elsewhere in the toolchain
+			return default(bool);
+		}
+
+		internal static int StdCall__93(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					void* arg1, 
+					int arg2, 
+					int arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static bool Call__94(
+					global::System.IntPtr pfn, 
+					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets arg0, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* arg1, 
+					int arg2, 
+					int arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(bool);
+		}
+
+		internal static int StdCall__95(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					int arg2, 
+					int arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static bool Call__96(
+					global::System.IntPtr pfn, 
+					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets arg0, 
+					global::System.IntPtr arg1, 
+					int arg2, 
+					int arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(bool);
+		}
+
+		internal static global::System_Net_Sockets.SocketError__System_Net_Primitives StdCall__97(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					void* arg2, 
+					void* arg3, 
+					global::System.IntPtr arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::System_Net_Sockets.SocketError__System_Net_Primitives);
+		}
+
+		internal static global::System_Net_Sockets.SocketError__System_Net_Primitives Call__98(
+					global::System.IntPtr pfn, 
+					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets arg0, 
+					global::System.IntPtr arg1, 
+					out int arg2, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* arg3, 
+					global::System.IntPtr arg4)
+		{
+			arg2 = 0;
+			// This method is implemented elsewhere in the toolchain
+			return default(global::System_Net_Sockets.SocketError__System_Net_Primitives);
+		}
+
+		internal static global::System_Net_Sockets.SocketError__System_Net_Primitives StdCall__99(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					void* arg2, 
+					global::System.IntPtr arg3, 
+					global::System.IntPtr arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::System_Net_Sockets.SocketError__System_Net_Primitives);
+		}
+
+		internal static global::System_Net_Sockets.SocketError__System_Net_Primitives Call__100(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					out int arg2, 
+					global::System.IntPtr arg3, 
+					global::System.IntPtr arg4)
+		{
+			arg2 = 0;
+			// This method is implemented elsewhere in the toolchain
+			return default(global::System_Net_Sockets.SocketError__System_Net_Primitives);
+		}
+
+		internal static int StdCall__101(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					int arg2, 
+					int arg3, 
+					void* arg4, 
+					global::System_Net_Sockets.TransmitFileOptions__System_Net_Sockets arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static bool Call__102(
+					global::System.IntPtr pfn, 
+					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets arg0, 
+					global::System.IntPtr arg1, 
+					int arg2, 
+					int arg3, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* arg4, 
+					global::System_Net_Sockets.TransmitFileOptions__System_Net_Sockets arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(bool);
+		}
 	}
 
 	[global::System.Runtime.InteropServices.McgIntrinsics]
@@ -2827,21 +3057,134 @@ namespace __Interop
 
 		#if false
 		[global::Internal.PreInitializedAddrOfDelegate]
-		public delegate object AddrOfTarget127(global::System.__ComObject a0);
+		public delegate void AddrOfTarget127(
+					int a0, 
+					int a1, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* a2);
 
 		#endif
 
 
 		#if false
 		[global::Internal.PreInitializedAddrOfDelegate]
-		public delegate object AddrOfTarget128(object a0);
+		public delegate int AddrOfTarget128(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					int a2, 
+					global::System.IntPtr a3, 
+					int a4, 
+					int* a5, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* a6);
 
 		#endif
 
 
 		#if false
 		[global::Internal.PreInitializedAddrOfDelegate]
-		public delegate int AddrOfTarget129(
+		public delegate void AddrOfTarget129(
+					global::System.IntPtr a0, 
+					int a1, 
+					int a2, 
+					int a3, 
+					global::System.IntPtr* a4, 
+					int* a5, 
+					global::System.IntPtr* a6, 
+					int* a7);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate int AddrOfTarget130(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					global::System.IntPtr a2, 
+					int a3, 
+					int a4, 
+					int a5, 
+					int* a6, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* a7);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate int AddrOfTarget131(
+					global::System.IntPtr a0, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* a1, 
+					int a2, 
+					int a3);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate int AddrOfTarget132(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					int a2, 
+					int a3);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate global::System_Net_Sockets.SocketError__System_Net_Primitives AddrOfTarget133(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					int* a2, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* a3, 
+					global::System.IntPtr a4);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate global::System_Net_Sockets.SocketError__System_Net_Primitives AddrOfTarget134(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					int* a2, 
+					global::System.IntPtr a3, 
+					global::System.IntPtr a4);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate int AddrOfTarget135(
+					global::System.IntPtr a0, 
+					global::System.IntPtr a1, 
+					int a2, 
+					int a3, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* a4, 
+					global::System_Net_Sockets.TransmitFileOptions__System_Net_Sockets a5);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate object AddrOfTarget136(global::System.__ComObject a0);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate object AddrOfTarget137(object a0);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate int AddrOfTarget138(
 					ref global::Windows.UI.Xaml.Markup.XmlnsDefinition a0, 
 					out global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType a1);
 
@@ -2850,7 +3193,7 @@ namespace __Interop
 
 		#if false
 		[global::Internal.PreInitializedAddrOfDelegate]
-		public delegate int AddrOfTarget130(
+		public delegate int AddrOfTarget139(
 					ref global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType a0, 
 					out global::Windows.UI.Xaml.Markup.XmlnsDefinition a1);
 
@@ -2859,7 +3202,111 @@ namespace __Interop
 
 		#if false
 		[global::Internal.PreInitializedAddrOfDelegate]
-		public delegate void AddrOfTarget131(ref global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType a0);
+		public delegate void AddrOfTarget140(ref global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType a0);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate int AddrOfTarget141(
+					ref global::_.Interop_Kernel32_COMMPROP__System_IO_Ports a0, 
+					out global::_.Interop_Kernel32_COMMPROP__System_IO_Ports__Impl.UnsafeType a1);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate int AddrOfTarget142(
+					ref global::_.Interop_Kernel32_COMMPROP__System_IO_Ports__Impl.UnsafeType a0, 
+					out global::_.Interop_Kernel32_COMMPROP__System_IO_Ports a1);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate int AddrOfTarget143(
+					ref global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets a0, 
+					out global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.UnsafeType a1);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate int AddrOfTarget144(
+					ref global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.UnsafeType a0, 
+					out global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets a1);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate int AddrOfTarget145(
+					ref global::_.Interop_Winsock_WSAData__System_Net_NameResolution a0, 
+					out global::_.Interop_Winsock_WSAData__System_Net_NameResolution__Impl.UnsafeType a1);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate int AddrOfTarget146(
+					ref global::_.Interop_Winsock_WSAData__System_Net_NameResolution__Impl.UnsafeType a0, 
+					out global::_.Interop_Winsock_WSAData__System_Net_NameResolution a1);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate int AddrOfTarget147(
+					ref global::_.Interop_UNICODE_STRING__System_Security_Principal_Windows a0, 
+					out global::_.Interop_UNICODE_STRING__System_Security_Principal_Windows__Impl.UnsafeType a1);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate int AddrOfTarget148(
+					ref global::_.Interop_UNICODE_STRING__System_Security_Principal_Windows__Impl.UnsafeType a0, 
+					out global::_.Interop_UNICODE_STRING__System_Security_Principal_Windows a1);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate void AddrOfTarget149(ref global::_.Interop_UNICODE_STRING__System_Security_Principal_Windows__Impl.UnsafeType a0);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate int AddrOfTarget150(
+					ref global::_.Interop_CLAIM_SECURITY_ATTRIBUTE_V1__System_Security_Principal_Windows a0, 
+					out global::_.Interop_CLAIM_SECURITY_ATTRIBUTE_V1__System_Security_Principal_Windows__Impl.UnsafeType a1);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate int AddrOfTarget151(
+					ref global::_.Interop_CLAIM_SECURITY_ATTRIBUTE_V1__System_Security_Principal_Windows__Impl.UnsafeType a0, 
+					out global::_.Interop_CLAIM_SECURITY_ATTRIBUTE_V1__System_Security_Principal_Windows a1);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate void AddrOfTarget152(ref global::_.Interop_CLAIM_SECURITY_ATTRIBUTE_V1__System_Security_Principal_Windows__Impl.UnsafeType a0);
 
 		#endif
 	}

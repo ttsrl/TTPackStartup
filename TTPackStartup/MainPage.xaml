@@ -7,7 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" Width="1024" Height="600" Background="Gainsboro">
     <Grid Name="grid">
-        <Button Name="Button1" Content="Button" Click="LED_Click" Margin="90,80,0,0" VerticalAlignment="Top" Width="220" IsDoubleTapEnabled="False" IsRightTapEnabled="False" Height="81" Background="#FFA0A0A0" BorderBrush="#19000000"/>
+        <Button Name="Button1" Content="Q1 ON" Click="Q1_ON_Click" Margin="90,80,0,0" VerticalAlignment="Top" Width="220" IsDoubleTapEnabled="False" IsRightTapEnabled="False" Height="81" Background="#FFA0A0A0" BorderBrush="#19000000"/>
         <Button Name="Button2" Content="Settings" Click="Settings_Click" Margin="805,80,0,0" VerticalAlignment="Top" Width="130" IsDoubleTapEnabled="False" IsRightTapEnabled="False" Height="41" BorderBrush="#19000000" Background="#FFA0A0A0" />
+        <Button x:Name="Button3" Content="Q1 OFF" Click="Q1_OFF_Click" Margin="90,196,0,0" VerticalAlignment="Top" Width="220" IsDoubleTapEnabled="False" IsRightTapEnabled="False" Height="81" Background="#FFA0A0A0" BorderBrush="#19000000"/>
     </Grid>
 </Page>

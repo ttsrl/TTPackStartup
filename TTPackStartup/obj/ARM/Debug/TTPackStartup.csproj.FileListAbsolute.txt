@@ -719,6 +719,7 @@ C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\System.Threading.Tasks.dll
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\System.Threading.Timer.dll
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\System.Console.dll
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\System.Diagnostics.Debug.dll
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\System.IO.FileSystem.dll
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\System.Net.Primitives.dll
@@ -801,6 +802,12 @@ C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\System.Xml.XmlDocument.dll
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\System.Xml.XmlSerializer.dll
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\Modbus.dll
+C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TouchPanels.dll
+C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TouchPanels.pdb
+C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TouchPanels.pri
+C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\Modbus.pdb
+C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\TTPackStartup.csprojAssemblyReference.cache
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\App.g.i.cs
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\App.g.cs
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\MainPage.g.i.cs
@@ -828,6 +835,7 @@ C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\FxResources.System.Collections.SR.resw
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\FxResources.System.IO.SR.resw
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\FxResources.System.Console.SR.resw
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\FxResources.System.Diagnostics.Debug.SR.resw
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\FxResources.System.IO.FileSystem.SR.resw
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\FxResources.System.Net.Primitives.SR.resw
@@ -904,7 +912,3 @@ C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\resources.en-us.resfiles.intermediate
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\ProjectArchitectures.txt
 C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758480200000000.json
-C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TouchPanels.dll
-C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TouchPanels.pdb
-C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\bin\ARM\Debug\TouchPanels.pri
-C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Debug\TouchPanels.pri.xml

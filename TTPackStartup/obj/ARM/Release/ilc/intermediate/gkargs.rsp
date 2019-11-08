@@ -1,8 +1,9 @@
-﻿"C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Release\ilc\in\TouchPanels.dll"
+﻿"C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Release\ilc\in\Modbus.dll"
+"C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Release\ilc\in\TouchPanels.dll"
 "C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Release\ilc\in\TTPackStartup.exe"
 /Lib:"C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Release\ilc\in"
-/Lib:"C:\Users\FrancescoFioravanti\.nuget\packages\runtime.win10-arm.microsoft.net.native.compiler\2.2.3\tools\ARM\ilc\lib\Private"
+/Lib:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.compiler\2.2.7-rel-27913-00\tools\ARM\ilc\lib\Private"
 /WinMD:"C:\Users\FrancescoFioravanti\source\repos\ttsrl\TTPackStartup\TTPackStartup\obj\ARM\Release\ilc\in\WinMetadata\Windows.winmd"
-/VSTelemetrySessionSettings:"{"IsOptedIn":true,"HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","AppId":1001,"UserId":"5dad5e93-9f21-4465-8556-c78e78fa039b","Id":"2838be53-8afd-4c36-8c65-24dd9a8367ba","ProcessStartTime":637080623614786112}"
-/RdXmlPath:"C:\Users\FrancescoFioravanti\.nuget\packages\microsoft.net.native.compiler\2.2.3\tools\LibraryXML"
+/VSTelemetrySessionSettings:"{"IsOptedIn":true,"HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","AppId":1001,"UserId":"5dad5e93-9f21-4465-8556-c78e78fa039b","Id":"84d87c34-c1f7-435c-9ffc-085c8f2bacdc","ProcessStartTime":637088026362294150}"
+/RdXmlPath:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\2.2.7-rel-27913-00\tools\LibraryXML"
 /RunOnlyPreDR

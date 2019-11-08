@@ -55,6 +55,68 @@ using global::Windows.Foundation.Collections;
 
 namespace _
 {
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Kernel32+DCB,System.IO.Ports, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51")]
+	public unsafe partial struct Interop_Kernel32_DCB__System_IO_Ports
+	{
+		public uint DCBlength;
+		public uint BaudRate;
+		public uint Flags;
+		public ushort wReserved;
+		public ushort XonLim;
+		public ushort XoffLim;
+		public byte ByteSize;
+		public byte Parity;
+		public byte StopBits;
+		public byte XonChar;
+		public byte XoffChar;
+		public byte ErrorChar;
+		public byte EofChar;
+		public byte EvtChar;
+		public ushort wReserved1;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Kernel32+COMMPROP,System.IO.Ports, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51")]
+	public unsafe partial struct Interop_Kernel32_COMMPROP__System_IO_Ports
+	{
+		public ushort wPacketLength;
+		public ushort wPacketVersion;
+		public int dwServiceMask;
+		public int dwReserved1;
+		public int dwMaxTxQueue;
+		public int dwMaxRxQueue;
+		public int dwMaxBaud;
+		public int dwProvSubType;
+		public int dwProvCapabilities;
+		public int dwSettableParams;
+		public int dwSettableBaud;
+		public ushort wSettableData;
+		public ushort wSettableStopParity;
+		public int dwCurrentTxQueue;
+		public int dwCurrentRxQueue;
+		public int dwProvSpec1;
+		public int dwProvSpec2;
+		public char wcProvChar;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Kernel32+COMMTIMEOUTS,System.IO.Ports, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" +
+		"")]
+	public unsafe partial struct Interop_Kernel32_COMMTIMEOUTS__System_IO_Ports
+	{
+		public int ReadIntervalTimeout;
+		public int ReadTotalTimeoutMultiplier;
+		public int ReadTotalTimeoutConstant;
+		public int WriteTotalTimeoutMultiplier;
+		public int WriteTotalTimeoutConstant;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Kernel32+COMSTAT,System.IO.Ports, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51")]
+	public unsafe partial struct Interop_Kernel32_COMSTAT__System_IO_Ports
+	{
+		public uint Flags;
+		public uint cbInQue;
+		public uint cbOutQue;
+	}
+
 	[global::System.Runtime.InteropServices.StructLayout(global::System.Runtime.InteropServices.LayoutKind.Sequential, CharSet=global::System.Runtime.InteropServices.CharSet.Unicode)]
 	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Kernel32+CPINFOEXW,System.Text.Encoding.CodePages, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f" +
 		"5f7f11d50a3a")]
@@ -93,6 +155,374 @@ namespace _
 	{
 		[global::System.Runtime.InteropServices.FieldOffset(0)]
 		public byte FixedElementField;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Winsock+TimeValue,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_Winsock_TimeValue__System_Net_Sockets
+	{
+		public int Seconds;
+		public int Microseconds;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Winsock+Linger,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_Winsock_Linger__System_Net_Sockets
+	{
+		public ushort OnOff;
+		public ushort Time;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Winsock+IPMulticastRequest,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f" +
+		"11d50a3a")]
+	public unsafe partial struct Interop_Winsock_IPMulticastRequest__System_Net_Sockets
+	{
+		public int MulticastAddress;
+		public int InterfaceAddress;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Winsock+IPv6MulticastRequest,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f" +
+		"7f11d50a3a")]
+	public unsafe partial struct Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets
+	{
+		public byte[] MulticastAddress;
+		public int InterfaceIndex;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Winsock+WSAData,System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d5" +
+		"0a3a")]
+	public unsafe partial struct Interop_Winsock_WSAData__System_Net_NameResolution
+	{
+		public short wVersion;
+		public short wHighVersion;
+		public string szDescription;
+		public string szSystemStatus;
+		public short iMaxSockets;
+		public short iMaxUdpDg;
+		public global::System.IntPtr lpVendorInfo;
+	}
+
+	[global::System.Flags]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Winsock+SocketConstructorFlags,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f" +
+		"5f7f11d50a3a")]
+	public enum Interop_Winsock_SocketConstructorFlags__System_Net_Sockets
+	{
+		WSA_FLAG_OVERLAPPED = 1,
+		WSA_FLAG_MULTIPOINT_C_ROOT = 2,
+		WSA_FLAG_MULTIPOINT_C_LEAF = 4,
+		WSA_FLAG_MULTIPOINT_D_ROOT = 8,
+		WSA_FLAG_MULTIPOINT_D_LEAF = 16,
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+BCrypt+NTSTATUS,System.Security.Cryptography.Algorithms, Version=4.3.1.0, Culture=neutral, PublicKeyToke" +
+		"n=b03f5f7f11d50a3a")]
+	public enum Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms : uint
+	{
+		STATUS_SUCCESS = 0x0u,
+		STATUS_INVALID_PARAMETER = 0xC000000Du,
+		STATUS_NO_MEMORY = 0xC0000017u,
+		STATUS_NOT_FOUND = 0xC0000225u,
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+LUID,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3" +
+		"a")]
+	public unsafe partial struct Interop_LUID__System_Security_Principal_Windows
+	{
+		public uint LowPart;
+		public int HighPart;
+	}
+
+	[global::System.Flags]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Kernel32+FileCompletionNotificationModes,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKey" +
+		"Token=b03f5f7f11d50a3a")]
+	public enum Interop_Kernel32_FileCompletionNotificationModes__System_Net_Sockets : byte
+	{
+		None = 0x0,
+		SkipCompletionPortOnSuccess = 0x1,
+		SkipSetEventOnHandle = 0x2,
+	}
+
+	[global::System.Runtime.InteropServices.StructLayout(global::System.Runtime.InteropServices.LayoutKind.Sequential, CharSet=global::System.Runtime.InteropServices.CharSet.Unicode)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Kernel32+CPINFOEXW,System.Console, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_Kernel32_CPINFOEXW__System_Console
+	{
+		public uint MaxCharSize;
+		public global::_.Interop_Kernel32_CPINFOEXW__DefaultChar_e__FixedBuffer__System_Console DefaultChar;
+		public global::_.Interop_Kernel32_CPINFOEXW__LeadByte_e__FixedBuffer__System_Console LeadByte;
+		public char UnicodeDefaultChar;
+		public uint CodePage;
+		public global::_.Interop_Kernel32_CPINFOEXW__CodePageName_e__FixedBuffer__System_Console CodePageName;
+	}
+
+	[global::System.Runtime.InteropServices.StructLayout(global::System.Runtime.InteropServices.LayoutKind.Explicit, Size=2)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Kernel32+CPINFOEXW+<DefaultChar>e__FixedBuffer,System.Console, Version=4.1.1.0, Culture=neutral, PublicK" +
+		"eyToken=b03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_Kernel32_CPINFOEXW__DefaultChar_e__FixedBuffer__System_Console
+	{
+		[global::System.Runtime.InteropServices.FieldOffset(0)]
+		public byte FixedElementField;
+	}
+
+	[global::System.Runtime.InteropServices.StructLayout(global::System.Runtime.InteropServices.LayoutKind.Explicit, Size=12)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Kernel32+CPINFOEXW+<LeadByte>e__FixedBuffer,System.Console, Version=4.1.1.0, Culture=neutral, PublicKeyT" +
+		"oken=b03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_Kernel32_CPINFOEXW__LeadByte_e__FixedBuffer__System_Console
+	{
+		[global::System.Runtime.InteropServices.FieldOffset(0)]
+		public byte FixedElementField;
+	}
+
+	[global::System.Runtime.InteropServices.StructLayout(global::System.Runtime.InteropServices.LayoutKind.Explicit, Size=260)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Kernel32+CPINFOEXW+<CodePageName>e__FixedBuffer,System.Console, Version=4.1.1.0, Culture=neutral, Public" +
+		"KeyToken=b03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_Kernel32_CPINFOEXW__CodePageName_e__FixedBuffer__System_Console
+	{
+		[global::System.Runtime.InteropServices.FieldOffset(0)]
+		public byte FixedElementField;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+UNICODE_STRING,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5" +
+		"f7f11d50a3a")]
+	public unsafe partial struct Interop_UNICODE_STRING__System_Security_Principal_Windows
+	{
+		public ushort Length;
+		public ushort MaximumLength;
+		public string Buffer;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+LSA_OBJECT_ATTRIBUTES,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToke" +
+		"n=b03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_LSA_OBJECT_ATTRIBUTES__System_Security_Principal_Windows
+	{
+		public int Length;
+		public global::System.IntPtr RootDirectory;
+		public global::System.IntPtr ObjectName;
+		public int Attributes;
+		public global::System.IntPtr SecurityDescriptor;
+		public global::System.IntPtr SecurityQualityOfService;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+SECURITY_LOGON_SESSION_DATA,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicK" +
+		"eyToken=b03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_SECURITY_LOGON_SESSION_DATA__System_Security_Principal_Windows
+	{
+		public uint Size;
+		public global::_.Interop_LUID__System_Security_Principal_Windows LogonId;
+		public global::_.Interop_UNICODE_INTPTR_STRING__System_Security_Principal_Windows UserName;
+		public global::_.Interop_UNICODE_INTPTR_STRING__System_Security_Principal_Windows LogonDomain;
+		public global::_.Interop_UNICODE_INTPTR_STRING__System_Security_Principal_Windows AuthenticationPackage;
+		public uint LogonType;
+		public uint Session;
+		public global::System.IntPtr Sid;
+		public long LogonTime;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+UNICODE_INTPTR_STRING,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToke" +
+		"n=b03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_UNICODE_INTPTR_STRING__System_Security_Principal_Windows
+	{
+		public ushort Length;
+		public ushort MaxLength;
+		public global::System.IntPtr Buffer;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+SID_AND_ATTRIBUTES,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b" +
+		"03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_SID_AND_ATTRIBUTES__System_Security_Principal_Windows
+	{
+		public global::System.IntPtr Sid;
+		public uint Attributes;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+TOKEN_PRIMARY_GROUP,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=" +
+		"b03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_TOKEN_PRIMARY_GROUP__System_Security_Principal_Windows
+	{
+		public global::System.IntPtr PrimaryGroup;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+TOKEN_GROUPS,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7" +
+		"f11d50a3a")]
+	public unsafe partial struct Interop_TOKEN_GROUPS__System_Security_Principal_Windows
+	{
+		public uint GroupCount;
+		public global::_.Interop_SID_AND_ATTRIBUTES__System_Security_Principal_Windows Groups;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+CLAIM_SECURITY_ATTRIBUTES_INFORMATION,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutra" +
+		"l, PublicKeyToken=b03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_CLAIM_SECURITY_ATTRIBUTES_INFORMATION__System_Security_Principal_Windows
+	{
+		public ushort Version;
+		public ushort Reserved;
+		public uint AttributeCount;
+		public global::_.Interop_CLAIM_SECURITY_ATTRIBUTE_INFORMATION_V1__System_Security_Principal_Windows Attribute;
+	}
+
+	[global::System.Runtime.InteropServices.StructLayout(global::System.Runtime.InteropServices.LayoutKind.Explicit, Size=4)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+CLAIM_SECURITY_ATTRIBUTE_INFORMATION_V1,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neut" +
+		"ral, PublicKeyToken=b03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_CLAIM_SECURITY_ATTRIBUTE_INFORMATION_V1__System_Security_Principal_Windows
+	{
+		[global::System.Runtime.InteropServices.FieldOffset(0)]
+		public global::System.IntPtr pAttributeV1;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+CLAIM_SECURITY_ATTRIBUTE_V1,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicK" +
+		"eyToken=b03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_CLAIM_SECURITY_ATTRIBUTE_V1__System_Security_Principal_Windows
+	{
+		public string Name;
+		public global::_.Interop_ClaimSecurityAttributeType__System_Security_Principal_Windows ValueType;
+		public ushort Reserved;
+		public uint Flags;
+		public uint ValueCount;
+		public global::_.Interop_CLAIM_VALUES_ATTRIBUTE_V1__System_Security_Principal_Windows Values;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+ClaimSecurityAttributeType,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKe" +
+		"yToken=b03f5f7f11d50a3a")]
+	public enum Interop_ClaimSecurityAttributeType__System_Security_Principal_Windows : ushort
+	{
+		CLAIM_SECURITY_ATTRIBUTE_TYPE_INVALID = 0x0,
+		CLAIM_SECURITY_ATTRIBUTE_TYPE_INT64 = 0x1,
+		CLAIM_SECURITY_ATTRIBUTE_TYPE_UINT64 = 0x2,
+		CLAIM_SECURITY_ATTRIBUTE_TYPE_STRING = 0x3,
+		CLAIM_SECURITY_ATTRIBUTE_TYPE_FQBN = 0x4,
+		CLAIM_SECURITY_ATTRIBUTE_TYPE_SID = 0x5,
+		CLAIM_SECURITY_ATTRIBUTE_TYPE_BOOLEAN = 0x6,
+		CLAIM_SECURITY_ATTRIBUTE_TYPE_OCTET_STRING = 0x10,
+	}
+
+	[global::System.Runtime.InteropServices.StructLayout(global::System.Runtime.InteropServices.LayoutKind.Explicit, Size=4)]
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+CLAIM_VALUES_ATTRIBUTE_V1,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKey" +
+		"Token=b03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_CLAIM_VALUES_ATTRIBUTE_V1__System_Security_Principal_Windows
+	{
+		[global::System.Runtime.InteropServices.FieldOffset(0)]
+		public global::System.IntPtr pInt64;
+		[global::System.Runtime.InteropServices.FieldOffset(0)]
+		public global::System.IntPtr pUint64;
+		[global::System.Runtime.InteropServices.FieldOffset(0)]
+		public global::System.IntPtr ppString;
+		[global::System.Runtime.InteropServices.FieldOffset(0)]
+		public global::System.IntPtr pFqbn;
+		[global::System.Runtime.InteropServices.FieldOffset(0)]
+		public global::System.IntPtr pOctetString;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+LSA_TRANSLATED_NAME,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=" +
+		"b03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_LSA_TRANSLATED_NAME__System_Security_Principal_Windows
+	{
+		public int Use;
+		public global::_.Interop_UNICODE_INTPTR_STRING__System_Security_Principal_Windows Name;
+		public int DomainIndex;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+LSA_TRUST_INFORMATION,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToke" +
+		"n=b03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_LSA_TRUST_INFORMATION__System_Security_Principal_Windows
+	{
+		public global::_.Interop_UNICODE_INTPTR_STRING__System_Security_Principal_Windows Name;
+		public global::System.IntPtr Sid;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+LSA_REFERENCED_DOMAIN_LIST,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKe" +
+		"yToken=b03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_LSA_REFERENCED_DOMAIN_LIST__System_Security_Principal_Windows
+	{
+		public int Entries;
+		public global::System.IntPtr Domains;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+LSA_TRANSLATED_SID2,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=" +
+		"b03f5f7f11d50a3a")]
+	public unsafe partial struct Interop_LSA_TRANSLATED_SID2__System_Security_Principal_Windows
+	{
+		public int Use;
+		public global::System.IntPtr Sid;
+		public int DomainIndex;
+		public uint Flags;
+	}
+}
+
+namespace __Interop
+{
+	[global::System.Runtime.InteropServices.StructLayout(global::System.Runtime.InteropServices.LayoutKind.Sequential, Size=16)]
+	public unsafe partial struct InlineArray_byte___16
+	{
+		public byte this[uint index]
+		{
+			get
+			{
+				if (index < 0 
+							|| index >= 16)
+					throw new global::System.IndexOutOfRangeException();
+				fixed (global::__Interop.InlineArray_byte___16* pThis = &(this))
+					return ((byte*)pThis)[index];
+			}
+			set
+			{
+				if (index < 0 
+							|| index >= 16)
+					throw new global::System.IndexOutOfRangeException();
+				fixed (global::__Interop.InlineArray_byte___16* pThis = &(this))
+					((byte*)pThis)[index] = value;
+			}
+		}
+		public const int Length = 16;
+		byte firstElement;
+	}
+
+	[global::System.Runtime.InteropServices.StructLayout(global::System.Runtime.InteropServices.LayoutKind.Sequential, Size=257)]
+	public unsafe partial struct InlineArray_byte___257
+	{
+		public byte this[uint index]
+		{
+			get
+			{
+				if (index < 0 
+							|| index >= 257)
+					throw new global::System.IndexOutOfRangeException();
+				fixed (global::__Interop.InlineArray_byte___257* pThis = &(this))
+					return ((byte*)pThis)[index];
+			}
+			set
+			{
+				if (index < 0 
+							|| index >= 257)
+					throw new global::System.IndexOutOfRangeException();
+				fixed (global::__Interop.InlineArray_byte___257* pThis = &(this))
+					((byte*)pThis)[index] = value;
+			}
+		}
+		public const int Length = 257;
+		byte firstElement;
+	}
+
+	[global::System.Runtime.InteropServices.StructLayout(global::System.Runtime.InteropServices.LayoutKind.Sequential, Size=129)]
+	public unsafe partial struct InlineArray_byte___129
+	{
+		public byte this[uint index]
+		{
+			get
+			{
+				if (index < 0 
+							|| index >= 129)
+					throw new global::System.IndexOutOfRangeException();
+				fixed (global::__Interop.InlineArray_byte___129* pThis = &(this))
+					return ((byte*)pThis)[index];
+			}
+			set
+			{
+				if (index < 0 
+							|| index >= 129)
+					throw new global::System.IndexOutOfRangeException();
+				fixed (global::__Interop.InlineArray_byte___129* pThis = &(this))
+					((byte*)pThis)[index] = value;
+			}
+		}
+		public const int Length = 129;
+		byte firstElement;
 	}
 }
 
@@ -135,6 +565,648 @@ namespace Internal_WinRT_Interop_WinRTCallbacks
 	public unsafe interface IDispatcherQueueStatics__System_Private_WinRTInterop_CoreLib
 	{
 		global::Internal_WinRT_Interop_WinRTCallbacks.IDispatcherQueue__System_Private_WinRTInterop_CoreLib GetForCurrentThread();
+	}
+}
+
+namespace Microsoft.Win32.SafeHandles
+{
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.Win32.SafeHandles.SafeFileHandle,System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyTo" +
+		"ken=b03f5f7f11d50a3a")]
+	public unsafe class SafeFileHandle__System_Private_CoreLib : global::System.Runtime.InteropServices.SafeHandle
+	{
+		public SafeFileHandle__System_Private_CoreLib() : 
+				base(default(global::System.IntPtr), false)
+		{
+		}
+
+		public override bool IsInvalid
+		{
+			get
+			{
+				return false;
+			}
+		}
+
+		protected override bool ReleaseHandle()
+		{
+			return false;
+		}
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,System.Security.Principal.Windows, Version=4.1.1.0, Culture=ne" +
+		"utral, PublicKeyToken=b03f5f7f11d50a3a")]
+	public unsafe class SafeAccessTokenHandle__System_Security_Principal_Windows : global::System.Runtime.InteropServices.SafeHandle
+	{
+		public SafeAccessTokenHandle__System_Security_Principal_Windows() : 
+				base(default(global::System.IntPtr), false)
+		{
+		}
+
+		public override bool IsInvalid
+		{
+			get
+			{
+				return false;
+			}
+		}
+
+		protected override bool ReleaseHandle()
+		{
+			return false;
+		}
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.Win32.SafeHandles.SafeLsaReturnBufferHandle,System.Security.Principal.Windows, Version=4.1.1.0, Cultur" +
+		"e=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+	public unsafe class SafeLsaReturnBufferHandle__System_Security_Principal_Windows : global::System.Runtime.InteropServices.SafeHandle
+	{
+		public SafeLsaReturnBufferHandle__System_Security_Principal_Windows() : 
+				base(default(global::System.IntPtr), false)
+		{
+		}
+
+		public override bool IsInvalid
+		{
+			get
+			{
+				return false;
+			}
+		}
+
+		protected override bool ReleaseHandle()
+		{
+			return false;
+		}
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.Win32.SafeHandles.SafeLocalAllocHandle,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neu" +
+		"tral, PublicKeyToken=b03f5f7f11d50a3a")]
+	public unsafe class SafeLocalAllocHandle__System_Security_Principal_Windows : global::System.Runtime.InteropServices.SafeHandle
+	{
+		public SafeLocalAllocHandle__System_Security_Principal_Windows() : 
+				base(default(global::System.IntPtr), false)
+		{
+		}
+
+		public override bool IsInvalid
+		{
+			get
+			{
+				return false;
+			}
+		}
+
+		protected override bool ReleaseHandle()
+		{
+			return false;
+		}
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.Win32.SafeHandles.SafeLsaPolicyHandle,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neut" +
+		"ral, PublicKeyToken=b03f5f7f11d50a3a")]
+	public unsafe class SafeLsaPolicyHandle__System_Security_Principal_Windows : global::System.Runtime.InteropServices.SafeHandle
+	{
+		public SafeLsaPolicyHandle__System_Security_Principal_Windows() : 
+				base(default(global::System.IntPtr), false)
+		{
+		}
+
+		public override bool IsInvalid
+		{
+			get
+			{
+				return false;
+			}
+		}
+
+		protected override bool ReleaseHandle()
+		{
+			return false;
+		}
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("Microsoft.Win32.SafeHandles.SafeLsaMemoryHandle,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neut" +
+		"ral, PublicKeyToken=b03f5f7f11d50a3a")]
+	public unsafe class SafeLsaMemoryHandle__System_Security_Principal_Windows : global::System.Runtime.InteropServices.SafeHandle
+	{
+		public SafeLsaMemoryHandle__System_Security_Principal_Windows() : 
+				base(default(global::System.IntPtr), false)
+		{
+		}
+
+		public override bool IsInvalid
+		{
+			get
+			{
+				return false;
+			}
+		}
+
+		protected override bool ReleaseHandle()
+		{
+			return false;
+		}
+	}
+}
+
+namespace System.Net.Sockets
+{
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.SafeCloseSocket,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f" +
+		"11d50a3a")]
+	public unsafe class SafeCloseSocket__System_Net_Sockets : global::System.Runtime.InteropServices.SafeHandle
+	{
+		public SafeCloseSocket__System_Net_Sockets() : 
+				base(default(global::System.IntPtr), false)
+		{
+		}
+
+		public override bool IsInvalid
+		{
+			get
+			{
+				return false;
+			}
+		}
+
+		protected override bool ReleaseHandle()
+		{
+			return false;
+		}
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.SafeCloseSocket+InnerSafeCloseSocket,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, Pu" +
+		"blicKeyToken=b03f5f7f11d50a3a")]
+	public unsafe class SafeCloseSocket_InnerSafeCloseSocket__System_Net_Sockets : global::System.Runtime.InteropServices.SafeHandle
+	{
+		public SafeCloseSocket_InnerSafeCloseSocket__System_Net_Sockets() : 
+				base(default(global::System.IntPtr), false)
+		{
+		}
+
+		public override bool IsInvalid
+		{
+			get
+			{
+				return false;
+			}
+		}
+
+		protected override bool ReleaseHandle()
+		{
+			return false;
+		}
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.SafeFreeAddrInfo,System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=" +
+		"b03f5f7f11d50a3a")]
+	public unsafe class SafeFreeAddrInfo__System_Net_NameResolution : global::System.Runtime.InteropServices.SafeHandle
+	{
+		public SafeFreeAddrInfo__System_Net_NameResolution() : 
+				base(default(global::System.IntPtr), false)
+		{
+		}
+
+		public override bool IsInvalid
+		{
+			get
+			{
+				return false;
+			}
+		}
+
+		protected override bool ReleaseHandle()
+		{
+			return false;
+		}
+	}
+
+	// Unmanaged Function Pointer - Calling Convention StdCall
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.ConnectExDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f" +
+		"7f11d50a3a")]
+	public unsafe delegate bool ConnectExDelegate__System_Net_Sockets(
+				global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
+				global::System.IntPtr socketAddress, 
+				int socketAddressSize, 
+				global::System.IntPtr buffer, 
+				int dataLength, 
+				out int bytesSent, 
+				global::System_Threading.NativeOverlapped__System_Private_CoreLib* overlapped);
+
+	// Unmanaged Function Pointer - Calling Convention StdCall
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.GetAcceptExSockaddrsDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyT" +
+		"oken=b03f5f7f11d50a3a")]
+	public unsafe delegate void GetAcceptExSockaddrsDelegate__System_Net_Sockets(
+				global::System.IntPtr buffer, 
+				int receiveDataLength, 
+				int localAddressLength, 
+				int remoteAddressLength, 
+				out global::System.IntPtr localSocketAddress, 
+				out int localSocketAddressLength, 
+				out global::System.IntPtr remoteSocketAddress, 
+				out int remoteSocketAddressLength);
+
+	// Unmanaged Function Pointer - Calling Convention StdCall
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.AcceptExDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7" +
+		"f11d50a3a")]
+	public unsafe delegate bool AcceptExDelegate__System_Net_Sockets(
+				global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets listenSocketHandle, 
+				global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets acceptSocketHandle, 
+				global::System.IntPtr buffer, 
+				int len, 
+				int localAddressLength, 
+				int remoteAddressLength, 
+				out int bytesReceived, 
+				global::System_Threading.NativeOverlapped__System_Private_CoreLib* overlapped);
+
+	// Unmanaged Function Pointer - Calling Convention StdCall
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.DisconnectExDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03" +
+		"f5f7f11d50a3a")]
+	public unsafe delegate bool DisconnectExDelegate__System_Net_Sockets(
+				global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
+				global::System_Threading.NativeOverlapped__System_Private_CoreLib* overlapped, 
+				int flags, 
+				int reserved);
+
+	// Unmanaged Function Pointer - Calling Convention StdCall
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.DisconnectExDelegateBlocking,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyT" +
+		"oken=b03f5f7f11d50a3a")]
+	public unsafe delegate bool DisconnectExDelegateBlocking__System_Net_Sockets(
+				global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
+				global::System.IntPtr overlapped, 
+				int flags, 
+				int reserved);
+
+	// Unmanaged Function Pointer - Calling Convention StdCall
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.WSARecvMsgDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5" +
+		"f7f11d50a3a")]
+	public unsafe delegate global::System_Net_Sockets.SocketError__System_Net_Primitives WSARecvMsgDelegate__System_Net_Sockets(
+				global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
+				global::System.IntPtr msg, 
+				out int bytesTransferred, 
+				global::System_Threading.NativeOverlapped__System_Private_CoreLib* overlapped, 
+				global::System.IntPtr completionRoutine);
+
+	// Unmanaged Function Pointer - Calling Convention StdCall
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.WSARecvMsgDelegateBlocking,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyTok" +
+		"en=b03f5f7f11d50a3a")]
+	public unsafe delegate global::System_Net_Sockets.SocketError__System_Net_Primitives WSARecvMsgDelegateBlocking__System_Net_Sockets(
+				global::System.IntPtr socketHandle, 
+				global::System.IntPtr msg, 
+				out int bytesTransferred, 
+				global::System.IntPtr overlapped, 
+				global::System.IntPtr completionRoutine);
+
+	// Unmanaged Function Pointer - Calling Convention StdCall
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.TransmitPacketsDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=" +
+		"b03f5f7f11d50a3a")]
+	public unsafe delegate bool TransmitPacketsDelegate__System_Net_Sockets(
+				global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
+				global::System.IntPtr packetArray, 
+				int elementCount, 
+				int sendSize, 
+				global::System_Threading.NativeOverlapped__System_Private_CoreLib* overlapped, 
+				global::System_Net_Sockets.TransmitFileOptions__System_Net_Sockets flags);
+}
+
+namespace System_Net_Internals
+{
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Internals.SocketType,System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f" +
+		"5f7f11d50a3a")]
+	public enum SocketType__System_Net_NameResolution
+	{
+		Unknown = -1,
+		Stream = 1,
+		Dgram = 2,
+		Raw = 3,
+		Rdm = 4,
+		Seqpacket = 5,
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Internals.ProtocolFamily,System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=" +
+		"b03f5f7f11d50a3a")]
+	public enum ProtocolFamily__System_Net_NameResolution
+	{
+		Unknown = -1,
+		Unspecified = 0,
+		Unix = 1,
+		InterNetwork = 2,
+		ImpLink = 3,
+		Pup = 4,
+		Chaos = 5,
+		NS = 6,
+		Ipx = 6,
+		Iso = 7,
+		Osi = 7,
+		Ecma = 8,
+		DataKit = 9,
+		Ccitt = 10,
+		Sna = 11,
+		DecNet = 12,
+		DataLink = 13,
+		Lat = 14,
+		HyperChannel = 15,
+		AppleTalk = 16,
+		NetBios = 17,
+		VoiceView = 18,
+		FireFox = 19,
+		Banyan = 21,
+		Atm = 22,
+		InterNetworkV6 = 23,
+		Cluster = 24,
+		Ieee12844 = 25,
+		Irda = 26,
+		NetworkDesigners = 28,
+		Max = 29,
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Internals.SocketType,System.Net.Ping, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a" +
+		"3a")]
+	public enum SocketType__System_Net_Ping
+	{
+		Unknown = -1,
+		Stream = 1,
+		Dgram = 2,
+		Raw = 3,
+		Rdm = 4,
+		Seqpacket = 5,
+	}
+}
+
+namespace System_Net_Sockets
+{
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.SocketError,System.Net.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f1" +
+		"1d50a3a")]
+	public enum SocketError__System_Net_Primitives
+	{
+		SocketError = -1,
+		Success = 0,
+		OperationAborted = 995,
+		IOPending = 997,
+		Interrupted = 10004,
+		AccessDenied = 10013,
+		Fault = 10014,
+		InvalidArgument = 10022,
+		TooManyOpenSockets = 10024,
+		WouldBlock = 10035,
+		InProgress = 10036,
+		AlreadyInProgress = 10037,
+		NotSocket = 10038,
+		DestinationAddressRequired = 10039,
+		MessageSize = 10040,
+		ProtocolType = 10041,
+		ProtocolOption = 10042,
+		ProtocolNotSupported = 10043,
+		SocketNotSupported = 10044,
+		OperationNotSupported = 10045,
+		ProtocolFamilyNotSupported = 10046,
+		AddressFamilyNotSupported = 10047,
+		AddressAlreadyInUse = 10048,
+		AddressNotAvailable = 10049,
+		NetworkDown = 10050,
+		NetworkUnreachable = 10051,
+		NetworkReset = 10052,
+		ConnectionAborted = 10053,
+		ConnectionReset = 10054,
+		NoBufferSpaceAvailable = 10055,
+		IsConnected = 10056,
+		NotConnected = 10057,
+		Shutdown = 10058,
+		TimedOut = 10060,
+		ConnectionRefused = 10061,
+		HostDown = 10064,
+		HostUnreachable = 10065,
+		ProcessLimit = 10067,
+		SystemNotReady = 10091,
+		VersionNotSupported = 10092,
+		NotInitialized = 10093,
+		Disconnecting = 10101,
+		TypeNotFound = 10109,
+		HostNotFound = 11001,
+		TryAgain = 11002,
+		NoRecovery = 11003,
+		NoData = 11004,
+	}
+
+	[global::System.Flags]
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.SocketFlags,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d5" +
+		"0a3a")]
+	public enum SocketFlags__System_Net_Sockets
+	{
+		None = 0,
+		OutOfBand = 1,
+		Peek = 2,
+		DontRoute = 4,
+		Truncated = 256,
+		ControlDataTruncated = 512,
+		Broadcast = 1024,
+		Multicast = 2048,
+		Partial = 32768,
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.SocketOptionLevel,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f" +
+		"7f11d50a3a")]
+	public enum SocketOptionLevel__System_Net_Sockets
+	{
+		IP = 0,
+		Tcp = 6,
+		Udp = 17,
+		IPv6 = 41,
+		Socket = 65535,
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.SocketOptionName,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7" +
+		"f11d50a3a")]
+	public enum SocketOptionName__System_Net_Sockets
+	{
+		DontLinger = -129,
+		ExclusiveAddressUse = -5,
+		Debug = 1,
+		IPOptions = 1,
+		NoDelay = 1,
+		NoChecksum = 1,
+		AcceptConnection = 2,
+		HeaderIncluded = 2,
+		BsdUrgent = 2,
+		Expedited = 2,
+		TypeOfService = 3,
+		ReuseAddress = 4,
+		IpTimeToLive = 4,
+		KeepAlive = 8,
+		MulticastInterface = 9,
+		MulticastTimeToLive = 10,
+		MulticastLoopback = 11,
+		AddMembership = 12,
+		DropMembership = 13,
+		DontFragment = 14,
+		AddSourceMembership = 15,
+		DontRoute = 16,
+		DropSourceMembership = 16,
+		BlockSource = 17,
+		UnblockSource = 18,
+		PacketInformation = 19,
+		ChecksumCoverage = 20,
+		HopLimit = 21,
+		IPProtectionLevel = 23,
+		IPv6Only = 27,
+		Broadcast = 32,
+		UseLoopback = 64,
+		Linger = 128,
+		OutOfBandInline = 256,
+		SendBuffer = 4097,
+		ReceiveBuffer = 4098,
+		SendLowWater = 4099,
+		ReceiveLowWater = 4100,
+		SendTimeout = 4101,
+		ReceiveTimeout = 4102,
+		Error = 4103,
+		Type = 4104,
+		ReuseUnicastPort = 12295,
+		UpdateAcceptContext = 28683,
+		UpdateConnectContext = 28688,
+		MaxConnections = 2147483647,
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.AddressInfoEx,System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03" +
+		"f5f7f11d50a3a")]
+	public unsafe partial struct AddressInfoEx__System_Net_NameResolution
+	{
+		public global::System_Net_Sockets.AddressInfoHints__System_Net_NameResolution ai_flags;
+		public global::System_Net_Sockets.AddressFamily__System_Net_Primitives ai_family;
+		public global::System_Net_Internals.SocketType__System_Net_NameResolution ai_socktype;
+		public global::System_Net_Internals.ProtocolFamily__System_Net_NameResolution ai_protocol;
+		public int ai_addrlen;
+		public global::System.IntPtr ai_canonname;
+		public byte* ai_addr;
+		public global::System.IntPtr ai_blob;
+		public int ai_bloblen;
+		public global::System.IntPtr ai_provider;
+		public global::System_Net_Sockets.AddressInfoEx__System_Net_NameResolution* ai_next;
+	}
+
+	[global::System.Flags]
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.AddressInfoHints,System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=" +
+		"b03f5f7f11d50a3a")]
+	public enum AddressInfoHints__System_Net_NameResolution
+	{
+		AI_PASSIVE = 1,
+		AI_CANONNAME = 2,
+		AI_NUMERICHOST = 4,
+		AI_FQDN = 131072,
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.AddressFamily,System.Net.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7" +
+		"f11d50a3a")]
+	public enum AddressFamily__System_Net_Primitives
+	{
+		Unknown = -1,
+		Unspecified = 0,
+		Unix = 1,
+		InterNetwork = 2,
+		ImpLink = 3,
+		Pup = 4,
+		Chaos = 5,
+		NS = 6,
+		Ipx = 6,
+		Iso = 7,
+		Osi = 7,
+		Ecma = 8,
+		DataKit = 9,
+		Ccitt = 10,
+		Sna = 11,
+		DecNet = 12,
+		DataLink = 13,
+		Lat = 14,
+		HyperChannel = 15,
+		AppleTalk = 16,
+		NetBios = 17,
+		VoiceView = 18,
+		FireFox = 19,
+		Banyan = 21,
+		Atm = 22,
+		InterNetworkV6 = 23,
+		Cluster = 24,
+		Ieee12844 = 25,
+		Irda = 26,
+		NetworkDesigners = 28,
+		Max = 29,
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.SocketType,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50" +
+		"a3a")]
+	public enum SocketType__System_Net_Sockets
+	{
+		Unknown = -1,
+		Stream = 1,
+		Dgram = 2,
+		Raw = 3,
+		Rdm = 4,
+		Seqpacket = 5,
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.ProtocolType,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d" +
+		"50a3a")]
+	public enum ProtocolType__System_Net_Sockets
+	{
+		Unknown = -1,
+		IP = 0,
+		IPv6HopByHopOptions = 0,
+		Unspecified = 0,
+		Icmp = 1,
+		Igmp = 2,
+		Ggp = 3,
+		IPv4 = 4,
+		Tcp = 6,
+		Pup = 12,
+		Udp = 17,
+		Idp = 22,
+		IPv6 = 41,
+		IPv6RoutingHeader = 43,
+		IPv6FragmentHeader = 44,
+		IPSecEncapsulatingSecurityPayload = 50,
+		IPSecAuthenticationHeader = 51,
+		IcmpV6 = 58,
+		IPv6NoNextHeader = 59,
+		IPv6DestinationOptions = 60,
+		ND = 77,
+		Raw = 255,
+		Ipx = 1000,
+		Spx = 1256,
+		SpxII = 1257,
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.WSABuffer,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a" +
+		"3a")]
+	public unsafe partial struct WSABuffer__System_Net_Sockets
+	{
+		public int Length;
+		public global::System.IntPtr Pointer;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.AddressInfo,System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5" +
+		"f7f11d50a3a")]
+	public unsafe partial struct AddressInfo__System_Net_NameResolution
+	{
+		public global::System_Net_Sockets.AddressInfoHints__System_Net_NameResolution ai_flags;
+		public global::System_Net_Sockets.AddressFamily__System_Net_Primitives ai_family;
+		public global::System_Net_Internals.SocketType__System_Net_NameResolution ai_socktype;
+		public global::System_Net_Internals.ProtocolFamily__System_Net_NameResolution ai_protocol;
+		public int ai_addrlen;
+		public sbyte* ai_canonname;
+		public byte* ai_addr;
+		public global::System_Net_Sockets.AddressInfo__System_Net_NameResolution* ai_next;
+	}
+
+	[global::System.Flags]
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.TransmitFileOptions,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f" +
+		"5f7f11d50a3a")]
+	public enum TransmitFileOptions__System_Net_Sockets
+	{
+		UseDefaultWorkerThread = 0,
+		Disconnect = 1,
+		ReuseSocket = 2,
+		WriteBehind = 4,
+		UseSystemThread = 16,
+		UseKernelApc = 32,
 	}
 }
 
@@ -448,6 +1520,43 @@ namespace System_Runtime_InteropServices_WindowsRuntime
 	public unsafe interface IBufferByteAccess__System_Runtime_WindowsRuntime
 	{
 		global::System.IntPtr GetBuffer();
+	}
+}
+
+namespace System_Security_Principal
+{
+	[global::System.Flags]
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Security.Principal.TokenAccessLevels,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral," +
+		" PublicKeyToken=b03f5f7f11d50a3a")]
+	public enum TokenAccessLevels__System_Security_Principal_Windows
+	{
+		AssignPrimary = 1,
+		Duplicate = 2,
+		Impersonate = 4,
+		Query = 8,
+		QuerySource = 16,
+		AdjustPrivileges = 32,
+		AdjustGroups = 64,
+		AdjustDefault = 128,
+		AdjustSessionId = 256,
+		Read = 131080,
+		Write = 131296,
+		AllAccess = 983551,
+		MaximumAllowed = 33554432,
+	}
+}
+
+namespace System_Threading
+{
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Threading.NativeOverlapped,System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5" +
+		"f7f11d50a3a")]
+	public unsafe partial struct NativeOverlapped__System_Private_CoreLib
+	{
+		public global::System.IntPtr InternalLow;
+		public global::System.IntPtr InternalHigh;
+		public int OffsetLow;
+		public int OffsetHigh;
+		public global::System.IntPtr EventHandle;
 	}
 }
 
@@ -2230,6 +3339,32 @@ namespace Windows.Foundation.Metadata
 				| global::System.AttributeTargets.Parameter 
 				| global::System.AttributeTargets.Delegate 
 				| global::System.AttributeTargets.ReturnValue 
+				| global::System.AttributeTargets.GenericParameter), AllowMultiple=false)]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class ExclusiveToAttribute : global::System.Attribute
+	{
+		public ExclusiveToAttribute(global::System.Type typeName)
+		{
+			throw new global::System.InvalidOperationException("Cannot construct type \'Windows.Foundation.Metadata.ExclusiveToAttribute\'.  Windows Runtime attribute types are n" +
+					"ot constructable.");
+		}
+	}
+
+	[global::System.AttributeUsage((global::System.AttributeTargets.Assembly | global::System.AttributeTargets.Module 
+				| global::System.AttributeTargets.Class 
+				| global::System.AttributeTargets.Struct 
+				| global::System.AttributeTargets.Enum 
+				| global::System.AttributeTargets.Constructor 
+				| global::System.AttributeTargets.Method 
+				| global::System.AttributeTargets.Property 
+				| global::System.AttributeTargets.Field 
+				| global::System.AttributeTargets.Event 
+				| global::System.AttributeTargets.Interface 
+				| global::System.AttributeTargets.Parameter 
+				| global::System.AttributeTargets.Delegate 
+				| global::System.AttributeTargets.ReturnValue 
 				| global::System.AttributeTargets.GenericParameter), AllowMultiple=true)]
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -2302,12 +3437,41 @@ namespace Windows.Foundation.Metadata
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe sealed class ExclusiveToAttribute : global::System.Attribute
+	public unsafe sealed class MarshalingBehaviorAttribute : global::System.Attribute
 	{
-		public ExclusiveToAttribute(global::System.Type typeName)
+		public MarshalingBehaviorAttribute(global::Windows.Foundation.Metadata.MarshalingType behavior)
 		{
-			throw new global::System.InvalidOperationException("Cannot construct type \'Windows.Foundation.Metadata.ExclusiveToAttribute\'.  Windows Runtime attribute types are n" +
-					"ot constructable.");
+			throw new global::System.InvalidOperationException("Cannot construct type \'Windows.Foundation.Metadata.MarshalingBehaviorAttribute\'.  Windows Runtime attribute type" +
+					"s are not constructable.");
+		}
+	}
+
+	[global::System.AttributeUsage((global::System.AttributeTargets.Assembly | global::System.AttributeTargets.Module 
+				| global::System.AttributeTargets.Class 
+				| global::System.AttributeTargets.Struct 
+				| global::System.AttributeTargets.Enum 
+				| global::System.AttributeTargets.Constructor 
+				| global::System.AttributeTargets.Method 
+				| global::System.AttributeTargets.Property 
+				| global::System.AttributeTargets.Field 
+				| global::System.AttributeTargets.Event 
+				| global::System.AttributeTargets.Interface 
+				| global::System.AttributeTargets.Parameter 
+				| global::System.AttributeTargets.Delegate 
+				| global::System.AttributeTargets.ReturnValue 
+				| global::System.AttributeTargets.GenericParameter), AllowMultiple=true)]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class StaticAttribute : global::System.Attribute
+	{
+		public StaticAttribute(
+					global::System.Type type, 
+					uint version, 
+					string contractName)
+		{
+			throw new global::System.InvalidOperationException("Cannot construct type \'Windows.Foundation.Metadata.StaticAttribute\'.  Windows Runtime attribute types are not co" +
+					"nstructable.");
 		}
 	}
 
@@ -2364,61 +3528,6 @@ namespace Windows.Foundation.Metadata
 		{
 			throw new global::System.InvalidOperationException("Cannot construct type \'Windows.Foundation.Metadata.ComposableAttribute\'.  Windows Runtime attribute types are no" +
 					"t constructable.");
-		}
-	}
-
-	[global::System.AttributeUsage((global::System.AttributeTargets.Assembly | global::System.AttributeTargets.Module 
-				| global::System.AttributeTargets.Class 
-				| global::System.AttributeTargets.Struct 
-				| global::System.AttributeTargets.Enum 
-				| global::System.AttributeTargets.Constructor 
-				| global::System.AttributeTargets.Method 
-				| global::System.AttributeTargets.Property 
-				| global::System.AttributeTargets.Field 
-				| global::System.AttributeTargets.Event 
-				| global::System.AttributeTargets.Interface 
-				| global::System.AttributeTargets.Parameter 
-				| global::System.AttributeTargets.Delegate 
-				| global::System.AttributeTargets.ReturnValue 
-				| global::System.AttributeTargets.GenericParameter), AllowMultiple=false)]
-	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe sealed class MarshalingBehaviorAttribute : global::System.Attribute
-	{
-		public MarshalingBehaviorAttribute(global::Windows.Foundation.Metadata.MarshalingType behavior)
-		{
-			throw new global::System.InvalidOperationException("Cannot construct type \'Windows.Foundation.Metadata.MarshalingBehaviorAttribute\'.  Windows Runtime attribute type" +
-					"s are not constructable.");
-		}
-	}
-
-	[global::System.AttributeUsage((global::System.AttributeTargets.Assembly | global::System.AttributeTargets.Module 
-				| global::System.AttributeTargets.Class 
-				| global::System.AttributeTargets.Struct 
-				| global::System.AttributeTargets.Enum 
-				| global::System.AttributeTargets.Constructor 
-				| global::System.AttributeTargets.Method 
-				| global::System.AttributeTargets.Property 
-				| global::System.AttributeTargets.Field 
-				| global::System.AttributeTargets.Event 
-				| global::System.AttributeTargets.Interface 
-				| global::System.AttributeTargets.Parameter 
-				| global::System.AttributeTargets.Delegate 
-				| global::System.AttributeTargets.ReturnValue 
-				| global::System.AttributeTargets.GenericParameter), AllowMultiple=true)]
-	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe sealed class StaticAttribute : global::System.Attribute
-	{
-		public StaticAttribute(
-					global::System.Type type, 
-					uint version, 
-					string contractName)
-		{
-			throw new global::System.InvalidOperationException("Cannot construct type \'Windows.Foundation.Metadata.StaticAttribute\'.  Windows Runtime attribute types are not co" +
-					"nstructable.");
 		}
 	}
 
@@ -2622,6 +3731,17 @@ namespace Windows.Foundation.Metadata
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum MarshalingType
+	{
+		InvalidMarshaling = 0,
+		None = 1,
+		Agile = 2,
+		Standard = 3,
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public enum ThreadingModel
 	{
 		InvalidThreading = 0,
@@ -2637,17 +3757,6 @@ namespace Windows.Foundation.Metadata
 	{
 		Protected = 1,
 		Public = 2,
-	}
-
-	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public enum MarshalingType
-	{
-		InvalidMarshaling = 0,
-		None = 1,
-		Agile = 2,
-		Standard = 3,
 	}
 }
 
@@ -3747,12 +4856,6 @@ namespace Windows.UI.Composition
 	public unsafe interface IAnimationPropertyInfo
 	{
 	}
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IVisualElement
-	{
-	}
 }
 
 namespace Windows.UI.Core
@@ -4102,7 +5205,7 @@ namespace Windows.UI.Xaml
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe class UIElement : global::Windows.UI.Xaml.DependencyObject, global::Windows.UI.Xaml.IUIElement, global::Windows.UI.Xaml.IUIElement2, global::Windows.UI.Xaml.IUIElement3, global::Windows.UI.Xaml.IUIElement4, global::Windows.UI.Xaml.IUIElement5, global::Windows.UI.Xaml.IUIElement7, global::Windows.UI.Xaml.IUIElement8, global::Windows.UI.Xaml.IUIElement9, global::Windows.UI.Xaml.IUIElement10, global::Windows.UI.Xaml.IUIElementOverrides, global::Windows.UI.Xaml.IUIElementOverrides7, global::Windows.UI.Xaml.IUIElementOverrides8, global::Windows.UI.Xaml.IUIElementOverrides9, global::Windows.UI.Composition.IAnimationObject, global::Windows.UI.Composition.IVisualElement
+	public unsafe class UIElement : global::Windows.UI.Xaml.DependencyObject, global::Windows.UI.Xaml.IUIElement, global::Windows.UI.Xaml.IUIElement2, global::Windows.UI.Xaml.IUIElement3, global::Windows.UI.Xaml.IUIElement4, global::Windows.UI.Xaml.IUIElement5, global::Windows.UI.Xaml.IUIElement7, global::Windows.UI.Xaml.IUIElement8, global::Windows.UI.Xaml.IUIElement9, global::Windows.UI.Xaml.IUIElementOverrides, global::Windows.UI.Xaml.IUIElementOverrides7, global::Windows.UI.Xaml.IUIElementOverrides8, global::Windows.UI.Xaml.IUIElementOverrides9, global::Windows.UI.Composition.IAnimationObject
 	{
 		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "RenderTransform")]
 		public virtual void put_RenderTransform(global::Windows.UI.Xaml.Media.Transform value)
@@ -6656,12 +7759,6 @@ namespace Windows.UI.Xaml
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IUIElement9
-	{
-	}
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IUIElement10
 	{
 	}
 
@@ -12684,14 +13781,6 @@ namespace Windows.UI.Xaml.Markup
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IXamlType2 : global::Windows.UI.Xaml.Markup.IXamlType
-	{
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BoxedType")]
-		global::Windows.UI.Xaml.Markup.IXamlType get_BoxedType();
-	}
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IComponentConnector
 	{
 		void Connect(
@@ -13473,4 +14562,12 @@ namespace Windows.UI.Xaml.Shapes
 	{
 	}
 }
+
+// Unmanaged Function Pointer - Calling Convention StdCall
+[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Winsock+LPLOOKUPSERVICE_COMPLETION_ROUTINE,System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, " +
+	"PublicKeyToken=b03f5f7f11d50a3a")]
+public unsafe delegate void Interop_Winsock_LPLOOKUPSERVICE_COMPLETION_ROUTINE__System_Net_NameResolution(
+			int dwError, 
+			int dwBytes, 
+			global::System_Threading.NativeOverlapped__System_Private_CoreLib* lpOverlapped);
 

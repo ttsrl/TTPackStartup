@@ -78,8 +78,22 @@ namespace TTPackStartup
 
         }
 
-        private void LED_Click(object sender, RoutedEventArgs e)
+        private void Q1_ON_Click(object sender, RoutedEventArgs e)
         {
+            if (!App.ModbusClient.Connected)
+                return;
+            Console.WriteLine("writeCoil");
+            App.ModbusClient.WriteSingleCoil(8192, true);
+            Console.WriteLine("writeCoil fatto");
+        }
+
+        private void Q1_OFF_Click(object sender, RoutedEventArgs e)
+        {
+            if (!App.ModbusClient.Connected) 
+                return;
+            Console.WriteLine("writeCoil");
+            App.ModbusClient.WriteSingleCoil(8192, false);
+            Console.WriteLine("writeCoil fatto");
         }
 
         private void Settings_Click(object sender, RoutedEventArgs e)
