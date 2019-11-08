@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Navigation;
 using Windows.UI;
 using TouchPanels.Devices;
 using Modbus;
+using System.Reflection;
 
 namespace TTPackStartup
 {
@@ -144,13 +145,15 @@ namespace TTPackStartup
             {
                 if (obj.GetType() == typeof(ButtonAutomationPeer))
                 {
-                    var button = (Button)((ButtonAutomationPeer)obj).Owner;
+                    var buttonAP = (ButtonAutomationPeer)obj;
+                    var button = (Button)(buttonAP).Owner;
                     button.Background = new SolidColorBrush(Color.FromArgb(255, 40, 159, 255));
                 }
                 currentObjClick = obj;
             }
             lastPosition = e.Position;
         }
+
         private void Processor_PointerMoved(object sender, TouchPanels.PointerEventArgs e)
         {
             if (currentScrollItem != null)

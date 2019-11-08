@@ -1587,10 +1587,7 @@ namespace __Interop
 					global::System.IntPtr arg0, 
 					global::System.IntPtr arg1, 
 					int arg2, 
-					global::System.IntPtr arg3, 
-					int arg4, 
-					void* arg5, 
-					void* arg6)
+					int arg3)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
@@ -1601,17 +1598,44 @@ namespace __Interop
 					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets arg0, 
 					global::System.IntPtr arg1, 
 					int arg2, 
-					global::System.IntPtr arg3, 
-					int arg4, 
-					out int arg5, 
-					global::System_Threading.NativeOverlapped__System_Private_CoreLib* arg6)
+					int arg3)
 		{
-			arg5 = 0;
 			// This method is implemented elsewhere in the toolchain
 			return default(bool);
 		}
 
-		internal static void StdCall__89(
+		internal static int StdCall__89(
+					global::System.IntPtr pfn, 
+					global::System.IntPtr arg0, 
+					global::System.IntPtr arg1, 
+					global::System.IntPtr arg2, 
+					int arg3, 
+					int arg4, 
+					int arg5, 
+					void* arg6, 
+					void* arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static bool Call__90(
+					global::System.IntPtr pfn, 
+					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets arg0, 
+					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets arg1, 
+					global::System.IntPtr arg2, 
+					int arg3, 
+					int arg4, 
+					int arg5, 
+					out int arg6, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* arg7)
+		{
+			arg6 = 0;
+			// This method is implemented elsewhere in the toolchain
+			return default(bool);
+		}
+
+		internal static void StdCall__91(
 					global::System.IntPtr pfn, 
 					global::System.IntPtr arg0, 
 					int arg1, 
@@ -1625,7 +1649,7 @@ namespace __Interop
 			// This method is implemented elsewhere in the toolchain
 		}
 
-		internal static void Call__90(
+		internal static void Call__92(
 					global::System.IntPtr pfn, 
 					global::System.IntPtr arg0, 
 					int arg1, 
@@ -1643,38 +1667,36 @@ namespace __Interop
 			// This method is implemented elsewhere in the toolchain
 		}
 
-		internal static int StdCall__91(
+		internal static int StdCall__93(
 					global::System.IntPtr pfn, 
 					global::System.IntPtr arg0, 
 					global::System.IntPtr arg1, 
-					global::System.IntPtr arg2, 
-					int arg3, 
+					int arg2, 
+					global::System.IntPtr arg3, 
 					int arg4, 
-					int arg5, 
-					void* arg6, 
-					void* arg7)
+					void* arg5, 
+					void* arg6)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
 		}
 
-		internal static bool Call__92(
+		internal static bool Call__94(
 					global::System.IntPtr pfn, 
 					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets arg0, 
-					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets arg1, 
-					global::System.IntPtr arg2, 
-					int arg3, 
+					global::System.IntPtr arg1, 
+					int arg2, 
+					global::System.IntPtr arg3, 
 					int arg4, 
-					int arg5, 
-					out int arg6, 
-					global::System_Threading.NativeOverlapped__System_Private_CoreLib* arg7)
+					out int arg5, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* arg6)
 		{
-			arg6 = 0;
+			arg5 = 0;
 			// This method is implemented elsewhere in the toolchain
 			return default(bool);
 		}
 
-		internal static int StdCall__93(
+		internal static int StdCall__95(
 					global::System.IntPtr pfn, 
 					global::System.IntPtr arg0, 
 					void* arg1, 
@@ -1685,32 +1707,10 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static bool Call__94(
-					global::System.IntPtr pfn, 
-					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets arg0, 
-					global::System_Threading.NativeOverlapped__System_Private_CoreLib* arg1, 
-					int arg2, 
-					int arg3)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return default(bool);
-		}
-
-		internal static int StdCall__95(
-					global::System.IntPtr pfn, 
-					global::System.IntPtr arg0, 
-					global::System.IntPtr arg1, 
-					int arg2, 
-					int arg3)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
 		internal static bool Call__96(
 					global::System.IntPtr pfn, 
 					global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets arg0, 
-					global::System.IntPtr arg1, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* arg1, 
 					int arg2, 
 					int arg3)
 		{
@@ -3071,32 +3071,14 @@ namespace __Interop
 					global::System.IntPtr a0, 
 					global::System.IntPtr a1, 
 					int a2, 
-					global::System.IntPtr a3, 
-					int a4, 
-					int* a5, 
-					global::System_Threading.NativeOverlapped__System_Private_CoreLib* a6);
+					int a3);
 
 		#endif
 
 
 		#if false
 		[global::Internal.PreInitializedAddrOfDelegate]
-		public delegate void AddrOfTarget129(
-					global::System.IntPtr a0, 
-					int a1, 
-					int a2, 
-					int a3, 
-					global::System.IntPtr* a4, 
-					int* a5, 
-					global::System.IntPtr* a6, 
-					int* a7);
-
-		#endif
-
-
-		#if false
-		[global::Internal.PreInitializedAddrOfDelegate]
-		public delegate int AddrOfTarget130(
+		public delegate int AddrOfTarget129(
 					global::System.IntPtr a0, 
 					global::System.IntPtr a1, 
 					global::System.IntPtr a2, 
@@ -3111,11 +3093,29 @@ namespace __Interop
 
 		#if false
 		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate void AddrOfTarget130(
+					global::System.IntPtr a0, 
+					int a1, 
+					int a2, 
+					int a3, 
+					global::System.IntPtr* a4, 
+					int* a5, 
+					global::System.IntPtr* a6, 
+					int* a7);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
 		public delegate int AddrOfTarget131(
 					global::System.IntPtr a0, 
-					global::System_Threading.NativeOverlapped__System_Private_CoreLib* a1, 
+					global::System.IntPtr a1, 
 					int a2, 
-					int a3);
+					global::System.IntPtr a3, 
+					int a4, 
+					int* a5, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* a6);
 
 		#endif
 
@@ -3124,7 +3124,7 @@ namespace __Interop
 		[global::Internal.PreInitializedAddrOfDelegate]
 		public delegate int AddrOfTarget132(
 					global::System.IntPtr a0, 
-					global::System.IntPtr a1, 
+					global::System_Threading.NativeOverlapped__System_Private_CoreLib* a1, 
 					int a2, 
 					int a3);
 
@@ -3228,24 +3228,6 @@ namespace __Interop
 		#if false
 		[global::Internal.PreInitializedAddrOfDelegate]
 		public delegate int AddrOfTarget143(
-					ref global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets a0, 
-					out global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.UnsafeType a1);
-
-		#endif
-
-
-		#if false
-		[global::Internal.PreInitializedAddrOfDelegate]
-		public delegate int AddrOfTarget144(
-					ref global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.UnsafeType a0, 
-					out global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets a1);
-
-		#endif
-
-
-		#if false
-		[global::Internal.PreInitializedAddrOfDelegate]
-		public delegate int AddrOfTarget145(
 					ref global::_.Interop_Winsock_WSAData__System_Net_NameResolution a0, 
 					out global::_.Interop_Winsock_WSAData__System_Net_NameResolution__Impl.UnsafeType a1);
 
@@ -3254,9 +3236,27 @@ namespace __Interop
 
 		#if false
 		[global::Internal.PreInitializedAddrOfDelegate]
-		public delegate int AddrOfTarget146(
+		public delegate int AddrOfTarget144(
 					ref global::_.Interop_Winsock_WSAData__System_Net_NameResolution__Impl.UnsafeType a0, 
 					out global::_.Interop_Winsock_WSAData__System_Net_NameResolution a1);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate int AddrOfTarget145(
+					ref global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets a0, 
+					out global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.UnsafeType a1);
+
+		#endif
+
+
+		#if false
+		[global::Internal.PreInitializedAddrOfDelegate]
+		public delegate int AddrOfTarget146(
+					ref global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.UnsafeType a0, 
+					out global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets a1);
 
 		#endif
 

@@ -76,9 +76,9 @@ namespace __Interop
 	// STATISTICS
 	// 
 	// Interop Stub Data
-	//     + Total Stubs = 539
-	//     + Total Forward Stubs = 445
-	//         + Unshared Forward Stubs = 383
+	//     + Total Stubs = 540
+	//     + Total Forward Stubs = 446
+	//         + Unshared Forward Stubs = 384
 	//         + Shared Forward Stubs = 62
 	//         + Shared Forward Stubs Cache Hit = 726
 	//     + Total Reverse Stubs = 94
@@ -10165,39 +10165,39 @@ namespace __Interop
 					ForwardDelegateCreationStub = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.ForwardDelegateCreationStub>(global::Interop_Winsock_LPLOOKUPSERVICE_COMPLETION_ROUTINE__System_Net_NameResolution__Impl.ForwardDelegateCreationStub),
 				}, 
 				new global::System.Runtime.InteropServices.McgPInvokeDelegateData() {
-					FixupDelegate = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Net.Sockets.ConnectExDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f" +
-								"7f11d50a3a")),
-					ReverseStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget128>(global::System.Net.Sockets.ConnectExDelegate__System_Net_Sockets__Impl.ReverseDelegateStub),
-					ReverseOpenStaticDelegateStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget128>(global::System.Net.Sockets.ConnectExDelegate__System_Net_Sockets__Impl.ReverseOpenStaticDelegateStub),
-					ForwardDelegateCreationStub = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.ForwardDelegateCreationStub>(global::System.Net.Sockets.ConnectExDelegate__System_Net_Sockets__Impl.ForwardDelegateCreationStub),
-				}, 
-				new global::System.Runtime.InteropServices.McgPInvokeDelegateData() {
-					FixupDelegate = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Net.Sockets.GetAcceptExSockaddrsDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyT" +
+					FixupDelegate = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Net.Sockets.DisconnectExDelegateBlocking,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyT" +
 								"oken=b03f5f7f11d50a3a")),
-					ReverseStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget129>(global::System.Net.Sockets.GetAcceptExSockaddrsDelegate__System_Net_Sockets__Impl.ReverseDelegateStub),
-					ReverseOpenStaticDelegateStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget129>(global::System.Net.Sockets.GetAcceptExSockaddrsDelegate__System_Net_Sockets__Impl.ReverseOpenStaticDelegateStub),
-					ForwardDelegateCreationStub = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.ForwardDelegateCreationStub>(global::System.Net.Sockets.GetAcceptExSockaddrsDelegate__System_Net_Sockets__Impl.ForwardDelegateCreationStub),
+					ReverseStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget128>(global::System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets__Impl.ReverseDelegateStub),
+					ReverseOpenStaticDelegateStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget128>(global::System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets__Impl.ReverseOpenStaticDelegateStub),
+					ForwardDelegateCreationStub = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.ForwardDelegateCreationStub>(global::System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets__Impl.ForwardDelegateCreationStub),
 				}, 
 				new global::System.Runtime.InteropServices.McgPInvokeDelegateData() {
 					FixupDelegate = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Net.Sockets.AcceptExDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7" +
 								"f11d50a3a")),
-					ReverseStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget130>(global::System.Net.Sockets.AcceptExDelegate__System_Net_Sockets__Impl.ReverseDelegateStub),
-					ReverseOpenStaticDelegateStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget130>(global::System.Net.Sockets.AcceptExDelegate__System_Net_Sockets__Impl.ReverseOpenStaticDelegateStub),
+					ReverseStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget129>(global::System.Net.Sockets.AcceptExDelegate__System_Net_Sockets__Impl.ReverseDelegateStub),
+					ReverseOpenStaticDelegateStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget129>(global::System.Net.Sockets.AcceptExDelegate__System_Net_Sockets__Impl.ReverseOpenStaticDelegateStub),
 					ForwardDelegateCreationStub = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.ForwardDelegateCreationStub>(global::System.Net.Sockets.AcceptExDelegate__System_Net_Sockets__Impl.ForwardDelegateCreationStub),
+				}, 
+				new global::System.Runtime.InteropServices.McgPInvokeDelegateData() {
+					FixupDelegate = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Net.Sockets.GetAcceptExSockaddrsDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyT" +
+								"oken=b03f5f7f11d50a3a")),
+					ReverseStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget130>(global::System.Net.Sockets.GetAcceptExSockaddrsDelegate__System_Net_Sockets__Impl.ReverseDelegateStub),
+					ReverseOpenStaticDelegateStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget130>(global::System.Net.Sockets.GetAcceptExSockaddrsDelegate__System_Net_Sockets__Impl.ReverseOpenStaticDelegateStub),
+					ForwardDelegateCreationStub = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.ForwardDelegateCreationStub>(global::System.Net.Sockets.GetAcceptExSockaddrsDelegate__System_Net_Sockets__Impl.ForwardDelegateCreationStub),
+				}, 
+				new global::System.Runtime.InteropServices.McgPInvokeDelegateData() {
+					FixupDelegate = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Net.Sockets.ConnectExDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f" +
+								"7f11d50a3a")),
+					ReverseStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget131>(global::System.Net.Sockets.ConnectExDelegate__System_Net_Sockets__Impl.ReverseDelegateStub),
+					ReverseOpenStaticDelegateStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget131>(global::System.Net.Sockets.ConnectExDelegate__System_Net_Sockets__Impl.ReverseOpenStaticDelegateStub),
+					ForwardDelegateCreationStub = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.ForwardDelegateCreationStub>(global::System.Net.Sockets.ConnectExDelegate__System_Net_Sockets__Impl.ForwardDelegateCreationStub),
 				}, 
 				new global::System.Runtime.InteropServices.McgPInvokeDelegateData() {
 					FixupDelegate = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Net.Sockets.DisconnectExDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03" +
 								"f5f7f11d50a3a")),
-					ReverseStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget131>(global::System.Net.Sockets.DisconnectExDelegate__System_Net_Sockets__Impl.ReverseDelegateStub),
-					ReverseOpenStaticDelegateStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget131>(global::System.Net.Sockets.DisconnectExDelegate__System_Net_Sockets__Impl.ReverseOpenStaticDelegateStub),
+					ReverseStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget132>(global::System.Net.Sockets.DisconnectExDelegate__System_Net_Sockets__Impl.ReverseDelegateStub),
+					ReverseOpenStaticDelegateStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget132>(global::System.Net.Sockets.DisconnectExDelegate__System_Net_Sockets__Impl.ReverseOpenStaticDelegateStub),
 					ForwardDelegateCreationStub = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.ForwardDelegateCreationStub>(global::System.Net.Sockets.DisconnectExDelegate__System_Net_Sockets__Impl.ForwardDelegateCreationStub),
-				}, 
-				new global::System.Runtime.InteropServices.McgPInvokeDelegateData() {
-					FixupDelegate = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Net.Sockets.DisconnectExDelegateBlocking,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyT" +
-								"oken=b03f5f7f11d50a3a")),
-					ReverseStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget132>(global::System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets__Impl.ReverseDelegateStub),
-					ReverseOpenStaticDelegateStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget132>(global::System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets__Impl.ReverseOpenStaticDelegateStub),
-					ForwardDelegateCreationStub = global::__Interop.Intrinsics.AddrOf<global::System.Runtime.InteropServices.ForwardDelegateCreationStub>(global::System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets__Impl.ForwardDelegateCreationStub),
 				}, 
 				new global::System.Runtime.InteropServices.McgPInvokeDelegateData() {
 					FixupDelegate = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Net.Sockets.WSARecvMsgDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5" +
@@ -10310,16 +10310,16 @@ namespace __Interop
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.IUIElementOverrides8>).TypeHandle), //   80, System.Collections.Generic.IEnumerable<Windows.UI.Xaml.IUIElementOverrides8>
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.IUIElementOverrides9>).TypeHandle), //   81, System.Collections.Generic.IEnumerable<Windows.UI.Xaml.IUIElementOverrides9>
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::System.Collections.Generic.IEnumerable<global::Windows.UI.Composition.IAnimationObject>).TypeHandle), //   82, System.Collections.Generic.IEnumerable<Windows.UI.Composition.IAnimationObject>
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.Storage.Streams.IBuffer).TypeHandle), //   83, Windows.Storage.Streams.IBuffer
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::System.Collections.IEnumerable).TypeHandle), //   83, System.Collections.IEnumerable
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::System.IDisposable).TypeHandle), //   84, System.IDisposable
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::System.Collections.Generic.IEnumerable<object>).TypeHandle), //   85, System.Collections.Generic.IEnumerable<System.Object>
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.Storage.Streams.IBuffer).TypeHandle), //   86, Windows.Storage.Streams.IBuffer
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.WindowsRuntime.IBufferByteAccess,System.Runtime.WindowsRuntime, Version=4.0.14.0," +
-							" Culture=neutral, PublicKeyToken=b77a5c561934e089")), //   84, System_Runtime_InteropServices_WindowsRuntime.IBufferByteAccess__System_Runtime_WindowsRuntime
+							" Culture=neutral, PublicKeyToken=b77a5c561934e089")), //   87, System_Runtime_InteropServices_WindowsRuntime.IBufferByteAccess__System_Runtime_WindowsRuntime
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.IMarshal,System.Runtime.WindowsRuntime, Version=4.0.14.0, Culture=neutral, Public" +
-							"KeyToken=b77a5c561934e089")), //   85, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime
+							"KeyToken=b77a5c561934e089")), //   88, System_Runtime_InteropServices.IMarshal__System_Runtime_WindowsRuntime
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.IAgileObject,System.Runtime.WindowsRuntime, Version=4.0.14.0, Culture=neutral, Pu" +
-							"blicKeyToken=b77a5c561934e089")), //   86, System_Runtime_InteropServices.IAgileObject__System_Runtime_WindowsRuntime
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::System.Collections.IEnumerable).TypeHandle), //   87, System.Collections.IEnumerable
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::System.IDisposable).TypeHandle), //   88, System.IDisposable
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::System.Collections.Generic.IEnumerable<object>).TypeHandle), //   89, System.Collections.Generic.IEnumerable<System.Object>
+							"blicKeyToken=b77a5c561934e089")), //   89, System_Runtime_InteropServices.IAgileObject__System_Runtime_WindowsRuntime
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.Foundation.IReference<global::Windows.UI.Color>).TypeHandle), //   90, System.Nullable<Windows.UI.Color>
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::System.Runtime.InteropServices.WindowsRuntime.IPropertyValue).TypeHandle), //   91, System.Runtime.InteropServices.WindowsRuntime.IPropertyValue
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.Foundation.IReference<global::Windows.UI.Xaml.CornerRadius>).TypeHandle), //   92, System.Nullable<Windows.UI.Xaml.CornerRadius>
@@ -10399,8 +10399,8 @@ namespace __Interop
 				35207, // Windows.Foundation.IClosable
 				35207, // Windows.Foundation.IClosable
 				35207, // Windows.Foundation.IClosable
-				35218, // Windows.Foundation.Collections.IVector`1<String>
 				35207, // Windows.Foundation.IClosable
+				35218, // Windows.Foundation.Collections.IVector`1<String>
 				35207, // Windows.Foundation.IClosable
 				35207, // Windows.Foundation.IClosable
 				35207, // Windows.Foundation.IClosable
@@ -10438,9 +10438,9 @@ namespace __Interop
 				35207, // Windows.Foundation.IClosable
 				35207, // Windows.Foundation.IClosable
 				35207, // Windows.Foundation.IClosable
+				0, // 
+				0, // 
 				9726, // Windows.Storage.Streams.IBuffer
-				0, // 
-				0, // 
 				35207, // Windows.Foundation.IClosable
 				35207, // Windows.Foundation.IClosable
 				8610, // Windows.Foundation.IReference`1<Windows.UI.Color>
@@ -10731,6 +10731,15 @@ namespace __Interop
 				}, 
 				// Index = 29
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
+					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Net.Sockets.NetworkStream, System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f1" +
+								"1d50a3a")),
+					SupportedInterfaceListBeginIndex = 8,
+					NumberOfSupportedInterface = 0,
+					ParentCCWTemplateIndex = 23,
+					IsWinRTType = false,
+				}, 
+				// Index = 30
+				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Threading.Tasks.Task`1[[TouchPanels.Algorithms.AffineTransformationParameters, TouchPanels, Version=1.0.0" +
 								".0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKey" +
 								"Token=b03f5f7f11d50a3a")),
@@ -10739,7 +10748,7 @@ namespace __Interop
 					ParentCCWTemplateIndex = 25,
 					IsWinRTType = false,
 				}, 
-				// Index = 30
+				// Index = 31
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Threading.Tasks.Task`1[[Windows.Foundation.Point, System.Private.Interop, Version=999.999.999.999, Cultur" +
 								"e=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicK" +
@@ -10749,7 +10758,7 @@ namespace __Interop
 					ParentCCWTemplateIndex = 25,
 					IsWinRTType = false,
 				}, 
-				// Index = 31
+				// Index = 32
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Threading.Tasks.Task`1[[TouchPanels.Devices.Tsc2046, TouchPanels, Version=1.0.0.0, Culture=neutral, Publi" +
 								"cKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")),
@@ -10758,7 +10767,7 @@ namespace __Interop
 					ParentCCWTemplateIndex = 25,
 					IsWinRTType = false,
 				}, 
-				// Index = 32
+				// Index = 33
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Threading.Tasks.Task`1[[System.Threading.Tasks.VoidTaskResult, System.Private.CoreLib, Version=4.0.0.0, C" +
 								"ulture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, Pu" +
@@ -10768,7 +10777,7 @@ namespace __Interop
 					ParentCCWTemplateIndex = 25,
 					IsWinRTType = false,
 				}, 
-				// Index = 33
+				// Index = 34
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, Publ" +
 								"icKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7" +
@@ -10778,16 +10787,16 @@ namespace __Interop
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
 				}, 
-				// Index = 34
+				// Index = 35
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Microsoft.Win32.SafeHandles.SafeFileHandle, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyT" +
 								"oken=b03f5f7f11d50a3a")),
 					SupportedInterfaceListBeginIndex = 8,
 					NumberOfSupportedInterface = 0,
-					ParentCCWTemplateIndex = 35,
+					ParentCCWTemplateIndex = 36,
 					IsWinRTType = false,
 				}, 
-				// Index = 35
+				// Index = 36
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid, System.Private.CoreLib, Version=4.0.0.0, Culture=" +
 								"neutral, PublicKeyToken=b03f5f7f11d50a3a")),
@@ -10796,16 +10805,16 @@ namespace __Interop
 					ParentCCWTemplateIndex = 22,
 					IsWinRTType = false,
 				}, 
-				// Index = 36
+				// Index = 37
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Net.Sockets.SafeCloseSocket, System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7" +
 								"f11d50a3a")),
 					SupportedInterfaceListBeginIndex = 8,
 					NumberOfSupportedInterface = 0,
-					ParentCCWTemplateIndex = 37,
+					ParentCCWTemplateIndex = 38,
 					IsWinRTType = false,
 				}, 
-				// Index = 37
+				// Index = 38
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid, System.Private.CoreLib, Version=4.0.0.0, Culture=neutra" +
 								"l, PublicKeyToken=b03f5f7f11d50a3a")),
@@ -10814,30 +10823,21 @@ namespace __Interop
 					ParentCCWTemplateIndex = 22,
 					IsWinRTType = false,
 				}, 
-				// Index = 38
+				// Index = 39
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.IO.Ports.SerialPort, System.IO.Ports, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51")),
 					SupportedInterfaceListBeginIndex = 8,
 					NumberOfSupportedInterface = 0,
-					ParentCCWTemplateIndex = 39,
+					ParentCCWTemplateIndex = 40,
 					IsWinRTType = false,
 				}, 
-				// Index = 39
+				// Index = 40
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.ComponentModel.Component, System.ComponentModel.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyTo" +
 								"ken=b03f5f7f11d50a3a")),
 					SupportedInterfaceListBeginIndex = 45,
 					NumberOfSupportedInterface = 1,
 					ParentCCWTemplateIndex = -1,
-					IsWinRTType = false,
-				}, 
-				// Index = 40
-				new global::System.Runtime.InteropServices.CCWTemplateData() {
-					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Net.Sockets.NetworkStream, System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f1" +
-								"1d50a3a")),
-					SupportedInterfaceListBeginIndex = 8,
-					NumberOfSupportedInterface = 0,
-					ParentCCWTemplateIndex = 23,
 					IsWinRTType = false,
 				}, 
 				// Index = 41
@@ -10883,7 +10883,7 @@ namespace __Interop
 								"ublicKeyToken=b03f5f7f11d50a3a")),
 					SupportedInterfaceListBeginIndex = 8,
 					NumberOfSupportedInterface = 0,
-					ParentCCWTemplateIndex = 37,
+					ParentCCWTemplateIndex = 38,
 					IsWinRTType = false,
 				}, 
 				// Index = 46
@@ -10994,6 +10994,15 @@ namespace __Interop
 				}, 
 				// Index = 58
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
+					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs, System.Net.Sockets, Version=4.2.1.0, Culture=neutral, P" +
+								"ublicKeyToken=b03f5f7f11d50a3a")),
+					SupportedInterfaceListBeginIndex = 8,
+					NumberOfSupportedInterface = 0,
+					ParentCCWTemplateIndex = 48,
+					IsWinRTType = false,
+				}, 
+				// Index = 59
+				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Threading.ExecutionContext, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f" +
 								"5f7f11d50a3a")),
 					SupportedInterfaceListBeginIndex = 45,
@@ -11001,22 +11010,13 @@ namespace __Interop
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
 				}, 
-				// Index = 59
+				// Index = 60
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Threading.ThreadPoolBoundHandle, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken" +
 								"=b03f5f7f11d50a3a")),
 					SupportedInterfaceListBeginIndex = 45,
 					NumberOfSupportedInterface = 1,
 					ParentCCWTemplateIndex = -1,
-					IsWinRTType = false,
-				}, 
-				// Index = 60
-				new global::System.Runtime.InteropServices.CCWTemplateData() {
-					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs, System.Net.Sockets, Version=4.2.1.0, Culture=neutral, P" +
-								"ublicKeyToken=b03f5f7f11d50a3a")),
-					SupportedInterfaceListBeginIndex = 8,
-					NumberOfSupportedInterface = 0,
-					ParentCCWTemplateIndex = 48,
 					IsWinRTType = false,
 				}, 
 				// Index = 61
@@ -11048,15 +11048,6 @@ namespace __Interop
 				}, 
 				// Index = 64
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
-					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.SafeBuffer, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyTo" +
-								"ken=b03f5f7f11d50a3a")),
-					SupportedInterfaceListBeginIndex = 8,
-					NumberOfSupportedInterface = 0,
-					ParentCCWTemplateIndex = 35,
-					IsWinRTType = false,
-				}, 
-				// Index = 65
-				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Microsoft.Win32.SafeHandles.SafeAccessTokenHandle, System.Security.Principal.Windows, Version=4.1.1.0, Culture=n" +
 								"eutral, PublicKeyToken=b03f5f7f11d50a3a")),
 					SupportedInterfaceListBeginIndex = 8,
@@ -11064,7 +11055,25 @@ namespace __Interop
 					ParentCCWTemplateIndex = 22,
 					IsWinRTType = false,
 				}, 
+				// Index = 65
+				new global::System.Runtime.InteropServices.CCWTemplateData() {
+					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Net.Sockets.SafeFreeAddrInfo, System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken" +
+								"=b03f5f7f11d50a3a")),
+					SupportedInterfaceListBeginIndex = 8,
+					NumberOfSupportedInterface = 0,
+					ParentCCWTemplateIndex = 36,
+					IsWinRTType = false,
+				}, 
 				// Index = 66
+				new global::System.Runtime.InteropServices.CCWTemplateData() {
+					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.SafeBuffer, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyTo" +
+								"ken=b03f5f7f11d50a3a")),
+					SupportedInterfaceListBeginIndex = 8,
+					NumberOfSupportedInterface = 0,
+					ParentCCWTemplateIndex = 36,
+					IsWinRTType = false,
+				}, 
+				// Index = 67
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Net.Sockets.SafeNativeOverlapped, System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b0" +
 								"3f5f7f11d50a3a")),
@@ -11073,16 +11082,25 @@ namespace __Interop
 					ParentCCWTemplateIndex = 22,
 					IsWinRTType = false,
 				}, 
-				// Index = 67
+				// Index = 68
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
-					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Net.Sockets.SafeFreeAddrInfo, System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken" +
-								"=b03f5f7f11d50a3a")),
-					SupportedInterfaceListBeginIndex = 8,
-					NumberOfSupportedInterface = 0,
-					ParentCCWTemplateIndex = 35,
+					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Microsoft.Win32.SafeHandles.SafeLocalAllocHandle, System.Security.Principal.Windows, Version=4.1.1.0, Culture=ne" +
+								"utral, PublicKeyToken=b03f5f7f11d50a3a")),
+					SupportedInterfaceListBeginIndex = 45,
+					NumberOfSupportedInterface = 1,
+					ParentCCWTemplateIndex = 66,
 					IsWinRTType = false,
 				}, 
-				// Index = 68
+				// Index = 69
+				new global::System.Runtime.InteropServices.CCWTemplateData() {
+					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Microsoft.Win32.SafeHandles.SafeLsaReturnBufferHandle, System.Security.Principal.Windows, Version=4.1.1.0, Cultu" +
+								"re=neutral, PublicKeyToken=b03f5f7f11d50a3a")),
+					SupportedInterfaceListBeginIndex = 8,
+					NumberOfSupportedInterface = 0,
+					ParentCCWTemplateIndex = 66,
+					IsWinRTType = false,
+				}, 
+				// Index = 70
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.IO.BufferedStream, System.Runtime.Extensions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11" +
 								"d50a3a")),
@@ -11091,7 +11109,7 @@ namespace __Interop
 					ParentCCWTemplateIndex = 23,
 					IsWinRTType = false,
 				}, 
-				// Index = 69
+				// Index = 71
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.IO.WinRtToNetFxStreamAdapter, System.Runtime.WindowsRuntime, Version=4.0.14.0, Culture=neutral, PublicKey" +
 								"Token=b77a5c561934e089")),
@@ -11100,48 +11118,30 @@ namespace __Interop
 					ParentCCWTemplateIndex = 23,
 					IsWinRTType = false,
 				}, 
-				// Index = 70
-				new global::System.Runtime.InteropServices.CCWTemplateData() {
-					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Microsoft.Win32.SafeHandles.SafeLocalAllocHandle, System.Security.Principal.Windows, Version=4.1.1.0, Culture=ne" +
-								"utral, PublicKeyToken=b03f5f7f11d50a3a")),
-					SupportedInterfaceListBeginIndex = 45,
-					NumberOfSupportedInterface = 1,
-					ParentCCWTemplateIndex = 64,
-					IsWinRTType = false,
-				}, 
-				// Index = 71
-				new global::System.Runtime.InteropServices.CCWTemplateData() {
-					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Microsoft.Win32.SafeHandles.SafeLsaReturnBufferHandle, System.Security.Principal.Windows, Version=4.1.1.0, Cultu" +
-								"re=neutral, PublicKeyToken=b03f5f7f11d50a3a")),
-					SupportedInterfaceListBeginIndex = 8,
-					NumberOfSupportedInterface = 0,
-					ParentCCWTemplateIndex = 64,
-					IsWinRTType = false,
-				}, 
 				// Index = 72
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
-					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeBuffer, System.Runtime.WindowsRuntime, Version=4.0.1" +
-								"4.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")),
+					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Security.Principal.WindowsIdentity+<get_Claims>d__82, System.Security.Principal.Windows, Version=4.1.1.0," +
+								" Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")),
 					SupportedInterfaceListBeginIndex = 83,
-					NumberOfSupportedInterface = 4,
+					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
 				}, 
 				// Index = 73
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
-					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Security.Principal.WindowsIdentity+<get_Claims>d__82, System.Security.Principal.Windows, Version=4.1.1.0," +
-								" Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")),
-					SupportedInterfaceListBeginIndex = 87,
+					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Security.Claims.ClaimsIdentity+<CombinedClaimsIterator>d__44, System.Security.Claims, Version=4.1.1.0, Cu" +
+								"lture=neutral, PublicKeyToken=b03f5f7f11d50a3a")),
+					SupportedInterfaceListBeginIndex = 83,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
 				}, 
 				// Index = 74
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
-					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Security.Claims.ClaimsIdentity+<CombinedClaimsIterator>d__44, System.Security.Claims, Version=4.1.1.0, Cu" +
-								"lture=neutral, PublicKeyToken=b03f5f7f11d50a3a")),
-					SupportedInterfaceListBeginIndex = 87,
-					NumberOfSupportedInterface = 3,
+					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeBuffer, System.Runtime.WindowsRuntime, Version=4.0.1" +
+								"4.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")),
+					SupportedInterfaceListBeginIndex = 86,
+					NumberOfSupportedInterface = 4,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
 				}, 
@@ -11151,7 +11151,7 @@ namespace __Interop
 								"tral, PublicKeyToken=b03f5f7f11d50a3a")),
 					SupportedInterfaceListBeginIndex = 8,
 					NumberOfSupportedInterface = 0,
-					ParentCCWTemplateIndex = 35,
+					ParentCCWTemplateIndex = 36,
 					IsWinRTType = false,
 				}, 
 				// Index = 76
@@ -11160,7 +11160,7 @@ namespace __Interop
 								"tral, PublicKeyToken=b03f5f7f11d50a3a")),
 					SupportedInterfaceListBeginIndex = 8,
 					NumberOfSupportedInterface = 0,
-					ParentCCWTemplateIndex = 64,
+					ParentCCWTemplateIndex = 66,
 					IsWinRTType = false,
 				}, 
 				// Index = 77
@@ -12027,35 +12027,35 @@ namespace __Interop
 				}, 
 				// index: 36
 				new global::System.Runtime.InteropServices.McgStructMarshalData() {
-					FixupSafeStructType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::_.Interop_Winsock_Linger__System_Net_Sockets).TypeHandle),
-					FixupUnsafeStructType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::_.Interop_Winsock_Linger__System_Net_Sockets).TypeHandle),
+					FixupSafeStructType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::_.Interop_Winsock_WSAData__System_Net_NameResolution).TypeHandle),
+					FixupUnsafeStructType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::_.Interop_Winsock_WSAData__System_Net_NameResolution__Impl.UnsafeType).TypeHandle),
+					MarshalStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget143>(global::_.Interop_Winsock_WSAData__System_Net_NameResolution__Impl.Marshal__SafeToUnsafe),
+					UnmarshalStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget144>(global::_.Interop_Winsock_WSAData__System_Net_NameResolution__Impl.Marshal__UnsafeToSafe),
 					FieldOffsetStartIndex = 148,
-					NumOfFields = 2,
+					NumOfFields = 7,
 				}, 
 				// index: 37
 				new global::System.Runtime.InteropServices.McgStructMarshalData() {
-					FixupSafeStructType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::_.Interop_Winsock_IPMulticastRequest__System_Net_Sockets).TypeHandle),
-					FixupUnsafeStructType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::_.Interop_Winsock_IPMulticastRequest__System_Net_Sockets).TypeHandle),
-					FieldOffsetStartIndex = 150,
+					FixupSafeStructType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::_.Interop_Winsock_Linger__System_Net_Sockets).TypeHandle),
+					FixupUnsafeStructType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::_.Interop_Winsock_Linger__System_Net_Sockets).TypeHandle),
+					FieldOffsetStartIndex = 155,
 					NumOfFields = 2,
 				}, 
 				// index: 38
 				new global::System.Runtime.InteropServices.McgStructMarshalData() {
-					FixupSafeStructType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets).TypeHandle),
-					FixupUnsafeStructType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.UnsafeType).TypeHandle),
-					MarshalStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget143>(global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.Marshal__SafeToUnsafe),
-					UnmarshalStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget144>(global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.Marshal__UnsafeToSafe),
-					FieldOffsetStartIndex = 152,
+					FixupSafeStructType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::_.Interop_Winsock_IPMulticastRequest__System_Net_Sockets).TypeHandle),
+					FixupUnsafeStructType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::_.Interop_Winsock_IPMulticastRequest__System_Net_Sockets).TypeHandle),
+					FieldOffsetStartIndex = 157,
 					NumOfFields = 2,
 				}, 
 				// index: 39
 				new global::System.Runtime.InteropServices.McgStructMarshalData() {
-					FixupSafeStructType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::_.Interop_Winsock_WSAData__System_Net_NameResolution).TypeHandle),
-					FixupUnsafeStructType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::_.Interop_Winsock_WSAData__System_Net_NameResolution__Impl.UnsafeType).TypeHandle),
-					MarshalStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget145>(global::_.Interop_Winsock_WSAData__System_Net_NameResolution__Impl.Marshal__SafeToUnsafe),
-					UnmarshalStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget146>(global::_.Interop_Winsock_WSAData__System_Net_NameResolution__Impl.Marshal__UnsafeToSafe),
-					FieldOffsetStartIndex = 154,
-					NumOfFields = 7,
+					FixupSafeStructType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets).TypeHandle),
+					FixupUnsafeStructType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.UnsafeType).TypeHandle),
+					MarshalStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget145>(global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.Marshal__SafeToUnsafe),
+					UnmarshalStub = global::__Interop.Intrinsics.AddrOf<global::__Interop.AddrOfIntrinsics.AddrOfTarget146>(global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.Marshal__UnsafeToSafe),
+					FieldOffsetStartIndex = 159,
+					NumOfFields = 2,
 				}, 
 				// index: 40
 				new global::System.Runtime.InteropServices.McgStructMarshalData() {
@@ -12384,19 +12384,19 @@ namespace __Interop
 				37007, // FixedElementField
 				37025, // Seconds
 				37033, // Microseconds
-				37046, // OnOff
-				37052, // Time
-				37057, // MulticastAddress
-				37074, // InterfaceAddress
-				37057, // MulticastAddress
-				37091, // InterfaceIndex
-				37106, // wVersion
-				37115, // wHighVersion
-				37128, // szDescription
-				37142, // szSystemStatus
-				37157, // iMaxSockets
-				37169, // iMaxUdpDg
-				37179, // lpVendorInfo
+				37046, // wVersion
+				37055, // wHighVersion
+				37068, // szDescription
+				37082, // szSystemStatus
+				37097, // iMaxSockets
+				37109, // iMaxUdpDg
+				37119, // lpVendorInfo
+				37132, // OnOff
+				37138, // Time
+				37143, // MulticastAddress
+				37160, // InterfaceAddress
+				37143, // MulticastAddress
+				37177, // InterfaceIndex
 				37192, // ai_flags
 				37201, // ai_family
 				37211, // ai_socktype
@@ -12938,24 +12938,6 @@ namespace __Interop
 					Offset = 0x2u,
 				}, 
 				new global::System.Runtime.InteropServices.McgUnsafeStructFieldOffsetData() {
-					Offset = 0x0u,
-				}, 
-				new global::System.Runtime.InteropServices.McgUnsafeStructFieldOffsetData() {
-					Offset = 0x4u,
-				}, 
-				new global::System.Runtime.InteropServices.McgUnsafeStructFieldOffsetData() {
-					Offset = 0x0u,
-				}, 
-				new global::System.Runtime.InteropServices.McgUnsafeStructFieldOffsetData() {
-					Offset = 0x10u,
-				}, 
-				new global::System.Runtime.InteropServices.McgUnsafeStructFieldOffsetData() {
-					Offset = 0x0u,
-				}, 
-				new global::System.Runtime.InteropServices.McgUnsafeStructFieldOffsetData() {
-					Offset = 0x2u,
-				}, 
-				new global::System.Runtime.InteropServices.McgUnsafeStructFieldOffsetData() {
 					Offset = 0x4u,
 				}, 
 				new global::System.Runtime.InteropServices.McgUnsafeStructFieldOffsetData() {
@@ -12969,6 +12951,24 @@ namespace __Interop
 				}, 
 				new global::System.Runtime.InteropServices.McgUnsafeStructFieldOffsetData() {
 					Offset = 0x18Cu,
+				}, 
+				new global::System.Runtime.InteropServices.McgUnsafeStructFieldOffsetData() {
+					Offset = 0x0u,
+				}, 
+				new global::System.Runtime.InteropServices.McgUnsafeStructFieldOffsetData() {
+					Offset = 0x2u,
+				}, 
+				new global::System.Runtime.InteropServices.McgUnsafeStructFieldOffsetData() {
+					Offset = 0x0u,
+				}, 
+				new global::System.Runtime.InteropServices.McgUnsafeStructFieldOffsetData() {
+					Offset = 0x4u,
+				}, 
+				new global::System.Runtime.InteropServices.McgUnsafeStructFieldOffsetData() {
+					Offset = 0x0u,
+				}, 
+				new global::System.Runtime.InteropServices.McgUnsafeStructFieldOffsetData() {
+					Offset = 0x10u,
 				}, 
 				new global::System.Runtime.InteropServices.McgUnsafeStructFieldOffsetData() {
 					Offset = 0x0u,
@@ -14902,11 +14902,6 @@ namespace __Interop
 		    F, i, x, e, d, E, l, e, m, e, n, t, F, i, e, l, d, 0, 
 		    S, e, c, o, n, d, s, 0, 
 		    M, i, c, r, o, s, e, c, o, n, d, s, 0, 
-		    O, n, O, f, f, 0, 
-		    T, i, m, e, 0, 
-		    M, u, l, t, i, c, a, s, t, A, d, d, r, e, s, s, 0, 
-		    I, n, t, e, r, f, a, c, e, A, d, d, r, e, s, s, 0, 
-		    I, n, t, e, r, f, a, c, e, I, n, d, e, x, 0, 
 		    w, V, e, r, s, i, o, n, 0, 
 		    w, H, i, g, h, V, e, r, s, i, o, n, 0, 
 		    s, z, D, e, s, c, r, i, p, t, i, o, n, 0, 
@@ -14914,6 +14909,11 @@ namespace __Interop
 		    i, M, a, x, S, o, c, k, e, t, s, 0, 
 		    i, M, a, x, U, d, p, D, g, 0, 
 		    l, p, V, e, n, d, o, r, I, n, f, o, 0, 
+		    O, n, O, f, f, 0, 
+		    T, i, m, e, 0, 
+		    M, u, l, t, i, c, a, s, t, A, d, d, r, e, s, s, 0, 
+		    I, n, t, e, r, f, a, c, e, A, d, d, r, e, s, s, 0, 
+		    I, n, t, e, r, f, a, c, e, I, n, d, e, x, 0, 
 		    a, i, 95, f, l, a, g, s, 0, 
 		    a, i, 95, f, a, m, i, l, y, 0, 
 		    a, i, 95, s, o, c, k, t, y, p, e, 0, 
@@ -17492,31 +17492,31 @@ namespace __Interop
 			[global::System.Runtime.CompilerServices.MethodAddrFixup(4, typeof(global::Interop_Winsock_LPLOOKUPSERVICE_COMPLETION_ROUTINE__System_Net_NameResolution__Impl), "ReverseDelegateStub")]
 			[global::System.Runtime.CompilerServices.MethodAddrFixup(8, typeof(global::Interop_Winsock_LPLOOKUPSERVICE_COMPLETION_ROUTINE__System_Net_NameResolution__Impl), "ReverseOpenStaticDelegateStub")]
 			[global::System.Runtime.CompilerServices.MethodAddrFixup(12, typeof(global::Interop_Winsock_LPLOOKUPSERVICE_COMPLETION_ROUTINE__System_Net_NameResolution__Impl), "ForwardDelegateCreationStub")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(16, "System.Net.Sockets.ConnectExDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f" +
-				"7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(20, typeof(global::System.Net.Sockets.ConnectExDelegate__System_Net_Sockets__Impl), "ReverseDelegateStub")]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Net.Sockets.ConnectExDelegate__System_Net_Sockets__Impl), "ReverseOpenStaticDelegateStub")]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(28, typeof(global::System.Net.Sockets.ConnectExDelegate__System_Net_Sockets__Impl), "ForwardDelegateCreationStub")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(32, "System.Net.Sockets.GetAcceptExSockaddrsDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyT" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(16, "System.Net.Sockets.DisconnectExDelegateBlocking,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyT" +
 				"oken=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(36, typeof(global::System.Net.Sockets.GetAcceptExSockaddrsDelegate__System_Net_Sockets__Impl), "ReverseDelegateStub")]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Net.Sockets.GetAcceptExSockaddrsDelegate__System_Net_Sockets__Impl), "ReverseOpenStaticDelegateStub")]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(44, typeof(global::System.Net.Sockets.GetAcceptExSockaddrsDelegate__System_Net_Sockets__Impl), "ForwardDelegateCreationStub")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(48, "System.Net.Sockets.AcceptExDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7" +
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(20, typeof(global::System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets__Impl), "ReverseDelegateStub")]
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(24, typeof(global::System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets__Impl), "ReverseOpenStaticDelegateStub")]
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(28, typeof(global::System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets__Impl), "ForwardDelegateCreationStub")]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(32, "System.Net.Sockets.AcceptExDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7" +
 				"f11d50a3a")]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(52, typeof(global::System.Net.Sockets.AcceptExDelegate__System_Net_Sockets__Impl), "ReverseDelegateStub")]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(56, typeof(global::System.Net.Sockets.AcceptExDelegate__System_Net_Sockets__Impl), "ReverseOpenStaticDelegateStub")]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(60, typeof(global::System.Net.Sockets.AcceptExDelegate__System_Net_Sockets__Impl), "ForwardDelegateCreationStub")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(64, "System.Net.Sockets.DisconnectExDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03" +
-				"f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(68, typeof(global::System.Net.Sockets.DisconnectExDelegate__System_Net_Sockets__Impl), "ReverseDelegateStub")]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(72, typeof(global::System.Net.Sockets.DisconnectExDelegate__System_Net_Sockets__Impl), "ReverseOpenStaticDelegateStub")]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(76, typeof(global::System.Net.Sockets.DisconnectExDelegate__System_Net_Sockets__Impl), "ForwardDelegateCreationStub")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(80, "System.Net.Sockets.DisconnectExDelegateBlocking,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyT" +
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(36, typeof(global::System.Net.Sockets.AcceptExDelegate__System_Net_Sockets__Impl), "ReverseDelegateStub")]
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(40, typeof(global::System.Net.Sockets.AcceptExDelegate__System_Net_Sockets__Impl), "ReverseOpenStaticDelegateStub")]
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(44, typeof(global::System.Net.Sockets.AcceptExDelegate__System_Net_Sockets__Impl), "ForwardDelegateCreationStub")]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(48, "System.Net.Sockets.GetAcceptExSockaddrsDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyT" +
 				"oken=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(84, typeof(global::System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets__Impl), "ReverseDelegateStub")]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(88, typeof(global::System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets__Impl), "ReverseOpenStaticDelegateStub")]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(92, typeof(global::System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets__Impl), "ForwardDelegateCreationStub")]
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(52, typeof(global::System.Net.Sockets.GetAcceptExSockaddrsDelegate__System_Net_Sockets__Impl), "ReverseDelegateStub")]
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(56, typeof(global::System.Net.Sockets.GetAcceptExSockaddrsDelegate__System_Net_Sockets__Impl), "ReverseOpenStaticDelegateStub")]
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(60, typeof(global::System.Net.Sockets.GetAcceptExSockaddrsDelegate__System_Net_Sockets__Impl), "ForwardDelegateCreationStub")]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(64, "System.Net.Sockets.ConnectExDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f" +
+				"7f11d50a3a")]
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(68, typeof(global::System.Net.Sockets.ConnectExDelegate__System_Net_Sockets__Impl), "ReverseDelegateStub")]
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(72, typeof(global::System.Net.Sockets.ConnectExDelegate__System_Net_Sockets__Impl), "ReverseOpenStaticDelegateStub")]
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(76, typeof(global::System.Net.Sockets.ConnectExDelegate__System_Net_Sockets__Impl), "ForwardDelegateCreationStub")]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(80, "System.Net.Sockets.DisconnectExDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03" +
+				"f5f7f11d50a3a")]
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(84, typeof(global::System.Net.Sockets.DisconnectExDelegate__System_Net_Sockets__Impl), "ReverseDelegateStub")]
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(88, typeof(global::System.Net.Sockets.DisconnectExDelegate__System_Net_Sockets__Impl), "ReverseOpenStaticDelegateStub")]
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(92, typeof(global::System.Net.Sockets.DisconnectExDelegate__System_Net_Sockets__Impl), "ForwardDelegateCreationStub")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(96, "System.Net.Sockets.WSARecvMsgDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5" +
 				"f7f11d50a3a")]
 			[global::System.Runtime.CompilerServices.MethodAddrFixup(100, typeof(global::System.Net.Sockets.WSARecvMsgDelegate__System_Net_Sockets__Impl), "ReverseDelegateStub")]
@@ -17588,33 +17588,33 @@ namespace __Interop
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(1120, "System.Threading.Tasks.Task`1[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKey" +
 				"Token=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d5" +
 				"0a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1160, "System.Threading.Tasks.Task`1[[TouchPanels.Algorithms.AffineTransformationParameters, TouchPanels, Version=1.0.0" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1160, "System.Net.Sockets.NetworkStream, System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f1" +
+				"1d50a3a")]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1200, "System.Threading.Tasks.Task`1[[TouchPanels.Algorithms.AffineTransformationParameters, TouchPanels, Version=1.0.0" +
 				".0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKey" +
 				"Token=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1200, "System.Threading.Tasks.Task`1[[Windows.Foundation.Point, System.Private.Interop, Version=999.999.999.999, Cultur" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1240, "System.Threading.Tasks.Task`1[[Windows.Foundation.Point, System.Private.Interop, Version=999.999.999.999, Cultur" +
 				"e=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicK" +
 				"eyToken=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1240, "System.Threading.Tasks.Task`1[[TouchPanels.Devices.Tsc2046, TouchPanels, Version=1.0.0.0, Culture=neutral, Publi" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1280, "System.Threading.Tasks.Task`1[[TouchPanels.Devices.Tsc2046, TouchPanels, Version=1.0.0.0, Culture=neutral, Publi" +
 				"cKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1280, "System.Threading.Tasks.Task`1[[System.Threading.Tasks.VoidTaskResult, System.Private.CoreLib, Version=4.0.0.0, C" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1320, "System.Threading.Tasks.Task`1[[System.Threading.Tasks.VoidTaskResult, System.Private.CoreLib, Version=4.0.0.0, C" +
 				"ulture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, Pu" +
 				"blicKeyToken=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1320, "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, Publ" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1360, "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, Publ" +
 				"icKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7" +
 				"f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1360, "Microsoft.Win32.SafeHandles.SafeFileHandle, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyT" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1400, "Microsoft.Win32.SafeHandles.SafeFileHandle, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyT" +
 				"oken=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1400, "Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid, System.Private.CoreLib, Version=4.0.0.0, Culture=" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1440, "Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid, System.Private.CoreLib, Version=4.0.0.0, Culture=" +
 				"neutral, PublicKeyToken=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1440, "System.Net.Sockets.SafeCloseSocket, System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1480, "System.Net.Sockets.SafeCloseSocket, System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7" +
 				"f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1480, "Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid, System.Private.CoreLib, Version=4.0.0.0, Culture=neutra" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1520, "Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid, System.Private.CoreLib, Version=4.0.0.0, Culture=neutra" +
 				"l, PublicKeyToken=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1520, "System.IO.Ports.SerialPort, System.IO.Ports, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1560, "System.ComponentModel.Component, System.ComponentModel.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyTo" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1560, "System.IO.Ports.SerialPort, System.IO.Ports, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51")]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1600, "System.ComponentModel.Component, System.ComponentModel.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyTo" +
 				"ken=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1600, "System.Net.Sockets.NetworkStream, System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f1" +
-				"1d50a3a")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(1640, "System.Net.Sockets.Socket, System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 				"")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(1680, "System.IO.TextWriter, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
@@ -17648,40 +17648,40 @@ namespace __Interop
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(2200, @"System.Linq.Enumerable+SelectEnumerableIterator`2[[System.Tuple`2[[Windows.Foundation.Point, System.Private.Interop, Version=999.999.999.999, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[Windows.Foundation.Point, System.Private.Interop, Version=999.999.999.999, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[Windows.Foundation.Point, System.Private.Interop, Version=999.999.999.999, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Linq, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(2240, "System.IO.SyncTextWriter, System.Console, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(2280, @"System.Linq.Enumerable+<OfTypeIterator>d__35`1[[Windows.UI.Xaml.FrameworkElement, Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime]], System.Linq, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(2320, "System.Threading.ExecutionContext, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f" +
-				"5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(2360, "System.Threading.ThreadPoolBoundHandle, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken" +
-				"=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(2400, "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs, System.Net.Sockets, Version=4.2.1.0, Culture=neutral, P" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(2320, "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs, System.Net.Sockets, Version=4.2.1.0, Culture=neutral, P" +
 				"ublicKeyToken=b03f5f7f11d50a3a")]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(2360, "System.Threading.ExecutionContext, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f" +
+				"5f7f11d50a3a")]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(2400, "System.Threading.ThreadPoolBoundHandle, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken" +
+				"=b03f5f7f11d50a3a")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(2440, "System.Threading.ManualResetEvent, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f" +
 				"5f7f11d50a3a")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(2480, "System.Threading.EventWaitHandle, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5" +
 				"f7f11d50a3a")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(2520, "System.Threading.PreAllocatedOverlapped, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToke" +
 				"n=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(2560, "System.Runtime.InteropServices.SafeBuffer, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyTo" +
-				"ken=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(2600, "Microsoft.Win32.SafeHandles.SafeAccessTokenHandle, System.Security.Principal.Windows, Version=4.1.1.0, Culture=n" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(2560, "Microsoft.Win32.SafeHandles.SafeAccessTokenHandle, System.Security.Principal.Windows, Version=4.1.1.0, Culture=n" +
 				"eutral, PublicKeyToken=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(2640, "System.Net.Sockets.SafeNativeOverlapped, System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b0" +
-				"3f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(2680, "System.Net.Sockets.SafeFreeAddrInfo, System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(2600, "System.Net.Sockets.SafeFreeAddrInfo, System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken" +
 				"=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(2720, "System.IO.BufferedStream, System.Runtime.Extensions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11" +
-				"d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(2760, "System.IO.WinRtToNetFxStreamAdapter, System.Runtime.WindowsRuntime, Version=4.0.14.0, Culture=neutral, PublicKey" +
-				"Token=b77a5c561934e089")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(2800, "Microsoft.Win32.SafeHandles.SafeLocalAllocHandle, System.Security.Principal.Windows, Version=4.1.1.0, Culture=ne" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(2640, "System.Runtime.InteropServices.SafeBuffer, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyTo" +
+				"ken=b03f5f7f11d50a3a")]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(2680, "System.Net.Sockets.SafeNativeOverlapped, System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b0" +
+				"3f5f7f11d50a3a")]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(2720, "Microsoft.Win32.SafeHandles.SafeLocalAllocHandle, System.Security.Principal.Windows, Version=4.1.1.0, Culture=ne" +
 				"utral, PublicKeyToken=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(2840, "Microsoft.Win32.SafeHandles.SafeLsaReturnBufferHandle, System.Security.Principal.Windows, Version=4.1.1.0, Cultu" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(2760, "Microsoft.Win32.SafeHandles.SafeLsaReturnBufferHandle, System.Security.Principal.Windows, Version=4.1.1.0, Cultu" +
 				"re=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(2880, "System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeBuffer, System.Runtime.WindowsRuntime, Version=4.0.1" +
-				"4.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(2920, "System.Security.Principal.WindowsIdentity+<get_Claims>d__82, System.Security.Principal.Windows, Version=4.1.1.0," +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(2800, "System.IO.BufferedStream, System.Runtime.Extensions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11" +
+				"d50a3a")]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(2840, "System.IO.WinRtToNetFxStreamAdapter, System.Runtime.WindowsRuntime, Version=4.0.14.0, Culture=neutral, PublicKey" +
+				"Token=b77a5c561934e089")]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(2880, "System.Security.Principal.WindowsIdentity+<get_Claims>d__82, System.Security.Principal.Windows, Version=4.1.1.0," +
 				" Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(2960, "System.Security.Claims.ClaimsIdentity+<CombinedClaimsIterator>d__44, System.Security.Claims, Version=4.1.1.0, Cu" +
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(2920, "System.Security.Claims.ClaimsIdentity+<CombinedClaimsIterator>d__44, System.Security.Claims, Version=4.1.1.0, Cu" +
 				"lture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(2960, "System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeBuffer, System.Runtime.WindowsRuntime, Version=4.0.1" +
+				"4.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(3000, "Microsoft.Win32.SafeHandles.SafeLsaPolicyHandle, System.Security.Principal.Windows, Version=4.1.1.0, Culture=neu" +
 				"tral, PublicKeyToken=b03f5f7f11d50a3a")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(3040, "Microsoft.Win32.SafeHandles.SafeLsaMemoryHandle, System.Security.Principal.Windows, Version=4.1.1.0, Culture=neu" +
@@ -17735,20 +17735,20 @@ namespace __Interop
 					0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x2D, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 
 					0xFF, 0xFF, 0x2F, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0x14, 0xD5, 0xFD, 0x4F, 0xEC, 0x7D, 0xCF, 0x47, 0xA0, 0xAD, 0x49, 0x71, 0x86, 0x8D, 0x84, 0x55, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x2D, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 
 					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x19, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x19, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x17, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 					0, 0, 0, 0, 0, 0, 0, 0, 0x19, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x19, 0x0, 
 					0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x19, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 
-					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x30, 0x0, 0x0, 0x0, 0xB, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x23, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0x16, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x25, 0x0, 
-					0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x16, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 
-					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x27, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x2D, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0x17, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 
+					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x19, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x30, 0x0, 0x0, 0x0, 0xB, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0x24, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x16, 0x0, 
+					0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x26, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 
+					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x16, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x28, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x2D, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 
 					0xFF, 0xFF, 0x2D, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x2D, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 
 					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x19, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x30, 0x0, 0x0, 0x0, 0xB, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0x25, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x1C, 0x0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0x26, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x1C, 0x0, 
 					0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x30, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 
 					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x2D, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x32, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -17758,21 +17758,21 @@ namespace __Interop
 					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x34, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 					0, 0, 0, 0, 0, 0, 0, 0, 0x34, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x2A, 0x0, 
 					0x0, 0x0, 0x2D, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x3E, 0x0, 0x0, 0x0, 0x15, 0x0, 0x0, 0x0, 
-					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x2D, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x30, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x2D, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0x30, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x3E, 0x0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x2D, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x3E, 0x0, 
 					0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x1B, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 
 					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x2D, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x23, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0x16, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x16, 0x0, 
-					0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x23, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 
-					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x17, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x17, 0x0, 0x0, 0x0, 0x2D, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0x40, 0x0, 0x0, 0x0, 0x2D, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x40, 0x0, 
-					0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x53, 0x0, 0x0, 0x0, 0x4, 0x0, 0x0, 0x0, 
-					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x57, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x57, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0x23, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x40, 0x0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x16, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0x24, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x24, 0x0, 
+					0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x16, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 
+					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x42, 0x0, 0x0, 0x0, 0x2D, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x42, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0x17, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x17, 0x0, 
+					0x0, 0x0, 0x2D, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x53, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 
+					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x53, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x56, 0x0, 0x0, 0x0, 0x4, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0x24, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x42, 0x0, 
 					0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x5A, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 
 					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x5C, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x5E, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -17965,18 +17965,18 @@ namespace __Interop
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(1092, typeof(global::_.Interop_Kernel32_CPINFOEXW__CodePageName_e__FixedBuffer__System_Text_Encoding_CodePages))]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(1120, typeof(global::_.Interop_Winsock_TimeValue__System_Net_Sockets))]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(1124, typeof(global::_.Interop_Winsock_TimeValue__System_Net_Sockets))]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1152, typeof(global::_.Interop_Winsock_Linger__System_Net_Sockets))]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1156, typeof(global::_.Interop_Winsock_Linger__System_Net_Sockets))]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1184, typeof(global::_.Interop_Winsock_IPMulticastRequest__System_Net_Sockets))]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1188, typeof(global::_.Interop_Winsock_IPMulticastRequest__System_Net_Sockets))]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1216, typeof(global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets))]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1220, typeof(global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.UnsafeType))]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(1224, typeof(global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl), "Marshal__SafeToUnsafe")]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(1228, typeof(global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl), "Marshal__UnsafeToSafe")]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1248, typeof(global::_.Interop_Winsock_WSAData__System_Net_NameResolution))]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(1252, typeof(global::_.Interop_Winsock_WSAData__System_Net_NameResolution__Impl.UnsafeType))]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(1256, typeof(global::_.Interop_Winsock_WSAData__System_Net_NameResolution__Impl), "Marshal__SafeToUnsafe")]
-			[global::System.Runtime.CompilerServices.MethodAddrFixup(1260, typeof(global::_.Interop_Winsock_WSAData__System_Net_NameResolution__Impl), "Marshal__UnsafeToSafe")]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1152, typeof(global::_.Interop_Winsock_WSAData__System_Net_NameResolution))]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1156, typeof(global::_.Interop_Winsock_WSAData__System_Net_NameResolution__Impl.UnsafeType))]
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(1160, typeof(global::_.Interop_Winsock_WSAData__System_Net_NameResolution__Impl), "Marshal__SafeToUnsafe")]
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(1164, typeof(global::_.Interop_Winsock_WSAData__System_Net_NameResolution__Impl), "Marshal__UnsafeToSafe")]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1184, typeof(global::_.Interop_Winsock_Linger__System_Net_Sockets))]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1188, typeof(global::_.Interop_Winsock_Linger__System_Net_Sockets))]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1216, typeof(global::_.Interop_Winsock_IPMulticastRequest__System_Net_Sockets))]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1220, typeof(global::_.Interop_Winsock_IPMulticastRequest__System_Net_Sockets))]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1248, typeof(global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets))]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(1252, typeof(global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.UnsafeType))]
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(1256, typeof(global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl), "Marshal__SafeToUnsafe")]
+			[global::System.Runtime.CompilerServices.MethodAddrFixup(1260, typeof(global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl), "Marshal__UnsafeToSafe")]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(1280, typeof(global::System_Net_Sockets.AddressInfoEx__System_Net_NameResolution))]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(1284, typeof(global::System_Net_Sockets.AddressInfoEx__System_Net_NameResolution))]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(1312, typeof(global::System_Net_Sockets.WSABuffer__System_Net_Sockets))]
@@ -18056,9 +18056,9 @@ namespace __Interop
 					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x89, 0x0, 0x0, 0x0, 0x6, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8F, 0x0, 
 					0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x90, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x91, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x92, 0x0, 0x0, 0x0, 0x2, 0x0, 
-					0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x94, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0x96, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x98, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x9A, 0x0, 0x0, 0x0, 0x7, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x94, 0x0, 0x0, 0x0, 0x7, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0x9B, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x9D, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x9F, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 					0, 0, 0, 0, 0xA1, 0x0, 0x0, 0x0, 0xB, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xAC, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 
 					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xAE, 0x0, 0x0, 0x0, 0x8, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 					0xB6, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xB8, 0x0, 0x0, 0x0, 0x6, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 

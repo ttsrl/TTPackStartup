@@ -164,6 +164,19 @@ namespace _
 		public int Microseconds;
 	}
 
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Winsock+WSAData,System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d5" +
+		"0a3a")]
+	public unsafe partial struct Interop_Winsock_WSAData__System_Net_NameResolution
+	{
+		public short wVersion;
+		public short wHighVersion;
+		public string szDescription;
+		public string szSystemStatus;
+		public short iMaxSockets;
+		public short iMaxUdpDg;
+		public global::System.IntPtr lpVendorInfo;
+	}
+
 	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Winsock+Linger,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 	public unsafe partial struct Interop_Winsock_Linger__System_Net_Sockets
 	{
@@ -187,19 +200,6 @@ namespace _
 		public int InterfaceIndex;
 	}
 
-	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Winsock+WSAData,System.Net.NameResolution, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d5" +
-		"0a3a")]
-	public unsafe partial struct Interop_Winsock_WSAData__System_Net_NameResolution
-	{
-		public short wVersion;
-		public short wHighVersion;
-		public string szDescription;
-		public string szSystemStatus;
-		public short iMaxSockets;
-		public short iMaxUdpDg;
-		public global::System.IntPtr lpVendorInfo;
-	}
-
 	[global::System.Flags]
 	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+Winsock+SocketConstructorFlags,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f" +
 		"5f7f11d50a3a")]
@@ -212,6 +212,14 @@ namespace _
 		WSA_FLAG_MULTIPOINT_D_LEAF = 16,
 	}
 
+	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+LUID,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3" +
+		"a")]
+	public unsafe partial struct Interop_LUID__System_Security_Principal_Windows
+	{
+		public uint LowPart;
+		public int HighPart;
+	}
+
 	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+BCrypt+NTSTATUS,System.Security.Cryptography.Algorithms, Version=4.3.1.0, Culture=neutral, PublicKeyToke" +
 		"n=b03f5f7f11d50a3a")]
 	public enum Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms : uint
@@ -220,14 +228,6 @@ namespace _
 		STATUS_INVALID_PARAMETER = 0xC000000Du,
 		STATUS_NO_MEMORY = 0xC0000017u,
 		STATUS_NOT_FOUND = 0xC0000225u,
-	}
-
-	[global::System.Runtime.InteropServices.McgRedirectedType("Interop+LUID,System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3" +
-		"a")]
-	public unsafe partial struct Interop_LUID__System_Security_Principal_Windows
-	{
-		public uint LowPart;
-		public int HighPart;
 	}
 
 	[global::System.Flags]
@@ -447,32 +447,6 @@ namespace _
 
 namespace __Interop
 {
-	[global::System.Runtime.InteropServices.StructLayout(global::System.Runtime.InteropServices.LayoutKind.Sequential, Size=16)]
-	public unsafe partial struct InlineArray_byte___16
-	{
-		public byte this[uint index]
-		{
-			get
-			{
-				if (index < 0 
-							|| index >= 16)
-					throw new global::System.IndexOutOfRangeException();
-				fixed (global::__Interop.InlineArray_byte___16* pThis = &(this))
-					return ((byte*)pThis)[index];
-			}
-			set
-			{
-				if (index < 0 
-							|| index >= 16)
-					throw new global::System.IndexOutOfRangeException();
-				fixed (global::__Interop.InlineArray_byte___16* pThis = &(this))
-					((byte*)pThis)[index] = value;
-			}
-		}
-		public const int Length = 16;
-		byte firstElement;
-	}
-
 	[global::System.Runtime.InteropServices.StructLayout(global::System.Runtime.InteropServices.LayoutKind.Sequential, Size=257)]
 	public unsafe partial struct InlineArray_byte___257
 	{
@@ -522,6 +496,32 @@ namespace __Interop
 			}
 		}
 		public const int Length = 129;
+		byte firstElement;
+	}
+
+	[global::System.Runtime.InteropServices.StructLayout(global::System.Runtime.InteropServices.LayoutKind.Sequential, Size=16)]
+	public unsafe partial struct InlineArray_byte___16
+	{
+		public byte this[uint index]
+		{
+			get
+			{
+				if (index < 0 
+							|| index >= 16)
+					throw new global::System.IndexOutOfRangeException();
+				fixed (global::__Interop.InlineArray_byte___16* pThis = &(this))
+					return ((byte*)pThis)[index];
+			}
+			set
+			{
+				if (index < 0 
+							|| index >= 16)
+					throw new global::System.IndexOutOfRangeException();
+				fixed (global::__Interop.InlineArray_byte___16* pThis = &(this))
+					((byte*)pThis)[index] = value;
+			}
+		}
+		public const int Length = 16;
 		byte firstElement;
 	}
 }
@@ -781,15 +781,25 @@ namespace System.Net.Sockets
 	}
 
 	// Unmanaged Function Pointer - Calling Convention StdCall
-	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.ConnectExDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f" +
-		"7f11d50a3a")]
-	public unsafe delegate bool ConnectExDelegate__System_Net_Sockets(
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.DisconnectExDelegateBlocking,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyT" +
+		"oken=b03f5f7f11d50a3a")]
+	public unsafe delegate bool DisconnectExDelegateBlocking__System_Net_Sockets(
 				global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
-				global::System.IntPtr socketAddress, 
-				int socketAddressSize, 
+				global::System.IntPtr overlapped, 
+				int flags, 
+				int reserved);
+
+	// Unmanaged Function Pointer - Calling Convention StdCall
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.AcceptExDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7" +
+		"f11d50a3a")]
+	public unsafe delegate bool AcceptExDelegate__System_Net_Sockets(
+				global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets listenSocketHandle, 
+				global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets acceptSocketHandle, 
 				global::System.IntPtr buffer, 
-				int dataLength, 
-				out int bytesSent, 
+				int len, 
+				int localAddressLength, 
+				int remoteAddressLength, 
+				out int bytesReceived, 
 				global::System_Threading.NativeOverlapped__System_Private_CoreLib* overlapped);
 
 	// Unmanaged Function Pointer - Calling Convention StdCall
@@ -806,16 +816,15 @@ namespace System.Net.Sockets
 				out int remoteSocketAddressLength);
 
 	// Unmanaged Function Pointer - Calling Convention StdCall
-	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.AcceptExDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7" +
-		"f11d50a3a")]
-	public unsafe delegate bool AcceptExDelegate__System_Net_Sockets(
-				global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets listenSocketHandle, 
-				global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets acceptSocketHandle, 
+	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.ConnectExDelegate,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f" +
+		"7f11d50a3a")]
+	public unsafe delegate bool ConnectExDelegate__System_Net_Sockets(
+				global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
+				global::System.IntPtr socketAddress, 
+				int socketAddressSize, 
 				global::System.IntPtr buffer, 
-				int len, 
-				int localAddressLength, 
-				int remoteAddressLength, 
-				out int bytesReceived, 
+				int dataLength, 
+				out int bytesSent, 
 				global::System_Threading.NativeOverlapped__System_Private_CoreLib* overlapped);
 
 	// Unmanaged Function Pointer - Calling Convention StdCall
@@ -824,15 +833,6 @@ namespace System.Net.Sockets
 	public unsafe delegate bool DisconnectExDelegate__System_Net_Sockets(
 				global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
 				global::System_Threading.NativeOverlapped__System_Private_CoreLib* overlapped, 
-				int flags, 
-				int reserved);
-
-	// Unmanaged Function Pointer - Calling Convention StdCall
-	[global::System.Runtime.InteropServices.McgRedirectedType("System.Net.Sockets.DisconnectExDelegateBlocking,System.Net.Sockets, Version=4.2.1.0, Culture=neutral, PublicKeyT" +
-		"oken=b03f5f7f11d50a3a")]
-	public unsafe delegate bool DisconnectExDelegateBlocking__System_Net_Sockets(
-				global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
-				global::System.IntPtr overlapped, 
 				int flags, 
 				int reserved);
 

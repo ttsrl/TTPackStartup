@@ -167,50 +167,6 @@ namespace _
 		}
 	}
 
-	// _.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets
-	public unsafe static class Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl
-	{
-		public static int Marshal__SafeToUnsafe(
-					ref global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets safeSource, 
-					out global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.UnsafeType unsafeDest)
-		{
-			// [fwd] [in] [optional] [EETypeRva:0x0004241C] rg_byte__InlineArray_byte___16 safeSource
-			fixed (global::__Interop.InlineArray_byte___16* pUnsafe_unsafeDest_MulticastAddress = &(unsafeDest.MulticastAddress))
-			if (safeSource.MulticastAddress != null)
-				for (uint mcgIdx = 0; (mcgIdx < safeSource.MulticastAddress.Length); mcgIdx++)
-				{
-					// [fwd] [in] [optional] [EETypeRva:0x000419B0] byte__unsigned char safeSource
-					unsafeDest.MulticastAddress[mcgIdx] = safeSource.MulticastAddress[mcgIdx];
-				}
-			// [fwd] [in] [optional] [EETypeRva:0x000419B0] int__int safeSource
-			unsafeDest.InterfaceIndex = safeSource.InterfaceIndex;
-			return 0;
-		}
-
-		public static int Marshal__UnsafeToSafe(
-					ref global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.UnsafeType unsafeSource, 
-					out global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets safeDest)
-		{
-			// [rev] [in] [optional] [EETypeRva:0x0004241C] rg_byte__InlineArray_byte___16 safeDest
-			safeDest.MulticastAddress = new byte[0x10u];
-			if (safeDest.MulticastAddress != null)
-				for (uint mcgIdx = 0; (mcgIdx < 0x10u); mcgIdx++)
-				{
-					// [rev] [in] [optional] [EETypeRva:0x000419B0] byte__unsigned char safeDest
-					safeDest.MulticastAddress[mcgIdx] = unsafeSource.MulticastAddress[mcgIdx];
-				}
-			// [rev] [in] [optional] [EETypeRva:0x000419B0] int__int safeDest
-			safeDest.InterfaceIndex = unsafeSource.InterfaceIndex;
-			return 0;
-		}
-
-		public unsafe partial struct UnsafeType
-		{
-			public global::__Interop.InlineArray_byte___16 MulticastAddress;
-			public int InterfaceIndex;
-		}
-	}
-
 	// _.Interop_Winsock_WSAData__System_Net_NameResolution
 	public unsafe static class Interop_Winsock_WSAData__System_Net_NameResolution__Impl
 	{
@@ -269,6 +225,50 @@ namespace _
 			public short iMaxSockets;
 			public short iMaxUdpDg;
 			public global::System.IntPtr lpVendorInfo;
+		}
+	}
+
+	// _.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets
+	public unsafe static class Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl
+	{
+		public static int Marshal__SafeToUnsafe(
+					ref global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets safeSource, 
+					out global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.UnsafeType unsafeDest)
+		{
+			// [fwd] [in] [optional] [EETypeRva:0x0004241C] rg_byte__InlineArray_byte___16 safeSource
+			fixed (global::__Interop.InlineArray_byte___16* pUnsafe_unsafeDest_MulticastAddress = &(unsafeDest.MulticastAddress))
+			if (safeSource.MulticastAddress != null)
+				for (uint mcgIdx = 0; (mcgIdx < safeSource.MulticastAddress.Length); mcgIdx++)
+				{
+					// [fwd] [in] [optional] [EETypeRva:0x000419B0] byte__unsigned char safeSource
+					unsafeDest.MulticastAddress[mcgIdx] = safeSource.MulticastAddress[mcgIdx];
+				}
+			// [fwd] [in] [optional] [EETypeRva:0x000419B0] int__int safeSource
+			unsafeDest.InterfaceIndex = safeSource.InterfaceIndex;
+			return 0;
+		}
+
+		public static int Marshal__UnsafeToSafe(
+					ref global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets__Impl.UnsafeType unsafeSource, 
+					out global::_.Interop_Winsock_IPv6MulticastRequest__System_Net_Sockets safeDest)
+		{
+			// [rev] [in] [optional] [EETypeRva:0x0004241C] rg_byte__InlineArray_byte___16 safeDest
+			safeDest.MulticastAddress = new byte[0x10u];
+			if (safeDest.MulticastAddress != null)
+				for (uint mcgIdx = 0; (mcgIdx < 0x10u); mcgIdx++)
+				{
+					// [rev] [in] [optional] [EETypeRva:0x000419B0] byte__unsigned char safeDest
+					safeDest.MulticastAddress[mcgIdx] = unsafeSource.MulticastAddress[mcgIdx];
+				}
+			// [rev] [in] [optional] [EETypeRva:0x000419B0] int__int safeDest
+			safeDest.InterfaceIndex = unsafeSource.InterfaceIndex;
+			return 0;
+		}
+
+		public unsafe partial struct UnsafeType
+		{
+			public global::__Interop.InlineArray_byte___16 MulticastAddress;
+			public int InterfaceIndex;
 		}
 	}
 
@@ -6245,8 +6245,8 @@ namespace System.Collections.Generic
 
 namespace System.Net.Sockets
 {
-	// System.Net.Sockets.ConnectExDelegate__System_Net_Sockets
-	public unsafe static class ConnectExDelegate__System_Net_Sockets__Impl
+	// System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets
+	public unsafe static class DisconnectExDelegateBlocking__System_Net_Sockets__Impl
 	{
 		public class NativeWrapperDelegate : global::System.Runtime.InteropServices.NativeFunctionPointerWrapper
 		{
@@ -6255,38 +6255,29 @@ namespace System.Net.Sockets
 			{
 			}
 
-			// Signature, Invoke, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
+			// Signature, Invoke, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 			internal virtual bool Invoke(
 						global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
-						global::System.IntPtr socketAddress, 
-						int socketAddressSize, 
-						global::System.IntPtr buffer, 
-						int dataLength, 
-						out int bytesSent, 
-						global::System_Threading.NativeOverlapped__System_Private_CoreLib* overlapped)
+						global::System.IntPtr overlapped, 
+						int flags, 
+						int reserved)
 			{
 				// Setup
 				bool addRefed = false;
 				int unsafe___value;
 				// Marshalling
 				socketHandle.DangerousAddRef(ref addRefed);
-				fixed (int* pinned_bytesSent = &(bytesSent))
-				{
-					global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
-					// Call to native method
-					unsafe___value = global::__Interop.Intrinsics.StdCall__87(
-										this.NativeFunctionPointer, 
-										socketHandle.DangerousGetHandle(), 
-										socketAddress, 
-										socketAddressSize, 
-										buffer, 
-										dataLength, 
-										pinned_bytesSent, 
-										((global::System_Threading.NativeOverlapped__System_Private_CoreLib*)overlapped)
-									);
-					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-					global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
-				}
+				global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+				// Call to native method
+				unsafe___value = global::__Interop.Intrinsics.StdCall__87(
+									this.NativeFunctionPointer, 
+									socketHandle.DangerousGetHandle(), 
+									overlapped, 
+									flags, 
+									reserved
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
 				if (addRefed)
 					socketHandle.DangerousRelease();
 				// Return
@@ -6296,33 +6287,120 @@ namespace System.Net.Sockets
 
 		internal static global::System.Delegate ForwardDelegateCreationStub(global::System.IntPtr functionPointer)
 		{
-			return new global::System.Net.Sockets.ConnectExDelegate__System_Net_Sockets(new global::System.Net.Sockets.ConnectExDelegate__System_Net_Sockets__Impl.NativeWrapperDelegate(functionPointer).Invoke);
+			return new global::System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets(new global::System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets__Impl.NativeWrapperDelegate(functionPointer).Invoke);
 		}
 
-		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
 		internal static int ReverseDelegateStub(
 					global::System.IntPtr unsafe_socketHandle, 
-					global::System.IntPtr unsafe_socketAddress, 
-					int unsafe_socketAddressSize, 
+					global::System.IntPtr unsafe_overlapped, 
+					int unsafe_flags, 
+					int unsafe_reserved)
+		{
+			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
+			throw new global::System.Runtime.InteropServices.MarshalDirectiveException(global::Mcg.System.SR.Format(global::Mcg.System.SR.Arg_NativeToManagedCall));
+		}
+
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, 
+		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		internal static int ReverseOpenStaticDelegateStub(
+					global::System.IntPtr unsafe_socketHandle, 
+					global::System.IntPtr unsafe_overlapped, 
+					int unsafe_flags, 
+					int unsafe_reserved)
+		{
+			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
+			throw new global::System.Runtime.InteropServices.MarshalDirectiveException(global::Mcg.System.SR.Format(global::Mcg.System.SR.Arg_NativeToManagedCall));
+		}
+	}
+
+	// System.Net.Sockets.AcceptExDelegate__System_Net_Sockets
+	public unsafe static class AcceptExDelegate__System_Net_Sockets__Impl
+	{
+		public class NativeWrapperDelegate : global::System.Runtime.InteropServices.NativeFunctionPointerWrapper
+		{
+			internal NativeWrapperDelegate(global::System.IntPtr functionPointer) : 
+					base(functionPointer)
+			{
+			}
+
+			// Signature, Invoke, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
+			internal virtual bool Invoke(
+						global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets listenSocketHandle, 
+						global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets acceptSocketHandle, 
+						global::System.IntPtr buffer, 
+						int len, 
+						int localAddressLength, 
+						int remoteAddressLength, 
+						out int bytesReceived, 
+						global::System_Threading.NativeOverlapped__System_Private_CoreLib* overlapped)
+			{
+				// Setup
+				bool addRefed = false;
+				bool addRefed_1 = false;
+				int unsafe___value;
+				// Marshalling
+				listenSocketHandle.DangerousAddRef(ref addRefed);
+				acceptSocketHandle.DangerousAddRef(ref addRefed_1);
+				fixed (int* pinned_bytesReceived = &(bytesReceived))
+				{
+					global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+					// Call to native method
+					unsafe___value = global::__Interop.Intrinsics.StdCall__89(
+										this.NativeFunctionPointer, 
+										listenSocketHandle.DangerousGetHandle(), 
+										acceptSocketHandle.DangerousGetHandle(), 
+										buffer, 
+										len, 
+										localAddressLength, 
+										remoteAddressLength, 
+										pinned_bytesReceived, 
+										((global::System_Threading.NativeOverlapped__System_Private_CoreLib*)overlapped)
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+				}
+				if (addRefed_1)
+					acceptSocketHandle.DangerousRelease();
+				if (addRefed)
+					listenSocketHandle.DangerousRelease();
+				// Return
+				return unsafe___value != 0;
+			}
+		}
+
+		internal static global::System.Delegate ForwardDelegateCreationStub(global::System.IntPtr functionPointer)
+		{
+			return new global::System.Net.Sockets.AcceptExDelegate__System_Net_Sockets(new global::System.Net.Sockets.AcceptExDelegate__System_Net_Sockets__Impl.NativeWrapperDelegate(functionPointer).Invoke);
+		}
+
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
+		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
+		internal static int ReverseDelegateStub(
+					global::System.IntPtr unsafe_listenSocketHandle, 
+					global::System.IntPtr unsafe_acceptSocketHandle, 
 					global::System.IntPtr unsafe_buffer, 
-					int unsafe_dataLength, 
-					int* unsafe_bytesSent, 
+					int unsafe_len, 
+					int unsafe_localAddressLength, 
+					int unsafe_remoteAddressLength, 
+					int* unsafe_bytesReceived, 
 					global::System_Threading.NativeOverlapped__System_Private_CoreLib* unsafe_overlapped)
 		{
 			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
 			throw new global::System.Runtime.InteropServices.MarshalDirectiveException(global::Mcg.System.SR.Format(global::Mcg.System.SR.Arg_NativeToManagedCall));
 		}
 
-		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
 		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
 		internal static int ReverseOpenStaticDelegateStub(
-					global::System.IntPtr unsafe_socketHandle, 
-					global::System.IntPtr unsafe_socketAddress, 
-					int unsafe_socketAddressSize, 
+					global::System.IntPtr unsafe_listenSocketHandle, 
+					global::System.IntPtr unsafe_acceptSocketHandle, 
 					global::System.IntPtr unsafe_buffer, 
-					int unsafe_dataLength, 
-					int* unsafe_bytesSent, 
+					int unsafe_len, 
+					int unsafe_localAddressLength, 
+					int unsafe_remoteAddressLength, 
+					int* unsafe_bytesReceived, 
 					global::System_Threading.NativeOverlapped__System_Private_CoreLib* unsafe_overlapped)
 		{
 			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
@@ -6359,7 +6437,7 @@ namespace System.Net.Sockets
 							{
 								global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
 								// Call to native method
-								global::__Interop.Intrinsics.StdCall__89(
+								global::__Interop.Intrinsics.StdCall__91(
 													this.NativeFunctionPointer, 
 													buffer, 
 													receiveDataLength, 
@@ -6440,7 +6518,7 @@ namespace System.Net.Sockets
 			// Marshalling
 			// Call to managed method
 			global::System.IntPtr fnPtr = global::System.Runtime.InteropServices.McgMarshal.GetCurrentCalleeOpenStaticDelegateFunctionPointer();
-			global::__Interop.Intrinsics.Call__90(
+			global::__Interop.Intrinsics.Call__92(
 								fnPtr, 
 								unsafe_buffer, 
 								unsafe_receiveDataLength, 
@@ -6460,8 +6538,8 @@ namespace System.Net.Sockets
 		}
 	}
 
-	// System.Net.Sockets.AcceptExDelegate__System_Net_Sockets
-	public unsafe static class AcceptExDelegate__System_Net_Sockets__Impl
+	// System.Net.Sockets.ConnectExDelegate__System_Net_Sockets
+	public unsafe static class ConnectExDelegate__System_Net_Sockets__Impl
 	{
 		public class NativeWrapperDelegate : global::System.Runtime.InteropServices.NativeFunctionPointerWrapper
 		{
@@ -6470,46 +6548,40 @@ namespace System.Net.Sockets
 			{
 			}
 
-			// Signature, Invoke, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
+			// Signature, Invoke, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
 			internal virtual bool Invoke(
-						global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets listenSocketHandle, 
-						global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets acceptSocketHandle, 
+						global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
+						global::System.IntPtr socketAddress, 
+						int socketAddressSize, 
 						global::System.IntPtr buffer, 
-						int len, 
-						int localAddressLength, 
-						int remoteAddressLength, 
-						out int bytesReceived, 
+						int dataLength, 
+						out int bytesSent, 
 						global::System_Threading.NativeOverlapped__System_Private_CoreLib* overlapped)
 			{
 				// Setup
 				bool addRefed = false;
-				bool addRefed_1 = false;
 				int unsafe___value;
 				// Marshalling
-				listenSocketHandle.DangerousAddRef(ref addRefed);
-				acceptSocketHandle.DangerousAddRef(ref addRefed_1);
-				fixed (int* pinned_bytesReceived = &(bytesReceived))
+				socketHandle.DangerousAddRef(ref addRefed);
+				fixed (int* pinned_bytesSent = &(bytesSent))
 				{
 					global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
 					// Call to native method
-					unsafe___value = global::__Interop.Intrinsics.StdCall__91(
+					unsafe___value = global::__Interop.Intrinsics.StdCall__93(
 										this.NativeFunctionPointer, 
-										listenSocketHandle.DangerousGetHandle(), 
-										acceptSocketHandle.DangerousGetHandle(), 
+										socketHandle.DangerousGetHandle(), 
+										socketAddress, 
+										socketAddressSize, 
 										buffer, 
-										len, 
-										localAddressLength, 
-										remoteAddressLength, 
-										pinned_bytesReceived, 
+										dataLength, 
+										pinned_bytesSent, 
 										((global::System_Threading.NativeOverlapped__System_Private_CoreLib*)overlapped)
 									);
 					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 					global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
 				}
-				if (addRefed_1)
-					acceptSocketHandle.DangerousRelease();
 				if (addRefed)
-					listenSocketHandle.DangerousRelease();
+					socketHandle.DangerousRelease();
 				// Return
 				return unsafe___value != 0;
 			}
@@ -6517,35 +6589,33 @@ namespace System.Net.Sockets
 
 		internal static global::System.Delegate ForwardDelegateCreationStub(global::System.IntPtr functionPointer)
 		{
-			return new global::System.Net.Sockets.AcceptExDelegate__System_Net_Sockets(new global::System.Net.Sockets.AcceptExDelegate__System_Net_Sockets__Impl.NativeWrapperDelegate(functionPointer).Invoke);
+			return new global::System.Net.Sockets.ConnectExDelegate__System_Net_Sockets(new global::System.Net.Sockets.ConnectExDelegate__System_Net_Sockets__Impl.NativeWrapperDelegate(functionPointer).Invoke);
 		}
 
-		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
 		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
 		internal static int ReverseDelegateStub(
-					global::System.IntPtr unsafe_listenSocketHandle, 
-					global::System.IntPtr unsafe_acceptSocketHandle, 
+					global::System.IntPtr unsafe_socketHandle, 
+					global::System.IntPtr unsafe_socketAddress, 
+					int unsafe_socketAddressSize, 
 					global::System.IntPtr unsafe_buffer, 
-					int unsafe_len, 
-					int unsafe_localAddressLength, 
-					int unsafe_remoteAddressLength, 
-					int* unsafe_bytesReceived, 
+					int unsafe_dataLength, 
+					int* unsafe_bytesSent, 
 					global::System_Threading.NativeOverlapped__System_Private_CoreLib* unsafe_overlapped)
 		{
 			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
 			throw new global::System.Runtime.InteropServices.MarshalDirectiveException(global::Mcg.System.SR.Format(global::Mcg.System.SR.Arg_NativeToManagedCall));
 		}
 
-		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
+		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] System_Threading_NativeOverlapped__System_Private_CoreLib___ptrSystem_Threading__NativeOverlapped__System_Private_CoreLib *, 
 		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
 		internal static int ReverseOpenStaticDelegateStub(
-					global::System.IntPtr unsafe_listenSocketHandle, 
-					global::System.IntPtr unsafe_acceptSocketHandle, 
+					global::System.IntPtr unsafe_socketHandle, 
+					global::System.IntPtr unsafe_socketAddress, 
+					int unsafe_socketAddressSize, 
 					global::System.IntPtr unsafe_buffer, 
-					int unsafe_len, 
-					int unsafe_localAddressLength, 
-					int unsafe_remoteAddressLength, 
-					int* unsafe_bytesReceived, 
+					int unsafe_dataLength, 
+					int* unsafe_bytesSent, 
 					global::System_Threading.NativeOverlapped__System_Private_CoreLib* unsafe_overlapped)
 		{
 			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
@@ -6577,7 +6647,7 @@ namespace System.Net.Sockets
 				socketHandle.DangerousAddRef(ref addRefed);
 				global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
 				// Call to native method
-				unsafe___value = global::__Interop.Intrinsics.StdCall__93(
+				unsafe___value = global::__Interop.Intrinsics.StdCall__95(
 									this.NativeFunctionPointer, 
 									socketHandle.DangerousGetHandle(), 
 									((global::System_Threading.NativeOverlapped__System_Private_CoreLib*)overlapped), 
@@ -6615,76 +6685,6 @@ namespace System.Net.Sockets
 		internal static int ReverseOpenStaticDelegateStub(
 					global::System.IntPtr unsafe_socketHandle, 
 					global::System_Threading.NativeOverlapped__System_Private_CoreLib* unsafe_overlapped, 
-					int unsafe_flags, 
-					int unsafe_reserved)
-		{
-			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
-			throw new global::System.Runtime.InteropServices.MarshalDirectiveException(global::Mcg.System.SR.Format(global::Mcg.System.SR.Arg_NativeToManagedCall));
-		}
-	}
-
-	// System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets
-	public unsafe static class DisconnectExDelegateBlocking__System_Net_Sockets__Impl
-	{
-		public class NativeWrapperDelegate : global::System.Runtime.InteropServices.NativeFunctionPointerWrapper
-		{
-			internal NativeWrapperDelegate(global::System.IntPtr functionPointer) : 
-					base(functionPointer)
-			{
-			}
-
-			// Signature, Invoke, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
-			internal virtual bool Invoke(
-						global::System.Net.Sockets.SafeCloseSocket__System_Net_Sockets socketHandle, 
-						global::System.IntPtr overlapped, 
-						int flags, 
-						int reserved)
-			{
-				// Setup
-				bool addRefed = false;
-				int unsafe___value;
-				// Marshalling
-				socketHandle.DangerousAddRef(ref addRefed);
-				global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
-				// Call to native method
-				unsafe___value = global::__Interop.Intrinsics.StdCall__95(
-									this.NativeFunctionPointer, 
-									socketHandle.DangerousGetHandle(), 
-									overlapped, 
-									flags, 
-									reserved
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
-				if (addRefed)
-					socketHandle.DangerousRelease();
-				// Return
-				return unsafe___value != 0;
-			}
-		}
-
-		internal static global::System.Delegate ForwardDelegateCreationStub(global::System.IntPtr functionPointer)
-		{
-			return new global::System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets(new global::System.Net.Sockets.DisconnectExDelegateBlocking__System_Net_Sockets__Impl.NativeWrapperDelegate(functionPointer).Invoke);
-		}
-
-		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, 
-		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
-		internal static int ReverseDelegateStub(
-					global::System.IntPtr unsafe_socketHandle, 
-					global::System.IntPtr unsafe_overlapped, 
-					int unsafe_flags, 
-					int unsafe_reserved)
-		{
-			// The SafeHandle and CriticalHandle reverse marshallers are not yet implemented
-			throw new global::System.Runtime.InteropServices.MarshalDirectiveException(global::Mcg.System.SR.Format(global::Mcg.System.SR.Arg_NativeToManagedCall));
-		}
-
-		// Signature, Invoke, [rev] [return] [EETypeRva:0x00040848] bool__System.Boolean, [rev] [in] [EETypeRva:0x000434A4] System_Net_Sockets_SafeCloseSocket__System_Net_Sockets____w64 int, [rev] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [rev] [in] [EETypeRva:0x000419B0] int__int, [rev] [in] [EETypeRva:0x000419B0] int__int, 
-		[global::System.Runtime.InteropServices.NativeCallable(CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
-		internal static int ReverseOpenStaticDelegateStub(
-					global::System.IntPtr unsafe_socketHandle, 
-					global::System.IntPtr unsafe_overlapped, 
 					int unsafe_flags, 
 					int unsafe_reserved)
 		{
